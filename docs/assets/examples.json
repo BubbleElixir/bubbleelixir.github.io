@@ -1,0 +1,42 @@
+{
+  "examples": [
+    {
+      "id": "ex001",
+      "text": "Ms Stephan calls Schellnhuber’s type of climate activism an attempt at creating an “above the law state of emergency”…",
+      "extraction": {
+        "claims": [
+          {
+            "id": "p1",
+            "quote": "Ms Stephan calls Schellnhuber’s type of climate activism an attempt at creating an “above the law state of emergency”"
+          },
+          {
+            "id": "p2",
+            "quote": "a new climate religion operated by “high priests”"
+          }
+        ],
+        "inferences": [
+          {
+            "from": [
+              "p2"
+            ],
+            "to": "ic1",
+            "type": "supports",
+            "warrant": {
+              "text": "Religious markers suggest quasi-religious framing.",
+              "explicit": false
+            },
+            "structure": "convergent",
+            "group": "g1"
+          }
+        ],
+        "conclusions": [
+          {
+            "id": "c1",
+            "quote": "",
+            "canonical": "The movement is illegitimate as a guide for policy"
+          }
+        ]
+      }
+    }
+  ]
+}

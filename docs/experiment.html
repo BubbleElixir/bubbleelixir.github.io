@@ -1,0 +1,38 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Experiment</title>
+  <link rel="stylesheet" href="assets/styles.css">
+</head>
+<body>
+<header>
+  <h1>Experiment</h1>
+  <p>Participant ID: <strong id="pid"></strong></p>
+  <div class="progress"><div></div></div>
+  <p><small id="progText">0 / 50</small></p>
+</header>
+<main>
+  <div class="card">
+    <h2>Example <span id="exid"></span></h2>
+    <div id="content"></div>
+    <div class="card">
+      <h3>Optional comment</h3>
+      <textarea id="comment" rows="3" placeholder="Your comments (optional)"></textarea>
+    </div>
+    <button class="btn" id="next">Save & Next →</button>
+  </div>
+</main>
+<footer>
+  <p><small class="mono">Your responses save to OSF (DataPipe) after each example.</small></p>
+</footer>
+
+<!-- jsPsych core (for DataPipe availability) -->
+<script src="https://unpkg.com/jspsych@7.3.3/dist/jspsych.js"></script>
+<!-- DataPipe / OSF -->
+<script src="https://unpkg.com/@jspsych-contrib/plugin-pipe"></script>
+
+<script src="assets/app.js"></script>
+</body>
+</html>

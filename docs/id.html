@@ -1,0 +1,40 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Generate ID</title>
+  <link rel="stylesheet" href="assets/styles.css">
+</head>
+<body>
+<header>
+  <h1>Participant ID</h1>
+  <div class="card">
+    <p>Click the button to generate a unique ID. This ID will be used to save your progress.</p>
+    <button class="btn" id="gen">Generate ID</button>
+    <div id="idBox" style="margin-top:12px;display:none;">
+      <p>Your ID:</p>
+      <input type="text" id="pid" readonly>
+      <p><small class="mono">It will be saved on this browser. Keep it if you plan to resume later.</small></p>
+      <a class="btn" href="experiment.html">Start the experiment →</a>
+    </div>
+  </div>
+</header>
+<script>
+function uuidv4() {
+  return 'xxxxxxxx-xxxx-4xxx-yxxx-xxxxxxxxxxxx'.replace(/[xy]/g, function(c) {
+    const r = Math.random()*16|0, v = c === 'x' ? r : (r&0x3|0x8);
+    return v.toString(16);
+  });
+}
+document.getElementById('gen').addEventListener('click', () => {
+  const id = uuidv4();
+  localStorage.setItem('participant_id', id);
+  const box = document.getElementById('idBox');
+  const pid = document.getElementById('pid');
+  pid.value = id;
+  box.style.display = 'block';
+});
+</script>
+</body>
+</html>
