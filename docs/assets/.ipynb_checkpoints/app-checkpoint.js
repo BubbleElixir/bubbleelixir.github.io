@@ -81,12 +81,12 @@ function renderExtraction(ex){
 
   const allClaims = [...explicitClaims, ...implicitClaims];
 
-  // Map id -> claim/conclusion object
-  const claimMap = {};
-  allClaims.forEach(c => { claimMap[c.id] = c; });
-  conclusions.forEach(c => { claimMap[c.id] = c; });
+  // id -> node
+  const nodeMap = {};
+  allClaims.forEach(c => { nodeMap[c.id] = c; });
+  conclusions.forEach(c => { nodeMap[c.id] = c; });
 
-  // index inferences by target id
+  // target -> [inferences]
   const infByTo = {};
   for (const inf of inferences) {
     if (!infByTo[inf.to]) infByTo[inf.to] = [];
@@ -100,16 +100,16 @@ function renderExtraction(ex){
   }
 
   function nodeText(id){
-    const c = claimMap[id] || {};
-    if (c.quote && c.quote.trim() !== "") return c.quote;
-    if (c.canonical) return c.canonical;
+    const n = nodeMap[id] || {};
+    if (n.quote && n.quote.trim() !== "") return n.quote;
+    if (n.canonical) return n.canonical;
     return id;
   }
 
   function nodeLabel(id){
     const t = nodeType(id);
     if (t === "premise") return `Premise ${id}`;
-    if (t === "implicit") return `Implicit claim ${id}`;
+    if (t === "implicit") return `IC ${id}`;
     return `Conclusion ${id}`;
   }
 
@@ -120,66 +120,111 @@ function renderExtraction(ex){
     return "hl-conclusion";
   }
 
-  // Recursive: render all inference blocks that end at targetId
-  function renderSupportChains(targetId, visited){
+  // Build chains as ordered lists of inferences ending at targetId
+  function buildChains(targetId, visited) {
     if (!visited) visited = new Set();
-    if (visited.has(targetId)) return "";
+    if (visited.has(targetId)) return [];
     visited.add(targetId);
 
     const infs = infByTo[targetId] || [];
-    if (!infs.length) return "";
+    const chains = [];
 
-    return infs.map(inf => {
-      const premiseBlocks = inf.from.map(pid => `
-        <div class="block-node">
-          <div class="block-label">${nodeLabel(pid)}</div>
-          <div class="${nodeClass(pid)}">${escapeHtml(nodeText(pid))}</div>
-        </div>
-      `).join('<span class="chain-arrow">+</span>');
+    for (const inf of infs) {
+      // look for implicit premises with their own inferences
+      const implicitPremises = inf.from.filter(pid => nodeType(pid) === "implicit" && infByTo[pid]);
 
-      const targetLabel = nodeLabel(targetId);
-      const targetCls = nodeClass(targetId);
-      const targetText = nodeText(targetId);
-
-      // nested chains for implicit intermediates
-      let nested = "";
-      for (const pid of inf.from) {
-        if (nodeType(pid) === "implicit") {
-          const sub = renderSupportChains(pid, new Set(visited));
-          if (sub) nested += `<div class="chain-nested">${sub}</div>`;
+      if (implicitPremises.length === 0) {
+        // no implicit sub-steps: this inference alone is a chain
+        chains.push([inf]);
+      } else {
+        // for each implicit premise, prepend its chains
+        for (const pid of implicitPremises) {
+          const subChains = buildChains(pid, new Set(visited));
+          if (subChains.length === 0) {
+            chains.push([inf]);
+          } else {
+            for (const sc of subChains) {
+              chains.push([...sc, inf]);
+            }
+          }
         }
       }
+    }
 
-      return `
-        <div class="chain-block">
-          <div class="chain-row">
-            ${premiseBlocks}
-            <span class="chain-arrow">→</span>
-            <div class="block-node">
-              <div class="block-label">${targetLabel}</div>
-              <div class="${targetCls}">${escapeHtml(targetText)}</div>
-            </div>
-          </div>
-          ${nested}
-        </div>`;
-    }).join("");
+    // crude dedup by serializing ids
+    const seen = new Set();
+    const unique = [];
+    for (const ch of chains) {
+      const key = ch.map(x => x.to + "|" + x.from.join(",")).join("=>");
+      if (!seen.has(key)) {
+        seen.add(key);
+        unique.push(ch);
+      }
+    }
+    return unique;
   }
 
-  // One card per conclusion
+  // Render one inference as a "BOX"
+  function renderBox(inf, boxIndex) {
+    const premisesHtml = inf.from.map(pid => {
+      return `<span class="${nodeClass(pid)}">${escapeHtml(nodeText(pid))}</span>`;
+    }).join("");
+
+    const warrant = inf.warrant && inf.warrant.text ? inf.warrant.text : "";
+
+    return `
+      <div class="arg-box">
+        <div class="arg-header">Box ${boxIndex}</div>
+        <div class="arg-premises">
+          ${premisesHtml}
+        </div>
+        ${warrant ? `<div class="arg-warrant">→ WARRANT: ${escapeHtml(warrant)}</div>` : ""}
+      </div>
+    `;
+  }
+
+  // One card per conclusion, with chains laid out as sequences of boxes
   const conclusionBlocks = conclusions.map(c => {
     const cid = c.id;
     const cText = nodeText(cid);
-    const chains = renderSupportChains(cid);
+    const chains = buildChains(cid);
+
+    const chainsHtml = chains.length === 0
+      ? "<p><em>No explicit premises linked to this conclusion.</em></p>"
+      : chains.map((chain, chainIdx) => {
+          // chain is an ordered list of inferences
+          const boxes = chain.map((inf, idx) => {
+            const boxHtml = renderBox(inf, idx + 1);
+            const toId = inf.to;
+            const toLabel = nodeLabel(toId);
+            const toCls = nodeClass(toId);
+            const toText = nodeText(toId);
+            return `
+              ${boxHtml}
+              <div class="arg-to-node">
+                → <strong>${escapeHtml(toLabel)}:</strong>
+                <span class="${toCls}">${escapeHtml(toText)}</span>
+              </div>
+            `;
+          }).join("");
+
+          return `
+            <div class="card" style="margin-top:8px;">
+              <h4>Argument ${chainIdx + 1}</h4>
+              ${boxes}
+            </div>
+          `;
+        }).join("");
 
     return `
-      <div class="card conclusion-card">
+      <div class="card">
         <h3>Conclusion ${cid}</h3>
         <p><span class="hl-conclusion">${escapeHtml(cText)}</span></p>
-        ${chains || "<p><em>No explicit premises linked to this conclusion.</em></p>"}
-      </div>`;
+        ${chainsHtml}
+      </div>
+    `;
   }).join("");
 
-  // Source text + conclusions section
   return `
     <div class="card">
       <h3>Source Text</h3>
@@ -188,7 +233,8 @@ function renderExtraction(ex){
     <div>
       <h2>Reasoning chains by conclusion</h2>
       ${conclusionBlocks}
-    </div>`;
+    </div>
+  `;
 }
 
 // DataPipe save
@@ -243,6 +289,7 @@ async function run(){
 
     const reasoning = ex.reasoning || ex.extraction;
     const concIds = (reasoning.conclusions || []).map(c => c.id);
+    
     const labels = [];
     for(const cid of concIds){
       const sel = qs(`select[name="cls-${cid}"]`);
