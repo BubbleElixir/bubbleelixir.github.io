@@ -61,66 +61,90 @@ function renderLikert(name){
   </div>`;
 }
 function renderExtraction(ex){
-  const reasoning = ex.reasoning || ex.extraction; // backward-compat if needed
+  const reasoning = ex.reasoning || ex.extraction; // backward-compat
+
+  if (!reasoning) {
+    return `
+      <div class="card">
+        <h3>Source Text</h3>
+        <pre>${escapeHtml(ex.text || "")}</pre>
+      </div>
+      <div class="card">
+        <p><em>No reasoning structure found for this example.</em></p>
+      </div>`;
+  }
 
   const explicitClaims = reasoning.claims || [];
   const implicitClaims = reasoning.claims_extra || [];
-  const allClaims = [...explicitClaims, ...implicitClaims];
-
-  const claimMap = {};
-  for (const c of allClaims) claimMap[c.id] = c;
-
   const inferences = reasoning.inferences || [];
   const conclusions = reasoning.conclusions || [];
 
-  // index inferences by their target
+  const allClaims = [...explicitClaims, ...implicitClaims];
+
+  // Map id -> claim/conclusion object
+  const claimMap = {};
+  allClaims.forEach(c => { claimMap[c.id] = c; });
+  conclusions.forEach(c => { claimMap[c.id] = c; });
+
+  // index inferences by target id
   const infByTo = {};
   for (const inf of inferences) {
     if (!infByTo[inf.to]) infByTo[inf.to] = [];
     infByTo[inf.to].push(inf);
   }
 
-  // --- Helper: node label + type ---
   function nodeType(id){
-    if (id.startsWith('c')) return 'conclusion';
-    if (id.startsWith('ic')) return 'implicit';
-    return 'premise';
+    if (id.startsWith("c")) return "conclusion";
+    if (id.startsWith("ic")) return "implicit";
+    return "premise";
   }
+
   function nodeText(id){
     const c = claimMap[id] || {};
     if (c.quote && c.quote.trim() !== "") return c.quote;
     if (c.canonical) return c.canonical;
     return id;
   }
-  function nodeChip(id){
+
+  function nodeLabel(id){
     const t = nodeType(id);
-    const cls =
-      t === 'premise' ? 'chip-premise' :
-      t === 'implicit' ? 'chip-implicit' : 'chip-conclusion';
-    return `<span class="chip ${cls}">${id}</span>`;
+    if (t === "premise") return `Premise ${id}`;
+    if (t === "implicit") return `Implicit claim ${id}`;
+    return `Conclusion ${id}`;
   }
 
-  // --- Recursive render of support chains for a target (conclusion or implicit) ---
-  function renderSupportChains(targetId, visited = new Set()){
-    // prevent cycles
-    if (visited.has(targetId)) return '';
+  function nodeClass(id){
+    const t = nodeType(id);
+    if (t === "premise") return "hl-premise";
+    if (t === "implicit") return "hl-implicit";
+    return "hl-conclusion";
+  }
+
+  // Recursive: render all inference blocks that end at targetId
+  function renderSupportChains(targetId, visited){
+    if (!visited) visited = new Set();
+    if (visited.has(targetId)) return "";
     visited.add(targetId);
 
     const infs = infByTo[targetId] || [];
-    if (!infs.length) return '';
+    if (!infs.length) return "";
 
     return infs.map(inf => {
-      const premiseLines = inf.from.map(pid => {
-        const txt = nodeText(pid);
-        return `${nodeChip(pid)} ${escapeHtml(txt)}`;
-      }).join('<br>');
+      const premiseBlocks = inf.from.map(pid => `
+        <div class="block-node">
+          <div class="block-label">${nodeLabel(pid)}</div>
+          <div class="${nodeClass(pid)}">${escapeHtml(nodeText(pid))}</div>
+        </div>
+      `).join('<span class="chain-arrow">+</span>');
 
-      const warrant = inf.warrant && inf.warrant.text ? escapeHtml(inf.warrant.text) : '';
+      const targetLabel = nodeLabel(targetId);
+      const targetCls = nodeClass(targetId);
+      const targetText = nodeText(targetId);
 
-      // nested: if any premise is implicit / intermediate, show its own chains
-      let nested = '';
+      // nested chains for implicit intermediates
+      let nested = "";
       for (const pid of inf.from) {
-        if (nodeType(pid) === 'implicit') {
+        if (nodeType(pid) === "implicit") {
           const sub = renderSupportChains(pid, new Set(visited));
           if (sub) nested += `<div class="chain-nested">${sub}</div>`;
         }
@@ -128,65 +152,43 @@ function renderExtraction(ex){
 
       return `
         <div class="chain-block">
-          <div><strong>Premises → ${nodeChip(targetId)} ${escapeHtml(nodeText(targetId))}</strong></div>
-          <div>${premiseLines}</div>
-          ${warrant ? `<div class="chain-warrant"><strong>Warrant:</strong> ${warrant}</div>` : ''}
+          <div class="chain-row">
+            ${premiseBlocks}
+            <span class="chain-arrow">→</span>
+            <div class="block-node">
+              <div class="block-label">${targetLabel}</div>
+              <div class="${targetCls}">${escapeHtml(targetText)}</div>
+            </div>
+          </div>
           ${nested}
-        </div>
-      `;
-    }).join('');
+        </div>`;
+    }).join("");
   }
 
-  // --- Claims table (overview) ---
-  const claimsTable = `
-    <div class="card">
-      <h3>Claims overview</h3>
-      <table class="claim-table">
-        <thead><tr><th>ID</th><th>Type</th><th>Text</th></tr></thead>
-        <tbody>
-          ${allClaims.map(c => {
-            const t = nodeType(c.id);
-            const typeLabel =
-              t === 'premise' ? 'Explicit premise' :
-              t === 'implicit' ? 'Implicit derived claim' : 'Conclusion';
-            const text = c.quote && c.quote.trim() !== "" ? c.quote : (c.canonical || '');
-            return `<tr>
-              <td>${nodeChip(c.id)}</td>
-              <td>${typeLabel}</td>
-              <td>${escapeHtml(text)}</td>
-            </tr>`;
-          }).join('')}
-        </tbody>
-      </table>
-    </div>
-  `;
-
-  // --- Per-conclusion trees ---
+  // One card per conclusion
   const conclusionBlocks = conclusions.map(c => {
     const cid = c.id;
     const cText = nodeText(cid);
     const chains = renderSupportChains(cid);
-    return `
-      <div class="card">
-        <h3>${nodeChip(cid)} Conclusion</h3>
-        <p>${escapeHtml(cText)}</p>
-        ${chains || '<p><em>No explicit support chains recorded for this conclusion.</em></p>'}
-      </div>
-    `;
-  }).join('');
 
-  // --- Full source text + reasoning ---
+    return `
+      <div class="card conclusion-card">
+        <h3>Conclusion ${cid}</h3>
+        <p><span class="hl-conclusion">${escapeHtml(cText)}</span></p>
+        ${chains || "<p><em>No explicit premises linked to this conclusion.</em></p>"}
+      </div>`;
+  }).join("");
+
+  // Source text + conclusions section
   return `
     <div class="card">
       <h3>Source Text</h3>
-      <pre>${escapeHtml(ex.text)}</pre>
+      <pre>${escapeHtml(ex.text || "")}</pre>
     </div>
-    ${claimsTable}
     <div>
       <h2>Reasoning chains by conclusion</h2>
       ${conclusionBlocks}
-    </div>
-  `;
+    </div>`;
 }
 
 // DataPipe save
@@ -239,7 +241,8 @@ async function run(){
     const likert = qsa('input[name="likert"]').find(x => x.checked)?.value;
     if(!likert){ alert('Please choose a Likert rating.'); return; }
 
-    const concIds = ex.extraction.conclusions.map(c => c.id);
+    const reasoning = ex.reasoning || ex.extraction;
+    const concIds = (reasoning.conclusions || []).map(c => c.id);
     const labels = [];
     for(const cid of concIds){
       const sel = qs(`select[name="cls-${cid}"]`);
