@@ -18,7 +18,19 @@ async function loadExamples(){
 }
 
 function shuffle(a){ for(let i=a.length-1;i>0;i--){const j=Math.floor(Math.random()*(i+1));[a[i],a[j]]=[a[j],a[i]];} return a; }
-function escapeHtml(s){return s.replace(/[&<>\"']/g, m => ({'&':'&amp;','<':'&lt;','>':'&gt;','\"':'&quot;',\"'\":'&#39;'}[m]))}
+
+function escapeHtml(s){
+  return String(s).replace(/[&<>"']/g, function(m){
+    switch (m) {
+      case "&": return "&amp;";
+      case "<": return "&lt;";
+      case ">": return "&gt;";
+      case '"': return "&quot;";
+      case "'": return "&#39;";
+      default: return m;
+    }
+  });
+}
 
 // UTF-8 -> base64
 function toBase64UTF8(str){
