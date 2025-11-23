@@ -2,6 +2,540 @@
   "examples": [
     {
       "id": "ex001",
+      "text": "",
+      "reasoning": {
+      "claims": [
+      { "id": "p1", "quote": "Labor is offering households up to $2,200 to purchase solar panels" },
+      { "id": "p2", "quote": "eventually taking the total number of NSW homes with rooftop solar past the one-million mark." },
+      { "id": "p3", "quote": "Eligible homes must be owner-occupied" },
+      { "id": "p4", "quote": "the scheme is restricted to families on a combined income of no more than $180,000 per year." },
+      { "id": "p5", "quote": "The move will help ease the pressure on New South Wales’ ageing and unreliable coal-fired generators," },
+      { "id": "p6", "quote": "while also lowering pollution and power prices." },
+      { "id": "p7", "quote": "the scheme would save families up to $1000 a year." },
+      { "id": "p8", "quote": "The Liberals responded the following next day," },
+      { "id": "p9", "quote": "announcing a policy to offer interest-free loans to families to install rooftop solar and battery storage systems." },
+      { "id": "p10", "quote": "The Liberal plan will cover 300,000 homes," },
+      { "id": "p11", "quote": "be capped at a combined household income of $180,000." },
+      { "id": "p12", "quote": "Labor’s policy is a strong start" },
+      { "id": "p13", "quote": "offering grants rather than loans" },
+      { "id": "p14", "quote": "there is still room for improvement" },
+      { "id": "p15", "quote": "the need to include renters in their plans." },
+      { "id": "p16", "quote": "Gladys Berejiklian’s Liberals need to do more." },
+      { "id": "p17", "quote": "8 years of climate inaction from the NSW Liberals" },
+      { "id": "p19", "quote": "There are already commercial operators offering low or no-interest loans for solar installation," },
+      { "id": "p21", "quote": "all the parties are at least recognising the need to increase solar uptake" },
+      { "id": "p22", "quote": "the Greens have an even more ambitious policy than both their major rivals" },
+      { "id": "p23", "quote": "a bold plan to make solar and battery storage mandatory at all new homes in New South Wales." },
+      { "id": "p24", "quote": "The scheme would also see all NSW government buildings powered by 100 percent renewable energy." },
+      { "id": "p25", "quote": "All proposals will help reduce the pressure on New South Wales’ ageing and unreliable coal fleet" },
+      { "id": "p26", "quote": "help families deal with high power prices." },
+      { "id": "p27", "quote": "none of the policies do enough to offer clean energy solutions to people unable to access solar, like apartment dwellers." },
+      { "id": "p28", "quote": "People who rent deserve to be able to access clean and cheap energy too." },
+      { "id": "c1", "quote": "Greenpeace is calling on the next New South Wales government to introduce a solar rebate to help families that are renting, to access solar panels – or help those who already have
+      solar to install battery storage." },
+      { "id": "c2", "quote": "it’s debatable that this policy adds much value without a suite of other targeted measures." },
+      { "id": "c3", "quote": "this policy is too little, too late." }
+      ],
+      "inferences": [
+      {
+      "from": ["p19"],
+      "to": "c2",
+      "type": "supports",
+      "warrant": { "text": "Because similar commercial loans already exist, a government loan policy may add limited additional value without complementary measures.", "explicit": true },
+      "structure": "convergent",
+      "group": "g1"
+      },
+      {
+      "from": ["p17"],
+      "to": "c3",
+      "type": "supports",
+      "warrant": { "text": "Given the policy follows eight years of inaction, it can reasonably be judged insufficient.", "explicit": true },
+      "structure": "convergent",
+      "group": "g2"
+      },
+      {
+      "from": ["c3"],
+      "to": "p16",
+      "type": "supports",
+      "warrant": { "text": "If a policy is too little and too late, more action is needed from its proponents.", "explicit": false },
+      "structure": "convergent",
+      "group": "g3"
+      },
+      {
+      "from": ["p15"],
+      "to": "p14",
+      "type": "supports",
+      "warrant": { "text": "Identifying a specific unmet need exemplifies that improvement is still required.", "explicit": true },
+      "structure": "convergent",
+      "group": "g4"
+      },
+      {
+      "from": ["p27", "p28"],
+      "to": "c1",
+      "type": "supports",
+      "warrant": { "text": "Since current policies do not serve renters and renters deserve access to clean, cheap energy, a targeted rebate is warranted.", "explicit": true },
+      "structure": "linked",
+      "group": "g5"
+      },
+      {
+      "from": ["p7"],
+      "to": "p26",
+      "type": "supports",
+      "warrant": { "text": "If a scheme saves families up to $1000 a year, it helps them cope with high power prices.", "explicit": false },
+      "structure": "convergent",
+      "group": "g6"
+      }
+      ],
+      "conclusions": [
+      { "id": "c1", "quote": "Greenpeace is calling on the next New South Wales government to introduce a solar rebate to help families that are renting, to access solar panels – or help those who already have
+      solar to install battery storage." },
+      { "id": "c2", "quote": "it’s debatable that this policy adds much value without a suite of other targeted measures." },
+      { "id": "c3", "quote": "this policy is too little, too late." }
+      ]
+      }
+    },
+    {
+      "id": "ex002",
+      "text": "",
+      "reasoning": {
+          "claims": [
+          { "id": "p1", "quote": "current circumstances have made it quite obvious to me that I can not afford to wait until then to make a difference in the global battle against climate change." },
+          { "id": "c1", "quote": "I must start now." },
+          { "id": "p3", "quote": "This is exactly what I have done." },
+          { "id": "p4", "quote": "I have been a climate activist for roughly three years now." },
+          { "id": "p7", "quote": "my class was shown the environmental documentary ‘Before The Flood’ by Leonardo Di Caprio." },
+          { "id": "p8", "quote": "a man as busy as Di Caprio took the time to film a documentary aimed to raise awareness for climate change" },
+          { "id": "ic1", "quote": "it must be an important issue." },
+          { "id": "p9", "quote": "I started to spend hours researching about climate change" },
+          { "id": "p10", "quote": "prior to the documentary, I had no idea that climate change was even a thing." },
+          { "id": "p11", "quote": "were in a global existential crisis." },
+          { "id": "p12", "quote": "all the alarming statistics and data put fear right into my heart" },
+          { "id": "p15", "quote": "past generations, the main contributors of climate change, were not willing to make up for their mistakes and save my future." },
+          { "id": "p19", "quote": "I didn’t want others to suffer from this crisis" },
+          { "id": "c2", "quote": "it motivated me to take my future into my own hands and encourage other young people to do the same." }
+          ],
+          "inferences": [
+          {
+          "from": ["p1"],
+          "to": "c1",
+          "type": "supports",
+          "warrant": { "text": "If one cannot afford to wait to make a difference, then one should begin acting immediately.", "explicit": false },
+          "structure": "convergent",
+          "group": "g1"
+          },
+          {
+          "from": ["p11", "p15"],
+          "to": "p1",
+          "type": "supports",
+          "warrant": { "text": "A global existential crisis combined with unwillingness of main contributors to act makes delaying efforts untenable.", "explicit": false },
+          "structure": "linked",
+          "group": "g2"
+          },
+          {
+          "from": ["p7", "p8"],
+          "to": "ic1",
+          "type": "supports",
+          "warrant": { "text": "The text uses an if–then: if a busy Di Caprio made a climate-awareness documentary, then the issue is important; since he did, the conclusion follows.", "explicit": true },
+          "structure": "linked",
+          "group": "g3"
+          },
+          {
+          "from": ["ic1"],
+          "to": "p9",
+          "type": "supports",
+          "warrant": { "text": "Recognizing an issue as important can motivate sustained personal research into it.", "explicit": false },
+          "structure": "convergent",
+          "group": "g4"
+          },
+          {
+          "from": ["p10"],
+          "to": "p9",
+          "type": "supports",
+          "warrant": { "text": "The author explicitly cites lack of prior knowledge as a reason for beginning extensive research (‘as …’).", "explicit": true },
+          "structure": "convergent",
+          "group": "g5"
+          },
+          {
+          "from": ["p12", "p19"],
+          "to": "c2",
+          "type": "supports",
+          "warrant": { "text": "The author states that fear coupled with not wanting others to suffer motivated taking action.", "explicit": true },
+          "structure": "linked",
+          "group": "g6"
+          }
+          ],
+          "conclusions": [
+          { "id": "c1", "quote": "I must start now." },
+          { "id": "c2", "quote": "it motivated me to take my future into my own hands and encourage other young people to do the same." }
+          ]
+          }
+    },
+    {
+      "id": "ex003",
+      "text": "",
+      "reasoning": {
+  "claims": [
+  { "id": "p1", "quote": "Ms Stephan calls Schellnhuber’s type of climate activism an attempt at creating an “above the law state of emergency”" },
+  { "id": "p3", "quote": "The new religion promises the Last Judgement already today" },
+  { "id": "p4", "quote": "we endeavour one last huge and dramatic effort to save humanity from a well-deserved downfall." },
+  { "id": "p5", "quote": "As is the case with other religions, the best is repentance, humility and self-restriction – preferably through emission payments without end." },
+  { "id": "p6", "quote": "Stephan writes that the new climate religion fills a void left behind by other religions, and tells us to feel guilty about prosperity." },
+  { "id": "p7", "quote": "we’ll have to pay the price for our prosperity – be it to God or Nature, – with Biblical plagues such as storms, huge tidal waves, floods, fire-spewing volcanoes, in short: death
+  and demons" },
+  { "id": "p8", "quote": "Stephan warns us not to doubt the elite prophets who have the powers, tools and instruments to see deep into the future" },
+  { "id": "p9", "quote": "The new priests who proclaim these scenarios have attracted billions of followers with their announcements of world downfall." },
+  { "id": "p10", "quote": "they do not tolerate any doubts about their predictions." },
+  { "id": "p11", "quote": "Those who dare express doubt are nothing more than egotistical wretches, appeasers and trivializers, block-headed deniers or worse, or to the least paid agents of evil." },
+  { "id": "p12", "quote": "the climate zealotry and hysteria spread though society" },
+
+      { "id": "c1", "quote": "the obstacles that prevent necessary action, like democracy, be removed and replaced globally by an “authoritarian regime of experts”" },
+      { "id": "c2", "quote": "projected global downfall is the state-of-emergency that justifies every measure and it distracts us from every other unfinished business." }
+
+  ],
+  "inferences": [
+  {
+  "from": ["p12"],
+  "to": "c1",
+  "type": "supports",
+  "warrant": { "text": "The text states that because zealotry and hysteria are spreading, it is logical that obstacles to action be removed.", "explicit": true },
+  "structure": "convergent",
+  "group": "g1"
+  },
+  {
+  "from": ["p1"],
+  "to": "c1",
+  "type": "supports",
+  "warrant": { "text": "Creating an “above the law state of emergency” implies overriding democratic constraints in favor of expert rule.", "explicit": false },
+  "structure": "convergent",
+  "group": "g2"
+  },
+  {
+  "from": ["p9"],
+  "to": "c1",
+  "type": "supports",
+  "warrant": { "text": "A movement with billions of followers can enable or demand structural political changes such as replacing democracy with expert rule.", "explicit": false },
+  "structure": "convergent",
+  "group": "g3"
+  },
+  {
+  "from": ["p10"],
+  "to": "c1",
+  "type": "supports",
+  "warrant": { "text": "Intolerance of doubt is characteristic of authoritarian approaches that remove democratic obstacles.", "explicit": false },
+  "structure": "convergent",
+  "group": "g4"
+  },
+  {
+  "from": ["p11"],
+  "to": "c1",
+  "type": "supports",
+  "warrant": { "text": "Stigmatizing dissenters as morally corrupt supports sidelining democratic deliberation in favor of imposed rule.", "explicit": false },
+  "structure": "convergent",
+  "group": "g5"
+  },
+  {
+  "from": ["p1"],
+  "to": "c2",
+  "type": "supports",
+  "warrant": { "text": "Labeling the activism as an attempt at an above-the-law emergency aligns with a state of emergency that justifies every measure and distracts from other issues.", "explicit": false },
+  "structure": "convergent",
+  "group": "g6"
+  },
+  {
+  "from": ["p3", "p5", "p8"],
+  "to": "c2",
+  "type": "supports",
+  "warrant": { "text": "Apocalyptic promises, prescribed repentance, and deference to prophetic experts together frame a perpetual emergency that justifies any measure and sidelines other priorities.",
+  "explicit": false },
+  "structure": "linked",
+  "group": "g7"
+  }
+  ],
+  "conclusions": [
+  { "id": "c1", "quote": "the obstacles that prevent necessary action, like democracy, be removed and replaced globally by an “authoritarian regime of experts”" },
+  { "id": "c2", "quote": "projected global downfall is the state-of-emergency that justifies every measure and it distracts us from every other unfinished business." }
+  ]
+  }
+    },
+    {
+      "id": "ex004",
+      "text": "",
+      "reasoning": {
+        "claims": [],
+        "claims_extra": [],
+        "inferences": [],
+        "conclusions": []
+      }
+    },
+    {
+      "id": "ex005",
+      "text": "",
+      "reasoning": {
+        "claims": [],
+        "claims_extra": [],
+        "inferences": [],
+        "conclusions": []
+      }
+    },
+    {
+      "id": "ex006",
+      "text": "",
+      "reasoning": {
+        "claims": [],
+        "claims_extra": [],
+        "inferences": [],
+        "conclusions": []
+      }
+    },
+    {
+      "id": "ex007",
+      "text": "",
+      "reasoning": {
+        "claims": [],
+        "claims_extra": [],
+        "inferences": [],
+        "conclusions": []
+      }
+    },
+    {
+      "id": "ex008",
+      "text": "",
+      "reasoning": {
+        "claims": [],
+        "claims_extra": [],
+        "inferences": [],
+        "conclusions": []
+      }
+    },
+    {
+      "id": "ex009",
+      "text": "",
+      "reasoning": {
+        "claims": [],
+        "claims_extra": [],
+        "inferences": [],
+        "conclusions": []
+      }
+    },
+    {
+      "id": "ex010",
+      "text": "",
+      "reasoning": {
+        "claims": [],
+        "claims_extra": [],
+        "inferences": [],
+        "conclusions": []
+      }
+    },
+    {
+      "id": "ex011",
+      "text": "",
+      "reasoning": {
+        "claims": [],
+        "claims_extra": [],
+        "inferences": [],
+        "conclusions": []
+      }
+    },
+    {
+      "id": "ex012",
+      "text": "",
+      "reasoning": {
+        "claims": [],
+        "claims_extra": [],
+        "inferences": [],
+        "conclusions": []
+      }
+    },
+    {
+      "id": "ex013",
+      "text": "",
+      "reasoning": {
+        "claims": [],
+        "claims_extra": [],
+        "inferences": [],
+        "conclusions": []
+      }
+    },
+    {
+      "id": "ex014",
+      "text": "",
+      "reasoning": {
+        "claims": [],
+        "claims_extra": [],
+        "inferences": [],
+        "conclusions": []
+      }
+    },
+    {
+      "id": "ex015",
+      "text": "",
+      "reasoning": {
+        "claims": [],
+        "claims_extra": [],
+        "inferences": [],
+        "conclusions": []
+      }
+    },
+    {
+      "id": "ex016",
+      "text": "",
+      "reasoning": {
+        "claims": [],
+        "claims_extra": [],
+        "inferences": [],
+        "conclusions": []
+      }
+    },
+    {
+      "id": "ex017",
+      "text": "",
+      "reasoning": {
+        "claims": [],
+        "claims_extra": [],
+        "inferences": [],
+        "conclusions": []
+      }
+    },
+    {
+      "id": "ex018",
+      "text": "",
+      "reasoning": {
+        "claims": [],
+        "claims_extra": [],
+        "inferences": [],
+        "conclusions": []
+      }
+    },
+    {
+      "id": "ex019",
+      "text": "",
+      "reasoning": {
+        "claims": [],
+        "claims_extra": [],
+        "inferences": [],
+        "conclusions": []
+      }
+    },
+    {
+      "id": "ex020",
+      "text": "",
+      "reasoning": {
+        "claims": [],
+        "claims_extra": [],
+        "inferences": [],
+        "conclusions": []
+      }
+    },
+    {
+      "id": "ex021",
+      "text": "",
+      "reasoning": {
+        "claims": [],
+        "claims_extra": [],
+        "inferences": [],
+        "conclusions": []
+      }
+    },
+    {
+      "id": "ex022",
+      "text": "",
+      "reasoning": {
+        "claims": [],
+        "claims_extra": [],
+        "inferences": [],
+        "conclusions": []
+      }
+    },
+    {
+      "id": "ex023",
+      "text": "",
+      "reasoning": {
+        "claims": [],
+        "claims_extra": [],
+        "inferences": [],
+        "conclusions": []
+      }
+    },
+    {
+      "id": "ex024",
+      "text": "",
+      "reasoning": {
+        "claims": [],
+        "claims_extra": [],
+        "inferences": [],
+        "conclusions": []
+      }
+    },
+    {
+      "id": "ex025",
+      "text": "",
+      "reasoning": {
+        "claims": [],
+        "claims_extra": [],
+        "inferences": [],
+        "conclusions": []
+      }
+    },
+    {
+      "id": "ex026",
+      "text": "",
+      "reasoning": {
+        "claims": [],
+        "claims_extra": [],
+        "inferences": [],
+        "conclusions": []
+      }
+    },
+    {
+      "id": "ex027",
+      "text": "",
+      "reasoning": {
+        "claims": [],
+        "claims_extra": [],
+        "inferences": [],
+        "conclusions": []
+      }
+    },
+    {
+      "id": "ex028",
+      "text": "",
+      "reasoning": {
+        "claims": [],
+        "claims_extra": [],
+        "inferences": [],
+        "conclusions": []
+      }
+    },
+    {
+      "id": "ex029",
+      "text": "",
+      "reasoning": {
+        "claims": [],
+        "claims_extra": [],
+        "inferences": [],
+        "conclusions": []
+      }
+    },
+    {
+      "id": "ex030",
+      "text": "",
+      "reasoning": {
+        "claims": [],
+        "claims_extra": [],
+        "inferences": [],
+        "conclusions": []
+      }
+    }
+  ]
+}
+
+
+
+{
+  "examples": [
+    {
+      "id": "ex001",
       "text": "FULL SOURCE TEXT HERE...",
       "reasoning": {
         "claims": [
