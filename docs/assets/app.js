@@ -65,11 +65,11 @@ function renderExtraction(ex){
 
   if (!reasoning) {
     return `
-      <div class="card">
+      <div class="card no-select">
         <h3>Source Text</h3>
         <pre>${escapeHtml(ex.text || "")}</pre>
       </div>
-      <div class="card">
+      <div class="card no-select">
         <p><em>No reasoning structure found for this example.</em></p>
       </div>`;
   }
@@ -130,14 +130,14 @@ function renderExtraction(ex){
     const chains = [];
 
     for (const inf of infs) {
-      // look for implicit premises with their own inferences
-      const implicitPremises = inf.from.filter(pid => nodeType(pid) === "implicit" && infByTo[pid]);
+      const implicitPremises = inf.from.filter(
+        pid => nodeType(pid) === "implicit" && infByTo[pid]
+      );
 
       if (implicitPremises.length === 0) {
         // no implicit sub-steps: this inference alone is a chain
         chains.push([inf]);
       } else {
-        // for each implicit premise, prepend its chains
         for (const pid of implicitPremises) {
           const subChains = buildChains(pid, new Set(visited));
           if (subChains.length === 0) {
@@ -151,7 +151,6 @@ function renderExtraction(ex){
       }
     }
 
-    // crude dedup by serializing ids
     const seen = new Set();
     const unique = [];
     for (const ch of chains) {
@@ -164,7 +163,7 @@ function renderExtraction(ex){
     return unique;
   }
 
-  // Render one inference as a "BOX"
+  // Render one inference as a "Box N"
   function renderBox(inf, boxIndex) {
     const premisesHtml = inf.from.map(pid => {
       return `<span class="${nodeClass(pid)}">${escapeHtml(nodeText(pid))}</span>`;
@@ -178,7 +177,9 @@ function renderExtraction(ex){
         <div class="arg-premises">
           ${premisesHtml}
         </div>
-        ${warrant ? `<div class="arg-warrant">→ WARRANT: ${escapeHtml(warrant)}</div>` : ""}
+        ${warrant
+          ? `<div class="arg-warrant">→ WARRANT: <span class="hl-warrant">${escapeHtml(warrant)}</span></div>`
+          : ""}
       </div>
     `;
   }
@@ -192,7 +193,6 @@ function renderExtraction(ex){
     const chainsHtml = chains.length === 0
       ? "<p><em>No explicit premises linked to this conclusion.</em></p>"
       : chains.map((chain, chainIdx) => {
-          // chain is an ordered list of inferences
           const boxes = chain.map((inf, idx) => {
             const boxHtml = renderBox(inf, idx + 1);
             const toId = inf.to;
@@ -209,15 +209,15 @@ function renderExtraction(ex){
           }).join("");
 
           return `
-            <div class="card" style="margin-top:8px;">
-              <h4>Argument ${chainIdx + 1}</h4>
+            <div class="card no-select" style="margin-top:8px;">
+              <h4>Chain ${chainIdx + 1}</h4>
               ${boxes}
             </div>
           `;
         }).join("");
 
     return `
-      <div class="card">
+      <div class="card no-select">
         <h3>Conclusion ${cid}</h3>
         <p><span class="hl-conclusion">${escapeHtml(cText)}</span></p>
         ${chainsHtml}
@@ -226,16 +226,17 @@ function renderExtraction(ex){
   }).join("");
 
   return `
-    <div class="card">
+    <div class="card no-select">
       <h3>Source Text</h3>
       <pre>${escapeHtml(ex.text || "")}</pre>
     </div>
-    <div>
+    <div class="no-select">
       <h2>Reasoning chains by conclusion</h2>
       ${conclusionBlocks}
     </div>
   `;
 }
+
 
 // DataPipe save
 async function saveToOSF_DataPipe(participantId, example, payload){
@@ -271,16 +272,25 @@ async function run(){
   }
 
   async function show(){
-    updateProgress();
-    if(idx >= examples.length){
-      window.location.href = 'thanks.html';
-      return;
+      updateProgress();
+      if(idx >= examples.length){
+        window.location.href = 'thanks.html';
+        return;
+      }
+      const ex = examples[idx];
+      qs('#exid').textContent = ex.id;
+      qs('#content').innerHTML = renderExtraction(ex) + renderLikert('likert');
+      qs('#comment').value = '';
+    
+      // Anti-copy in reasoning area
+      const contentEl = qs('#content');
+      if (contentEl && !contentEl.dataset.anticopyBound) {
+        contentEl.addEventListener('copy', e => e.preventDefault());
+        contentEl.addEventListener('cut', e => e.preventDefault());
+        contentEl.addEventListener('contextmenu', e => e.preventDefault());
+        contentEl.dataset.anticopyBound = 'true';
+      }
     }
-    const ex = examples[idx];
-    qs('#exid').textContent = ex.id;
-    qs('#content').innerHTML = renderExtraction(ex) + renderLikert('likert');
-    qs('#comment').value = '';
-  }
 
   qs('#next').addEventListener('click', async () => {
     const ex = examples[idx];
