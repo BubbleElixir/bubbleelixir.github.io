@@ -31,8 +31,7 @@
       { "id": "p26", "quote": "help families deal with high power prices." },
       { "id": "p27", "quote": "none of the policies do enough to offer clean energy solutions to people unable to access solar, like apartment dwellers." },
       { "id": "p28", "quote": "People who rent deserve to be able to access clean and cheap energy too." },
-      { "id": "c1", "quote": "Greenpeace is calling on the next New South Wales government to introduce a solar rebate to help families that are renting, to access solar panels – or help those who already have
-      solar to install battery storage." },
+      { "id": "c1", "quote": "Greenpeace is calling on the next New South Wales government to introduce a solar rebate to help families that are renting, to access solar panels – or help those who already have solar to install battery storage." },
       { "id": "c2", "quote": "it’s debatable that this policy adds much value without a suite of other targeted measures." },
       { "id": "c3", "quote": "this policy is too little, too late." }
       ],
@@ -87,8 +86,7 @@
       }
       ],
       "conclusions": [
-      { "id": "c1", "quote": "Greenpeace is calling on the next New South Wales government to introduce a solar rebate to help families that are renting, to access solar panels – or help those who already have
-      solar to install battery storage." },
+      { "id": "c1", "quote": "Greenpeace is calling on the next New South Wales government to introduce a solar rebate to help families that are renting, to access solar panels – or help those who already have solar to install battery storage." },
       { "id": "c2", "quote": "it’s debatable that this policy adds much value without a suite of other targeted measures." },
       { "id": "c3", "quote": "this policy is too little, too late." }
       ]
@@ -174,317 +172,2349 @@
       "id": "ex003",
       "text": "",
       "reasoning": {
-  "claims": [
-  { "id": "p1", "quote": "Ms Stephan calls Schellnhuber’s type of climate activism an attempt at creating an “above the law state of emergency”" },
-  { "id": "p3", "quote": "The new religion promises the Last Judgement already today" },
-  { "id": "p4", "quote": "we endeavour one last huge and dramatic effort to save humanity from a well-deserved downfall." },
-  { "id": "p5", "quote": "As is the case with other religions, the best is repentance, humility and self-restriction – preferably through emission payments without end." },
-  { "id": "p6", "quote": "Stephan writes that the new climate religion fills a void left behind by other religions, and tells us to feel guilty about prosperity." },
-  { "id": "p7", "quote": "we’ll have to pay the price for our prosperity – be it to God or Nature, – with Biblical plagues such as storms, huge tidal waves, floods, fire-spewing volcanoes, in short: death
-  and demons" },
-  { "id": "p8", "quote": "Stephan warns us not to doubt the elite prophets who have the powers, tools and instruments to see deep into the future" },
-  { "id": "p9", "quote": "The new priests who proclaim these scenarios have attracted billions of followers with their announcements of world downfall." },
-  { "id": "p10", "quote": "they do not tolerate any doubts about their predictions." },
-  { "id": "p11", "quote": "Those who dare express doubt are nothing more than egotistical wretches, appeasers and trivializers, block-headed deniers or worse, or to the least paid agents of evil." },
-  { "id": "p12", "quote": "the climate zealotry and hysteria spread though society" },
-
-      { "id": "c1", "quote": "the obstacles that prevent necessary action, like democracy, be removed and replaced globally by an “authoritarian regime of experts”" },
-      { "id": "c2", "quote": "projected global downfall is the state-of-emergency that justifies every measure and it distracts us from every other unfinished business." }
-
-  ],
-  "inferences": [
-  {
-  "from": ["p12"],
-  "to": "c1",
-  "type": "supports",
-  "warrant": { "text": "The text states that because zealotry and hysteria are spreading, it is logical that obstacles to action be removed.", "explicit": true },
-  "structure": "convergent",
-  "group": "g1"
-  },
-  {
-  "from": ["p1"],
-  "to": "c1",
-  "type": "supports",
-  "warrant": { "text": "Creating an “above the law state of emergency” implies overriding democratic constraints in favor of expert rule.", "explicit": false },
-  "structure": "convergent",
-  "group": "g2"
-  },
-  {
-  "from": ["p9"],
-  "to": "c1",
-  "type": "supports",
-  "warrant": { "text": "A movement with billions of followers can enable or demand structural political changes such as replacing democracy with expert rule.", "explicit": false },
-  "structure": "convergent",
-  "group": "g3"
-  },
-  {
-  "from": ["p10"],
-  "to": "c1",
-  "type": "supports",
-  "warrant": { "text": "Intolerance of doubt is characteristic of authoritarian approaches that remove democratic obstacles.", "explicit": false },
-  "structure": "convergent",
-  "group": "g4"
-  },
-  {
-  "from": ["p11"],
-  "to": "c1",
-  "type": "supports",
-  "warrant": { "text": "Stigmatizing dissenters as morally corrupt supports sidelining democratic deliberation in favor of imposed rule.", "explicit": false },
-  "structure": "convergent",
-  "group": "g5"
-  },
-  {
-  "from": ["p1"],
-  "to": "c2",
-  "type": "supports",
-  "warrant": { "text": "Labeling the activism as an attempt at an above-the-law emergency aligns with a state of emergency that justifies every measure and distracts from other issues.", "explicit": false },
-  "structure": "convergent",
-  "group": "g6"
-  },
-  {
-  "from": ["p3", "p5", "p8"],
-  "to": "c2",
-  "type": "supports",
-  "warrant": { "text": "Apocalyptic promises, prescribed repentance, and deference to prophetic experts together frame a perpetual emergency that justifies any measure and sidelines other priorities.",
-  "explicit": false },
-  "structure": "linked",
-  "group": "g7"
-  }
-  ],
-  "conclusions": [
-  { "id": "c1", "quote": "the obstacles that prevent necessary action, like democracy, be removed and replaced globally by an “authoritarian regime of experts”" },
-  { "id": "c2", "quote": "projected global downfall is the state-of-emergency that justifies every measure and it distracts us from every other unfinished business." }
-  ]
-  }
+        "claims": [
+          {"id":"p1","quote":"Australia’s beautiful Great Barrier Reef is under threat and in a state of emergency."},
+          {"id":"p2","quote":"As much as half of the Reef may be dead following back to back coral bleaching events in recent years."},
+          {"id":"p3","quote":"The Great Barrier Reef is a living thing – precious and fragile."},
+          {"id":"p4","quote":"It’s is the only living thing on earth that is visible from space."},
+          {"id":"p5","quote":"Climate change and the fossil fuel industry have been constant threats to the Great Barrier Reef and it needs protecting now more than ever."},
+          {"id":"p6","quote":"The coal industry is accelerating global warming by mining and burning coal, and is putting the future of the Reef at risk."},
+          {"id":"p7","quote":"In 2016, warming oceans caused the worst coral bleaching event in history on the Great Barrier Reef and almost a quarter of the Reef’s coral died."},
+          {"id":"p8","quote":"Scientists tell us we can have either coral or coal, but not both."},
+          {"id":"p9","quote":"Yet, the Australian government continues to promote the expansion of the coal industry."},
+          {"id":"p10","quote":"Australia’s carbon emissions are rising, and the Australian government approved the world’s biggest coal mine on the doorstep of the Great Barrier Reef."},
+          {"id":"p11","quote":"Tiny algae live in the tissue of coral providing it with food, and also giving coral its colour."},
+          {"id":"p12","quote":"As the ocean absorbs more and more CO2 from the atmosphere, ocean temperatures and acidity levels in the water rise."},
+          {"id":"p13","quote":"The algae become stressed and leave the coral – taking with it the coral’s source of food and its colour."},
+          {"id":"p14","quote":"The coral turns white and ‘bleaches’."},
+          {"id":"p15","quote":"The Reef is under continued threat from climate change and industrialisation by the fossil fuel industry."},
+          {"id":"p16","quote":"But it’s not too late – the Reef can recover in the right conditions and with time."},
+          {"id":"p17","quote":"But an expansion of the coal industry will accelerate dangerous climate change and cripple any chance the Reef has of repairing itself."},
+          {"id":"p18","quote":"Abbot Point coal terminal is a striking example of the industrialisation of the Queensland coast for coal export."},
+          {"id":"p19","quote":"Despite the dangers to the Reef, in late December 2015, Federal Environment Minister Greg hunt approved dredging for the expansion of the Abbot Point Coal Terminal in North Queensland."},
+          {"id":"p20","quote":"This project is risking the Reef at a time when the world is moving away from coal with new policies from the US and China."},
+          {"id":"p21","quote":"It’s time we followed suit."},
+          {"id":"p22","quote":"If the coal industry gets their way, we’ll see more and more bleaching of our beautiful Reef."}
+        ],
+        "inferences": [
+          {
+            "from":["p1","p2","p7","p11","p12","p13","p14","p15"],
+            "to":"ic1",
+            "type":"supports",
+            "warrant":{
+              "text":"If the Reef is in a state of emergency, large fractions of coral have died in recent bleaching events, warming and acidification stress algae causing bleaching, and threats from climate change and industrialisation are ongoing, then climate-change-driven impacts are severely threatening the survival of the Reef.",
+              "explicit":false
+            },
+            "structure":"linked",
+            "group":"g1"
+          },
+          {
+            "from":["p5","p6","p8","p9","p10","p17","p22"],
+            "to":"ic2",
+            "type":"supports",
+            "warrant":{
+              "text":"If climate change and fossil fuels are constant threats, the coal industry accelerates warming and puts the Reef’s future at risk, scientists say we can have either coral or coal but not both, governments are expanding coal and approving massive new mines, expansion will cripple the Reef’s chance to repair, and more coal means more bleaching, then expansion of the coal industry is incompatible with saving the Reef.",
+              "explicit":false
+            },
+            "structure":"linked",
+            "group":"g2"
+          },
+          {
+            "from":["p18","p19","p20"],
+            "to":"ic3",
+            "type":"supports",
+            "warrant":{
+              "text":"If Abbot Point exemplifies coastal industrialisation for coal export, was approved for expansion despite dangers to the Reef, and risks the Reef while the world is moving away from coal, then the Abbot Point expansion is a reckless, globally out-of-step threat to the Reef.",
+              "explicit":false
+            },
+            "structure":"linked",
+            "group":"g3"
+          },
+          {
+            "from":["ic1","ic2","p16"],
+            "to":"c1",
+            "type":"supports",
+            "warrant":{
+              "text":"If the Reef is already severely threatened by climate-change-driven bleaching, can still recover under the right conditions and with time, but coal expansion is incompatible with saving it, then to give the Reef a chance to survive and recover Australia must stop expanding and phase out the coal industry.",
+              "explicit":false
+            },
+            "structure":"linked",
+            "group":"g4"
+          },
+          {
+            "from":["ic3","p21"],
+            "to":"c2",
+            "type":"supports",
+            "warrant":{
+              "text":"If projects like Abbot Point risk the Reef while the world is moving away from coal and it is time we followed suit, then Australia should stop approving such coal expansions and move away from coal in line with global trends to protect the Reef.",
+              "explicit":false
+            },
+            "structure":"linked",
+            "group":"g5"
+          }
+        ],
+        "conclusions": [
+          {
+            "id":"c1",
+            "quote":"",
+            "canonical":"To give the Great Barrier Reef a chance to survive and recover, Australia must stop expanding and phase out the coal industry"
+          },
+          {
+            "id":"c2",
+            "quote":"",
+            "canonical":"Approving coal expansion projects like the Abbot Point terminal recklessly risks the Great Barrier Reef and is out of step with the global move away from coal"
+          }
+        ],
+        "claims_extra": [
+          {
+            "id":"ic1",
+            "quote":"",
+            "canonical":"Climate-change-driven warming and acidification are causing severe, repeated bleaching that threatens the survival of the Great Barrier Reef"
+          },
+          {
+            "id":"ic2",
+            "quote":"",
+            "canonical":"Expansion of the coal industry is incompatible with saving and allowing the Great Barrier Reef to recover"
+          },
+          {
+            "id":"ic3",
+            "quote":"",
+            "canonical":"The Abbot Point coal terminal expansion is a reckless threat to the Reef and out of step with the global shift away from coal"
+          }
+        ]
+      }
     },
     {
       "id": "ex004",
       "text": "",
       "reasoning": {
-        "claims": [],
-        "claims_extra": [],
-        "inferences": [],
-        "conclusions": []
+        "claims": [
+          {"id":"p1","quote":"He made headlines last year when he brandished a lump of coal in parliament and accused those raising concerns about the environmental impacts of coal of being driven by ideology or a pathological fear."},
+          {"id":"p2","quote":"He has since failed to make the headlines as regularly as he did while imprisoning children, but it is worth noting that the man who used to incessantly talk up the “budget emergency” and “Labor’s debt and deficit” has increased debt massively ."},
+          {"id":"p3","quote":"At July 1, 2018, the budget estimate of net debt in Australia was about $341.0 billion, up from $174.5 billion in September 2013, when the Coalition took office."},
+          {"id":"p4","quote":"That’s an increase of $166.5 billion, or roughly 95 percent."},
+          {"id":"p5","quote":"It also bears mentioning that while Turnbull has been ousted for a series of policy bungles, Morrison has been at his side the whole time and owns them as much as Turnbull."},
+          {"id":"p6","quote":"Morrison was happy to stand beside a prime minister who proposed a pathetic National Energy Guarantee (NEG) that would kill renewables and do nothing to stop climate change."},
+          {"id":"p7","quote":"And as that already inadequate policy was gutted to the point where it was no longer a climate policy, he continued to stand by in silence."},
+          {"id":"p8","quote":"With large sections of Australia in severe drought and being scorched by dozens of mid-winter bushfires, Morrison is a leader we cannot afford."},
+          {"id":"p9","quote":"Make no mistake, Scott Morrison is just a more polished version of Tony Abbott."},
+          {"id":"p10","quote":"Morrison served both Abbott and Turnbull."},
+          {"id":"p11","quote":"He has shown over his career that he is driven by political self-interest and will not hesitate to continue selling out the environment at the behest of his mates in the fossil fuel industry."}
+        ],
+        "inferences": [
+          {
+            "from":["p2","p3","p4"],
+            "to":"ic1",
+            "type":"supports",
+            "warrant":{
+              "text":"If a politician who constantly warned of a budget emergency and debt blowout presides over nearly doubling net debt, then his budget and debt rhetoric is inconsistent with his record.",
+              "explicit":false
+            },
+            "structure":"linked",
+            "group":"g1"
+          },
+          {
+            "from":["p5","p6","p7","p10"],
+            "to":"ic2",
+            "type":"supports",
+            "warrant":{
+              "text":"If Morrison was at Turnbull’s side for policy bungles, backed a NEG that would kill renewables and do nothing on climate, stayed silent as it was gutted, and served both Abbott and Turnbull, then he shares responsibility for the Coalition’s policy failures, including on climate and energy.",
+              "explicit":false
+            },
+            "structure":"linked",
+            "group":"g2"
+          },
+          {
+            "from":["p1","p6","p11"],
+            "to":"ic3",
+            "type":"supports",
+            "warrant":{
+              "text":"If Morrison theatrically promotes coal, supports a policy that would kill renewables and do nothing on climate, and has shown he will sell out the environment for fossil fuel mates, then he is closely aligned with fossil fuel interests and willing to sacrifice environmental protection for them.",
+              "explicit":false
+            },
+            "structure":"linked",
+            "group":"g3"
+          },
+          {
+            "from":["p8"],
+            "to":"ic4",
+            "type":"supports",
+            "warrant":{
+              "text":"If large sections of Australia are in severe drought and facing dozens of mid-winter bushfires, then the country is already experiencing serious climate-related impacts that demand responsible leadership.",
+              "explicit":false
+            },
+            "structure":"convergent",
+            "group":"g4"
+          },
+          {
+            "from":["ic2","ic3","ic4"],
+            "to":"c1",
+            "type":"supports",
+            "warrant":{
+              "text":"If Morrison shares responsibility for climate and policy failures, is aligned with fossil fuel interests, and Australia is already suffering severe climate impacts, then he is a leader Australia cannot afford in the current climate and environmental crisis.",
+              "explicit":false
+            },
+            "structure":"linked",
+            "group":"g5"
+          },
+          {
+            "from":["p9","p10","ic2","ic3"],
+            "to":"c2",
+            "type":"supports",
+            "warrant":{
+              "text":"If Morrison is described as a more polished Tony Abbott, served both Abbott and Turnbull, shares responsibility for their policy failures and aligns with fossil fuel interests, then he is effectively a more polished version of Tony Abbott in politics and approach to climate and the environment.",
+              "explicit":false
+            },
+            "structure":"linked",
+            "group":"g6"
+          },
+          {
+            "from":["ic1","ic3"],
+            "to":"c3",
+            "type":"supports",
+            "warrant":{
+              "text":"If Morrison’s debt record contradicts his prior rhetoric and he has a history of selling out the environment for fossil fuel interests, then he is driven by political self-interest and is likely to continue sacrificing the environment for those interests.",
+              "explicit":false
+            },
+            "structure":"linked",
+            "group":"g7"
+          }
+        ],
+        "conclusions": [
+          {
+            "id":"c1",
+            "quote":"",
+            "canonical":"Scott Morrison is a leader Australia cannot afford in the context of escalating climate and environmental crises"
+          },
+          {
+            "id":"c2",
+            "quote":"",
+            "canonical":"Scott Morrison is effectively a more polished version of Tony Abbott in his politics and approach to climate and the environment"
+          },
+          {
+            "id":"c3",
+            "quote":"",
+            "canonical":"Morrison is driven by political self-interest and is likely to continue selling out the environment to fossil fuel interests"
+          }
+        ],
+        "claims_extra": [
+          {
+            "id":"ic1",
+            "quote":"",
+            "canonical":"Morrison’s budget and debt rhetoric is hypocritical given the large increase in debt under his government"
+          },
+          {
+            "id":"ic2",
+            "quote":"",
+            "canonical":"Morrison shares responsibility for the Coalition’s policy bungles, including harmful climate and energy policies"
+          },
+          {
+            "id":"ic3",
+            "quote":"",
+            "canonical":"Morrison is closely aligned with fossil fuel interests and willing to sacrifice environmental protection for them"
+          },
+          {
+            "id":"ic4",
+            "quote":"",
+            "canonical":"Australia is already experiencing severe climate impacts that demand responsible leadership"
+          }
+        ]
       }
     },
     {
       "id": "ex005",
       "text": "",
       "reasoning": {
-        "claims": [],
-        "claims_extra": [],
-        "inferences": [],
-        "conclusions": []
+        "claims": [
+          {
+            "id": "p1",
+            "quote": "A more than two year legal battle by Greenpeace Australia Pacific has revealed details of how dangerous and risky drilling by any oil company would be in the Great Australian Bight and how difficult it would be to respond in the event of an accident."
+          },
+          {
+            "id": "p2",
+            "quote": "Greenpeace has obtained BP’s 2016 Well Operations Management Plan which outlines the measures employed to prevent and respond to an oil spill in the Bight after lodging a freedom of information request with the national offshore oil regulator, NOPSEMA, in August 2016."
+          },
+          {
+            "id": "p3",
+            "quote": "And it’s every bit as bad as predicted."
+          },
+          {
+            "id": "p4",
+            "quote": "They paint a picture of a company repeatedly referring to the “significant uncertainty” of the experimental project with particular concern expressed about the almost unprecedented pressures and temperatures – two factors that contribute to higher risk of an accident."
+          },
+          {
+            "id": "p5",
+            "quote": "It also states that equipment critical for dealing with any potential oil spills such as capping stacks and relief wells would be incredibly difficult to source and would also unable to be used almost a third of the year in the high wave conditions of the Bight."
+          },
+          {
+            "id": "p6",
+            "quote": "Aside from these worrying concerns the entire process also highlights the lack of transparency when it comes to oil and gas exploration and the potential impact on communities and marine ecosystems."
+          },
+          {
+            "id": "p7",
+            "quote": "The documents describe a spill that would potentially be so bad that scenarios are outlined where more than twice the amount of crude oil that entered the Gulf of Mexico after the Deepwater Horizon disaster would be spilled."
+          },
+          {
+            "id": "p8",
+            "quote": "This scenario would be one of the worst spills in human history."
+          },
+          {
+            "id": "p9",
+            "quote": "The management plan shows conclusively why any oil drilling in the Great Australian Bight would be far too risky for any deepwater driller to attempt with many of the mitigation measures completely ineffective in the region."
+          },
+          {
+            "id": "p10",
+            "quote": "The Australian government represents the people of Australia and the people of the Bight."
+          },
+          {
+            "id": "p11",
+            "quote": "It is up to them to stand up to these deceitful, contemptuous, and irresponsible companies and to legislate to protect the Bight forever."
+          }
+        ],
+        "inferences": [
+          {
+            "from": ["p1", "p3", "p4", "p5", "p7", "p8"],
+            "to": "ic1",
+            "type": "supports",
+            "warrant": {
+              "text": "If drilling is described as dangerous and risky, involves significant uncertainty, extreme pressures and temperatures, hard-to-source and often unusable spill-response equipment, and worst-case spills could exceed Deepwater Horizon and rank among the worst in history, then drilling in the Great Australian Bight carries an extremely high and poorly controllable risk of catastrophic oil spills.",
+              "explicit": false
+            },
+            "structure": "linked",
+            "group": "g1"
+          },
+          {
+            "from": ["ic1", "p9"],
+            "to": "c1",
+            "type": "supports",
+            "warrant": {
+              "text": "If drilling in the Great Australian Bight carries extremely high, poorly controllable risk and the management plan itself shows it would be far too risky with ineffective mitigation, then any deepwater oil drilling there should not be attempted.",
+              "explicit": false
+            },
+            "structure": "linked",
+            "group": "g2"
+          },
+          {
+            "from": ["p10"],
+            "to": "ic2",
+            "type": "supports",
+            "warrant": {
+              "text": "If the Australian government represents the people of Australia and the people of the Bight, it has a responsibility to protect them and their environment from dangerous corporate activities.",
+              "explicit": false
+            },
+            "structure": "convergent",
+            "group": "g3"
+          },
+          {
+            "from": ["ic1", "ic2", "p11"],
+            "to": "c2",
+            "type": "supports",
+            "warrant": {
+              "text": "If drilling in the Bight is far too risky, the government has a duty to protect its people, and it is said to be up to the government to stand up to irresponsible companies, then the government should legislate to protect the Bight permanently from such drilling.",
+              "explicit": false
+            },
+            "structure": "linked",
+            "group": "g4"
+          }
+        ],
+        "conclusions": [
+          {
+            "id": "c1",
+            "quote": "",
+            "canonical": "Any deepwater oil drilling in the Great Australian Bight would be far too risky and should not be attempted"
+          },
+          {
+            "id": "c2",
+            "quote": "",
+            "canonical": "The Australian government should stand up to oil companies and legislate to protect the Great Australian Bight forever"
+          }
+        ],
+        "claims_extra": [
+          {
+            "id": "ic1",
+            "quote": "",
+            "canonical": "Drilling in the Great Australian Bight carries an extremely high and poorly controllable risk of catastrophic oil spills"
+          },
+          {
+            "id": "ic2",
+            "quote": "",
+            "canonical": "Because it represents the people of Australia and the Bight, the Australian government has a responsibility to protect them from such risky drilling"
+          }
+        ]
       }
     },
     {
       "id": "ex006",
       "text": "",
       "reasoning": {
-        "claims": [],
-        "claims_extra": [],
-        "inferences": [],
-        "conclusions": []
+        "claims": [
+          {
+            "id": "p1",
+            "quote": "Temperature data is selectively drawn from population centers (that are themselves non-randomly distributed, being biased to valley floors, flat plains, and places were water and land meet such as bays, harbors, and major rivers."
+          },
+          {
+            "id": "p2",
+            "quote": "More recently, as cities form where more modes of transportation intersect, we have more cities around airports, sea ports, and where railroads intersect those."
+          },
+          {
+            "id": "p3",
+            "quote": "At present, the majority of our land temperature data is drawn from airports."
+          },
+          {
+            "id": "p4",
+            "quote": "All those kinds of \"issues\" have already been explored (and the temperature data found skewed and wanting due to them – Urban Heat Island effect and Airport Heat Island effect), though not in the context of their statistical validity."
+          },
+          {
+            "id": "p5",
+            "quote": "Here we start to note that perhaps the location selection bias itself might invalidate the statistical assumptions that underlay the use of an extended averaging process to increase the precision of temperatures."
+          },
+          {
+            "id": "p6",
+            "quote": "Presently reducing a F minimum error band in the raw data to /100 C of precision in the mean."
+          },
+          {
+            "id": "p7",
+            "quote": "IMHO False Precision; for just these kinds of reason."
+          },
+          {
+            "id": "p8",
+            "quote": "While I’ve explored in prior postings that point that such an averaging process can remove random error in measurements, it can NOT remove systemantic error."
+          },
+          {
+            "id": "p9",
+            "quote": "Such as the systematic error introduced with the conversion to the MMTS thermometers."
+          },
+          {
+            "id": "p10",
+            "quote": "Both changing location to be closer to buildings due to the need for power and communications cables; and the “adjustment” to “remove a cooling bias” that was really locking in a slow warming trend from aging of paint on the prior Stevenson Screens."
+          },
+          {
+            "id": "p11",
+            "quote": "I’ve not asked the more basic question of “is that use of the mean and the central limit theorem statistically valid? ”"
+          },
+          {
+            "id": "p12",
+            "quote": "This shows that there are already many reasons to doubt that the mean of temperature measurements is used in a valid way."
+          }
+        ],
+        "inferences": [
+          {
+            "from": ["p1", "p2", "p3", "p4", "p9", "p10"],
+            "to": "ic1",
+            "type": "supports",
+            "warrant": {
+              "text": "If temperature data are drawn mainly from population centres and airports and station moves and adjustments introduce systematic changes, then location selection and instrument changes introduce systematic, non-random errors into the temperature record.",
+              "explicit": false
+            },
+            "structure": "linked",
+            "group": "g1"
+          },
+          {
+            "from": ["p8"],
+            "to": "ic2",
+            "type": "supports",
+            "warrant": {
+              "text": "If averaging can remove random error but explicitly cannot remove systematic error, then averaging and related statistical procedures cannot eliminate systematic biases in the data.",
+              "explicit": false
+            },
+            "structure": "convergent",
+            "group": "g2"
+          },
+          {
+            "from": ["p5", "p6", "p7", "ic1", "ic2"],
+            "to": "ic3",
+            "type": "supports",
+            "warrant": {
+              "text": "If extended averaging is used to reduce a relatively large measurement error band to very fine precision while the underlying data contain unresolved systematic biases from location and instrument changes that averaging cannot fix, then the resulting highly precise mean values are misleading false precision.",
+              "explicit": false
+            },
+            "structure": "linked",
+            "group": "g3"
+          },
+          {
+            "from": ["ic1", "ic2", "ic3", "p11", "p12"],
+            "to": "c1",
+            "type": "supports",
+            "warrant": {
+              "text": "If temperature means are based on data with systematic biases that averaging cannot remove, yield false precision, and there are already many stated reasons for doubt including questions about validity, then the use of the mean of temperature measurements is not statistically valid.",
+              "explicit": false
+            },
+            "structure": "linked",
+            "group": "g4"
+          },
+          {
+            "from": ["p5", "ic1"],
+            "to": "c2",
+            "type": "supports",
+            "warrant": {
+              "text": "If location selection bias can introduce systematic errors and may invalidate the assumptions behind extended averaging, then location selection bias itself may invalidate the statistical assumptions underlying current averaging of temperature records.",
+              "explicit": false
+            },
+            "structure": "linked",
+            "group": "g5"
+          }
+        ],
+        "conclusions": [
+          {
+            "id": "c1",
+            "quote": "",
+            "canonical": "The use of the mean of temperature measurements in current analyses is not statistically valid"
+          },
+          {
+            "id": "c2",
+            "quote": "",
+            "canonical": "Location selection bias in temperature records may invalidate the statistical assumptions underlying extended averaging procedures"
+          }
+        ],
+        "claims_extra": [
+          {
+            "id": "ic1",
+            "quote": "",
+            "canonical": "Location selection bias and station/instrument changes introduce systematic, non-random errors into the temperature record"
+          },
+          {
+            "id": "ic2",
+            "quote": "",
+            "canonical": "Averaging procedures and the central limit theorem can remove random error but cannot remove systematic biases in temperature data"
+          },
+          {
+            "id": "ic3",
+            "quote": "",
+            "canonical": "Highly precise mean temperatures obtained by extended averaging of systematically biased measurements represent misleading false precision"
+          }
+        ]
       }
     },
     {
       "id": "ex007",
       "text": "",
       "reasoning": {
-        "claims": [],
-        "claims_extra": [],
-        "inferences": [],
-        "conclusions": []
+        "claims": [
+          {"id":"p1","quote":"All the statistical manipulation I’ve seen done on temperatures tends to presume they have a Standard Normal Distribution and that it is a valid statistical operation to compute a mean."},
+          {"id":"p2","quote":"you are making the implicit assumption that the mean is defined."},
+          {"id":"p3","quote":"For those of us who had some, but not extensive, statistics, that is a natural assumption as we spent months (years? doing various kinds of problems all universally based on a Standard Normal Distribution."},
+          {"id":"p4","quote":"But there are other kinds of distribution…"},
+          {"id":"p5","quote":"Why this matters is that it is a property of the Standard Normal Distribution that allows the use of the Central Limit Theorem in the production of those numbers with astounding precision based on lousy input data."},
+          {"id":"p6","quote":"The normal distribution is considered the most prominent probability distribution in statistics."},
+          {"id":"p7","quote":"First, the normal distribution arises from the central limit theorem, which states that under mild conditions, the mean of a large number of random variables independently drawn from the same distribution is distributed approximately normally, irrespective of the form of the original distribution."},
+          {"id":"p8","quote":"This gives it exceptionally wide application in, for example, sampling."},
+          {"id":"p9","quote":"Secondly, the normal distribution is very tractable analytically, that is, a large number of results involving this distribution can be derived in explicit form."},
+          {"id":"p10","quote":"Notice some of the ‘requirements’ of those statements."},
+          {"id":"p11","quote":"“From the same distribution”."},
+          {"id":"p12","quote":"That is NOT a ‘large number’ statistically."},
+          {"id":"p13","quote":"Thermometers near a large ocean have very different behaviours from those inland a couple of hundred miles in mountains or deserts."},
+          {"id":"p14","quote":"Those in the snow have different behaviours from those in the dry valleys."},
+          {"id":"p15","quote":"They are not “the same distribution”."},
+          {"id":"p16","quote":"Are conditions “Mild” in Antarctica or the Sahara?"},
+          {"id":"p17","quote":"I don’t know if they meet the requirements of statistically “mild” or not."}
+        ],
+        "inferences": [
+          {
+            "from":["p13","p14","p15"],
+            "to":"ic1",
+            "type":"supports",
+            "warrant":{
+              "text":"If thermometers in different environments behave differently and are explicitly said to be not ‘the same distribution’, then their measurements do not satisfy the ‘same distribution’ requirement of the central limit theorem.",
+              "explicit":false
+            },
+            "structure":"linked",
+            "group":"g1"
+          },
+          {
+            "from":["p12","p16","p17"],
+            "to":"ic2",
+            "type":"supports",
+            "warrant":{
+              "text":"If the sample size is described as not a ‘large number’ statistically and it is unclear whether extreme environments like Antarctica or the Sahara meet ‘mild’ conditions, then the ‘large number’ and ‘mild conditions’ requirements of the central limit theorem are doubtful for these temperature data.",
+              "explicit":false
+            },
+            "structure":"linked",
+            "group":"g2"
+          },
+          {
+            "from":["p7","ic1","ic2"],
+            "to":"c1",
+            "type":"supports",
+            "warrant":{
+              "text":"If the central limit theorem requires many independent observations from the same distribution under mild conditions, and temperature records from different locations do not meet the ‘same distribution’ and ‘mild/large number’ requirements, then those central limit theorem conditions are not satisfied for the heterogeneous thermometer records used in global temperature analyses.",
+              "explicit":false
+            },
+            "structure":"linked",
+            "group":"g3"
+          },
+          {
+            "from":["p1","p2","p5","c1"],
+            "to":"c2",
+            "type":"supports",
+            "warrant":{
+              "text":"If standard temperature analyses presume a standard normal distribution and a defined mean, rely on a property of that distribution via the central limit theorem to produce precise numbers from poor input data, but the theorem’s conditions are not satisfied, then applying standard-normal, mean-based statistics to such temperature data is not statistically justified.",
+              "explicit":false
+            },
+            "structure":"linked",
+            "group":"g4"
+          }
+        ],
+        "conclusions": [
+          {
+            "id":"c1",
+            "quote":"",
+            "canonical":"The conditions required by the central limit theorem are not satisfied for heterogeneous thermometer records used in global temperature analyses"
+          },
+          {
+            "id":"c2",
+            "quote":"",
+            "canonical":"The common practice of treating temperature data as if they satisfied standard-normal, mean-based assumptions is not statistically justified"
+          }
+        ],
+        "claims_extra": [
+          {
+            "id":"ic1",
+            "quote":"",
+            "canonical":"Temperature measurements from different locations do not satisfy the ‘same distribution’ requirement of the central limit theorem"
+          },
+          {
+            "id":"ic2",
+            "quote":"",
+            "canonical":"The ‘large number’ and ‘mild conditions’ requirements of the central limit theorem are doubtful for the temperature data under discussion"
+          }
+        ]
       }
     },
     {
       "id": "ex008",
       "text": "",
       "reasoning": {
-        "claims": [],
-        "claims_extra": [],
-        "inferences": [],
-        "conclusions": []
+        "claims": [
+          {"id":"p1","quote":"We use simulation output from climate models participating in phase of the Coupled Model Intercomparison Project."},
+          {"id":"p2","quote":"This multimodel archive provides estimates of the signal pattern in response to combined anthropogenic and natural external forcing (the fingerprint) and the noise of internally generated variability."},
+          {"id":"p3","quote":"Using these estimates, we calculate signal-to-noise (S/N) ratios to quantify the strength of the fingerprint in the observations relative to fingerprint strength in natural climate noise."},
+          {"id":"p4","quote":"In the lower troposphere, the fingerprint strength in observations is smaller, but S/N ratios are still significant at the 1% level or better, and range from three to eight."},
+          {"id":"p5","quote":"We find no evidence that these ratios are spuriously inflated by model variability errors."},
+          {"id":"p6","quote":"After removing all global mean signals, model fingerprints remain identifiable in 70% of the tests involving tropospheric temperature changes."},
+          {"id":"p7","quote":"Despite such agreement in the large-scale features of model and observed geographical patterns of atmospheric temperature change, most models do not replicate the size of the observed changes."},
+          {"id":"p8","quote":"On average, the models analyzed underestimate the observed cooling of the lower stratosphere and overestimate the warming of the troposphere."},
+          {"id":"p9","quote":"Although the precise causes of such differences are unclear, model biases in lower stratospheric temperature trends are likely to be reduced by more realistic treatment of stratospheric ozone depletion and volcanic aerosol forcing."}
+        ],
+        "inferences": [
+          {
+            "from":["p2","p3","p4"],
+            "to":"ic1",
+            "type":"supports",
+            "warrant":{
+              "text":"If fingerprint patterns and noise are estimated and S/N ratios in observations are significant and well above unity, then observations contain a statistically significant fingerprint of the forced response distinct from internal variability.",
+              "explicit":false
+            },
+            "structure":"linked",
+            "group":"g1"
+          },
+          {
+            "from":["p5"],
+            "to":"ic1",
+            "type":"supports",
+            "warrant":{
+              "text":"If there is no evidence that S/N ratios are inflated by model variability errors, then the detected fingerprint is unlikely to be an artifact of underestimated noise.",
+              "explicit":false
+            },
+            "structure":"convergent",
+            "group":"g2"
+          },
+          {
+            "from":["p6"],
+            "to":"ic2",
+            "type":"supports",
+            "warrant":{
+              "text":"If model fingerprints remain identifiable in most tests even after removing global mean signals, then the fingerprint is expressed in spatial and vertical patterns beyond the global mean warming.",
+              "explicit":false
+            },
+            "structure":"convergent",
+            "group":"g3"
+          },
+          {
+            "from":["ic1","ic2"],
+            "to":"c1",
+            "type":"supports",
+            "warrant":{
+              "text":"If a statistically significant forced fingerprint is detected in observations, is robust to internal variability assumptions, and remains identifiable after removing global means, then the combined anthropogenic and natural forcing fingerprint is robustly detected and unlikely to be a model artifact.",
+              "explicit":false
+            },
+            "structure":"linked",
+            "group":"g4"
+          },
+          {
+            "from":["p7","p8"],
+            "to":"ic3",
+            "type":"supports",
+            "warrant":{
+              "text":"If models match large-scale patterns but systematically underestimate lower-stratospheric cooling and overestimate tropospheric warming, then they are biased in the magnitude of vertical atmospheric temperature trends.",
+              "explicit":false
+            },
+            "structure":"linked",
+            "group":"g5"
+          },
+          {
+            "from":["ic3","p9"],
+            "to":"c2",
+            "type":"supports",
+            "warrant":{
+              "text":"If models have biases in vertical temperature trends and these biases are likely to be reduced by more realistic ozone and volcanic aerosol forcing, then improving stratospheric processes and forcings is needed to correct model trend magnitudes.",
+              "explicit":false
+            },
+            "structure":"linked",
+            "group":"g6"
+          }
+        ],
+        "conclusions": [
+          {
+            "id":"c1",
+            "quote":"",
+            "canonical":"The fingerprint of combined anthropogenic and natural external forcing is robustly detected in observations and is unlikely to be an artifact of model variability errors"
+          },
+          {
+            "id":"c2",
+            "quote":"",
+            "canonical":"Climate models capture large-scale patterns of atmospheric temperature change but misrepresent the magnitude of vertical trends and require improved treatment of stratospheric processes and forcings"
+          }
+        ],
+        "claims_extra": [
+          {
+            "id":"ic1",
+            "quote":"",
+            "canonical":"Observed atmospheric temperature changes contain a statistically significant fingerprint of combined anthropogenic and natural external forcing that is distinct from internal variability"
+          },
+          {
+            "id":"ic2",
+            "quote":"",
+            "canonical":"The anthropogenic-plus-natural fingerprint remains detectable in the spatial pattern of tropospheric temperature changes even after removing global mean signals"
+          },
+          {
+            "id":"ic3",
+            "quote":"",
+            "canonical":"Current climate models bias the magnitude of vertical atmospheric temperature trends, underestimating lower-stratospheric cooling and overestimating tropospheric warming"
+          }
+        ]
       }
     },
     {
       "id": "ex009",
       "text": "",
       "reasoning": {
-        "claims": [],
-        "claims_extra": [],
-        "inferences": [],
-        "conclusions": []
+        "claims": [
+          {"id":"p1","quote":"This guide should point you towards the responsibly sourced tuna products in Australia while steering you away from accidentally supporting harmful companies and practices."},
+          {"id":"p2","quote":"If the product isn’t labelled with the species, how it was caught, and where it was caught then you should avoid it."},
+          {"id":"p3","quote":"Species: Skipjack and Albacore Tuna species from the Western and Central pacific are usually better choices"},
+          {"id":"p4","quote":"Method: Pole and line, trolling or handline fishing methods, purse seine FAD-free fishing methods"},
+          {"id":"p5","quote":"Methods: FAD Purse seine, Gillnetting, imported longlining"},
+          {"id":"p6","quote":"‘Dolphin friendly’ fishing methods and labeling are not a key indicator of sustainable practices as dolphins don’t usually cohabitate with tuna and these methods tell you nothing about the main principles of sustainability."},
+          {"id":"p7","quote":"There are two crucial parts to a tuna can that every tuna shopper should know:"},
+          {"id":"p8","quote":"Tuna species: Whether or not the species of tuna in the can is from a population that is fished at sustainable rate"},
+          {"id":"p9","quote":"Fishing Method: Whether or not the fishing method used results in bycatch of threatened species like turtles, sharks, and juvenile tuna"},
+          {"id":"p10","quote":"Tuna is a family of fish that come in many different species, some from populations that are doing better than others."},
+          {"id":"p11","quote":"It is therefore critical to ensure that the species of tuna that you buy is one that is not in harvested at a rate that is threatening the population."},
+          {"id":"p12","quote":"Make sure that the tuna product clearly identifiesthe species name, otherwise don’t buy it."},
+          {"id":"p13","quote":"If it’s labelled as “thunnus” or “genus thunnus” it simply means it is in the tuna family, not which type of species has been caught."},
+          {"id":"p14","quote":"Bluefin is typically the most expensive tuna and classified as an endangered species."},
+          {"id":"p15","quote":"Bluefin has been extremely overfished, and Southern Bluefin, the only type caught and sold in Australia, is already classified as critically endangered."},
+          {"id":"p16","quote":"> AVOID BLUEFIN TUNA"},
+          {"id":"p17","quote":"The bigeye tuna population is low with overfishing occurring in the eastern and western Pacific Ocean."},
+          {"id":"p18","quote":"> AVOID BIGEYE TUNA"},
+          {"id":"p19","quote":"Yellowfin is also vulnerable to population decline through increased bycatch caused by fishing vessels using FADs, fishing levels for yellowfin tuna in Australia are probably OK, but in the Pacific and Indian Oceans they are under more pressure."},
+          {"id":"p20","quote":"> EAT LESS YELLOWFIN TUNA"},
+          {"id":"p21","quote":"Albacore is often sold as “white tuna” in the supermarket and is mainly canned."},
+          {"id":"p22","quote":"There is some concern in the decline population of Albacore in the Pacific Ocean in the near future due to overfishing."}
+        ],
+        "inferences": [
+          {
+            "from":["p7","p8","p9","p10","p11"],
+            "to":"ic1",
+            "type":"supports",
+            "warrant":{
+              "text":"If shoppers are told the crucial parts of a tuna can are species and fishing method, some species are more pressured than others, and it is critical not to buy from threatened populations, then sustainable tuna choices depend on species status and fishing-method impacts.",
+              "explicit":false
+            },
+            "structure":"linked",
+            "group":"g1"
+          },
+          {
+            "from":["p2","p12","p13"],
+            "to":"ic2",
+            "type":"supports",
+            "warrant":{
+              "text":"If buyers are told to avoid products without clear species and catch information, and generic labels like “thunnus” hide which species was caught, then unspecified or generically labelled tuna conceals species status and should be avoided.",
+              "explicit":false
+            },
+            "structure":"linked",
+            "group":"g2"
+          },
+          {
+            "from":["p14","p15","p16","p17","p18"],
+            "to":"ic3",
+            "type":"supports",
+            "warrant":{
+              "text":"If bluefin is endangered and critically overfished, bigeye populations are low with ongoing overfishing, and consumers are explicitly urged to avoid both, then bluefin and bigeye tuna are severely overfished and unsustainable choices.",
+              "explicit":false
+            },
+            "structure":"linked",
+            "group":"g3"
+          },
+          {
+            "from":["p19","p20"],
+            "to":"ic4",
+            "type":"supports",
+            "warrant":{
+              "text":"If yellowfin is vulnerable to decline and under pressure in major oceans while consumers are told to eat less of it, then yellowfin stocks are under pressure and consumption should be limited.",
+              "explicit":false
+            },
+            "structure":"linked",
+            "group":"g4"
+          },
+          {
+            "from":["p3","p4","p5","p6"],
+            "to":"ic5",
+            "type":"supports",
+            "warrant":{
+              "text":"If skipjack and albacore from the Western and Central Pacific are said to be better choices, low-bycatch methods like pole-and-line and FAD-free purse seine are highlighted, high-bycatch methods like FAD purse seine and gillnets are flagged, and ‘dolphin friendly’ labels are dismissed as misleading, then skipjack and albacore from that region caught with low-bycatch methods are relatively responsible choices.",
+              "explicit":false
+            },
+            "structure":"linked",
+            "group":"g5"
+          },
+          {
+            "from":["ic3"],
+            "to":"c1",
+            "type":"supports",
+            "warrant":{
+              "text":"If bluefin and bigeye tuna are severely overfished and unsustainable, then consumers should avoid bluefin and bigeye tuna products.",
+              "explicit":false
+            },
+            "structure":"convergent",
+            "group":"g6"
+          },
+          {
+            "from":["ic1","ic2","p1"],
+            "to":"c2",
+            "type":"supports",
+            "warrant":{
+              "text":"If responsible tuna shopping depends on species and method, unlabeled or generic products hide this and should be avoided, and the guide aims to steer buyers toward responsibly sourced products, then consumers should avoid tuna that lacks clear species and catch details and instead choose products from sustainable species and methods.",
+              "explicit":false
+            },
+            "structure":"linked",
+            "group":"g7"
+          },
+          {
+            "from":["ic4","ic5"],
+            "to":"c3",
+            "type":"supports",
+            "warrant":{
+              "text":"If yellowfin stocks are under pressure so intake should be reduced, while skipjack and albacore from well-managed areas caught with low-bycatch methods are better choices, then consumers should limit yellowfin and preferentially choose such skipjack or albacore products.",
+              "explicit":false
+            },
+            "structure":"linked",
+            "group":"g8"
+          }
+        ],
+        "conclusions": [
+          {
+            "id":"c1",
+            "quote":"",
+            "canonical":"Consumers should avoid bluefin and bigeye tuna products"
+          },
+          {
+            "id":"c2",
+            "quote":"",
+            "canonical":"Consumers should avoid tuna products that do not clearly disclose species and catch details and instead choose species from sustainable populations caught with low-bycatch methods"
+          },
+          {
+            "id":"c3",
+            "quote":"",
+            "canonical":"Consumers should limit yellowfin tuna consumption and preferentially choose responsibly sourced skipjack or albacore caught with low-bycatch methods"
+          }
+        ],
+        "claims_extra": [
+          {
+            "id":"ic1",
+            "quote":"",
+            "canonical":"Sustainable tuna choices depend on both the conservation status of the species and the fishing method’s bycatch impacts"
+          },
+          {
+            "id":"ic2",
+            "quote":"",
+            "canonical":"Unspecified or generically labelled tuna conceals species status and should therefore be avoided"
+          },
+          {
+            "id":"ic3",
+            "quote":"",
+            "canonical":"Bluefin and bigeye tuna are severely overfished or endangered and are unsustainable choices"
+          },
+          {
+            "id":"ic4",
+            "quote":"",
+            "canonical":"Yellowfin tuna stocks are under pressure in many oceans so consumption should be reduced"
+          },
+          {
+            "id":"ic5",
+            "quote":"",
+            "canonical":"Skipjack and albacore from the Western and Central Pacific caught with low-bycatch methods are relatively responsible tuna choices"
+          }
+        ]
       }
     },
     {
       "id": "ex010",
       "text": "",
       "reasoning": {
-        "claims": [],
-        "claims_extra": [],
-        "inferences": [],
-        "conclusions": []
+        "claims": [
+          {"id":"p1","quote":"These laws would suppress public opposition to the Government’s agenda to trash the environment, ignore climate change and put profits before human lives."},
+          {"id":"p2","quote":"Turnbull’s government have been using the line that not-for-profits are just a front for foreign funds to be used to influence Australian election outcomes."},
+          {"id":"p3","quote":"Which is weird, because a review by the Australian Charities and Not-for-profits Committee has found no evidence that charities receiving foreign funds are influencing Australian policy."},
+          {"id":"p4","quote":"The Electoral Amendment bill would change the rules so that organisations like Greenpeace are classified as ‘political campaigners’."},
+          {"id":"p5","quote":"The Espionage and Foreign Interference bill would mean a person or organisation that receives or communicates “politically sensitive” information to the public could potentially be guilty of espionage under this Bill."},
+          {"id":"p6","quote":"This is a concern for everyone working to hold the government to account, because they can make “politically sensitive” mean whatever they want it to."},
+          {"id":"p7","quote":"The Foreign Influence Transparency Scheme bill would crack down on not-for-profits that have a global presence – like Greenpeace."},
+          {"id":"p8","quote":"We’d be required to spend more time on reporting and paperwork, which means less time campaigning for healthy oceans, a thriving Great Barrier Reef and action on climate change."},
+          {"id":"p9","quote":"While the FITS and EFI bills are stuck in another committee process, The Joint Standing Committee into Electoral Matters released its report on the Electoral Amendment bill."},
+          {"id":"p10","quote":"The report was authored by the Coalition and the Australian Labor Party (ALP) and was bipartisan (that means they both agreed), with 15 recommended changed to the law, but—here’s the kicker—they didn’t reject the law outright."},
+          {"id":"p11","quote":"Even if the government agreed to all the Committee’s recommendations, the new law would still stifle the important work charities do to make Australia a caring and compassionate nation and hold powerful corporations to account."},
+          {"id":"p12","quote":"The Greens were the only members of the Committee to publish a report that entirely rejected the bill."},
+          {"id":"p13","quote":"In fact, Shadow Minister for Charities and NFP Andrew Leigh told us at the Hands Off Our Charities democracy sausage sizzle that he ‘had our backs’."},
+          {"id":"p14","quote":"But Monday’s report says the contrary: that Labor seems willing to throw charities under the bus so it can pass the Electoral Amendment bill."},
+          {"id":"p15","quote":"We’re challenging Labor to stay true to their word of being allies to not-for-profits."},
+          {"id":"p16","quote":"Labor must reject all of these laws, starting with the Electoral Amendment bill."},
+          {"id":"p17","quote":"It’s disappointing to watch a party that has for so long stood up for workers’ rights and for the least privileged in our society, now turning against unions, charities and not-for-profits."},
+          {"id":"p18","quote":"Sounds like we need to stop these laws."},
+          {"id":"p19","quote":"We agree."},
+          {"id":"p20","quote":"And we’ve been fighting these bills every step of the way."}
+        ],
+        "inferences": [
+          {
+            "from":["p4","p5","p7","p8","p11"],
+            "to":"ic1",
+            "type":"supports",
+            "warrant":{
+              "text":"If bills reclassify advocacy groups as political campaigners, criminalise sharing politically sensitive information, crack down on global not-for-profits and force them into paperwork at the expense of campaigning, then these laws would stifle charities’ and not-for-profits’ ability to advocate and hold power to account.",
+              "explicit":false
+            },
+            "structure":"linked",
+            "group":"g1"
+          },
+          {
+            "from":["p2","p3"],
+            "to":"ic2",
+            "type":"supports",
+            "warrant":{
+              "text":"If the government claims not-for-profits are foreign fronts influencing elections but a review finds no evidence of foreign-funded charities influencing policy, then the government’s justification for the laws is not supported by evidence.",
+              "explicit":false
+            },
+            "structure":"linked",
+            "group":"g2"
+          },
+          {
+            "from":["p10","p12","p13","p14"],
+            "to":"ic3",
+            "type":"supports",
+            "warrant":{
+              "text":"If Labor co-authors a bipartisan report that fails to reject the bill, while the Greens fully reject it, and this contrasts with earlier assurances that Labor ‘had our backs’, then Labor appears willing to sacrifice charities in order to pass the Electoral Amendment bill.",
+              "explicit":false
+            },
+            "structure":"linked",
+            "group":"g3"
+          },
+          {
+            "from":["p1","ic1","ic2"],
+            "to":"c1",
+            "type":"supports",
+            "warrant":{
+              "text":"If these laws suppress opposition to the government’s agenda, stifle advocacy and lack evidential justification, then they are democracy-attack laws that should be stopped.",
+              "explicit":false
+            },
+            "structure":"linked",
+            "group":"g4"
+          },
+          {
+            "from":["ic3","p15","p16","p17"],
+            "to":"c2",
+            "type":"supports",
+            "warrant":{
+              "text":"If Labor is seen to be throwing charities under the bus, is being challenged to stay true to its pro–not-for-profit stance, and is urged to reject the laws, then Labor should reject all of these laws, starting with the Electoral Amendment bill, to align its actions with its stated values.",
+              "explicit":false
+            },
+            "structure":"linked",
+            "group":"g5"
+          },
+          {
+            "from":["c1","p18","p19","p20"],
+            "to":"c3",
+            "type":"supports",
+            "warrant":{
+              "text":"If the laws are democracy-attack laws that should be stopped, campaigners agree they must be stopped, and have been fighting them every step of the way, then continued collective action to stop these laws is necessary and justified.",
+              "explicit":false
+            },
+            "structure":"linked",
+            "group":"g6"
+          }
+        ],
+        "conclusions": [
+          {
+            "id":"c1",
+            "quote":"",
+            "canonical":"The proposed ‘democracy attack’ laws are unjustified measures that would suppress advocacy and should be stopped"
+          },
+          {
+            "id":"c2",
+            "quote":"",
+            "canonical":"Labor should stand with charities and not-for-profits by rejecting all of these laws, starting with the Electoral Amendment bill"
+          },
+          {
+            "id":"c3",
+            "quote":"",
+            "canonical":"Collective action to oppose and stop these bills is necessary and justified"
+          }
+        ],
+        "claims_extra": [
+          {
+            "id":"ic1",
+            "quote":"",
+            "canonical":"The package of bills would significantly restrict charities’ and not-for-profits’ ability to advocate and hold government and corporations to account"
+          },
+          {
+            "id":"ic2",
+            "quote":"",
+            "canonical":"The government’s foreign-influence justification for the laws is not supported by available evidence"
+          },
+          {
+            "id":"ic3",
+            "quote":"",
+            "canonical":"By backing the Electoral Amendment bill despite earlier assurances, Labor appears willing to sacrifice charities to secure its passage"
+          }
+        ]
       }
     },
     {
       "id": "ex011",
       "text": "",
       "reasoning": {
-        "claims": [],
-        "claims_extra": [],
-        "inferences": [],
-        "conclusions": []
+        "claims": [
+          {"id":"p1","quote":"The world’s leading economists have been warning for decades that the damage caused to the climate by burning coal, oil and gas poses one of the most serious threats to the global economy."},
+          {"id":"p2","quote":"The cost of destruction in agriculture, tourism, finance, insurance, property, and even mining caused by sweeping floods, droughts and bushfire caused by distorting the world’s life support systems is nearly unimaginable."},
+          {"id":"p3","quote":"Indeed, it’s hard to imagine a sector that will not be severely impacted by climate change."},
+          {"id":"p4","quote":"But collapsing costs in renewables and a rising global movement against pollution is changing the headwinds – not that our Government seems to have noticed."},
+          {"id":"p5","quote":"You would think that a Government that waxes lyrical about intergenerational equity would have at least a primary school grasp on climate change."},
+          {"id":"p6","quote":"Yet the forbidden words were nowhere to be seen in the budget speech, save for a small reference to the Government’s plans to walk away from innovation in the renewables sector (whatever happened to that dogged commitment to ‘jobs and innovation’)."},
+          {"id":"p7","quote":"The devil, as always, was in the detail of the budget papers."},
+          {"id":"p8","quote":"Budgets are a statement of values that mark the principles of legislators."},
+          {"id":"p9","quote":"In this year’s budget, the Government’s values were laid bare, with climate spending slashed by almost half, falling further to $1.2 billion by 2022."},
+          {"id":"p10","quote":"Analysis by the Australian Conservation Foundation found that the under-resourced Department of Environment and Energy will have an axe taken to its bottom line, with spending slated to plunge by 43 per cent on 2013 levels (when the Government took office) by 2022."},
+          {"id":"p11","quote":"The Renewable Energy Target will be abolished by 2020."},
+          {"id":"p12","quote":"Taxpayer largesse will continue to flow to the Government’s friends in fossil fuel companies, with $30 billion in diesel tax subsidies pouring into private companies over the forecast period."},
+          {"id":"p13","quote":"No additional money for renewables or climate mitigation and adaptation will be forthcoming."}
+        ],
+        "inferences": [
+          {
+            "from":["p1","p2","p3"],
+            "to":"ic1",
+            "type":"supports",
+            "warrant":{
+              "text":"If burning fossil fuels poses one of the most serious threats to the global economy, the destruction across sectors is nearly unimaginable, and almost every sector will be severely impacted, then climate change constitutes a severe economy-wide threat.",
+              "explicit":false
+            },
+            "structure":"linked",
+            "group":"g1"
+          },
+          {
+            "from":["ic1","p4","p5"],
+            "to":"ic2",
+            "type":"supports",
+            "warrant":{
+              "text":"If climate change is a severe economy-wide threat and collapsing renewable costs plus a global anti-pollution movement make action more feasible, then a government that claims to care about intergenerational equity should understand and prioritise strong climate and renewable action.",
+              "explicit":false
+            },
+            "structure":"linked",
+            "group":"g2"
+          },
+          {
+            "from":["p6","p7","p8","p9","p10","p11","p12","p13"],
+            "to":"ic3",
+            "type":"supports",
+            "warrant":{
+              "text":"If budgets express legislators’ values, the budget speech avoids climate, detailed papers show climate spending slashed, the environment department cut, the Renewable Energy Target abolished, fossil fuel subsidies maintained, and no new climate or renewables money provided, then the government’s budget choices favour fossil fuels and downgrade climate action.",
+              "explicit":false
+            },
+            "structure":"linked",
+            "group":"g3"
+          },
+          {
+            "from":["ic2","ic3"],
+            "to":"c1",
+            "type":"supports",
+            "warrant":{
+              "text":"If a government that claims intergenerational concern should prioritise strong climate action but instead adopts budget choices that favour fossil fuels and downgrade climate action, then it is failing in its responsibility to address climate change and intergenerational equity.",
+              "explicit":false
+            },
+            "structure":"linked",
+            "group":"g4"
+          },
+          {
+            "from":["ic3"],
+            "to":"c2",
+            "type":"supports",
+            "warrant":{
+              "text":"If budget choices slash climate spending, abolish renewable policy instruments and maintain large fossil fuel subsidies, then the government’s stance privileges fossil fuels and undermines climate mitigation and adaptation.",
+              "explicit":false
+            },
+            "structure":"convergent",
+            "group":"g5"
+          }
+        ],
+        "conclusions": [
+          {
+            "id":"c1",
+            "quote":"",
+            "canonical":"The Government is failing in its responsibility to address climate change and intergenerational equity"
+          },
+          {
+            "id":"c2",
+            "quote":"",
+            "canonical":"The Government’s budget and policy stance privileges fossil fuels and undermines climate mitigation and adaptation"
+          }
+        ],
+        "claims_extra": [
+          {
+            "id":"ic1",
+            "quote":"",
+            "canonical":"Climate change driven by burning coal, oil and gas poses a severe, economy-wide threat"
+          },
+          {
+            "id":"ic2",
+            "quote":"",
+            "canonical":"Given the severe threat and available renewable alternatives, a government concerned with intergenerational equity should prioritise strong climate and renewable action"
+          },
+          {
+            "id":"ic3",
+            "quote":"",
+            "canonical":"The Government’s budget choices slash climate and environment spending, abolish key renewable policies and maintain large fossil fuel subsidies, revealing values that favour fossil fuels over climate action"
+          }
+        ]
       }
     },
     {
       "id": "ex012",
       "text": "",
       "reasoning": {
-        "claims": [],
-        "claims_extra": [],
-        "inferences": [],
-        "conclusions": []
+        "claims": [
+          {"id":"p1","quote":"Criticism of the National Energy Guarantee has rightly slammed its low target, but its design is even worse than we thought"},
+          {"id":"p2","quote":"It’s the Turnbull government’s signature energy policy."},
+          {"id":"p3","quote":"It’s been called: ‘pathetic’ ‘too weak’ ‘a line in the sand moment’"},
+          {"id":"p4","quote":"Most of those criticisms have rightly been about its disastrously low emissions reduction target of 26% from 2005 levels by 2030."},
+          {"id":"p5","quote":"Economic modelling from a range of sources, including work by RepuTex commissioned by Greenpeace, shows that the NEG’s 26% target will be met in the early 2020s on current policies : that is, regardless of whether the NEG is implemented at all."},
+          {"id":"p6","quote":"And a 26% target is far too low for what is needed to take on global warming and help prevent the extreme weather we’re seeing around the globe."},
+          {"id":"p7","quote":"Even ACIL Allen, the consulting firm on whose analysis the government is basing its whole policy, have published a briefing note on their website strongly criticising the government’s approach to energy policy and the NEG."},
+          {"id":"p8","quote":"But it turns out that it’s not just the target that’s bad."},
+          {"id":"p9","quote":"The NEG mechanism itself – the nuts and bolts design of how the system is meant to work – is also a disaster."},
+          {"id":"p10","quote":"Last week, the director of the Victoria Energy Policy Centre, Professor Bruce Mountain, published a 15 page analysis of the NEG mechanism as outlined by the Energy Security Board (ESB)."},
+          {"id":"p11","quote":"The ESB’s modelling of a business as usual scenario is flawed and based on false assumptions."},
+          {"id":"p12","quote":"None of these assumptions are valid."},
+          {"id":"p13","quote":"A policy based on them will fail from the start."},
+          {"id":"p14","quote":"The design of the Emissions Guarantee component is much more complicated than comparable schemes"},
+          {"id":"p15","quote":"The design of the Reliability Guarantee component is also very complex, and hard to implement"},
+          {"id":"p16","quote":"There is no defined penalty for electricity retailers if they repeatedly fail to meet their emissions intensity obligations"},
+          {"id":"p17","quote":"Only retailers and generators will have access to the NEG registry"},
+          {"id":"p18","quote":"The fiendishly complicated nature of the NEG’s design means that it takes some effort to get to grips with it."},
+          {"id":"p19","quote":"But when you do, it’s crystal clear that it’s not just the emissions target that is a problem."},
+          {"id":"p20","quote":"The NEG mechanism is so flawed as to be close to useless."},
+          {"id":"p21","quote":"The NEG is like a sports car that is speed limited to 50 kmh, but whose engine is so badly made anyway that you can’t be sure it will even start."},
+          {"id":"p22","quote":"Australians deserve better than Malcolm Turnbull and Josh Frydenberg’s lemon."}
+        ],
+        "inferences": [
+          {
+            "from":["p4","p5","p6"],
+            "to":"ic1",
+            "type":"supports",
+            "warrant":{
+              "text":"If the NEG’s 26% target will be met anyway under current policies and is far too low to address global warming, then its emissions target is both inadequate and non-additional.",
+              "explicit":false
+            },
+            "structure":"linked",
+            "group":"g1"
+          },
+          {
+            "from":["p11","p12","p13"],
+            "to":"ic2",
+            "type":"supports",
+            "warrant":{
+              "text":"If modelling is flawed, based on false assumptions, and a policy based on those assumptions will fail from the start, then the NEG mechanism built on that modelling is fundamentally unsound and prone to failure.",
+              "explicit":false
+            },
+            "structure":"linked",
+            "group":"g2"
+          },
+          {
+            "from":["p14","p15","p16","p17","p18"],
+            "to":"ic3",
+            "type":"supports",
+            "warrant":{
+              "text":"If the scheme’s components are much more complex than alternatives, hard to implement, lack penalties, restrict access to a registry, and are fiendishly complicated, then the mechanism is unwieldy, weakly enforceable and riddled with design problems.",
+              "explicit":false
+            },
+            "structure":"linked",
+            "group":"g3"
+          },
+          {
+            "from":["ic1","ic2","ic3","p9","p20"],
+            "to":"c1",
+            "type":"supports",
+            "warrant":{
+              "text":"If the target is inadequate and non-additional, the modelling and design foundations are unsound, the mechanism is overly complex and poorly enforceable, and it is described as a disaster, then the NEG mechanism is so flawed as to be close to useless.",
+              "explicit":false
+            },
+            "structure":"linked",
+            "group":"g4"
+          },
+          {
+            "from":["p2","p20","p22"],
+            "to":"c2",
+            "type":"supports",
+            "warrant":{
+              "text":"If the NEG is the government’s signature energy policy, its mechanism is close to useless, and Australians are said to deserve better than this ‘lemon’, then Australians deserve a better, more effective energy policy than the NEG.",
+              "explicit":false
+            },
+            "structure":"linked",
+            "group":"g5"
+          }
+        ],
+        "conclusions": [
+          {
+            "id":"c1",
+            "quote":"",
+            "canonical":"The NEG mechanism is so flawed as to be close to useless as an energy and climate policy instrument"
+          },
+          {
+            "id":"c2",
+            "quote":"",
+            "canonical":"Australians deserve a better, more effective energy policy than the NEG offered by Malcolm Turnbull and Josh Frydenberg"
+          }
+        ],
+        "claims_extra": [
+          {
+            "id":"ic1",
+            "quote":"",
+            "canonical":"The NEG’s emissions reduction target is inadequate and adds no real abatement beyond current policies"
+          },
+          {
+            "id":"ic2",
+            "quote":"",
+            "canonical":"The NEG mechanism rests on flawed modelling assumptions and is likely to fail from the start"
+          },
+          {
+            "id":"ic3",
+            "quote":"",
+            "canonical":"The NEG mechanism is excessively complex, weakly enforceable and riddled with design problems"
+          }
+        ]
       }
     },
     {
       "id": "ex013",
       "text": "",
       "reasoning": {
-        "claims": [],
-        "claims_extra": [],
-        "inferences": [],
-        "conclusions": []
+        "claims": [
+          {"id":"p1","quote":"A more than two year legal battle by Greenpeace Australia Pacific has revealed details of how dangerous and risky drilling by any oil company would be in the Great Australian Bight and how difficult it would be to respond in the event of an accident."},
+          {"id":"p2","quote":"Greenpeace has obtained BP’s 2016 Well Operations Management Plan which outlines the measures employed to prevent and respond to an oil spill in the Bight after lodging a freedom of information request with the national offshore oil regulator, NOPSEMA, in August 2016."},
+          {"id":"p3","quote":"And it’s every bit as bad as predicted."},
+          {"id":"p4","quote":"They paint a picture of a company repeatedly referring to the “significant uncertainty” of the experimental project with particular concern expressed about the almost unprecedented pressures and temperatures – two factors that contribute to higher risk of an accident."},
+          {"id":"p5","quote":"It also states that equipment critical for dealing with any potential oil spills such as capping stacks and relief wells would be incredibly difficult to source and would also unable to be used almost a third of the year in the high wave conditions of the Bight."},
+          {"id":"p6","quote":"Aside from these worrying concerns the entire process also highlights the lack of transparency when it comes to oil and gas exploration and the potential impact on communities and marine ecosystems."},
+          {"id":"p7","quote":"The documents describe a spill that would potentially be so bad that scenarios are outlined where more than twice the amount of crude oil that entered the Gulf of Mexico after the Deepwater Horizon disaster would be spilled."},
+          {"id":"p8","quote":"This scenario would be one of the worst spills in human history."},
+          {"id":"p9","quote":"The management plan shows conclusively why any oil drilling in the Great Australian Bight would be far too risky for any deepwater driller to attempt with many of the mitigation measures completely ineffective in the region."},
+          {"id":"p10","quote":"The Australian government represents the people of Australia and the people of the Bight."},
+          {"id":"p11","quote":"It is up to them to stand up to these deceitful, contemptuous, and irresponsible companies and to legislate to protect the Bight forever."}
+        ],
+        "inferences": [
+          {
+            "from":["p1","p3","p4","p5","p7","p8"],
+            "to":"ic1",
+            "type":"supports",
+            "warrant":{
+              "text":"If drilling is described as dangerous and risky, involves significant uncertainty, extreme pressures and temperatures, hard-to-source and often unusable spill-response equipment, and worst-case spills could exceed Deepwater Horizon and rank among the worst in history, then drilling in the Great Australian Bight carries an extremely high and poorly controllable risk of catastrophic oil spills.",
+              "explicit":false
+            },
+            "structure":"linked",
+            "group":"g1"
+          },
+          {
+            "from":["ic1","p9"],
+            "to":"c1",
+            "type":"supports",
+            "warrant":{
+              "text":"If drilling in the Great Australian Bight carries extremely high, poorly controllable risk and the management plan itself shows it would be far too risky with ineffective mitigation, then any deepwater oil drilling there should not be attempted.",
+              "explicit":false
+            },
+            "structure":"linked",
+            "group":"g2"
+          },
+          {
+            "from":["p10"],
+            "to":"ic2",
+            "type":"supports",
+            "warrant":{
+              "text":"If the Australian government represents the people of Australia and the people of the Bight, it has a responsibility to protect them and their environment from dangerous corporate activities.",
+              "explicit":false
+            },
+            "structure":"convergent",
+            "group":"g3"
+          },
+          {
+            "from":["ic1","ic2","p11"],
+            "to":"c2",
+            "type":"supports",
+            "warrant":{
+              "text":"If drilling in the Bight is far too risky, the government has a duty to protect its people, and it is said to be up to the government to stand up to irresponsible companies, then the government should legislate to protect the Bight permanently from such drilling.",
+              "explicit":false
+            },
+            "structure":"linked",
+            "group":"g4"
+          }
+        ],
+        "conclusions": [
+          {
+            "id":"c1",
+            "quote":"",
+            "canonical":"Any deepwater oil drilling in the Great Australian Bight would be far too risky and should not be attempted"
+          },
+          {
+            "id":"c2",
+            "quote":"",
+            "canonical":"The Australian government should stand up to oil companies and legislate to protect the Great Australian Bight forever"
+          }
+        ],
+        "claims_extra": [
+          {
+            "id":"ic1",
+            "quote":"",
+            "canonical":"Drilling in the Great Australian Bight carries an extremely high and poorly controllable risk of catastrophic oil spills"
+          },
+          {
+            "id":"ic2",
+            "quote":"",
+            "canonical":"Because it represents the people of Australia and the Bight, the Australian government has a responsibility to protect them from such risky drilling"
+          }
+        ]
       }
     },
     {
       "id": "ex014",
       "text": "",
       "reasoning": {
-        "claims": [],
-        "claims_extra": [],
-        "inferences": [],
-        "conclusions": []
+        "claims": [
+          {"id":"p1","quote":"Nothing more than the future of the renewable energy revolution."},
+          {"id":"p2","quote":"As it stands Victoria is among the states leading the way in the transition from dirty fossil fuels to clean and reliable renewable energy."},
+          {"id":"p3","quote":"Victoria has the nation’s only state legislated renewable energy target, the VRET, and Premier Daniel Andrews recently announced an ambitious plan to help 650,000 homes install rooftop solar ."},
+          {"id":"p4","quote":"While far from perfect, the current trajectory for clean energy in Victoria looks bright."},
+          {"id":"p5","quote":"Renewables already provide 12 percent of the state’s energy, and that is set to increase rapidly to 40 percent by 2025 under the VRET."},
+          {"id":"p6","quote":"There’s so much at risk in this election because the renewable projects Victoria needs are being rolled out as we speak."},
+          {"id":"p7","quote":"Just last month the state held a series of reverse auctions that will generate more than 900MW of power ."},
+          {"id":"p8","quote":"Solar farms at Cohuna, Carwarp and Winton will be developed as part of the scheme, along with wind farms at Mortlake South, Berrybank and Dundonnel."},
+          {"id":"p9","quote":"The projects will create 900 jobs and produce enough electricity to power more than 645,000 homes, Mr Andrews said last month."},
+          {"id":"p10","quote":"But despite Victoria’s commitment to renewables being enshrined in law, the state actually reaching its target is no fait accompli."},
+          {"id":"p11","quote":"Worryingly for the environment, business and thousands of Victorian families, Opposition Leader Matthew Guy has pledged to dump the VRET should the Coalition prevail next month."},
+          {"id":"p12","quote":"With a slew of projects in the pipeline, any move to cut the VRET would not only jeopardise Australia’s chances of meeting its emissions targets under the Paris Agreement, but it would also precipitate widespread job losses."},
+          {"id":"p13","quote":"The implications for the planet would be disastrous, but seemingly not content with just slamming the brakes on the renewable revolution, Matthew Guy also appears to be proud to lead a party with no policy to address climate change."},
+          {"id":"p14","quote":"Activists went looking for it last month but have so far failed to turn up any evidence that Victoria’s aspiring government believes in climate change, or has a plan to do anything about it."},
+          {"id":"p15","quote":"Perhaps those activists should turn their investigative nous to the federal government, which also has no plan to address global warming."},
+          {"id":"p16","quote":"But if it sticks to its non-plans and destructive commitments vis-a-vis the VRET, it will repeat the Coalition’s folly and crab walk to electoral defeat."},
+          {"id":"p17","quote":"Australians want renewable energy and Victorian even more so."},
+          {"id":"p18","quote":"Polling Greenpeace commissioned during the heated debate over the National Energy Guarantee (NEG) found that 77 percent of Victorians want Australia to embrace a high renewable energy target to help put downward pressure on power prices."},
+          {"id":"p19","quote":"The poll also found that more than 76 percent of Victorians believe the best way for the government to ensure low cost reliable electricity supply is to invest in renewables, along with dispatchable storage solutions like batteries"},
+          {"id":"p20","quote":"and 74.5 percent of Victorian, want renewables to receive more government support than fossil fuels such as coal."},
+          {"id":"p21","quote":"Voters made their minds up about renewables a long time ago."}
+        ],
+        "inferences": [
+          {
+            "from":["p2","p3","p5","p6","p7","p8","p9","p10"],
+            "to":"ic1",
+            "type":"supports",
+            "warrant":{
+              "text":"If Victoria is leading the transition, has a legislated target, many new projects creating jobs and power, yet the target is not guaranteed, then Victoria’s promising renewable trajectory and associated benefits depend on maintaining the VRET and current projects.",
+              "explicit":false
+            },
+            "structure":"linked",
+            "group":"g1"
+          },
+          {
+            "from":["p11","p12"],
+            "to":"ic2",
+            "type":"supports",
+            "warrant":{
+              "text":"If the Opposition pledges to dump the VRET and any move to cut it would jeopardise emissions targets and cause job losses, then cutting or dumping the VRET would endanger emissions goals, jobs, and the renewable transition.",
+              "explicit":false
+            },
+            "structure":"linked",
+            "group":"g2"
+          },
+          {
+            "from":["ic1","ic2","p1","p13","p14"],
+            "to":"c1",
+            "type":"supports",
+            "warrant":{
+              "text":"If Victoria’s renewable future and jobs depend on the VRET, cutting it would jeopardise climate and employment outcomes, and the Coalition has no climate policy while leading a party braking the renewable revolution, then the election outcome and the Coalition’s stance put the future of Victoria’s renewable energy revolution and climate leadership at serious risk.",
+              "explicit":false
+            },
+            "structure":"linked",
+            "group":"g3"
+          },
+          {
+            "from":["p17","p18","p19","p20","p21"],
+            "to":"ic3",
+            "type":"supports",
+            "warrant":{
+              "text":"If large majorities of Victorians want a high renewable target, see renewables plus storage as the best way to ensure reliable low-cost power, and want more support for renewables than for fossil fuels, then Victorians strongly support ambitious renewable energy policies.",
+              "explicit":false
+            },
+            "structure":"linked",
+            "group":"g4"
+          },
+          {
+            "from":["ic3","p16"],
+            "to":"c2",
+            "type":"supports",
+            "warrant":{
+              "text":"If Victorians strongly support ambitious renewables and the Coalition plans to keep non-plans and destructive commitments on the VRET despite by-election warnings, then maintaining that stance is politically self-destructive and risks electoral defeat.",
+              "explicit":false
+            },
+            "structure":"linked",
+            "group":"g5"
+          }
+        ],
+        "conclusions": [
+          {
+            "id":"c1",
+            "quote":"",
+            "canonical":"The Victorian election will decide whether the state’s promising renewable energy transition and associated climate and job benefits are protected or undermined by the Coalition’s anti-VRET, no-climate-policy stance"
+          },
+          {
+            "id":"c2",
+            "quote":"",
+            "canonical":"Given strong public support for renewables, the Victorian Coalition’s hostility to the VRET and lack of climate policy risks leading it to electoral defeat"
+          }
+        ],
+        "claims_extra": [
+          {
+            "id":"ic1",
+            "quote":"",
+            "canonical":"Victoria’s promising renewable energy trajectory and related jobs and benefits depend on maintaining the VRET and the current rollout of projects"
+          },
+          {
+            "id":"ic2",
+            "quote":"",
+            "canonical":"Cutting or dumping the VRET would endanger emissions targets, jobs and Victoria’s renewable transition"
+          },
+          {
+            "id":"ic3",
+            "quote":"",
+            "canonical":"Victorians strongly support ambitious renewable energy targets and greater support for renewables than for fossil fuels"
+          }
+        ]
       }
     },
     {
       "id": "ex015",
       "text": "",
       "reasoning": {
-        "claims": [],
-        "claims_extra": [],
-        "inferences": [],
-        "conclusions": []
+        "claims": [
+          {"id":"p1","quote":"It’s time for rich and high polluting countries to step up their efforts and take real action on climate change as world leaders head to the United Nations climate change conference – COP24 – in Katowice in a few days’ time."},
+          {"id":"p2","quote":"The urgent need for world leaders to commit to a plan that will save us from the catastrophic impacts of global warming was demonstrated last week, by nations on the frontlines of climate change."},
+          {"id":"p3","quote":"The Marshall Islands hosted a world-first, “Virtual Climate Summit”, as chair of the Climate Vulnerable Forum (CVF)."},
+          {"id":"p4","quote":"The online summit was complemented by offline activities, celebrating the Marshallese culture and resilience to climate change, as well as, solidarity actions held in Fiji and Vanuatu by the Pacific Island Represent network."},
+          {"id":"p5","quote":"The message from this inaugural event was that for the vulnerable countries to survive and thrive, the world needs to act with urgency and rapidly transition away for fossil fuels to have a genuine chance of stopping global temperature rise above 1.5 degrees Celsius."},
+          {"id":"p6","quote":"The summit signalled that the countries most impacted by climate change have taken it upon themselves to inspire the leadership needed from those who continue to profit from the destruction of the planet."},
+          {"id":"p7","quote":"At the end of the online summit, CVF members adopted the Jummemj declaration, which draws its name from a Marshallese word of seafaring origin signifying a call to action of vigilance, keeping watch against threats."},
+          {"id":"p8","quote":"“We urge COP24 to act on the findings of the IPCC Special Report on 1.5°C, as informed by the Talanoa Dialogue, sending a strong signal for all nations, and non-state actors, to contribute to the generation of new ambition, for the enhancement of all nationally determined contributions to the global response to climate change (NDCs) by 2020,” the declaration reads."},
+          {"id":"p9","quote":"But the declaration goes further than just calling on bigger nations step up their climate action."},
+          {"id":"p10","quote":"It outlines plans by the CVF members themselves to raise their own Nationally Determined Contributions (NDCs) by 2020 at the latest, as well as a call for urgent action to increase flows of international climate finance and to all nations, state governments and businesses, to achieve the goals set out in the Paris Agreement."},
+          {"id":"p11","quote":"During the UN Climate Week in September, the Marshall Islands president, Dr Hilda Heine, announced her country’s plans to become carbon neutral by 2050, making the island nation the first to do so."},
+          {"id":"p12","quote":"The Fijian prime minister had also announced at the same meeting that his country will announce their long-term strategy to go carbon neutral at the Conference of Parties (COP24) in Poland."},
+          {"id":"p13","quote":"Vanuatu has become the first nation state to announce its plans to pursue legal action against the corporations and countries that benefit from the planet’s destruction."},
+          {"id":"p14","quote":"The Melanesian island nation is home to some 260,000 people but their moral compass is far greater than big polluters like the U.S, Germany and even their coal-loving neighbour Australia."},
+          {"id":"p15","quote":"Vanuatu’s Foreign Affairs Minister, Ralph Regenvanu, has put the fossil fuel industry and the states that give it life on notice."},
+          {"id":"p16","quote":"“ My government is now exploring all avenues to utilise the judicial system in various jurisdictions – including under international law – to shift the costs of climate protection back onto the fossil fuel companies, the financial institutions and the governments that actively and knowingly created this existential threat to Vanuatu,” Ragenvanu announced at the CVF Summit."},
+          {"id":"p17","quote":"Vanuatu’s pursuits will only inspire other vulnerable nations to hold those who are responsible for climate change."},
+          {"id":"p18","quote":"For the Pacific and other vulnerable countries, the climate fight is about hope – for their people, their cultures, their land and everything that they identify with and what makes them unique."},
+          {"id":"p19","quote":"It’s not too late if the rich nations show the same commitment that the developing nations have shown to address an issue that they are responsible for."}
+        ],
+        "inferences": [
+          {
+            "from":["p2","p5"],
+            "to":"ic1",
+            "type":"supports",
+            "warrant":{
+              "text":"If frontline nations demonstrate that for vulnerable countries to survive and thrive the world must act urgently and rapidly transition away from fossil fuels to keep warming below 1.5°C, then survival and thriving require such an urgent fossil-fuel phase-out.",
+              "explicit":false
+            },
+            "structure":"linked",
+            "group":"g1"
+          },
+          {
+            "from":["p3","p6","p7","p8","p10","p11","p12","p13","p16","p17"],
+            "to":"ic2",
+            "type":"supports",
+            "warrant":{
+              "text":"If vulnerable countries host summits, adopt declarations calling for greater ambition and finance, commit to carbon neutrality, and pursue legal action that aims to shift costs onto responsible actors while inspiring others, then they are providing moral and political leadership by raising ambition and seeking accountability.",
+              "explicit":false
+            },
+            "structure":"linked",
+            "group":"g2"
+          },
+          {
+            "from":["p13","p15","p16","p14"],
+            "to":"ic3",
+            "type":"supports",
+            "warrant":{
+              "text":"If Vanuatu, despite its small size, announces legal action, puts fossil fuel industries and enabling states on notice, and seeks to shift climate protection costs onto those who knowingly created the threat, then those who profit from and created the problem are treated as the actors who should bear the costs and moral responsibility.",
+              "explicit":false
+            },
+            "structure":"linked",
+            "group":"g3"
+          },
+          {
+            "from":["ic1","ic2","ic3","p1","p19"],
+            "to":"c1",
+            "type":"supports",
+            "warrant":{
+              "text":"If survival requires urgent fossil-fuel phase-out, vulnerable nations are already leading and demanding responsibility from those who caused the problem, and rich high-polluting countries have yet to show similar commitment but still could, then rich and high polluting countries must urgently step up and take real action matching that leadership.",
+              "explicit":false
+            },
+            "structure":"linked",
+            "group":"g4"
+          },
+          {
+            "from":["ic2","ic3","p17","p18"],
+            "to":"c2",
+            "type":"supports",
+            "warrant":{
+              "text":"If vulnerable nations frame the climate fight as a matter of hope for their people and cultures, lead with higher ambition and legal strategies, and aim to inspire others to hold responsible actors to account, then they are driving greater ambition and legal accountability, putting moral and political pressure on big polluters to accept responsibility and costs.",
+              "explicit":false
+            },
+            "structure":"linked",
+            "group":"g5"
+          }
+        ],
+        "conclusions": [
+          {
+            "id":"c1",
+            "quote":"",
+            "canonical":"Rich and high polluting countries must urgently step up and match the leadership and ambition of vulnerable nations on climate action"
+          },
+          {
+            "id":"c2",
+            "quote":"",
+            "canonical":"Vulnerable frontline countries are driving greater ambition and legal accountability, putting moral and political pressure on big polluters to accept responsibility and costs"
+          }
+        ],
+        "claims_extra": [
+          {
+            "id":"ic1",
+            "quote":"",
+            "canonical":"For vulnerable countries to survive and thrive, the world must urgently transition away from fossil fuels to keep warming below 1.5°C"
+          },
+          {
+            "id":"ic2",
+            "quote":"",
+            "canonical":"Vulnerable countries are providing moral and political climate leadership by raising ambition, committing to carbon neutrality and pursuing legal action"
+          },
+          {
+            "id":"ic3",
+            "quote":"",
+            "canonical":"Those who profit from fossil fuels and created the climate threat should bear the costs of climate protection and are morally responsible"
+          }
+        ]
       }
     },
     {
       "id": "ex016",
       "text": "",
       "reasoning": {
-        "claims": [],
-        "claims_extra": [],
-        "inferences": [],
-        "conclusions": []
+        "claims": [
+          {"id":"p1","quote":"All we got from the G8 was hot air."},
+          {"id":"p2","quote":"Climate change is a global emergency and it requires a global response."},
+          {"id":"p3","quote":"The Kyoto Protocol largely failed to cut emissions or create the transition to a low carbon economy."},
+          {"id":"p4","quote":"Copenhagen will replace Kyoto and might be the last chance to get a global treaty in time to make a difference."},
+          {"id":"p5","quote":"The G8 meeting, and the Major Economies Forum that followed, was a crucial milestone on the road to Copenhagen."},
+          {"id":"p6","quote":"The G8 and the MEF waffled their way through various statements that avoided putting any hard numbers on the table and tried to dress up old news as progress."},
+          {"id":"p7","quote":"As usual, rich (developed) countries are trying to blame less developed countries for the lack of progress."},
+          {"id":"p8","quote":"Everyone keeps on saying it is up to India and China to take action and put targets on the table."},
+          {"id":"p9","quote":"China is already starting to take steps to cut emissions but the reality is that the failure of leadership lies with the developed world who are largely responsible for causing climate change and who have the resources to drive the transformation."},
+          {"id":"p10","quote":"Despite mountains of spin, Kevin Rudd and the Australian Government are still undermining progress towards a strong treaty at Copenhagen."},
+          {"id":"p11","quote":"By putting forward a pathetically low emissions reduction target (only 5-25% cuts by 2020), Australia is sending all of the wrong signals."},
+          {"id":"p12","quote":"But perhaps more insidious is the work of our negotiating team to push for offset loopholes that would mean that even our paltry emissions target can be offset either by changing land-use practices or paying other countries to protect forests."},
+          {"id":"p13","quote":"Meanwhile, our coal industry and industrial pollution continues to grow."},
+          {"id":"p14","quote":"Kevin Rudd needs to commit to halve greenhouse pollution within the next decade, as well as putting substantial money on the table to help drive the transition to a low carbon economy in developing countries."}
+        ],
+        "inferences": [
+          {
+            "from":["p2","p3","p4","p5"],
+            "to":"ic1",
+            "type":"supports",
+            "warrant":{
+              "text":"If climate change is a global emergency, Kyoto has largely failed, Copenhagen may be the last chance, and meetings like the G8/MEF are crucial milestones, then a strong global treaty at Copenhagen is urgently needed.",
+              "explicit":false
+            },
+            "structure":"linked",
+            "group":"g1"
+          },
+          {
+            "from":["p7","p8","p9"],
+            "to":"ic2",
+            "type":"supports",
+            "warrant":{
+              "text":"If rich countries try to blame developing countries while the developed world is largely responsible for causing climate change and has the resources to drive the transformation, then developed countries should lead rather than shifting blame.",
+              "explicit":false
+            },
+            "structure":"linked",
+            "group":"g2"
+          },
+          {
+            "from":["p10","p11","p12","p13"],
+            "to":"ic3",
+            "type":"supports",
+            "warrant":{
+              "text":"If the government is undermining progress with low targets, offset loopholes, and continued pollution growth, then it is sending the wrong signals and undermining efforts for a strong treaty.",
+              "explicit":false
+            },
+            "structure":"linked",
+            "group":"g3"
+          },
+          {
+            "from":["ic1","ic2","ic3","p6","p1"],
+            "to":"c1",
+            "type":"supports",
+            "warrant":{
+              "text":"If a strong treaty is urgently needed, developed countries should lead, current actions from the G8/MEF and Australia amount to waffle and hot air, and Australian policy undermines progress, then rich developed countries including Australia are failing in climate leadership and undermining progress toward a strong Copenhagen treaty.",
+              "explicit":false
+            },
+            "structure":"linked",
+            "group":"g4"
+          },
+          {
+            "from":["ic3","p14"],
+            "to":"c2",
+            "type":"supports",
+            "warrant":{
+              "text":"If current Australian policy undermines progress and sends the wrong signals, and there is a call for halving pollution and providing substantial finance, then Kevin Rudd and the Australian Government should commit to deep cuts and climate finance.",
+              "explicit":false
+            },
+            "structure":"linked",
+            "group":"g5"
+          }
+        ],
+        "conclusions": [
+          {"id":"c1","quote":"","canonical":"Rich developed countries, including Australia, are failing in climate leadership and undermining progress toward a strong Copenhagen treaty"},
+          {"id":"c2","quote":"","canonical":"Kevin Rudd and the Australian Government should commit to halving greenhouse pollution within the next decade and provide substantial climate finance to help developing countries transition to a low carbon economy"}
+        ],
+        "claims_extra": [
+          {"id":"ic1","quote":"","canonical":"A strong, timely global treaty at Copenhagen is urgently needed to address the climate emergency"},
+          {"id":"ic2","quote":"","canonical":"Developed countries, who are largely responsible for climate change and have the resources, should lead rather than shifting blame to developing countries"},
+          {"id":"ic3","quote":"","canonical":"Australia’s weak targets, offset loopholes and growing pollution undermine progress and send the wrong signals for a strong treaty"}
+        ]
       }
     },
     {
       "id": "ex017",
       "text": "",
       "reasoning": {
-        "claims": [],
-        "claims_extra": [],
-        "inferences": [],
-        "conclusions": []
+        "claims": [
+          {"id":"p1","quote":"You will not find any reference to them in review articles, books or IPCC reports."},
+          {"id":"p2","quote":"This revealed a pattern that indicates an El Niño response to solar activity."},
+          {"id":"p3","quote":"I looked at a period when the cycle is gaining activity, which is accompanied by La Niña conditions."},
+          {"id":"p4","quote":"I used the Monte Carlo method to determine the probability that this result was random, and the answer was only 0."},
+          {"id":"p5","quote":"This means that there is a 99. 3% chance that the La Niña conditions at this time in the solar cycle are due to the Sun."},
+          {"id":"p6","quote":"What is observed is that the Neutral condition years follow the solar cycle in their frequency with a delay of one or two years."},
+          {"id":"p7","quote":"Surprisingly, the frequency of La Niña is the opposite of Neutral."},
+          {"id":"p8","quote":"The solar activity determines whether it is a La Niña year or a Neutral year."},
+          {"id":"p9","quote":"El Niño seems to have another cause, which could be the amount of heat accumulated in the ocean."},
+          {"id":"p10","quote":"It is striking that with so much evidence and studies, the vast majority of scientists do not know that the Sun controls the very important El Niño phenomenon."},
+          {"id":"p11","quote":"But El Niño is a product of the action of the trade winds over the equatorial Pacific."},
+          {"id":"p12","quote":"To control El Niño, the Sun must control the atmospheric circulation."}
+        ],
+        "inferences": [
+          {
+            "from":["p2","p3","p5"],
+            "to":"ic1",
+            "type":"supports",
+            "warrant":{
+              "text":"If a pattern indicates an El Niño response to solar activity and La Niña conditions at a certain solar phase are 99.3% likely due to the Sun, then solar activity strongly influences La Niña occurrence.",
+              "explicit":false
+            },
+            "structure":"linked",
+            "group":"g1"
+          },
+          {
+            "from":["p6","p7","p8"],
+            "to":"ic1",
+            "type":"supports",
+            "warrant":{
+              "text":"If Neutral years follow the solar cycle, La Niña frequency is opposite to Neutral, and solar activity determines whether a year is La Niña or Neutral, then solar activity modulates whether ENSO is in a La Niña or Neutral phase.",
+              "explicit":false
+            },
+            "structure":"linked",
+            "group":"g2"
+          },
+          {
+            "from":["ic1","p9","p11","p12"],
+            "to":"c1",
+            "type":"supports",
+            "warrant":{
+              "text":"If solar activity determines La Niña versus Neutral phases, El Niño arises from trade winds and ocean heat, and controlling El Niño requires controlling atmospheric circulation, then the Sun controls the El Niño phenomenon by controlling atmospheric circulation.",
+              "explicit":false
+            },
+            "structure":"linked",
+            "group":"g3"
+          },
+          {
+            "from":["p1","p10"],
+            "to":"c2",
+            "type":"supports",
+            "warrant":{
+              "text":"If there are no references in reviews, books or IPCC reports and most scientists do not know that the Sun controls El Niño, then this evidence of solar control of El Niño is largely unrecognized in mainstream climate science.",
+              "explicit":false
+            },
+            "structure":"linked",
+            "group":"g4"
+          }
+        ],
+        "conclusions": [
+          {"id":"c1","quote":"","canonical":"The Sun controls the El Niño phenomenon by controlling atmospheric circulation"},
+          {"id":"c2","quote":"","canonical":"Evidence that the Sun controls El Niño is largely unknown to most scientists and absent from major reviews and IPCC reports"}
+        ],
+        "claims_extra": [
+          {"id":"ic1","quote":"","canonical":"Solar activity strongly influences whether the ENSO state is La Niña or Neutral"}
+        ]
       }
     },
     {
       "id": "ex018",
       "text": "",
       "reasoning": {
-        "claims": [],
-        "claims_extra": [],
-        "inferences": [],
-        "conclusions": []
+        "claims": [
+          {"id":"p1","quote":"Most of the Sun’s energy reaches the surface of the planet."},
+          {"id":"p2","quote":"If this energy increases by 0. 1%, then every point on the surface receives 0."},
+          {"id":"p3","quote":"One would expect this to cause a small overall warming, estimated by scientists to be two hundredths of a degree Celsius, which is undetectable."},
+          {"id":"p4","quote":"But that is not what is being observed."},
+          {"id":"p5","quote":"Several studies show that over the solar cycle, the surface is warming times more than expected, C, and it is doing so in an extremely irregular way with large spatial variations."},
+          {"id":"p6","quote":"Going from a solar minimum to a solar maximum, some areas show more than 1°C of warming, while others show more than half a degree of cooling."},
+          {"id":"p7","quote":"This is not the effect you would expect."},
+          {"id":"p8","quote":"If we analyze the average for each latitude, we observe a very strong warming around N latitude."},
+          {"id":"p9","quote":"The response in this layer of the atmosphere is inverse to the response at the surface."},
+          {"id":"p10","quote":"The IPCC tells us that one of the fingerprints of warming due to our emissions is that we see warming at the surface and cooling in the stratosphere."},
+          {"id":"p11","quote":"But if the Sun also shows an inverse response between the two, then the observation is no longer evidence of guilt from emissions."},
+          {"id":"p12","quote":"Years ago, some scientists studied the rates of warming and cooling in the upper layer of the tropical oceans."},
+          {"id":"p13","quote":"They found that it follows a cycle similar to that of the Sun."},
+          {"id":"p14","quote":"Instead of thinking that this supported an indirect effect of the Sun on climate, most scientists ignored the study."}
+        ],
+        "inferences": [
+          {
+            "from":["p3","p4","p5","p6"],
+            "to":"ic1",
+            "type":"supports",
+            "warrant":{
+              "text":"If theory predicts only a small, undetectable uniform warming but observations show much larger and spatially irregular warming over the solar cycle, then the observed surface response is much larger and more complex than simple energy-based expectations.",
+              "explicit":false
+            },
+            "structure":"linked",
+            "group":"g1"
+          },
+          {
+            "from":["p9"],
+            "to":"ic2",
+            "type":"supports",
+            "warrant":{
+              "text":"If the stratosphere responds inversely to the surface during solar changes, then the Sun produces an inverse surface–stratosphere pattern.",
+              "explicit":false
+            },
+            "structure":"convergent",
+            "group":"g2"
+          },
+          {
+            "from":["p10","p11","ic2"],
+            "to":"c1",
+            "type":"supports",
+            "warrant":{
+              "text":"If a surface-warming/stratosphere-cooling pattern is treated as a fingerprint of emissions but the Sun can produce the same inverse pattern, then that pattern is no longer unique evidence of guilt from emissions.",
+              "explicit":false
+            },
+            "structure":"linked",
+            "group":"g3"
+          },
+          {
+            "from":["p12","p13"],
+            "to":"ic3",
+            "type":"supports",
+            "warrant":{
+              "text":"If tropical upper-ocean warming and cooling rates follow a cycle similar to that of the Sun, this supports an indirect effect of the Sun on climate.",
+              "explicit":false
+            },
+            "structure":"linked",
+            "group":"g4"
+          },
+          {
+            "from":["ic3","p14"],
+            "to":"c2",
+            "type":"supports",
+            "warrant":{
+              "text":"If there is evidence for an indirect solar effect on climate and most scientists ignore the supporting study, then evidence for indirect solar influences on climate is being neglected.",
+              "explicit":false
+            },
+            "structure":"linked",
+            "group":"g5"
+          }
+        ],
+        "conclusions": [
+          {"id":"c1","quote":"","canonical":"The observed surface–stratosphere pattern cannot be treated as unique evidence that emissions are responsible for warming"},
+          {"id":"c2","quote":"","canonical":"Evidence for indirect solar influences on climate is being neglected by most scientists"}
+        ],
+        "claims_extra": [
+          {"id":"ic1","quote":"","canonical":"The observed surface temperature response to the solar cycle is much larger and more spatially variable than simple energy-based expectations predict"},
+          {"id":"ic2","quote":"","canonical":"Solar variability can produce an inverse surface–stratosphere response pattern"},
+          {"id":"ic3","quote":"","canonical":"The tropical upper-ocean heat storage cycle provides evidence for an indirect solar effect on climate"}
+        ]
       }
     },
     {
       "id": "ex019",
       "text": "",
       "reasoning": {
-        "claims": [],
-        "claims_extra": [],
-        "inferences": [],
-        "conclusions": []
+        "claims": [
+          {"id":"p1","quote":"The effect of the Sun on climate has been debated for."},
+          {"id":"p2","quote":"The basic problem is that when we study the past, we observe strong climatic changes associated with prolonged periods of low solar activity, but when we observe the present, we are able to detect only small effects due to the solar cycle."},
+          {"id":"p3","quote":"There are several possible explanations for this discrepancy."},
+          {"id":"p4","quote":"But the main question is how the Sun affects climate."},
+          {"id":"p5","quote":"In its , the IPCC used climate models to calculate the Sun’s contribution to warming."},
+          {"id":"p6","quote":"These models only take into account changes in the total energy coming from the Sun, which is known to vary by only 0."},
+          {"id":"p7","quote":"Therefore, the IPCC’s answer is that the Sun has contributed nothing to the warming."},
+          {"id":"p8","quote":"The IPCC is ignoring a large body of evidence that the Sun affects climate in ways that cannot be explained by these energy changes alone."}
+        ],
+        "inferences": [
+          {
+            "from":["p5","p6","p7"],
+            "to":"ic1",
+            "type":"supports",
+            "warrant":{
+              "text":"If a conclusion about the Sun’s contribution is derived from models that only include small changes in total solar energy, then that conclusion is based on an incomplete representation of solar effects.",
+              "explicit":false
+            },
+            "structure":"linked",
+            "group":"g1"
+          },
+          {
+            "from":["ic1","p8"],
+            "to":"c1",
+            "type":"supports",
+            "warrant":{
+              "text":"If the IPCC uses an incomplete representation of solar effects and ignores additional evidence of solar–climate influences, its conclusion about the Sun’s contribution to warming is unreliable.",
+              "explicit":false
+            },
+            "structure":"linked",
+            "group":"g2"
+          },
+          {
+            "from":["p2","p8"],
+            "to":"c2",
+            "type":"supports",
+            "warrant":{
+              "text":"If past climate shows strong changes associated with solar variability and additional evidence indicates solar effects beyond energy changes, then the Sun has likely influenced climate more than the IPCC’s zero-contribution answer suggests.",
+              "explicit":false
+            },
+            "structure":"linked",
+            "group":"g3"
+          }
+        ],
+        "conclusions": [
+          {"id":"c1","quote":"","canonical":"The IPCC’s conclusion that the Sun has contributed nothing to recent warming is unreliable"},
+          {"id":"c2","quote":"","canonical":"The Sun likely affects climate more than is captured by IPCC assessments based only on small changes in total solar energy"}
+        ],
+        "claims_extra": [
+          {"id":"ic1","quote":"","canonical":"The IPCC’s conclusion about the Sun’s contribution to warming is based on an incomplete representation of solar effects"}
+        ]
       }
     },
     {
       "id": "ex020",
       "text": "",
       "reasoning": {
-        "claims": [],
-        "claims_extra": [],
-        "inferences": [],
-        "conclusions": []
+        "claims": [
+          {"id":"p1","quote":"An open and transparent review by experts and governments around the world is an essential part of the IPCC process, to ensure an objective and complete assessment and to reflect a diverse range of views and expertise."},
+          {"id":"p2","quote":"As a rule of thumb, the larger the pre-industrial temperature changes, the higher the natural contribution to the current warm period (CWP) will likely be, thus, reducing the CO2 climate sensitivity and the expected warming until."},
+          {"id":"p3","quote":"As part of Büntgen’s response to a question about whether his recent work would help the “climate deniers” or the “climate change proponents”, Büntgen argues that a high pre-industrial temperature variability would mean that the climate sensitivity is also high :"},
+          {"id":"p4","quote":"There is one thing that often gets taken wrong if we are reconstructing past climate and we show more natural variability."},
+          {"id":"p5","quote":"Some people, they don’t understand it fully, they would say “ah okay, you are able to show us that climate system was always varying, so where is the problem? ”"},
+          {"id":"p6","quote":"This is the wrong assumption, the assumption is that this only indicates that the climate system is very sensitive, so it’s about the sensitivity."},
+          {"id":"p7","quote":"That means even without greenhouse gases, we had these fluctuations; we had cold and warm periods."},
+          {"id":"p8","quote":"So that means the sensitivity of the system is very high, which makes the effect of greenhouse gases even bigger, right?"},
+          {"id":"p9","quote":"So I think it is exactly the counter-argument."},
+          {"id":"p10","quote":"If we are able to show that pre-industrial temperature and precipitation changes were relatively big, it only means that the additional effect of greenhouse gases will be even further a problem."}
+        ],
+        "inferences": [
+          {
+            "from":["p3","p6","p7"],
+            "to":"ic1",
+            "type":"supports",
+            "warrant":{"text":"If even without greenhouse gases the climate had large fluctuations and this is described as a matter of sensitivity, then high pre-industrial variability indicates a very sensitive climate system.","explicit":false},
+            "structure":"linked",
+            "group":"g1"
+          },
+          {
+            "from":["ic1","p8"],
+            "to":"ic2",
+            "type":"supports",
+            "warrant":{"text":"If the system is very sensitive and this makes the effect of greenhouse gases bigger, then high sensitivity means additional greenhouse gases create a larger problem.","explicit":false},
+            "structure":"linked",
+            "group":"g2"
+          },
+          {
+            "from":["ic2","p9","p10"],
+            "to":"c1",
+            "type":"supports",
+            "warrant":{"text":"If high pre-industrial variability implies high sensitivity and thus a larger greenhouse gas effect, then showing large pre-industrial variability is a counter-argument to claims that there is no problem and instead implies that greenhouse gases are an even bigger problem.","explicit":false},
+            "structure":"linked",
+            "group":"g3"
+          },
+          {
+            "from":["p2","c1"],
+            "to":"c2",
+            "type":"supports",
+            "warrant":{"text":"If the IPCC rule-of-thumb says larger pre-industrial changes reduce CO2 climate sensitivity and expected warming, while Büntgen’s reasoning says large pre-industrial variability implies high sensitivity and a bigger greenhouse gas problem, then Büntgen’s interpretation contradicts the IPCC rule-of-thumb.","explicit":false},
+            "structure":"linked",
+            "group":"g4"
+          }
+        ],
+        "conclusions": [
+          {"id":"c1","quote":"","canonical":"Evidence of large pre-industrial variability strengthens, rather than weakens, the case that greenhouse gases are a problem"},
+          {"id":"c2","quote":"","canonical":"Büntgen’s interpretation of high pre-industrial variability contradicts the IPCC rule-of-thumb about climate sensitivity and expected warming"}
+        ],
+        "claims_extra": [
+          {"id":"ic1","quote":"","canonical":"High pre-industrial temperature variability indicates that the climate system is very sensitive"},
+          {"id":"ic2","quote":"","canonical":"A very sensitive climate system makes additional greenhouse gas forcing an even bigger problem"}
+        ]
       }
     },
     {
       "id": "ex021",
       "text": "",
       "reasoning": {
-        "claims": [],
-        "claims_extra": [],
-        "inferences": [],
-        "conclusions": []
+        "claims": [
+          {"id":"p1","quote":"tree rings aren’t very good at preserving long-term temperature trends,"},
+          {"id":"p2","quote":"the signal-free procedure was created with the intention to at least partly solve this problem — to preserve medium-term (up to one century) variability in tree ring temperature reconstructions."},
+          {"id":"p3","quote":"In light of the big differences between global temperature reconstructions, one might wonder how much we can actually be certain of when it comes to past global temperatures."},
+          {"id":"p4","quote":"We argue that more proxy records are needed to accurately reconstruct first millennium CE temperature variability"},
+          {"id":"p5","quote":"All of these issues, i. the limited resolution, reduced replication, and increased dating uncertainty, affect our ability to accurately assess past temperatures and cause a blurring of the climate record back in time."},
+          {"id":"p6","quote":"Yet the circumstance that the next IPCC report will no longer include a paleoclimate chapter should not mistakenly be interpreted as evidence that natural climate variability is understood."},
+          {"id":"p7","quote":"The opposite is actually the case."},
+          {"id":"p8","quote":"And there’s disagreement in the scientific literature about how much the pre-industrial global temperature has varied since."},
+          {"id":"p9","quote":"That in itself is unfortunate, since they’re supposed to make an objective assessment of the scientific literature."},
+          {"id":"p10","quote":"The Clintel Foundation and McIntyre believe so, and I wouldn’t be surprised, either."},
+          {"id":"p11","quote":"But it’s hard to prove."},
+          {"id":"p12","quote":"An objective review is at least one of IPCC’s stated missions."}
+        ],
+        "inferences": [
+          {
+            "from":["p1","p5","p8"],
+            "to":"ic1",
+            "type":"supports",
+            "warrant":{"text":"If proxies have limited fidelity, issues blur the record, and literature disagrees on magnitudes, then certainty about past temperatures is limited.","explicit":false},
+            "structure":"linked",
+            "group":"g1"
+          },
+          {
+            "from":["p3"],
+            "to":"ic1",
+            "type":"supports",
+            "warrant":{"text":"Expressed doubt stemming from large differences among reconstructions indicates limited certainty about past temperatures.","explicit":false},
+            "structure":"convergent",
+            "group":"g2"
+          },
+          {
+            "from":["ic1","p4"],
+            "to":"c1",
+            "type":"supports",
+            "warrant":{"text":"If certainty is limited and accurate reconstruction is the goal, increasing proxy coverage is required.","explicit":false},
+            "structure":"linked",
+            "group":"g3"
+          },
+          {
+            "from":["p6","p7"],
+            "to":"c2",
+            "type":"supports",
+            "warrant":{"text":"If the absence of a chapter should not be read as mastery and the opposite is claimed, then natural variability is not understood.","explicit":false},
+            "structure":"linked",
+            "group":"g4"
+          }
+        ],
+        "conclusions": [
+          {"id":"c1","quote":"","canonical":"More proxy records are needed to accurately reconstruct first-millennium CE temperatures"},
+          {"id":"c2","quote":"","canonical":"Natural climate variability is not understood"}
+        ],
+        "claims_extra": [
+          {"id":"ic1","quote":"","canonical":"Uncertainties and data limitations make past global temperature reconstructions only weakly certain"}
+        ]
       }
     },
     {
       "id": "ex022",
       "text": "",
       "reasoning": {
-        "claims": [],
-        "claims_extra": [],
-        "inferences": [],
-        "conclusions": []
+        "claims": [
+          {"id":"p1","quote":"The issue of challenges to the IPCC consensus statement on attribution is not analogous to Galileo-like revolutionaries."},
+          {"id":"p2","quote":"Rather these challenges are associated with a concern about the oversimplification by the IPCC of a complex issue in the interests of policy making."},
+          {"id":"p3","quote":"How to reason about uncertainties in the complex climate system and its computer simulations is neither simple nor obvious."},
+          {"id":"p4","quote":"Scientific debates involve controversies over the value and importance of particular classes of evidence as well as disagreement about the appropriate logical framework for linking and assessing the evidence."},
+          {"id":"p5","quote":"The IPCC faces a daunting challenge with regards to characterizing and reasoning about uncertainty, assessing the quality of evidence, linking the evidence into arguments, identifying areas of ignorance and assessing confidence levels."},
+          {"id":"p6","quote":"An overarching concern is how the issue of climate change is framed scientifically and how judgments about confidence in complex scientific arguments are made in view of the cascade of uncertainties."},
+          {"id":"p7","quote":"Given the complexity of the climate problem, ‘expert judgments’ about uncertainty and confidence levels are made by the IPCC on issues that are dominated by unquantifiable uncertainties."},
+          {"id":"p8","quote":"It is difficult to avoid concluding that the IPCC consensus is manufactured and that the existence of this consensus does not lend intellectual substance to their conclusions."}
+        ],
+        "inferences": [
+          {
+            "from":["p3","p4","p6"],
+            "to":"ic1",
+            "type":"supports",
+            "warrant":{"text":"If uncertainties are complex and debates disagree over evidence and logic, then reasoning about the issue is complex and contested.","explicit":false},
+            "structure":"linked",
+            "group":"g1"
+          },
+          {
+            "from":["p2","ic1"],
+            "to":"c1",
+            "type":"supports",
+            "warrant":{"text":"If a complex, contested issue is oversimplified for policy, the resulting consensus is constructed rather than organically emergent.","explicit":false},
+            "structure":"linked",
+            "group":"g2"
+          },
+          {
+            "from":["p5","p7"],
+            "to":"c1",
+            "type":"supports",
+            "warrant":{"text":"If conclusions rest on expert judgments under unquantifiable uncertainties amid acknowledged difficulty, the consensus reflects judgment calls rather than settled knowledge.","explicit":false},
+            "structure":"linked",
+            "group":"g3"
+          },
+          {
+            "from":["p8"],
+            "to":"c1",
+            "type":"supports",
+            "warrant":{"text":"An explicit statement that it is difficult to avoid concluding the consensus is manufactured supports that conclusion.","explicit":false},
+            "structure":"convergent",
+            "group":"g4"
+          },
+          {
+            "from":["ic1","p5"],
+            "to":"c2",
+            "type":"supports",
+            "warrant":{"text":"If reasoning is complex and the institution faces a daunting uncertainty task, mere consensus does not add intellectual substance to conclusions.","explicit":false},
+            "structure":"linked",
+            "group":"g5"
+          },
+          {
+            "from":["p1"],
+            "to":"c2",
+            "type":"supports",
+            "warrant":{"text":"If challenges are not mere Galileo-style crankery, then the existence of consensus alone does not confer intellectual weight on the conclusions.","explicit":false},
+            "structure":"convergent",
+            "group":"g6"
+          },
+          {
+            "from":["p7"],
+            "to":"c2",
+            "type":"supports",
+            "warrant":{"text":"Where judgments are dominated by unquantifiable uncertainties, consensus signals agreement not additional evidential substance.","explicit":false},
+            "structure":"convergent",
+            "group":"g7"
+          }
+        ],
+        "conclusions": [
+          {"id":"c1","quote":"","canonical":"The IPCC consensus is manufactured"},
+          {"id":"c2","quote":"","canonical":"The existence of the IPCC consensus does not lend intellectual substance to the IPCC’s conclusions"}
+        ],
+        "claims_extra": [
+          {"id":"ic1","quote":"","canonical":"Reasoning about climate uncertainty and evidential linking is complex and contested"}
+        ]
       }
     },
     {
       "id": "ex023",
       "text": "",
       "reasoning": {
-        "claims": [],
-        "claims_extra": [],
-        "inferences": [],
-        "conclusions": []
+        "claims": [
+          {"id":"p1","quote":"Making the video was like a deep meditation on the subject of plastic pollution, and we learned some things ourselves as well."},
+          {"id":"p2","quote":"We were already shopping consciously, bringing our own bags, carrying our own water bottles, but we now carry our own utensils in our bags everywhere."},
+          {"id":"p3","quote":"We also became much more aware of how waste and plastics are disposed of and how little we actually recycle."},
+          {"id":"p4","quote":"With this newly learned knowledge we now try to bring awareness to people around us and encourage them to become involved too, in solving this massive problem."},
+          {"id":"p5","quote":"It’s the governments and big corporations that have made it hard for us to live without single-use plastics, such as food packaging, but we are all responsible."},
+          {"id":"p6","quote":"I think it’s more important to try to avoid using single-use plastics than assume that they’ll get recycled once thrown away."},
+          {"id":"p7","quote":"We’ve passed the point of being able to do much about most of the plastic already present in the ocean."},
+          {"id":"p8","quote":"The best thing that people can do is just to try to not make the problem worse."}
+        ],
+        "inferences": [
+          {
+            "from":["p6","p7"],
+            "to":"ic1",
+            "type":"supports",
+            "warrant":{"text":"If most ocean plastic cannot be remediated and avoidance reduces new inputs, then avoiding single-use plastics is the effective lever now.","explicit":false},
+            "structure":"linked",
+            "group":"g1"
+          },
+          {
+            "from":["ic1","p8"],
+            "to":"c1",
+            "type":"supports",
+            "warrant":{"text":"If the effective lever is to avoid new single-use plastics and the best action is to not make the problem worse, then people should avoid single-use plastics to prevent worsening.","explicit":false},
+            "structure":"linked",
+            "group":"g2"
+          },
+          {
+            "from":["p5"],
+            "to":"c2",
+            "type":"supports",
+            "warrant":{"text":"If systemic actors make avoidance hard but responsibility is still shared, then responsibility for mitigation is shared despite barriers.","explicit":false},
+            "structure":"convergent",
+            "group":"g3"
+          }
+        ],
+        "conclusions": [
+          {"id":"c1","quote":"","canonical":"People should avoid using single-use plastics to avoid making ocean plastic pollution worse"},
+          {"id":"c2","quote":"","canonical":"Responsibility for addressing plastic pollution is shared despite systemic barriers"}
+        ],
+        "claims_extra": [
+          {"id":"ic1","quote":"","canonical":"Avoiding new single-use plastics is the primary effective lever individuals have now"}
+        ]
       }
     },
     {
       "id": "ex024",
       "text": "",
       "reasoning": {
-        "claims": [],
-        "claims_extra": [],
-        "inferences": [],
-        "conclusions": []
+        "claims": [
+          {"id":"p1","quote":"Which brings us to Michael Mann, the fake Nobel laureate currently suing NATIONAL REVIEW for mocking his global-warming “hockey stick. ”"},
+          {"id":"p2","quote":"Of the recent congressional hearings, Dr. Mann tweeted that it was “#Science” — i. the guy who agrees with him — vs. “#AntiScience” — i. Judith Curry, chair of the School of Earth and Atmospheric Sciences at the Georgia Institute of Technology."},
+          {"id":"p3","quote":"That’s to say, she is by profession a scientist, but because she has the impertinence to dissent from Dr. Mann’s view she is “#AntiScience. ”"},
+          {"id":"p4","quote":"He can’t refute Dr. Curry, he can only label her."},
+          {"id":"p5","quote":"He explains his aversion to appearing with anyone other than fawning groupies thus: “Getting on a debate stage signals that, while you might disagree, you respect the position of your opponent. ”"},
+          {"id":"p6","quote":"That’s why he’s suing me over a pun (“tree-ring circus”), why he threatened legal action in Minnesota over a song parody, and why he’s in court in Vancouver objecting to a bit of wordplay."},
+          {"id":"p7","quote":"Steyn’s relentless hammering of Mann seems to be doing far more damage to Mann’s reputation that the alleged legal defamation."}
+        ],
+        "inferences": [
+          {
+            "from":["p2","p3","p4"],
+            "to":"ic1",
+            "type":"supports",
+            "warrant":{"text":"Labeling a dissenting scientist as #AntiScience rather than addressing arguments indicates avoidance of debate.","explicit":false},
+            "structure":"linked",
+            "group":"g1"
+          },
+          {
+            "from":["p5"],
+            "to":"ic1",
+            "type":"supports",
+            "warrant":{"text":"Refusing to share a stage on the grounds that it signals respect suggests a preference to avoid genuine debate.","explicit":false},
+            "structure":"convergent",
+            "group":"g2"
+          },
+          {
+            "from":["p6"],
+            "to":"ic1",
+            "type":"supports",
+            "warrant":{"text":"Using legal actions over speech acts as a substitute for argument indicates avoidance of debate.","explicit":false},
+            "structure":"convergent",
+            "group":"g3"
+          },
+          {
+            "from":["ic1"],
+            "to":"c1",
+            "type":"supports",
+            "warrant":{"text":"If someone avoids debate and relies on labeling or legal threats, they are not engaging in genuine debate.","explicit":false},
+            "structure":"convergent",
+            "group":"g4"
+          },
+          {
+            "from":["p7"],
+            "to":"c2",
+            "type":"supports",
+            "warrant":{"text":"If one line of criticism causes greater reputational harm than alleged defamation, then that criticism is the more significant reputational driver.","explicit":false},
+            "structure":"convergent",
+            "group":"g5"
+          }
+        ],
+        "conclusions": [
+          {"id":"c1","quote":"","canonical":"Michael Mann avoids genuine debate and resorts to labeling or legal threats"},
+          {"id":"c2","quote":"","canonical":"Steyn’s criticism is causing more damage to Mann’s reputation than the alleged legal defamation"}
+        ],
+        "claims_extra": [
+          {"id":"ic1","quote":"","canonical":"Replacing engagement with labeling and legal threats indicates avoidance of genuine debate"}
+        ]
       }
     },
     {
       "id": "ex025",
       "text": "",
       "reasoning": {
-        "claims": [],
-        "claims_extra": [],
-        "inferences": [],
-        "conclusions": []
+        "claims": [
+          {"id":"p1","quote":"These bills arrive at a time when public trust in Australian democracy is in precipitous decline."},
+          {"id":"p2","quote":"Rather than tackling issues that actually concern the Australian public–like excessive corporate influence over our political system–the Government has tabled draconian laws that it hopes will silence its critics."},
+          {"id":"p3","quote":"The importance of NGOs, and their ability to advocate, to the proper functioning of democracy cannot be overstated."},
+          {"id":"p4","quote":"Advocacy ensures that a diverse range of views and voices is represented in policy debate."},
+          {"id":"p5","quote":"While Greenpeace Australia Pacific supporters can be assured that we always speak up for what is right, regardless of the consequences, we are concerned that some charities, particularly smaller ones, may be deterred by these bills from doing so."},
+          {"id":"p6","quote":"Hard right MPs, backed by faceless mining companies, are doing this because they’re afraid of you."},
+          {"id":"p7","quote":"They’re afraid of you because you got every major Australian bank to rule out funding new coal mines , you got BP and Chevron to drop their plans to drill for oil in the Great Australian Bight , and you kicked supertrawlers out of Australian waters ."}
+        ],
+        "inferences": [
+          {
+            "from":["p3","p4"],
+            "to":"ic1",
+            "type":"supports",
+            "warrant":{"text":"If NGO advocacy is crucial to proper democratic functioning and ensures diverse voices in debate, then reducing advocacy undermines democratic deliberation.","explicit":false},
+            "structure":"linked",
+            "group":"g1"
+          },
+          {
+            "from":["p5","ic1"],
+            "to":"c1",
+            "type":"supports",
+            "warrant":{"text":"If bills deter charities from advocacy and advocacy is essential to democratic deliberation, then the bills harm democratic debate.","explicit":false},
+            "structure":"linked",
+            "group":"g2"
+          },
+          {
+            "from":["p2"],
+            "to":"c1",
+            "type":"supports",
+            "warrant":{"text":"Laws intended to silence critics suppress advocacy and thereby weaken democratic debate.","explicit":false},
+            "structure":"convergent",
+            "group":"g3"
+          },
+          {
+            "from":["p7"],
+            "to":"p6",
+            "type":"supports",
+            "warrant":{"text":"Because the text explicitly states the reasons (‘because’)—successful public actions—these serve as evidence for the claim that MPs are afraid.","explicit":true},
+            "structure":"convergent",
+            "group":"g4"
+          },
+          {
+            "from":["p6","p2"],
+            "to":"c2",
+            "type":"supports",
+            "warrant":{"text":"If actors are afraid of effective public advocacy and they advance laws intended to silence critics, then they are acting to suppress effective public advocacy.","explicit":false},
+            "structure":"linked",
+            "group":"g5"
+          }
+        ],
+        "conclusions": [
+          {"id":"c1","quote":"","canonical":"These bills undermine democratic debate by suppressing or deterring advocacy"},
+          {"id":"c2","quote":"","canonical":"Hard right MPs backed by mining companies are acting to suppress effective public advocacy"}
+        ],
+        "claims_extra": [
+          {"id":"ic1","quote":"","canonical":"Silencing or deterring NGO advocacy undermines democratic deliberation"}
+        ]
       }
     },
     {
       "id": "ex026",
       "text": "",
       "reasoning": {
-        "claims": [],
-        "claims_extra": [],
-        "inferences": [],
-        "conclusions": []
+        "claims": [
+          {"id":"p1","quote":"Ms Stephan calls Schellnhuber’s type of climate activism an attempt at creating an “above the law state of emergency”"},
+          {"id":"p2","quote":"a new climate religion operated by “high priests”"},
+          {"id":"p3","quote":"The new religion promises the Last Judgement already today – that is we endeavour one last huge and dramatic effort to save humanity from a well-deserved downfall."},
+          {"id":"p4","quote":"As is the case with other religions, the best is repentance, humility and self-restriction – preferably through emission payments without end."},
+          {"id":"p5","quote":"Stephan writes that the new climate religion fills a void left behind by other religions, and tells us to feel guilty about prosperity."},
+          {"id":"p6","quote":"Eventually, we fear, we’ll have to pay the price for our prosperity – be it to God or Nature, – with Biblical plagues such as storms, huge tidal waves, floods, fire-spewing volcanoes, in short: death and demons”."},
+          {"id":"p7","quote":"The new priests who proclaim these scenarios have attracted billions of followers with their announcements of world downfall."},
+          {"id":"p8","quote":"And, like all other prophets, they do not tolerate any doubts about their predictions."},
+          {"id":"p9","quote":"Those who dare express doubt are nothing more than egotistical wretches, appeasers and trivializers, block-headed deniers or worse, or to the least paid agents of evil."},
+          {"id":"p10","quote":"it’s only logical that the obstacles that prevent necessary action, like democracy, be removed and replaced globally by an “authoritarian regime of experts”."},
+          {"id":"p11","quote":"The “projected global downfall is the state-of-emergency that justifies every measure and it distracts us from every other unfinished business."},
+
+          {"id":"ic1","quote":"","canonical":"The movement is quasi-religious and manipulative"},
+          {"id":"ic2","quote":"","canonical":"Emergency framing licenses above-law, anti-democratic measures"},
+
+          {"id":"c1","quote":"","canonical":"The movement is illegitimate as a guide for policy"},
+          {"id":"c2","quote":"","canonical":"The movement is authoritarian and threatens democracy"}
+        ],
+        "inferences": [
+          {
+            "from":["p2","p3","p4","p5"],
+            "to":"ic1",
+            "type":"supports",
+            "warrant":{"text":"If a movement exhibits religious features (priests, apocalyptic judgement, repentance, guilt), it is quasi-religious/manipulative.","explicit":false},
+            "structure":"linked",
+            "group":"g1"
+          },
+          {
+            "from":["ic1"],
+            "to":"c1",
+            "type":"supports",
+            "warrant":{"text":"Quasi-religious/manipulative movements are not legitimate guides for public policy.","explicit":false},
+            "structure":"convergent",
+            "group":"g2"
+          },
+          {
+            "from":["p8"],
+            "to":"c2",
+            "type":"supports",
+            "warrant":{"text":"Movements that do not tolerate doubt display authoritarian tendencies.","explicit":false},
+            "structure":"convergent",
+            "group":"g3"
+          },
+          {
+            "from":["p9"],
+            "to":"c2",
+            "type":"supports",
+            "warrant":{"text":"Stigmatizing dissenters indicates intolerance of pluralism consistent with authoritarianism.","explicit":false},
+            "structure":"convergent",
+            "group":"g4"
+          },
+          {
+            "from":["p1"],
+            "to":"ic2",
+            "type":"supports",
+            "warrant":{"text":"Creating an ‘above the law state of emergency’ implies suspending normal legal constraints.","explicit":false},
+            "structure":"convergent",
+            "group":"g5"
+          },
+          {
+            "from":["p11"],
+            "to":"ic2",
+            "type":"supports",
+            "warrant":{"text":"If a projected downfall is used as a state of emergency that ‘justifies every measure’, extraordinary above-law powers are being claimed.","explicit":false},
+            "structure":"convergent",
+            "group":"g6"
+          },
+          {
+            "from":["ic2"],
+            "to":"c2",
+            "type":"supports",
+            "warrant":{"text":"If emergency framing licenses above-law measures, the resulting governance is authoritarian and threatens democracy.","explicit":false},
+            "structure":"convergent",
+            "group":"g7"
+          },
+          {
+            "from":["p10"],
+            "to":"c2",
+            "type":"supports",
+            "warrant":{"text":"If it is ‘only logical’ to remove democratic obstacles and replace them with an authoritarian regime of experts, then the movement promotes authoritarian outcomes.","explicit":false},
+            "structure":"convergent",
+            "group":"g8"
+          },
+          {
+            "from":["p7"],
+            "to":"c1",
+            "type":"supports",
+            "warrant":{"text":"Mass followings driven by doomsday announcements suggest persuasive appeal rather than reliable policy guidance.","explicit":false},
+            "structure":"convergent",
+            "group":"g9"
+          }
+        ],
+        "conclusions": [
+          {"id":"c1","quote":"","canonical":"The movement is illegitimate as a guide for policy"},
+          {"id":"c2","quote":"","canonical":"The movement is authoritarian and threatens democracy"}
+        ]
       }
     },
     {
