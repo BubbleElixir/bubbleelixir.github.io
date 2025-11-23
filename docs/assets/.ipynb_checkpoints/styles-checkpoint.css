@@ -20,6 +20,7 @@ pre{white-space:pre-wrap;word-wrap:break-word;background:#f6f8fa;border:1px soli
 footer{color:#555;font-size:14px;padding-bottom:40px}
 .badge{display:inline-block;background:#eef6ff;color:#0a7cff;border:1px solid #cfe4ff;border-radius:999px;padding:2px 8px;font-size:12px;margin-left:6px}
 
+/* Highlighting*/
 .hl-premise {
   background: #dbeafe;        /* blue */
   padding: 2px 4px;
@@ -44,81 +45,61 @@ footer{color:#555;font-size:14px;padding-bottom:40px}
   border-radius: 4px;
 }
 
-.arg-box {
+/* Inference block: Premises → Warrant → Target */
+.inf-block {
   border: 1px solid #e5e7eb;
   border-radius: 6px;
   padding: 8px;
   margin: 8px 0;
 }
 
-.arg-header {
+.inf-label {
   font-size: 11px;
   font-weight: 600;
   color: #555;
+  margin-bottom: 2px;
+}
+
+.inf-premises {
   margin-bottom: 4px;
 }
 
-.arg-premises {
-  margin-bottom: 4px;
-}
-
-/* green plus between premises */
-.arg-premises span + span::before {
+/* green + between premises */
+.inf-premises span + span::before {
   content: " + ";
-  color: #16a34a;             /* green */
+  color: #16a34a;
   font-weight: 700;
 }
 
-.arg-warrant {
-  margin-top: 4px;
+.inf-warrant {
+  margin: 4px 0;
 }
 
-.arg-to-node {
-  margin: 4px 0 8px 2px;
-  font-size: 13px;
+.inf-arrow {
+  text-align: center;
+  font-size: 14px;
+  color: #6b7280;
+  margin: 2px 0;
 }
 
-.arg-to-node strong {
-  margin-right: 4px;
+.inf-target {
+  margin-top: 2px;
 }
 
-
-.chain-block {
-  border-left: 3px solid #e5e7eb;
-  margin: 8px 0;
-  padding-left: 8px;
-}
-
-.chain-row {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 6px;
-  align-items: flex-start;
-}
-
-.chain-arrow {
-  align-self: center;
-  margin: 0 4px;
-}
-
-.block-node {
-  max-width: 100%;
-}
-
-.block-label {
+/* between inference steps inside a chain */
+.chain-between {
+  text-align: center;
   font-size: 11px;
-  font-weight: 600;
-  margin-bottom: 2px;
-  color: #555;
+  color: #6b7280;
+  margin: 4px 0;
 }
 
-.chain-nested {
-  margin-top: 6px;
-  margin-left: 12px;
-  border-left: 2px dashed #e5e7eb;
-  padding-left: 8px;
+/* chain card wrapper (already no-select in JS) */
+.chain-card h4 {
+  margin-top: 0;
 }
 
+/* no-select still applied to reasoning cards */
 .no-select {
   -webkit-user-select: none;
   -moz-user-select: none;
@@ -126,13 +107,12 @@ footer{color:#555;font-size:14px;padding-bottom:40px}
   user-select: none;
 }
 
-/* allow normal text selection in form controls */
+/* allow selection in form controls */
 textarea, input, select, button {
   -webkit-user-select: text;
   -moz-user-select: text;
   -ms-user-select: text;
   user-select: text;
 }
-
 
 

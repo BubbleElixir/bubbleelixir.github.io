@@ -163,28 +163,39 @@ function renderExtraction(ex){
     return unique;
   }
 
-  // Render one inference as a "Box N"
-  function renderBox(inf, boxIndex) {
-    const premisesHtml = inf.from.map(pid => {
-      return `<span class="${nodeClass(pid)}">${escapeHtml(nodeText(pid))}</span>`;
-    }).join("");
+  // Render one inference as a vertical Premises ↓ Warrant ↓ Target block
+  function renderInferenceBlock(inf){
+    const premisesHtml = inf.from.map(pid => (
+      `<span class="${nodeClass(pid)}">${escapeHtml(nodeText(pid))}</span>`
+    )).join("");
 
     const warrant = inf.warrant && inf.warrant.text ? inf.warrant.text : "";
+    const toId = inf.to;
+    const toLabel = nodeLabel(toId);
+    const toCls = nodeClass(toId);
+    const toText = nodeText(toId);
 
     return `
-      <div class="arg-box">
-        <div class="arg-header">Box ${boxIndex}</div>
-        <div class="arg-premises">
+      <div class="inf-block">
+        <div class="inf-label">Premises</div>
+        <div class="inf-premises">
           ${premisesHtml}
         </div>
-        ${warrant
-          ? `<div class="arg-warrant">→ WARRANT: <span class="hl-warrant">${escapeHtml(warrant)}</span></div>`
-          : ""}
+        ${warrant ? `
+          <div class="inf-arrow">↓</div>
+          <div class="inf-label">Warrant</div>
+          <div class="inf-warrant"><span class="hl-warrant">${escapeHtml(warrant)}</span></div>
+        ` : ""}
+        <div class="inf-arrow">↓</div>
+        <div class="inf-label">${escapeHtml(toLabel)}</div>
+        <div class="inf-target">
+          <span class="${toCls}">${escapeHtml(toText)}</span>
+        </div>
       </div>
     `;
   }
 
-  // One card per conclusion, with chains laid out as sequences of boxes
+  // One card per conclusion, with "Chain N" as the only chain label
   const conclusionBlocks = conclusions.map(c => {
     const cid = c.id;
     const cText = nodeText(cid);
@@ -193,25 +204,18 @@ function renderExtraction(ex){
     const chainsHtml = chains.length === 0
       ? "<p><em>No explicit premises linked to this conclusion.</em></p>"
       : chains.map((chain, chainIdx) => {
-          const boxes = chain.map((inf, idx) => {
-            const boxHtml = renderBox(inf, idx + 1);
-            const toId = inf.to;
-            const toLabel = nodeLabel(toId);
-            const toCls = nodeClass(toId);
-            const toText = nodeText(toId);
-            return `
-              ${boxHtml}
-              <div class="arg-to-node">
-                → <strong>${escapeHtml(toLabel)}:</strong>
-                <span class="${toCls}">${escapeHtml(toText)}</span>
-              </div>
-            `;
+          const blocks = chain.map((inf, idx) => {
+            const block = renderInferenceBlock(inf);
+            const connector = idx < chain.length - 1
+              ? `<div class="chain-between">⇓ next step</div>`
+              : "";
+            return block + connector;
           }).join("");
 
           return `
-            <div class="card no-select" style="margin-top:8px;">
+            <div class="card no-select chain-card" style="margin-top:8px;">
               <h4>Chain ${chainIdx + 1}</h4>
-              ${boxes}
+              ${blocks}
             </div>
           `;
         }).join("");
@@ -236,6 +240,7 @@ function renderExtraction(ex){
     </div>
   `;
 }
+
 
 
 // DataPipe save
