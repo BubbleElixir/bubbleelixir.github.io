@@ -247,11 +247,12 @@ async function saveToOSF_DataPipe(participantId, example, payload){
 
 // ---- App ----
 async function run(){
-  const pid = requireId(); if(!pid) return;
+  const pid = requireId(); 
+  if (!pid) return;
   qs('#pid').textContent = pid;
 
   let examples = await loadExamples();
-  if(examples.length < REQUIRED_COUNT){
+  if (examples.length < REQUIRED_COUNT){
     console.warn('Fewer than REQUIRED_COUNT examples present.');
   }
   examples = examples.slice(0, Math.min(REQUIRED_COUNT, examples.length));
@@ -267,72 +268,97 @@ async function run(){
   }
 
   async function show(){
-      updateProgress();
-      if(idx >= examples.length){
-        window.location.href = 'thanks.html';
-        return;
-      }
-      const ex = examples[idx];
-      qs('#exid').textContent = ex.id;
-      qs('#content').innerHTML = renderExtraction(ex) + renderLikert('likert');
-      qs('#comment').value = '';
-    
-      // Anti-copy in reasoning area
-      const contentEl = qs('#content');
-      if (contentEl && !contentEl.dataset.anticopyBound) {
-        contentEl.addEventListener('copy', e => e.preventDefault());
-        contentEl.addEventListener('cut', e => e.preventDefault());
-        contentEl.addEventListener('contextmenu', e => e.preventDefault());
-        contentEl.dataset.anticopyBound = 'true';
-      }
+    updateProgress();
+    if (idx >= examples.length){
+      window.location.href = 'thanks.html';
+      return;
     }
+    const ex = examples[idx];
+    qs('#exid').textContent = ex.id;
+    qs('#content').innerHTML = renderExtraction(ex) + renderLikert('likert');
+    qs('#comment').value = '';
 
-qs('#next').addEventListener('click', async () => {
-  const ex = examples[idx];
-  const likert = qsa('input[name="likert"]').find(x => x.checked)?.value;
-  if(!likert){ alert('Please choose a Likert rating.'); return; }
-
-  const reasoning = ex.reasoning || ex.extraction;
-  const concIds = (reasoning.conclusions || []).map(c => c.id);
-  
-  const labels = [];
-  for(const cid of concIds){
-    const sel = qs(`select[name="cls-${cid}"]`);
-    if(!sel || !sel.value){ alert('Please label every conclusion.'); return; }
-    labels.push({conclusion_id: cid, label: sel.value});
+    // Anti-copy in reasoning area
+    const contentEl = qs('#content');
+    if (contentEl && !contentEl.dataset.anticopyBound) {
+      contentEl.addEventListener('copy', e => e.preventDefault());
+      contentEl.addEventListener('cut', e => e.preventDefault());
+      contentEl.addEventListener('contextmenu', e => e.preventDefault());
+      contentEl.dataset.anticopyBound = 'true';
+    }
   }
 
-  const payload = {
-    participant_id: pid,
-    example_id: ex.id,
-    likert_1to7: Number(likert),
-    conclusion_labels: labels,
-    comment: qs('#comment').value || "",
-    ts_client: new Date().toISOString(),
-    user_agent: navigator.userAgent,
-    version: "v1"
-  };
+  async function flushQueue(){
+    const queue = JSON.parse(localStorage.getItem('queue') || '[]');
+    if (!queue.length) return;
 
-  // advance index + UI immediately
-  done.push(ex.id);
-  localStorage.setItem('done', JSON.stringify(done));
-  idx += 1;
-  localStorage.setItem('idx', String(idx));
-  await show();
-  window.scrollTo(0, 0);
+    const remaining = [];
+    for (const item of queue){
+      try {
+        await saveToOSF_DataPipe(pid, item.ex, item.payload);
+      } catch (e) {
+        console.error('Retry failed, keeping in queue:', e);
+        remaining.push(item);
+      }
+    }
+    localStorage.setItem('queue', JSON.stringify(remaining));
+  }
 
-  // enqueue for reliability
-  const queue = JSON.parse(localStorage.getItem('queue')||'[]');
-  queue.push({ex, payload});
-  localStorage.setItem('queue', JSON.stringify(queue));
+  setInterval(flushQueue, 5000);
 
-  // fire-and-forget attempt to send now; if it fails,
-  // your setInterval(flushQueue, 5000) will retry
-  saveToOSF_DataPipe(pid, ex, payload).catch(e => {
-    console.error(e);
-    // already in queue; you could add a subtle UI flag if you want
+  qs('#next').addEventListener('click', async () => {
+    const ex = examples[idx];
+    const likert = qsa('input[name="likert"]').find(x => x.checked)?.value;
+    if (!likert){
+      alert('Please choose a Likert rating.');
+      return;
+    }
+
+    const reasoning = ex.reasoning || ex.extraction;
+    const concIds = (reasoning.conclusions || []).map(c => c.id);
+
+    const labels = [];
+    for (const cid of concIds){
+      const sel = qs(`select[name="cls-${cid}"]`);
+      if (!sel || !sel.value){
+        alert('Please label every conclusion.');
+        return;
+      }
+      labels.push({ conclusion_id: cid, label: sel.value });
+    }
+
+    const payload = {
+      participant_id: pid,
+      example_id: ex.id,
+      likert_1to7: Number(likert),
+      conclusion_labels: labels,
+      comment: qs('#comment').value || "",
+      ts_client: new Date().toISOString(),
+      user_agent: navigator.userAgent,
+      version: "v1"
+    };
+
+    // Advance index + UI immediately (fast UX)
+    done.push(ex.id);
+    localStorage.setItem('done', JSON.stringify(done));
+    idx += 1;
+    localStorage.setItem('idx', String(idx));
+
+    await show();
+    window.scrollTo(0, 0);
+
+    // Try to save now, but don't block the UI; on failure, push to queue
+    saveToOSF_DataPipe(pid, ex, payload).catch(e => {
+      console.error('Immediate save failed, queueing:', e);
+      const queue = JSON.parse(localStorage.getItem('queue') || '[]');
+      queue.push({ ex, payload });
+      localStorage.setItem('queue', JSON.stringify(queue));
+      // (optional: you could show a tiny non-blocking notice here)
+    });
   });
-});
 
+  // initial example
+  await show();
+}
 
 document.addEventListener('DOMContentLoaded', run);
