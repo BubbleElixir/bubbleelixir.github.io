@@ -65,6 +65,7 @@ function renderLikert(name){
     <small class="mono">1 = very poor, 7 = excellent</small>
   </div>`;
 }
+
 function renderExtraction(ex){
   const reasoning = ex.reasoning || ex.extraction; // backward-compat
 
@@ -216,49 +217,6 @@ function renderExtraction(ex){
         <div class="conclusion-rating">
           <h4>Which class best fits this conclusion?</h4>
           ${renderClassSelect(cid)}
-        </div>
-      </div>
-    `;
-  }).join("");
-
-  return `
-    <div class="card no-select">
-      <h3>Source Text</h3>
-      <pre>${escapeHtml(ex.text || "")}</pre>
-    </div>
-    <div class="no-select">
-      <h2>Reasoning chains by conclusion</h2>
-      ${conclusionBlocks}
-    </div>
-  `;
-}
-
-  // --- One block of "support steps" per conclusion (no repeated inferences) ---
-  const conclusionBlocks = conclusions.map(c => {
-    const cid = c.id;
-    const cText = nodeText(cid);
-    const steps = collectSupportInferences(cid);  // unique inferences, ordered
-
-    const stepsHtml = steps.length === 0
-      ? "<p><em>No explicit premises linked to this conclusion.</em></p>"
-      : steps.map((step, idx) => {
-          return `
-            <div class="card no-select chain-card" style="margin-top:8px;">
-              <h4>Step ${idx + 1}</h4>
-              ${renderInferenceBlock(step.inf)}
-            </div>
-          `;
-        }).join("");
-
-    return `
-      <div class="card no-select">
-        <h3>Conclusion ${cid}</h3>
-        <p><span class="hl-conclusion">${escapeHtml(cText)}</span></p>
-        <h4>Support steps for this conclusion</h4>
-        ${stepsHtml}
-        <div class="conclusion-rating">
-          <h4>Which class best fits this conclusion?</h4>
-          ${renderClassSelect(c)}
         </div>
       </div>
     `;
