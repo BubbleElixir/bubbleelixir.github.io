@@ -66,12 +66,18 @@ function renderLikert(name){
   const labels = [1,2,3,4,5,6,7];
   return `<div class="card">
     <h3>How good is this extraction overall?</h3>
-    <div class="scale">
-      ${labels.map(v => `<label><input type="radio" name="${name}" value="${v}"><span>${v}</span></label>`).join("")}
+    <div class="scale likert-scale">
+      ${labels.map(v => `
+        <label class="likert-option">
+          <input type="radio" name="${name}" value="${v}">
+          <span>${v}</span>
+        </label>
+      `).join("")}
     </div>
     <small class="mono">1 = very poor, 7 = excellent</small>
   </div>`;
 }
+
 function renderExtraction(ex){
   const reasoning = ex.reasoning || ex.extraction; // backward-compat
 

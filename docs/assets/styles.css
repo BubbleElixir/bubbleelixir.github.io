@@ -131,6 +131,40 @@ footer{color:#555;font-size:14px;padding-bottom:40px}
   color: #666;
 }
 
+.likert-scale {
+  display: flex;
+  gap: 0.4rem;
+  justify-content: space-between;
+  margin-top: 0.5rem;
+}
+
+.likert-option {
+  cursor: pointer;
+}
+
+.likert-option input[type="radio"] {
+  display: none; /* hide the default dot */
+}
+
+.likert-option span {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  min-width: 2.0rem;
+  min-height: 2.0rem;
+  border-radius: 4px;
+  border: 1px solid #ccc;
+  background: #f7f7f7;
+  font-size: 0.9rem;
+}
+
+.likert-option input[type="radio"]:checked + span {
+  border-color: #2563eb;   /* pick your highlight colour */
+  background: #dbeafe;
+  font-weight: 600;
+}
+
+
 .no-select {
   -webkit-user-select: none;
   -moz-user-select: none;
