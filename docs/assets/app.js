@@ -65,7 +65,6 @@ function renderLikert(name){
     <small class="mono">1 = very poor, 7 = excellent</small>
   </div>`;
 }
-
 function renderExtraction(ex){
   const reasoning = ex.reasoning || ex.extraction; // backward-compat
 
@@ -216,7 +215,7 @@ function renderExtraction(ex){
         ${stepsHtml}
         <div class="conclusion-rating">
           <h4>Which class best fits this conclusion?</h4>
-          ${renderClassSelect(cid)}
+          ${renderClassSelect(c)}
         </div>
       </div>
     `;
