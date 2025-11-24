@@ -125,7 +125,7 @@ function renderExtraction(ex){
     return "hl-conclusion";
   }
 
-  // --- Collect all support inferences for a conclusion, with depths ---
+  // Collect all supporting inferences for a conclusion, ordered by depth
   function collectSupportInferences(targetId){
     const queue = [targetId];
     const visitedNodes = new Set([targetId]);
@@ -133,7 +133,7 @@ function renderExtraction(ex){
     nodeDepth[targetId] = 0;
 
     const support = [];          // { inf, depth }
-    const seenInfs = new Set();  // identity: we just store object refs
+    const seenInfs = new Set();  // track unique inferences
 
     while (queue.length > 0) {
       const nid = queue.shift();
@@ -145,7 +145,7 @@ function renderExtraction(ex){
           const infDepth = depth + 1;
           support.push({ inf, depth: infDepth });
 
-          // follow implicit premises backwards
+          // follow implicit premises upstream
           for (const pid of inf.from) {
             if (nodeType(pid) === "implicit" && !visitedNodes.has(pid)) {
               visitedNodes.add(pid);
@@ -157,19 +157,17 @@ function renderExtraction(ex){
       }
     }
 
-    // Order: deeper (further from conclusion) first, so participants see
-    // lower-level IC steps before the final step to the conclusion.
+    // Deeper = further from conclusion → show those first
     support.sort((a, b) => b.depth - a.depth);
     return support;
   }
 
-  // --- Render one inference as Premises ↓ Warrant ↓ Target block ---
+  // Render one inference as Premises → Target (no warrant)
   function renderInferenceBlock(inf){
     const premisesHtml = inf.from.map(pid => (
       `<span class="${nodeClass(pid)}">${escapeHtml(nodeText(pid))}</span>`
     )).join("");
 
-    const warrant = inf.warrant && inf.warrant.text ? inf.warrant.text : "";
     const toId = inf.to;
     const toLabel = nodeLabel(toId);
     const toCls = nodeClass(toId);
@@ -181,12 +179,7 @@ function renderExtraction(ex){
         <div class="inf-premises">
           ${premisesHtml}
         </div>
-        ${warrant ? `
-          <div class="inf-arrow">↓</div>
-          <div class="inf-label">Warrant</div>
-          <div class="inf-warrant"><span class="hl-warrant">${escapeHtml(warrant)}</span></div>
-        ` : ""}
-        <div class="inf-arrow">↓</div>
+        <div class="inf-arrow">→</div>
         <div class="inf-label">${escapeHtml(toLabel)}</div>
         <div class="inf-target">
           <span class="${toCls}">${escapeHtml(toText)}</span>
@@ -194,6 +187,51 @@ function renderExtraction(ex){
       </div>
     `;
   }
+
+  // One ordered list of support steps per conclusion
+  const conclusionBlocks = conclusions.map(c => {
+    const cid = c.id;
+    const cText = nodeText(cid);
+    const steps = collectSupportInferences(cid);  // unique, ordered
+
+    const stepsHtml = steps.length === 0
+      ? "<p><em>No explicit premises linked to this conclusion.</em></p>"
+      : steps.map((step, idx) => {
+          const toId = step.inf.to;
+          const stepLabel = nodeLabel(toId);
+          return `
+            <div class="card no-select chain-card" style="margin-top:8px;">
+              <h4>Step ${idx + 1}: ${escapeHtml(stepLabel)}</h4>
+              ${renderInferenceBlock(step.inf)}
+            </div>
+          `;
+        }).join("");
+
+    return `
+      <div class="card no-select">
+        <h3>Conclusion ${cid}</h3>
+        <p><span class="hl-conclusion">${escapeHtml(cText)}</span></p>
+        <h4>Support steps for this conclusion (in order)</h4>
+        ${stepsHtml}
+        <div class="conclusion-rating">
+          <h4>Which class best fits this conclusion?</h4>
+          ${renderClassSelect(cid)}
+        </div>
+      </div>
+    `;
+  }).join("");
+
+  return `
+    <div class="card no-select">
+      <h3>Source Text</h3>
+      <pre>${escapeHtml(ex.text || "")}</pre>
+    </div>
+    <div class="no-select">
+      <h2>Reasoning chains by conclusion</h2>
+      ${conclusionBlocks}
+    </div>
+  `;
+}
 
   // --- One block of "support steps" per conclusion (no repeated inferences) ---
   const conclusionBlocks = conclusions.map(c => {
