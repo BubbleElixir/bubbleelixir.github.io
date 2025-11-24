@@ -125,50 +125,45 @@ function renderExtraction(ex){
     return "hl-conclusion";
   }
 
-  // Build chains as ordered lists of inferences ending at targetId
-  function buildChains(targetId, visited) {
-    if (!visited) visited = new Set();
-    if (visited.has(targetId)) return [];
-    visited.add(targetId);
+  // --- Collect all support inferences for a conclusion, with depths ---
+  function collectSupportInferences(targetId){
+    const queue = [targetId];
+    const visitedNodes = new Set([targetId]);
+    const nodeDepth = {};
+    nodeDepth[targetId] = 0;
 
-    const infs = infByTo[targetId] || [];
-    const chains = [];
+    const support = [];          // { inf, depth }
+    const seenInfs = new Set();  // identity: we just store object refs
 
-    for (const inf of infs) {
-      const implicitPremises = inf.from.filter(
-        pid => nodeType(pid) === "implicit" && infByTo[pid]
-      );
+    while (queue.length > 0) {
+      const nid = queue.shift();
+      const depth = nodeDepth[nid] ?? 0;
+      const infs = infByTo[nid] || [];
+      for (const inf of infs) {
+        if (!seenInfs.has(inf)) {
+          seenInfs.add(inf);
+          const infDepth = depth + 1;
+          support.push({ inf, depth: infDepth });
 
-      if (implicitPremises.length === 0) {
-        // no implicit sub-steps: this inference alone is a chain
-        chains.push([inf]);
-      } else {
-        for (const pid of implicitPremises) {
-          const subChains = buildChains(pid, new Set(visited));
-          if (subChains.length === 0) {
-            chains.push([inf]);
-          } else {
-            for (const sc of subChains) {
-              chains.push([...sc, inf]);
+          // follow implicit premises backwards
+          for (const pid of inf.from) {
+            if (nodeType(pid) === "implicit" && !visitedNodes.has(pid)) {
+              visitedNodes.add(pid);
+              nodeDepth[pid] = infDepth;
+              queue.push(pid);
             }
           }
         }
       }
     }
 
-    const seen = new Set();
-    const unique = [];
-    for (const ch of chains) {
-      const key = ch.map(x => x.to + "|" + x.from.join(",")).join("=>");
-      if (!seen.has(key)) {
-        seen.add(key);
-        unique.push(ch);
-      }
-    }
-    return unique;
+    // Order: deeper (further from conclusion) first, so participants see
+    // lower-level IC steps before the final step to the conclusion.
+    support.sort((a, b) => b.depth - a.depth);
+    return support;
   }
 
-  // Render one inference as a vertical Premises ↓ Warrant ↓ Target block
+  // --- Render one inference as Premises ↓ Warrant ↓ Target block ---
   function renderInferenceBlock(inf){
     const premisesHtml = inf.from.map(pid => (
       `<span class="${nodeClass(pid)}">${escapeHtml(nodeText(pid))}</span>`
@@ -200,27 +195,19 @@ function renderExtraction(ex){
     `;
   }
 
-  // One card per conclusion, with "Chain N" as the only chain label
+  // --- One block of "support steps" per conclusion (no repeated inferences) ---
   const conclusionBlocks = conclusions.map(c => {
     const cid = c.id;
     const cText = nodeText(cid);
-    const chains = buildChains(cid);
+    const steps = collectSupportInferences(cid);  // unique inferences, ordered
 
-    const chainsHtml = chains.length === 0
+    const stepsHtml = steps.length === 0
       ? "<p><em>No explicit premises linked to this conclusion.</em></p>"
-      : chains.map((chain, chainIdx) => {
-          const blocks = chain.map((inf, idx) => {
-            const block = renderInferenceBlock(inf);
-            const connector = idx < chain.length - 1
-              ? `<div class="chain-between">⇓ next step</div>`
-              : "";
-            return block + connector;
-          }).join("");
-
+      : steps.map((step, idx) => {
           return `
             <div class="card no-select chain-card" style="margin-top:8px;">
-              <h4>Chain ${chainIdx + 1}</h4>
-              ${blocks}
+              <h4>Step ${idx + 1}</h4>
+              ${renderInferenceBlock(step.inf)}
             </div>
           `;
         }).join("");
@@ -229,7 +216,8 @@ function renderExtraction(ex){
       <div class="card no-select">
         <h3>Conclusion ${cid}</h3>
         <p><span class="hl-conclusion">${escapeHtml(cText)}</span></p>
-        ${chainsHtml}
+        <h4>Support steps for this conclusion</h4>
+        ${stepsHtml}
         <div class="conclusion-rating">
           <h4>Which class best fits this conclusion?</h4>
           ${renderClassSelect(c)}
@@ -249,8 +237,6 @@ function renderExtraction(ex){
     </div>
   `;
 }
-
-
 
 // DataPipe save
 async function saveToOSF_DataPipe(participantId, example, payload){
