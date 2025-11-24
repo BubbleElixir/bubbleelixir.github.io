@@ -64,15 +64,15 @@ footer{color:#555;font-size:14px;padding-bottom:40px}
   margin-bottom: 4px;
 }
 
-/* green + between premises */
-.inf-premises span + span::before {
-  content: " + ";
-  color: #16a34a;
-  font-weight: 700;
-}
-
 .inf-warrant {
   margin: 4px 0;
+}
+
+.premise-join {
+  margin: 0 4px;
+  font-weight: 700;
+  color: #15803d;   /* your green */
+  background: transparent;
 }
 
 .inf-arrow {

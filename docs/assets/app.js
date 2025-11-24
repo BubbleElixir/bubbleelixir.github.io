@@ -121,7 +121,7 @@ function renderExtraction(ex){
   function nodeLabel(id){
     const t = nodeType(id);
     if (t === "premise") return `Premise ${id}`;
-    if (t === "implicit") return `IC ${id}`;
+    if (t === "implicit") return `Intermediate conclusion ${id}`;
     return `Conclusion ${id}`;
   }
 
@@ -132,48 +132,33 @@ function renderExtraction(ex){
     return "hl-conclusion";
   }
 
-  // Collect all supporting inferences for a conclusion, ordered by depth
-  function collectSupportInferences(targetId){
-    const queue = [targetId];
-    const visitedNodes = new Set([targetId]);
-    const nodeDepth = {};
-    nodeDepth[targetId] = 0;
-
-    const support = [];          // { inf, depth }
-    const seenInfs = new Set();  // track unique inferences
-
-    while (queue.length > 0) {
-      const nid = queue.shift();
-      const depth = nodeDepth[nid] ?? 0;
-      const infs = infByTo[nid] || [];
-      for (const inf of infs) {
-        if (!seenInfs.has(inf)) {
-          seenInfs.add(inf);
-          const infDepth = depth + 1;
-          support.push({ inf, depth: infDepth });
-
-          // follow implicit premises upstream
-          for (const pid of inf.from) {
-            if (nodeType(pid) === "implicit" && !visitedNodes.has(pid)) {
-              visitedNodes.add(pid);
-              nodeDepth[pid] = infDepth;
-              queue.push(pid);
-            }
-          }
+  // Collect all intermediate conclusions that ultimately support targetId
+  function collectRelevantICs(targetId, acc){
+    if (!acc) acc = new Set();
+    const infs = infByTo[targetId] || [];
+    for (const inf of infs){
+      for (const pid of inf.from){
+        if (nodeType(pid) === "implicit" && !acc.has(pid)){
+          acc.add(pid);
+          collectRelevantICs(pid, acc);
         }
       }
     }
-
-    // Deeper = further from conclusion → show those first
-    support.sort((a, b) => b.depth - a.depth);
-    return support;
+    return acc;
   }
 
-  // Render one inference as Premises → Target (no warrant)
+  // Render one inference as: Premises (+ joins) ↓ Warrant ↓ Target
   function renderInferenceBlock(inf){
-    const premisesHtml = inf.from.map(pid => (
+    // premises with explicit '+' joiners in their own span
+    const premiseSpans = inf.from.map(pid =>
       `<span class="${nodeClass(pid)}">${escapeHtml(nodeText(pid))}</span>`
-    )).join("");
+    );
+    const premisesHtml = premiseSpans.map((html, idx) => {
+      if (idx === 0) return html;
+      return `<span class="premise-join">+</span>${html}`;
+    }).join("");
+
+    const warrant = inf.warrant && inf.warrant.text ? inf.warrant.text : "";
 
     const toId = inf.to;
     const toLabel = nodeLabel(toId);
@@ -186,7 +171,14 @@ function renderExtraction(ex){
         <div class="inf-premises">
           ${premisesHtml}
         </div>
-        <div class="inf-arrow">→</div>
+        ${warrant ? `
+          <div class="inf-arrow">↓</div>
+          <div class="inf-label">Warrant</div>
+          <div class="inf-warrant">
+            <span class="hl-warrant">${escapeHtml(warrant)}</span>
+          </div>
+        ` : ""}
+        <div class="inf-arrow">↓</div>
         <div class="inf-label">${escapeHtml(toLabel)}</div>
         <div class="inf-target">
           <span class="${toCls}">${escapeHtml(toText)}</span>
@@ -195,35 +187,69 @@ function renderExtraction(ex){
     `;
   }
 
-  // One ordered list of support steps per conclusion
+  // Per-conclusion layout
   const conclusionBlocks = conclusions.map(c => {
     const cid = c.id;
     const cText = nodeText(cid);
-    const steps = collectSupportInferences(cid);  // unique, ordered
 
-    const stepsHtml = steps.length === 0
-      ? "<p><em>No explicit premises linked to this conclusion.</em></p>"
-      : steps.map((step, idx) => {
-          const toId = step.inf.to;
-          const stepLabel = nodeLabel(toId);
-          return `
+    // Direct arguments whose target is this conclusion
+    const directInfs = infByTo[cid] || [];
+
+    const directHtml = directInfs.length === 0
+      ? "<p><em>No explicit arguments directly targeting this conclusion.</em></p>"
+      : directInfs.map(inf => `
+          <div class="card no-select chain-card" style="margin-top:8px;">
+            ${renderInferenceBlock(inf)}
+          </div>
+        `).join("");
+
+    // Intermediate conclusions that (recursively) support this conclusion
+    const relevantICs = Array.from(collectRelevantICs(cid));
+
+    const icSections = relevantICs.map(icId => {
+      const icText = nodeText(icId);
+      const icInfs = infByTo[icId] || [];
+      const icBlocks = icInfs.length === 0
+        ? "<p><em>No explicit arguments recorded for this intermediate conclusion.</em></p>"
+        : icInfs.map(inf => `
             <div class="card no-select chain-card" style="margin-top:8px;">
-              <h4>Step ${idx + 1}: ${escapeHtml(stepLabel)}</h4>
-              ${renderInferenceBlock(step.inf)}
+              ${renderInferenceBlock(inf)}
             </div>
-          `;
-        }).join("");
+          `).join("");
+
+      return `
+        <div class="card no-select" style="margin-top:12px;">
+          <h4>Intermediate conclusion ${icId}</h4>
+          <p><span class="hl-implicit">${escapeHtml(icText)}</span></p>
+          ${icBlocks}
+        </div>
+      `;
+    }).join("");
+
+    const icSectionWrapper = relevantICs.length
+      ? `
+        <div style="margin-top:12px;">
+          <h4>Intermediate conclusions used in the arguments above</h4>
+          ${icSections}
+        </div>
+      `
+      : "";
 
     return `
       <div class="card no-select">
         <h3>Conclusion ${cid}</h3>
         <p><span class="hl-conclusion">${escapeHtml(cText)}</span></p>
-        <h4>Support steps for this conclusion (in order)</h4>
-        ${stepsHtml}
         <div class="conclusion-rating">
           <h4>Which class best fits this conclusion?</h4>
           ${renderClassSelect(c)}
         </div>
+
+        <div style="margin-top:12px;">
+          <h4>Arguments directly supporting this conclusion</h4>
+          ${directHtml}
+        </div>
+
+        ${icSectionWrapper}
       </div>
     `;
   }).join("");
@@ -234,7 +260,7 @@ function renderExtraction(ex){
       <pre>${escapeHtml(ex.text || "")}</pre>
     </div>
     <div class="no-select">
-      <h2>Reasoning chains by conclusion</h2>
+      <h2>Reasoning by conclusion</h2>
       ${conclusionBlocks}
     </div>
   `;
