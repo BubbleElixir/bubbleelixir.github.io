@@ -288,13 +288,13 @@ async function run(){
       qs('#comment').value = '';
     
       // Anti-copy in reasoning area
-      // const contentEl = qs('#content');
-      // if (contentEl && !contentEl.dataset.anticopyBound) {
-      //   contentEl.addEventListener('copy', e => e.preventDefault());
-      //   contentEl.addEventListener('cut', e => e.preventDefault());
-      //   contentEl.addEventListener('contextmenu', e => e.preventDefault());
-      //   contentEl.dataset.anticopyBound = 'true';
-      // }
+      const contentEl = qs('#content');
+      if (contentEl && !contentEl.dataset.anticopyBound) {
+        contentEl.addEventListener('copy', e => e.preventDefault());
+        contentEl.addEventListener('cut', e => e.preventDefault());
+        contentEl.addEventListener('contextmenu', e => e.preventDefault());
+        contentEl.dataset.anticopyBound = 'true';
+      }
     }
 
   qs('#next').addEventListener('click', async () => {

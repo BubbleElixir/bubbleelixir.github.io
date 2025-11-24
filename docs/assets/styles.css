@@ -98,15 +98,12 @@ footer{color:#555;font-size:14px;padding-bottom:40px}
   margin-top: 0;
 }
 
-/* .no-select {
+.no-select {
   -webkit-user-select: none;
   -moz-user-select: none;
   -ms-user-select: none;
   user-select: none;
-} */
- .no-select{
-  user-select: text;
- }
+}
 
 /* allow selection in form controls */
 textarea, input, select, button {
