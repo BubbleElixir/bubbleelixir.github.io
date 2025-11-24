@@ -287,61 +287,52 @@ async function run(){
       }
     }
 
-  qs('#next').addEventListener('click', async () => {
-    const ex = examples[idx];
-    const likert = qsa('input[name="likert"]').find(x => x.checked)?.value;
-    if(!likert){ alert('Please choose a Likert rating.'); return; }
+qs('#next').addEventListener('click', async () => {
+  const ex = examples[idx];
+  const likert = qsa('input[name="likert"]').find(x => x.checked)?.value;
+  if(!likert){ alert('Please choose a Likert rating.'); return; }
 
-    const reasoning = ex.reasoning || ex.extraction;
-    const concIds = (reasoning.conclusions || []).map(c => c.id);
-    
-    const labels = [];
-    for(const cid of concIds){
-      const sel = qs(`select[name="cls-${cid}"]`);
-      if(!sel || !sel.value){ alert('Please label every conclusion.'); return; }
-      labels.push({conclusion_id: cid, label: sel.value});
-    }
-
-    const payload = {
-      participant_id: pid,
-      example_id: ex.id,
-      likert_1to7: Number(likert),
-      conclusion_labels: labels,
-      comment: qs('#comment').value || "",
-      ts_client: new Date().toISOString(),
-      user_agent: navigator.userAgent,
-      version: "v1"
-    };
-
-    try{
-      await saveToOSF_DataPipe(pid, ex, payload);
-    }catch(e){
-      console.error(e);
-      alert('Save failed. Your response is cached and will retry next step.');
-      const queue = JSON.parse(localStorage.getItem('queue')||'[]');
-      queue.push({ex, payload});
-      localStorage.setItem('queue', JSON.stringify(queue));
-    }
-
-    done.push(ex.id);
-    localStorage.setItem('done', JSON.stringify(done));
-    idx += 1;
-    localStorage.setItem('idx', String(idx));
-    await show();
-  });
-
-  // retry queue
-  async function flushQueue(){
-    const queue = JSON.parse(localStorage.getItem('queue')||'[]');
-    const remaining = [];
-    for(const item of queue){
-      try{ await saveToOSF_DataPipe(pid, item.ex, item.payload) }catch{ remaining.push(item) }
-    }
-    localStorage.setItem('queue', JSON.stringify(remaining));
+  const reasoning = ex.reasoning || ex.extraction;
+  const concIds = (reasoning.conclusions || []).map(c => c.id);
+  
+  const labels = [];
+  for(const cid of concIds){
+    const sel = qs(`select[name="cls-${cid}"]`);
+    if(!sel || !sel.value){ alert('Please label every conclusion.'); return; }
+    labels.push({conclusion_id: cid, label: sel.value});
   }
-  setInterval(flushQueue, 5000);
 
+  const payload = {
+    participant_id: pid,
+    example_id: ex.id,
+    likert_1to7: Number(likert),
+    conclusion_labels: labels,
+    comment: qs('#comment').value || "",
+    ts_client: new Date().toISOString(),
+    user_agent: navigator.userAgent,
+    version: "v1"
+  };
+
+  // advance index + UI immediately
+  done.push(ex.id);
+  localStorage.setItem('done', JSON.stringify(done));
+  idx += 1;
+  localStorage.setItem('idx', String(idx));
   await show();
-}
+  window.scrollTo(0, 0);
+
+  // enqueue for reliability
+  const queue = JSON.parse(localStorage.getItem('queue')||'[]');
+  queue.push({ex, payload});
+  localStorage.setItem('queue', JSON.stringify(queue));
+
+  // fire-and-forget attempt to send now; if it fails,
+  // your setInterval(flushQueue, 5000) will retry
+  saveToOSF_DataPipe(pid, ex, payload).catch(e => {
+    console.error(e);
+    // already in queue; you could add a subtle UI flag if you want
+  });
+});
+
 
 document.addEventListener('DOMContentLoaded', run);
