@@ -2,175 +2,243 @@
   "examples": [
     {
       "id": "ex001",
-      "text": "",
+      "text": "Labor is offering households up to $2,200 to purchase solar panels, eventually taking the total number of NSW homes with rooftop solar past the one-million mark. Eligible homes must be owner-occupied and the scheme is restricted to families on a combined income of no more than $180,000 per year. The move will help ease the pressure on New South Wales’ ageing and unreliable coal-fired generators, while also lowering pollution and power prices. Opposition Leader Michael Daley said the scheme would save families up to $1000 a year. The Liberals responded the following next day, announcing a policy to offer interest-free loans to families to install rooftop solar and battery storage systems. The Liberal plan will cover 300,000 homes, and also be capped at a combined household income of $180,000. While Labor’s policy is a strong start, offering grants rather than loans to a greater number of households, there is still room for improvement, such as the need to include renters in their plans. Meanwhile Gladys Berejiklian’s Liberals need to do more. Coming on the back of 8 years of climate inaction from the NSW Liberals, this policy is too little, too late. There are already commercial operators offering low or no-interest loans for solar installation, so it’s debatable that this policy adds much value without a suite of other targeted measures. At the same time, it’s certainly a step in the right direction that all the parties are at least recognising the need to increase solar uptake, even if ambition levels are variable. Unsurprisingly, the Greens have an even more ambitious policy than both their major rivals, yesterday revealing a bold plan to make solar and battery storage mandatory at all new homes in New South Wales. The scheme would also see all NSW government buildings powered by 100 percent renewable energy. All proposals will help reduce the pressure on New South Wales’ ageing and unreliable coal fleet and help families deal with high power prices. However, none of the policies do enough to offer clean energy solutions to people unable to access solar, like apartment dwellers. People who rent deserve to be able to access clean and cheap energy too. That’s why Greenpeace is calling on the next New South Wales government to introduce a solar rebate to help families that are renting, to access solar panels – or help those who already have solar to install battery storage.",
       "reasoning": {
-      "claims": [
-      { "id": "p1", "quote": "Labor is offering households up to $2,200 to purchase solar panels" },
-      { "id": "p2", "quote": "eventually taking the total number of NSW homes with rooftop solar past the one-million mark." },
-      { "id": "p3", "quote": "Eligible homes must be owner-occupied" },
-      { "id": "p4", "quote": "the scheme is restricted to families on a combined income of no more than $180,000 per year." },
-      { "id": "p5", "quote": "The move will help ease the pressure on New South Wales’ ageing and unreliable coal-fired generators," },
-      { "id": "p6", "quote": "while also lowering pollution and power prices." },
-      { "id": "p7", "quote": "the scheme would save families up to $1000 a year." },
-      { "id": "p8", "quote": "The Liberals responded the following next day," },
-      { "id": "p9", "quote": "announcing a policy to offer interest-free loans to families to install rooftop solar and battery storage systems." },
-      { "id": "p10", "quote": "The Liberal plan will cover 300,000 homes," },
-      { "id": "p11", "quote": "be capped at a combined household income of $180,000." },
-      { "id": "p12", "quote": "Labor’s policy is a strong start" },
-      { "id": "p13", "quote": "offering grants rather than loans" },
-      { "id": "p14", "quote": "there is still room for improvement" },
-      { "id": "p15", "quote": "the need to include renters in their plans." },
-      { "id": "p16", "quote": "Gladys Berejiklian’s Liberals need to do more." },
-      { "id": "p17", "quote": "8 years of climate inaction from the NSW Liberals" },
-      { "id": "p19", "quote": "There are already commercial operators offering low or no-interest loans for solar installation," },
-      { "id": "p21", "quote": "all the parties are at least recognising the need to increase solar uptake" },
-      { "id": "p22", "quote": "the Greens have an even more ambitious policy than both their major rivals" },
-      { "id": "p23", "quote": "a bold plan to make solar and battery storage mandatory at all new homes in New South Wales." },
-      { "id": "p24", "quote": "The scheme would also see all NSW government buildings powered by 100 percent renewable energy." },
-      { "id": "p25", "quote": "All proposals will help reduce the pressure on New South Wales’ ageing and unreliable coal fleet" },
-      { "id": "p26", "quote": "help families deal with high power prices." },
-      { "id": "p27", "quote": "none of the policies do enough to offer clean energy solutions to people unable to access solar, like apartment dwellers." },
-      { "id": "p28", "quote": "People who rent deserve to be able to access clean and cheap energy too." },
-      { "id": "c1", "quote": "Greenpeace is calling on the next New South Wales government to introduce a solar rebate to help families that are renting, to access solar panels – or help those who already have solar to install battery storage." },
-      { "id": "c2", "quote": "it’s debatable that this policy adds much value without a suite of other targeted measures." },
-      { "id": "c3", "quote": "this policy is too little, too late." }
-      ],
-      "inferences": [
-      {
-      "from": ["p19"],
-      "to": "c2",
-      "type": "supports",
-      "warrant": { "text": "Because similar commercial loans already exist, a government loan policy may add limited additional value without complementary measures.", "explicit": true },
-      "structure": "convergent",
-      "group": "g1"
-      },
-      {
-      "from": ["p17"],
-      "to": "c3",
-      "type": "supports",
-      "warrant": { "text": "Given the policy follows eight years of inaction, it can reasonably be judged insufficient.", "explicit": true },
-      "structure": "convergent",
-      "group": "g2"
-      },
-      {
-      "from": ["c3"],
-      "to": "p16",
-      "type": "supports",
-      "warrant": { "text": "If a policy is too little and too late, more action is needed from its proponents.", "explicit": false },
-      "structure": "convergent",
-      "group": "g3"
-      },
-      {
-      "from": ["p15"],
-      "to": "p14",
-      "type": "supports",
-      "warrant": { "text": "Identifying a specific unmet need exemplifies that improvement is still required.", "explicit": true },
-      "structure": "convergent",
-      "group": "g4"
-      },
-      {
-      "from": ["p27", "p28"],
-      "to": "c1",
-      "type": "supports",
-      "warrant": { "text": "Since current policies do not serve renters and renters deserve access to clean, cheap energy, a targeted rebate is warranted.", "explicit": true },
-      "structure": "linked",
-      "group": "g5"
-      },
-      {
-      "from": ["p7"],
-      "to": "p26",
-      "type": "supports",
-      "warrant": { "text": "If a scheme saves families up to $1000 a year, it helps them cope with high power prices.", "explicit": false },
-      "structure": "convergent",
-      "group": "g6"
-      }
-      ],
-      "conclusions": [
-      { "id": "c1", "quote": "Greenpeace is calling on the next New South Wales government to introduce a solar rebate to help families that are renting, to access solar panels – or help those who already have solar to install battery storage." },
-      { "id": "c2", "quote": "it’s debatable that this policy adds much value without a suite of other targeted measures." },
-      { "id": "c3", "quote": "this policy is too little, too late." }
-      ]
+        "claims": [
+          {"id":"p1","quote":"Labor is offering households up to $2,200 to purchase solar panels, eventually taking the total number of NSW homes with rooftop solar past the one-million mark."},
+          {"id":"p2","quote":"Eligible homes must be owner-occupied and the scheme is restricted to families on a combined income of no more than $180,000 per year."},
+          {"id":"p3","quote":"The move will help ease the pressure on New South Wales’ ageing and unreliable coal-fired generators, while also lowering pollution and power prices."},
+          {"id":"p4","quote":"Opposition Leader Michael Daley said the scheme would save families up to $1000 a year."},
+          {"id":"p5","quote":"The Liberals responded the following next day, announcing a policy to offer interest-free loans to families to install rooftop solar and battery storage systems."},
+          {"id":"p6","quote":"The Liberal plan will cover 300,000 homes, and also be capped at a combined household income of $180,000."},
+          {"id":"p7","quote":"While Labor’s policy is a strong start, offering grants rather than loans to a greater number of households, there is still room for improvement, such as the need to include renters in their plans."},
+          {"id":"p8","quote":"Meanwhile Gladys Berejiklian’s Liberals need to do more."},
+          {"id":"p9","quote":"Coming on the back of 8 years of climate inaction from the NSW Liberals, this policy is too little, too late."},
+          {"id":"p10","quote":"There are already commercial operators offering low or no-interest loans for solar installation, so it’s debatable that this policy adds much value without a suite of other targeted measures."},
+          {"id":"p11","quote":"At the same time, it’s certainly a step in the right direction that all the parties are at least recognising the need to increase solar uptake, even if ambition levels are variable."},
+          {"id":"p12","quote":"Unsurprisingly, the Greens have an even more ambitious policy than both their major rivals, yesterday revealing a bold plan to make solar and battery storage mandatory at all new homes in New South Wales."},
+          {"id":"p13","quote":"The scheme would also see all NSW government buildings powered by 100 percent renewable energy."},
+          {"id":"p14","quote":"All proposals will help reduce the pressure on New South Wales’ ageing and unreliable coal fleet and help families deal with high power prices."},
+          {"id":"p15","quote":"However, none of the policies do enough to offer clean energy solutions to people unable to access solar, like apartment dwellers."},
+          {"id":"p16","quote":"People who rent deserve to be able to access clean and cheap energy too."},
+          {"id":"p17","quote":"That’s why Greenpeace is calling on the next New South Wales government to introduce a solar rebate to help families that are renting, to access solar panels – or help those who already have solar to install battery storage."}
+        ],
+        "inferences": [
+          {
+            "from":["p1","p3","p4","p14"],
+            "to":"ic1",
+            "type":"supports",
+            "warrant":{
+              "text":"If rooftop solar schemes expand solar to many homes, ease pressure on ageing coal plants, lower pollution and power prices, and help families with high bills, then such rooftop solar support policies deliver significant environmental and economic benefits.",
+              "explicit":false
+            },
+            "structure":"linked",
+            "group":"g1"
+          },
+          {
+            "from":["p5","p6","p9","p10"],
+            "to":"ic2",
+            "type":"supports",
+            "warrant":{
+              "text":"If the Liberal policy offers only interest-free loans to a limited number of homes after eight years of climate inaction, and similar loans are already available commercially so the policy adds little value without wider measures, then the NSW Liberal rooftop solar policy is weak, adds limited additional benefit, and does not go far enough.",
+              "explicit":false
+            },
+            "structure":"linked",
+            "group":"g2"
+          },
+          {
+            "from":["p7","p15","p16"],
+            "to":"ic3",
+            "type":"supports",
+            "warrant":{
+              "text":"If even the stronger policies still need to include renters, none of the policies do enough for people unable to access solar like apartment dwellers, and renters are said to deserve clean and cheap energy, then current party solar policies leave renters and apartment dwellers without adequate access to clean, affordable energy.",
+              "explicit":false
+            },
+            "structure":"linked",
+            "group":"g3"
+          },
+          {
+            "from":["ic2","p8"],
+            "to":"c2",
+            "type":"supports",
+            "warrant":{
+              "text":"If the Liberal rooftop solar policy is weak and adds limited value, and the Liberals are told they need to do more, then the Liberal rooftop solar loan policy is too little, too late and does not go far enough on clean energy and climate.",
+              "explicit":false
+            },
+            "structure":"linked",
+            "group":"g4"
+          },
+          {
+            "from":["ic3","p17"],
+            "to":"c1",
+            "type":"supports",
+            "warrant":{
+              "text":"If current policies leave renters without adequate access to clean, cheap energy, and Greenpeace calls for a solar rebate so renting families can access solar or batteries, then the next NSW government should introduce such a solar rebate for renters and for households adding storage.",
+              "explicit":false
+            },
+            "structure":"linked",
+            "group":"g5"
+          }
+        ],
+        "conclusions": [
+          {
+            "id":"c1",
+            "quote":"",
+            "canonical":"The next New South Wales government should introduce a solar rebate so renting households can access solar panels and battery storage"
+          },
+          {
+            "id":"c2",
+            "quote":"",
+            "canonical":"The NSW Liberal rooftop solar loan policy is too little, too late and provides limited additional benefit after years of climate inaction"
+          }
+        ],
+        "claims_extra": [
+          {
+            "id":"ic1",
+            "quote":"",
+            "canonical":"Rooftop solar support schemes deliver significant environmental and economic benefits by easing pressure on ageing coal plants and lowering pollution and power bills"
+          },
+          {
+            "id":"ic2",
+            "quote":"",
+            "canonical":"The NSW Liberal rooftop solar policy is weak and adds limited value beyond what is already available, given past climate inaction"
+          },
+          {
+            "id":"ic3",
+            "quote":"",
+            "canonical":"Existing party solar policies leave renters and apartment dwellers without adequate access to clean, affordable energy"
+          }
+        ]
       }
     },
     {
       "id": "ex002",
-      "text": "",
+      "text": "I was one of dozens of students from all over the world who took over Greenpeace’s social media channels to highlight the crisis we are in and the movement for change. My name is Oscar Alateras. I am a 16-year-old high school student currently attending Aquinas College in Melbourne, Victoria, Australia. My dream is to become an environmental engineer where I will not only investigate environmental solutions, but put them into place as well. This is at least 7 or 8 years away, maybe even more, and current circumstances have made it quite obvious to me that I can not afford to wait until then to make a difference in the global battle against climate change. I must start now. This is exactly what I have done. I have been a climate activist for roughly three years now. Many may ask, why climate change? Why is it this particular issue that I have chosen to act against? The answer to this question may vary from person to person, but for me, the answer is simple: passion. Now this passion didn’t just appear out of mid-air. There were specific events that allowed me to discover it. I was in Year 7, and my class was shown the environmental documentary ‘Before The Flood’ by Leonardo Di Caprio. After seeing this, it made me realise that if a man as busy as Di Caprio took the time to film a documentary aimed to raise awareness for climate change, then it must be an important issue. Subsequent to this, I started to spend hours researching about climate change, as prior to the documentary, I had no idea that climate change was even a thing. It didn’t take me long to realise the full picture of what was going on: to realise that were in a global existential crisis. If I am being completely honest, all the alarming statistics and data put fear right into my heart, as I was afraid for the security of my future. I knew it was in danger, and that unfortunately, past generations, the main contributors of climate change, were not willing to make up for their mistakes and save my future. Instead, they were too proud, too selfish to admit they were wrong and chose to ignore the issue even though deep down in their conscience they knew they were putting billions of futures such as mine on the line. This feeling of pure fear coupled with the fact that I didn’t want others to suffer from this crisis motivated me to take action: it motivated me to take my future into my own hands and encourage other young people to do the same.",
       "reasoning": {
-          "claims": [
-          { "id": "p1", "quote": "current circumstances have made it quite obvious to me that I can not afford to wait until then to make a difference in the global battle against climate change." },
-          { "id": "c1", "quote": "I must start now." },
-          { "id": "p3", "quote": "This is exactly what I have done." },
-          { "id": "p4", "quote": "I have been a climate activist for roughly three years now." },
-          { "id": "p7", "quote": "my class was shown the environmental documentary ‘Before The Flood’ by Leonardo Di Caprio." },
-          { "id": "p8", "quote": "a man as busy as Di Caprio took the time to film a documentary aimed to raise awareness for climate change" },
-          { "id": "ic1", "quote": "it must be an important issue." },
-          { "id": "p9", "quote": "I started to spend hours researching about climate change" },
-          { "id": "p10", "quote": "prior to the documentary, I had no idea that climate change was even a thing." },
-          { "id": "p11", "quote": "were in a global existential crisis." },
-          { "id": "p12", "quote": "all the alarming statistics and data put fear right into my heart" },
-          { "id": "p15", "quote": "past generations, the main contributors of climate change, were not willing to make up for their mistakes and save my future." },
-          { "id": "p19", "quote": "I didn’t want others to suffer from this crisis" },
-          { "id": "c2", "quote": "it motivated me to take my future into my own hands and encourage other young people to do the same." }
-          ],
-          "inferences": [
+        "claims": [
+          {"id":"p1","quote":"I was one of dozens of students from all over the world who took over Greenpeace’s social media channels to highlight the crisis we are in and the movement for change."},
+          {"id":"p2","quote":"My name is Oscar Alateras. I am a 16-year-old high school student currently attending Aquinas College in Melbourne, Victoria, Australia."},
+          {"id":"p3","quote":"My dream is to become an environmental engineer where I will not only investigate environmental solutions, but put them into place as well."},
+          {"id":"p4","quote":"This is at least 7 or 8 years away, maybe even more, and current circumstances have made it quite obvious to me that I can not afford to wait until then to make a difference in the global battle against climate change. I must start now."},
+          {"id":"p5","quote":"This is exactly what I have done. I have been a climate activist for roughly three years now."},
+          {"id":"p6","quote":"Many may ask, why climate change? Why is it this particular issue that I have chosen to act against? The answer to this question may vary from person to person, but for me, the answer is simple: passion."},
+          {"id":"p7","quote":"Now this passion didn’t just appear out of mid-air. There were specific events that allowed me to discover it."},
+          {"id":"p8","quote":"I was in Year 7, and my class was shown the environmental documentary ‘Before The Flood’ by Leonardo Di Caprio."},
+          {"id":"p9","quote":"After seeing this, it made me realise that if a man as busy as Di Caprio took the time to film a documentary aimed to raise awareness for climate change, then it must be an important issue."},
+          {"id":"p10","quote":"Subsequent to this, I started to spend hours researching about climate change, as prior to the documentary, I had no idea that climate change was even a thing."},
+          {"id":"p11","quote":"It didn’t take me long to realise the full picture of what was going on: to realise that were in a global existential crisis."},
+          {"id":"p12","quote":"If I am being completely honest, all the alarming statistics and data put fear right into my heart, as I was afraid for the security of my future."},
+          {"id":"p13","quote":"I knew it was in danger, and that unfortunately, past generations, the main contributors of climate change, were not willing to make up for their mistakes and save my future."},
+          {"id":"p14","quote":"Instead, they were too proud, too selfish to admit they were wrong and chose to ignore the issue even though deep down in their conscience they knew they were putting billions of futures such as mine on the line."},
+          {"id":"p15","quote":"This feeling of pure fear coupled with the fact that I didn’t want others to suffer from this crisis motivated me to take action: it motivated me to take my future into my own hands and encourage other young people to do the same."}
+        ],
+        "inferences": [
           {
-          "from": ["p1"],
-          "to": "c1",
-          "type": "supports",
-          "warrant": { "text": "If one cannot afford to wait to make a difference, then one should begin acting immediately.", "explicit": false },
-          "structure": "convergent",
-          "group": "g1"
+            "from":["p8","p9","p10","p11"],
+            "to":"ic1",
+            "type":"supports",
+            "warrant":{
+              "text":"If a high-profile figure devotes time to a climate documentary, research then reveals the situation, and one realises we are in a global existential crisis, then climate change is an extremely serious problem threatening our collective and personal futures.",
+              "explicit":false
+            },
+            "structure":"linked",
+            "group":"g1"
           },
           {
-          "from": ["p11", "p15"],
-          "to": "p1",
-          "type": "supports",
-          "warrant": { "text": "A global existential crisis combined with unwillingness of main contributors to act makes delaying efforts untenable.", "explicit": false },
-          "structure": "linked",
-          "group": "g2"
+            "from":["p12","ic1"],
+            "to":"ic2",
+            "type":"supports",
+            "warrant":{
+              "text":"If climate change is an existential crisis and alarming statistics create fear for the security of one’s own future, then one’s future is perceived as genuinely endangered by climate change.",
+              "explicit":false
+            },
+            "structure":"linked",
+            "group":"g2"
           },
           {
-          "from": ["p7", "p8"],
-          "to": "ic1",
-          "type": "supports",
-          "warrant": { "text": "The text uses an if–then: if a busy Di Caprio made a climate-awareness documentary, then the issue is important; since he did, the conclusion follows.", "explicit": true },
-          "structure": "linked",
-          "group": "g3"
+            "from":["p13","p14"],
+            "to":"ic3",
+            "type":"supports",
+            "warrant":{
+              "text":"If past generations are the main contributors to climate change, are not willing to make up for their mistakes, and knowingly put billions of futures at risk, then those responsible are failing to act to protect younger generations’ futures.",
+              "explicit":false
+            },
+            "structure":"linked",
+            "group":"g3"
           },
           {
-          "from": ["ic1"],
-          "to": "p9",
-          "type": "supports",
-          "warrant": { "text": "Recognizing an issue as important can motivate sustained personal research into it.", "explicit": false },
-          "structure": "convergent",
-          "group": "g4"
+            "from":["ic2","ic3","p4"],
+            "to":"ic4",
+            "type":"supports",
+            "warrant":{
+              "text":"If one’s future is endangered by climate change, those responsible are unwilling to fix it, and waiting years would delay any contribution, then one cannot afford to wait and must begin acting now to protect one’s future.",
+              "explicit":false
+            },
+            "structure":"linked",
+            "group":"g4"
           },
           {
-          "from": ["p10"],
-          "to": "p9",
-          "type": "supports",
-          "warrant": { "text": "The author explicitly cites lack of prior knowledge as a reason for beginning extensive research (‘as …’).", "explicit": true },
-          "structure": "convergent",
-          "group": "g5"
+            "from":["ic4","p5","p15"],
+            "to":"c1",
+            "type":"supports",
+            "warrant":{
+              "text":"If one cannot afford to wait to act, has already become a climate activist, and is motivated to take their future into their own hands, then acting now as a climate activist to protect one’s own future is the appropriate response.",
+              "explicit":false
+            },
+            "structure":"linked",
+            "group":"g5"
           },
           {
-          "from": ["p12", "p19"],
-          "to": "c2",
-          "type": "supports",
-          "warrant": { "text": "The author states that fear coupled with not wanting others to suffer motivated taking action.", "explicit": true },
-          "structure": "linked",
-          "group": "g6"
+            "from":["ic2","ic3","p15"],
+            "to":"c2",
+            "type":"supports",
+            "warrant":{
+              "text":"If climate change endangers young people’s futures, past generations are failing to act, and this motivates taking one’s future into one’s own hands and encouraging peers, then other young people should also act now to protect their futures in the face of inaction by older generations.",
+              "explicit":false
+            },
+            "structure":"linked",
+            "group":"g6"
           }
-          ],
-          "conclusions": [
-          { "id": "c1", "quote": "I must start now." },
-          { "id": "c2", "quote": "it motivated me to take my future into my own hands and encourage other young people to do the same." }
-          ]
+        ],
+        "conclusions": [
+          {
+            "id":"c1",
+            "quote":"",
+            "canonical":"Given the threat climate change poses to his future and older generations’ inaction, Oscar should not wait and is right to act now as a climate activist to take his future into his own hands"
+          },
+          {
+            "id":"c2",
+            "quote":"",
+            "canonical":"Other young people whose futures are threatened by climate change should likewise take action now to protect their futures rather than relying on older generations"
           }
+        ],
+        "claims_extra": [
+          {
+            "id":"ic1",
+            "quote":"",
+            "canonical":"Climate change is a global existential crisis that seriously threatens people’s futures"
+          },
+          {
+            "id":"ic2",
+            "quote":"",
+            "canonical":"Oscar’s own future is genuinely endangered by climate change"
+          },
+          {
+            "id":"ic3",
+            "quote":"",
+            "canonical":"Past generations, though mainly responsible for climate change, are failing to act to protect younger generations’ futures"
+          },
+          {
+            "id":"ic4",
+            "quote":"",
+            "canonical":"Because his future is at risk and older generations are not fixing the problem, Oscar cannot afford to wait years before acting on climate change"
+          }
+        ]
+      }
     },
     {
       "id": "ex003",
-      "text": "",
+      "text": "Australia’s beautiful Great Barrier Reef is under threat and in a state of emergency. As much as half of the Reef may be dead following back to back coral bleaching events in recent years. The Great Barrier Reef is a living thing – precious and fragile. It’s is the only living thing on earth that is visible from space. Climate change and the fossil fuel industry have been constant threats to the Great Barrier Reef and it needs protecting now more than ever. The coal industry is accelerating global warming by mining and burning coal, and is putting the future of the Reef at risk. In 2016, warming oceans caused the worst coral bleaching event in history on the Great Barrier Reef and almost a quarter of the Reef’s coral died. Scientists tell us we can have either coral or coal, but not both. Yet, the Australian government continues to promote the expansion of the coal industry. Australia’s carbon emissions are rising, and the Australian government approved the world’s biggest coal mine on the doorstep of the Great Barrier Reef. Tiny algae live in the tissue of coral providing it with food, and also giving coral its colour. As the ocean absorbs more and more CO2 from the atmosphere, ocean temperatures and acidity levels in the water rise. The algae become stressed and leave the coral – taking with it the coral’s source of food and its colour. The coral turns white and ‘bleaches’. The Reef is under continued threat from climate change and industrialisation by the fossil fuel industry. But it’s not too late – the Reef can recover in the right conditions and with time. But an expansion of the coal industry will accelerate dangerous climate change and cripple any chance the Reef has of repairing itself. Abbot Point coal terminal is a striking example of the industrialisation of the Queensland coast for coal export. Despite the dangers to the Reef, in late December 2015, Federal Environment Minister Greg hunt approved dredging for the expansion of the Abbot Point Coal Terminal in North Queensland. This project is risking the Reef at a time when the world is moving away from coal with new policies from the US and China. It’s time we followed suit. If the coal industry gets their way, we’ll see more and more bleaching of our beautiful Reef.",
       "reasoning": {
         "claims": [
           {"id":"p1","quote":"Australia’s beautiful Great Barrier Reef is under threat and in a state of emergency."},
@@ -257,12 +325,24 @@
           {
             "id":"c1",
             "quote":"",
-            "canonical":"To give the Great Barrier Reef a chance to survive and recover, Australia must stop expanding and phase out the coal industry"
+            "canonical":"To give the Great Barrier Reef a chance to survive and recover, Australia must stop expanding and phase out the coal industry",
+            "classes": [
+              "Identity Protection – Outright rejects or accepts claims which diminish the value of the speaker's identities, beliefs, and practices. Must include self-identification.",
+              "Scalability – Reasoning about future replication ease, long‑term upkeep, durability, sustainability, lifecycle cost, and/or synonyms. Must reference ongoing or large‑scale deployment.",
+              "Harm – Highlights concrete or clearly potential injury, loss, or suffering. Must reference WHO/WHAT is harmed, and/or synonyms. Ignore any potential benefits.",
+              "Source-Credibility Weighing – Explicitly evaluates one or more sources by assessing their credibility, integrity, reliability, expertise, transparency, biases, incentives, and/or synonyms. Exclude if evaluating conclusions, policy, evidence thresholds, data quality, or methodology."
+            ]
           },
           {
             "id":"c2",
             "quote":"",
-            "canonical":"Approving coal expansion projects like the Abbot Point terminal recklessly risks the Great Barrier Reef and is out of step with the global move away from coal"
+            "canonical":"Approving coal expansion projects like the Abbot Point terminal recklessly risks the Great Barrier Reef and is out of step with the global move away from coal",
+            "classes": [
+              "Identity Protection – Outright rejects or accepts claims which diminish the value of the speaker's identities, beliefs, and practices.",
+              "Indirect Impacts – Advocates for a belief, decision, conclusion, policy, action, and/or synonyms, on the basis of a projected secondary, downstream, spill‑over, or long‑term effects beyond first order.",
+              "Source-Credibility Weighing – Explicitly evaluates one or more sources by assessing their credibility, integrity, reliability, expertise, transparency, biases, incentives, and/or synonyms.",
+              "Organisational Process – Reasoning about institutional procedures, governance pathways, decision hierarchies, approval workflows, cultural acceptance, and/or synonyms. Mere mention of an organisation is not sufficient."
+            ]
           }
         ],
         "claims_extra": [
@@ -286,7 +366,7 @@
     },
     {
       "id": "ex004",
-      "text": "",
+      "text": "He made headlines last year when he brandished a lump of coal in parliament and accused those raising concerns about the environmental impacts of coal of being driven by ideology or a pathological fear. He has since failed to make the headlines as regularly as he did while imprisoning children, but it is worth noting that the man who used to incessantly talk up the “budget emergency” and “Labor’s debt and deficit” has increased debt massively . At July 1, 2018, the budget estimate of net debt in Australia was about $341.0 billion, up from $174.5 billion in September 2013, when the Coalition took office. That’s an increase of $166.5 billion, or roughly 95 percent. It also bears mentioning that while Turnbull has been ousted for a series of policy bungles, Morrison has been at his side the whole time and owns them as much as Turnbull. Morrison was happy to stand beside a prime minister who proposed a pathetic National Energy Guarantee (NEG) that would kill renewables and do nothing to stop climate change. And as that already inadequate policy was gutted to the point where it was no longer a climate policy, he continued to stand by in silence. With large sections of Australia in severe drought and being scorched by dozens of mid-winter bushfires, Morrison is a leader we cannot afford. Make no mistake, Scott Morrison is just a more polished version of Tony Abbott. Morrison served both Abbott and Turnbull. He has shown over his career that he is driven by political self-interest and will not hesitate to continue selling out the environment at the behest of his mates in the fossil fuel industry.",
       "reasoning": {
         "claims": [
           {"id":"p1","quote":"He made headlines last year when he brandished a lump of coal in parliament and accused those raising concerns about the environmental impacts of coal of being driven by ideology or a pathological fear."},
@@ -423,7 +503,7 @@
     },
     {
       "id": "ex005",
-      "text": "",
+      "text": "A more than two year legal battle by Greenpeace Australia Pacific has revealed details of how dangerous and risky drilling by any oil company would be in the Great Australian Bight and how difficult it would be to respond in the event of an accident. Greenpeace has obtained BP’s 2016 Well Operations Management Plan which outlines the measures employed to prevent and respond to an oil spill in the Bight after lodging a freedom of information request with the national offshore oil regulator, NOPSEMA, in August 2016. And it’s every bit as bad as predicted. They paint a picture of a company repeatedly referring to the “significant uncertainty” of the experimental project with particular concern expressed about the almost unprecedented pressures and temperatures – two factors that contribute to higher risk of an accident. It also states that equipment critical for dealing with any potential oil spills such as capping stacks and relief wells would be incredibly difficult to source and would also unable to be used almost a third of the year in the high wave conditions of the Bight. Aside from these worrying concerns the entire process also highlights the lack of transparency when it comes to oil and gas exploration and the potential impact on communities and marine ecosystems. The documents describe a spill that would potentially be so bad that scenarios are outlined where more than twice the amount of crude oil that entered the Gulf of Mexico after the Deepwater Horizon disaster would be spilled. This scenario would be one of the worst spills in human history. The management plan shows conclusively why any oil drilling in the Great Australian Bight would be far too risky for any deepwater driller to attempt with many of the mitigation measures completely ineffective in the region. In summary: The Australian government represents the people of Australia and the people of the Bight. It is up to them to stand up to these deceitful, contemptuous, and irresponsible companies and to legislate to protect the Bight forever.",
       "reasoning": {
         "claims": [
           {
@@ -545,7 +625,7 @@
     },
     {
       "id": "ex006",
-      "text": "",
+      "text": "Temperature data is selectively drawn from population centers (that are themselves non-randomly distributed, being biased to valley floors, flat plains, and places were water and land meet such as bays, harbors, and major rivers. More recently, as cities form where more modes of transportation intersect, we have more cities around airports, sea ports, and where railroads intersect those. At present, the majority of our land temperature data is drawn from airports. All those kinds of \"issues\" have already been explored (and the temperature data found skewed and wanting due to them – Urban Heat Island effect and Airport Heat Island effect), though not in the context of their statistical validity. Here we start to note that perhaps the location selection bias itself might invalidate the statistical assumptions that underlay the use of an extended averaging process to increase the precision of temperatures. Presently reducing a F minimum error band in the raw data to /100 C of precision in the mean. IMHO False Precision; for just these kinds of reason. While I’ve explored in prior postings that point that such an averaging process can remove random error in measurements, it can NOT remove systemantic error. Such as the systematic error introduced with the conversion to the MMTS thermometers. Both changing location to be closer to buildings due to the need for power and communications cables; and the “adjustment” to “remove a cooling bias” that was really locking in a slow warming trend from aging of paint on the prior Stevenson Screens. I’ve not asked the more basic question of “is that use of the mean and the central limit theorem statistically valid? ” This shows that there are already many reasons to doubt that the mean of temperature measurements is used in a valid way.",
       "reasoning": {
         "claims": [
           {
@@ -687,7 +767,7 @@
     },
     {
       "id": "ex007",
-      "text": "",
+      "text": "All the statistical manipulation I’ve seen done on temperatures tends to presume they have a Standard Normal Distribution and that it is a valid statistical operation to compute a mean. you are making the implicit assumption that the mean is defined. For those of us who had some, but not extensive, statistics, that is a natural assumption as we spent months (years? doing various kinds of problems all universally based on a Standard Normal Distribution. But there are other kinds of distribution… Why this matters is that it is a property of the Standard Normal Distribution that allows the use of the Central Limit Theorem in the production of those numbers with astounding precision based on lousy input data. The normal distribution is considered the most prominent probability distribution in statistics. There are several reasons for this: First, the normal distribution arises from the central limit theorem, which states that under mild conditions, the mean of a large number of random variables independently drawn from the same distribution is distributed approximately normally, irrespective of the form of the original distribution. This gives it exceptionally wide application in, for example, sampling. Secondly, the normal distribution is very tractable analytically, that is, a large number of results involving this distribution can be derived in explicit form. Notice some of the ‘requirements’ of those statements. “From the same distribution”. That is NOT a ‘large number’ statistically. Thermometers near a large ocean have very different behaviours from those inland a couple of hundred miles in mountains or deserts. Those in the snow have different behaviours from those in the dry valleys. They are not “the same distribution”. Are conditions “Mild” in Antarctica or the Sahara? I don’t know if they meet the requirements of statistically “mild” or not.",
       "reasoning": {
         "claims": [
           {"id":"p1","quote":"All the statistical manipulation I’ve seen done on temperatures tends to presume they have a Standard Normal Distribution and that it is a valid statistical operation to compute a mean."},
@@ -782,7 +862,7 @@
     },
     {
       "id": "ex008",
-      "text": "",
+      "text": "We use simulation output from climate models participating in phase of the Coupled Model Intercomparison Project. This multimodel archive provides estimates of the signal pattern in response to combined anthropogenic and natural external forcing (the fingerprint) and the noise of internally generated variability. Using these estimates, we calculate signal-to-noise (S/N) ratios to quantify the strength of the fingerprint in the observations relative to fingerprint strength in natural climate noise. In the lower troposphere, the fingerprint strength in observations is smaller, but S/N ratios are still significant at the 1% level or better, and range from three to eight. We find no evidence that these ratios are spuriously inflated by model variability errors. After removing all global mean signals, model fingerprints remain identifiable in 70% of the tests involving tropospheric temperature changes. Despite such agreement in the large-scale features of model and observed geographical patterns of atmospheric temperature change, most models do not replicate the size of the observed changes. On average, the models analyzed underestimate the observed cooling of the lower stratosphere and overestimate the warming of the troposphere. Although the precise causes of such differences are unclear, model biases in lower stratospheric temperature trends are likely to be reduced by more realistic treatment of stratospheric ozone depletion and volcanic aerosol forcing.",
       "reasoning": {
         "claims": [
           {"id":"p1","quote":"We use simulation output from climate models participating in phase of the Coupled Model Intercomparison Project."},
@@ -896,7 +976,7 @@
     },
     {
       "id": "ex009",
-      "text": "",
+      "text": "This guide should point you towards the responsibly sourced tuna products in Australia while steering you away from accidentally supporting harmful companies and practices. If the product isn’t labelled with the species, how it was caught, and where it was caught then you should avoid it. Species: Skipjack and Albacore Tuna species from the Western and Central pacific are usually better choices Method: Pole and line, trolling or handline fishing methods, purse seine FAD-free fishing methods Species: Yellowfin tuna Species: Bluefin and Bigeye tuna Methods: FAD Purse seine, Gillnetting, imported longlining ‘Dolphin friendly’ fishing methods and labeling are not a key indicator of sustainable practices as dolphins don’t usually cohabitate with tuna and these methods tell you nothing about the main principles of sustainability. There are two crucial parts to a tuna can that every tuna shopper should know: Tuna species: Whether or not the species of tuna in the can is from a population that is fished at sustainable rate Fishing Method: Whether or not the fishing method used results in bycatch of threatened species like turtles, sharks, and juvenile tuna If you would like to know more about selecting your canned tuna, you can read the section below for more info. Tuna is a family of fish that come in many different species, some from populations that are doing better than others. It is therefore critical to ensure that the species of tuna that you buy is one that is not in harvested at a rate that is threatening the population. Make sure that the tuna product clearly identifiesthe species name, otherwise don’t buy it. If it’s labelled as “thunnus” or “genus thunnus” it simply means it is in the tuna family, not which type of species has been caught. Bluefin is typically the most expensive tuna and classified as an endangered species. Mostly found in high-end restaurants as sashimi or sushi, Bluefin has three species; Atlantic, Pacific and Southern. Bluefin has been extremely overfished, and Southern Bluefin, the only type caught and sold in Australia, is already classified as critically endangered. > AVOID BLUEFIN TUNA Bigeye tuna often consumed as tuna steaks, sushi or sashimi and is one of the most expensive types of tuna, often found in restaurants. The bigeye tuna population is low with overfishing occurring in the eastern and western Pacific Ocean. > AVOID BIGEYE TUNA Yellowfin mostly served as sashimi, sushi, tuna steak or canned. Yellowfin is also vulnerable to population decline through increased bycatch caused by fishing vessels using FADs, fishing levels for yellowfin tuna in Australia are probably OK, but in the Pacific and Indian Oceans they are under more pressure. > EAT LESS YELLOWFIN TUNA Albacore is often sold as “white tuna” in the supermarket and is mainly canned. There is some concern in the decline population of Albacore in the Pacific Ocean in the near future due to overfishing.",
       "reasoning": {
         "claims": [
           {"id":"p1","quote":"This guide should point you towards the responsibly sourced tuna products in Australia while steering you away from accidentally supporting harmful companies and practices."},
@@ -1060,7 +1140,7 @@
     },
     {
       "id": "ex010",
-      "text": "",
+      "text": "These laws would suppress public opposition to the Government’s agenda to trash the environment, ignore climate change and put profits before human lives. Turnbull’s government have been using the line that not-for-profits are just a front for foreign funds to be used to influence Australian election outcomes. Which is weird, because a review by the Australian Charities and Not-for-profits Committee has found no evidence that charities receiving foreign funds are influencing Australian policy. What would the laws mean for me and for organisations like Greenpeace? In short: The Electoral Amendment bill would change the rules so that organisations like Greenpeace are classified as ‘political campaigners’. The Espionage and Foreign Interference bill would mean a person or organisation that receives or communicates “politically sensitive” information to the public could potentially be guilty of espionage under this Bill. This is a concern for everyone working to hold the government to account, because they can make “politically sensitive” mean whatever they want it to. The Foreign Influence Transparency Scheme bill would crack down on not-for-profits that have a global presence – like Greenpeace. We’d be required to spend more time on reporting and paperwork, which means less time campaigning for healthy oceans, a thriving Great Barrier Reef and action on climate change. You can read more about the democracy attack laws here. What’s this about the report that came out on Monday? While the FITS and EFI bills are stuck in another committee process, The Joint Standing Committee into Electoral Matters released its report on the Electoral Amendment bill. The report was authored by the Coalition and the Australian Labor Party (ALP) and was bipartisan (that means they both agreed), with 15 recommended changed to the law, but—here’s the kicker—they didn’t reject the law outright. Even if the government agreed to all the Committee’s recommendations, the new law would still stifle the important work charities do to make Australia a caring and compassionate nation and hold powerful corporations to account. The Greens were the only members of the Committee to publish a report that entirely rejected the bill. Wait, aren’t Labor supposed to be on our side? You’d think so, and they say they are. In fact, Shadow Minister for Charities and NFP Andrew Leigh told us at the Hands Off Our Charities democracy sausage sizzle that he ‘had our backs’. But Monday’s report says the contrary: that Labor seems willing to throw charities under the bus so it can pass the Electoral Amendment bill. Gross. So we need to get Labor to stop the bill? We’re challenging Labor to stay true to their word of being allies to not-for-profits. Labor must reject all of these laws, starting with the Electoral Amendment bill. It’s disappointing to watch a party that has for so long stood up for workers’ rights and for the least privileged in our society, now turning against unions, charities and not-for-profits. Sounds like we need to stop these laws. We agree. And we’ve been fighting these bills every step of the way.",
       "reasoning": {
         "claims": [
           {"id":"p1","quote":"These laws would suppress public opposition to the Government’s agenda to trash the environment, ignore climate change and put profits before human lives."},
@@ -1190,7 +1270,7 @@
     },
     {
       "id": "ex011",
-      "text": "",
+      "text": "The world’s leading economists have been warning for decades that the damage caused to the climate by burning coal, oil and gas poses one of the most serious threats to the global economy. The cost of destruction in agriculture, tourism, finance, insurance, property, and even mining caused by sweeping floods, droughts and bushfire caused by distorting the world’s life support systems is nearly unimaginable. Indeed, it’s hard to imagine a sector that will not be severely impacted by climate change. But collapsing costs in renewables and a rising global movement against pollution is changing the headwinds – not that our Government seems to have noticed. You would think that a Government that waxes lyrical about intergenerational equity would have at least a primary school grasp on climate change. Yet the forbidden words were nowhere to be seen in the budget speech, save for a small reference to the Government’s plans to walk away from innovation in the renewables sector (whatever happened to that dogged commitment to ‘jobs and innovation’). The devil, as always, was in the detail of the budget papers. Budgets are a statement of values that mark the principles of legislators. In this year’s budget, the Government’s values were laid bare, with climate spending slashed by almost half, falling further to $1.2 billion by 2022. Analysis by the Australian Conservation Foundation found that the under-resourced Department of Environment and Energy will have an axe taken to its bottom line, with spending slated to plunge by 43 per cent on 2013 levels (when the Government took office) by 2022. The Renewable Energy Target will be abolished by 2020. Taxpayer largesse will continue to flow to the Government’s friends in fossil fuel companies, with $30 billion in diesel tax subsidies pouring into private companies over the forecast period. No additional money for renewables or climate mitigation and adaptation will be forthcoming.",
       "reasoning": {
         "claims": [
           {"id":"p1","quote":"The world’s leading economists have been warning for decades that the damage caused to the climate by burning coal, oil and gas poses one of the most serious threats to the global economy."},
@@ -1297,7 +1377,7 @@
     },
     {
       "id": "ex012",
-      "text": "",
+      "text": "Criticism of the National Energy Guarantee has rightly slammed its low target, but its design is even worse than we thought Liddell is a coal fired power station near Muswellbrook in New South Wales, Australia. It was opened in 1971 and is due to shut down by the end of 2022.|| The National Energy Guarantee. It’s the Turnbull government’s signature energy policy. It’s been called: ‘pathetic’ ‘too weak’ ‘a line in the sand moment’ Most of those criticisms have rightly been about its disastrously low emissions reduction target of 26% from 2005 levels by 2030. Economic modelling from a range of sources, including work by RepuTex commissioned by Greenpeace, shows that the NEG’s 26% target will be met in the early 2020s on current policies : that is, regardless of whether the NEG is implemented at all. And a 26% target is far too low for what is needed to take on global warming and help prevent the extreme weather we’re seeing around the globe. Even ACIL Allen, the consulting firm on whose analysis the government is basing its whole policy, have published a briefing note on their website strongly criticising the government’s approach to energy policy and the NEG. But it turns out that it’s not just the target that’s bad. The NEG mechanism itself – the nuts and bolts design of how the system is meant to work – is also a disaster. Last week, the director of the Victoria Energy Policy Centre, Professor Bruce Mountain, published a 15 page analysis of the NEG mechanism as outlined by the Energy Security Board (ESB). Here’s a summary of what he found ( spoiler : it’s not good). The ESB’s modelling of a business as usual scenario is flawed and based on false assumptions. It assumes that: None of these assumptions are valid. A policy based on them will fail from the start. The design of the Emissions Guarantee component is much more complicated than comparable schemes The design of the Reliability Guarantee component is also very complex, and hard to implement There is no defined penalty for electricity retailers if they repeatedly fail to meet their emissions intensity obligations There are various perverse incentives and unintended consequences in the NEG design, including Only retailers and generators will have access to the NEG registry The fiendishly complicated nature of the NEG’s design means that it takes some effort to get to grips with it. But when you do, it’s crystal clear that it’s not just the emissions target that is a problem. The NEG mechanism is so flawed as to be close to useless. The NEG is like a sports car that is speed limited to 50 kmh, but whose engine is so badly made anyway that you can’t be sure it will even start. Australians deserve better than Malcolm Turnbull and Josh Frydenberg’s lemon.",
       "reasoning": {
         "claims": [
           {"id":"p1","quote":"Criticism of the National Energy Guarantee has rightly slammed its low target, but its design is even worse than we thought"},
@@ -1413,7 +1493,7 @@
     },
     {
       "id": "ex013",
-      "text": "",
+      "text": "A more than two year legal battle by Greenpeace Australia Pacific has revealed details of how dangerous and risky drilling by any oil company would be in the Great Australian Bight and how difficult it would be to respond in the event of an accident. Greenpeace has obtained BP’s 2016 Well Operations Management Plan which outlines the measures employed to prevent and respond to an oil spill in the Bight after lodging a freedom of information request with the national offshore oil regulator, NOPSEMA, in August 2016. And it’s every bit as bad as predicted. They paint a picture of a company repeatedly referring to the “significant uncertainty” of the experimental project with particular concern expressed about the almost unprecedented pressures and temperatures – two factors that contribute to higher risk of an accident. It also states that equipment critical for dealing with any potential oil spills such as capping stacks and relief wells would be incredibly difficult to source and would also unable to be used almost a third of the year in the high wave conditions of the Bight. Aside from these worrying concerns the entire process also highlights the lack of transparency when it comes to oil and gas exploration and the potential impact on communities and marine ecosystems. The documents describe a spill that would potentially be so bad that scenarios are outlined where more than twice the amount of crude oil that entered the Gulf of Mexico after the Deepwater Horizon disaster would be spilled. This scenario would be one of the worst spills in human history. The management plan shows conclusively why any oil drilling in the Great Australian Bight would be far too risky for any deepwater driller to attempt with many of the mitigation measures completely ineffective in the region. In summary: The Australian government represents the people of Australia and the people of the Bight. It is up to them to stand up to these deceitful, contemptuous, and irresponsible companies and to legislate to protect the Bight forever.",
       "reasoning": {
         "claims": [
           {"id":"p1","quote":"A more than two year legal battle by Greenpeace Australia Pacific has revealed details of how dangerous and risky drilling by any oil company would be in the Great Australian Bight and how difficult it would be to respond in the event of an accident."},
@@ -1502,7 +1582,7 @@
     },
     {
       "id": "ex014",
-      "text": "",
+      "text": "In just over a month Victoria goes to the polls. What’s at stake, I hear you ask. Nothing more than the future of the renewable energy revolution. As it stands Victoria is among the states leading the way in the transition from dirty fossil fuels to clean and reliable renewable energy. Victoria has the nation’s only state legislated renewable energy target, the VRET, and Premier Daniel Andrews recently announced an ambitious plan to help 650,000 homes install rooftop solar . While far from perfect, the current trajectory for clean energy in Victoria looks bright. Renewables already provide 12 percent of the state’s energy, and that is set to increase rapidly to 40 percent by 2025 under the VRET. It’s still well short of the 100 percent by 2030 that Greenpeace is calling for Australia-wide, but it’s also more ambitious than many other states at this point in time. There’s so much at risk in this election because the renewable projects Victoria needs are being rolled out as we speak. Just last month the state held a series of reverse auctions that will generate more than 900MW of power . Solar farms at Cohuna, Carwarp and Winton will be developed as part of the scheme, along with wind farms at Mortlake South, Berrybank and Dundonnel. The projects will create 900 jobs and produce enough electricity to power more than 645,000 homes, Mr Andrews said last month. But despite Victoria’s commitment to renewables being enshrined in law, the state actually reaching its target is no fait accompli. Worryingly for the environment, business and thousands of Victorian families, Opposition Leader Matthew Guy has pledged to dump the VRET should the Coalition prevail next month. With a slew of projects in the pipeline, any move to cut the VRET would not only jeopardise Australia’s chances of meeting its emissions targets under the Paris Agreement, but it would also precipitate widespread job losses. The implications for the planet would be disastrous, but seemingly not content with just slamming the brakes on the renewable revolution, Matthew Guy also appears to be proud to lead a party with no policy to address climate change. Activists went looking for it last month but have so far failed to turn up any evidence that Victoria’s aspiring government believes in climate change, or has a plan to do anything about it. Perhaps those activists should turn their investigative nous to the federal government, which also has no plan to address global warming. You would think that the Victorian Coalition would heed the not-too subtle message of the Wentworth by-election – It’s the climate, stupid! But if it sticks to its non-plans and destructive commitments vis-a-vis the VRET, it will repeat the Coalition’s folly and crab walk to electoral defeat. Australians want renewable energy and Victorian even more so. Polling Greenpeace commissioned during the heated debate over the National Energy Guarantee (NEG) found that 77 percent of Victorians want Australia to embrace a high renewable energy target to help put downward pressure on power prices. The poll also found that more than 76 percent of Victorians believe the best way for the government to ensure low cost reliable electricity supply is to invest in renewables, along with dispatchable storage solutions like batteries and 74.5 percent of Victorian, want renewables to receive more government support than fossil fuels such as coal. Voters made their minds up about renewables a long time ago.",
       "reasoning": {
         "claims": [
           {"id":"p1","quote":"Nothing more than the future of the renewable energy revolution."},
@@ -1617,7 +1697,7 @@
     },
     {
       "id": "ex015",
-      "text": "",
+      "text": "It’s time for rich and high polluting countries to step up their efforts and take real action on climate change as world leaders head to the United Nations climate change conference – COP24 – in Katowice in a few days’ time. The urgent need for world leaders to commit to a plan that will save us from the catastrophic impacts of global warming was demonstrated last week, by nations on the frontlines of climate change. The Marshall Islands hosted a world-first, “Virtual Climate Summit”, as chair of the Climate Vulnerable Forum (CVF). The online summit was complemented by offline activities, celebrating the Marshallese culture and resilience to climate change, as well as, solidarity actions held in Fiji and Vanuatu by the Pacific Island Represent network. The message from this inaugural event was that for the vulnerable countries to survive and thrive, the world needs to act with urgency and rapidly transition away for fossil fuels to have a genuine chance of stopping global temperature rise above 1.5 degrees Celsius. The summit signalled that the countries most impacted by climate change have taken it upon themselves to inspire the leadership needed from those who continue to profit from the destruction of the planet. At the end of the online summit, CVF members adopted the Jummemj declaration, which draws its name from a Marshallese word of seafaring origin signifying a call to action of vigilance, keeping watch against threats. “We urge COP24 to act on the findings of the IPCC Special Report on 1.5°C, as informed by the Talanoa Dialogue, sending a strong signal for all nations, and non-state actors, to contribute to the generation of new ambition, for the enhancement of all nationally determined contributions to the global response to climate change (NDCs) by 2020,” the declaration reads. But the declaration goes further than just calling on bigger nations step up their climate action. It outlines plans by the CVF members themselves to raise their own Nationally Determined Contributions (NDCs) by 2020 at the latest, as well as a call for urgent action to increase flows of international climate finance and to all nations, state governments and businesses, to achieve the goals set out in the Paris Agreement. During the UN Climate Week in September, the Marshall Islands president, Dr Hilda Heine, announced her country’s plans to become carbon neutral by 2050, making the island nation the first to do so. The Fijian prime minister had also announced at the same meeting that his country will announce their long-term strategy to go carbon neutral at the Conference of Parties (COP24) in Poland. Vanuatu has become the first nation state to announce its plans to pursue legal action against the corporations and countries that benefit from the planet’s destruction. The Melanesian island nation is home to some 260,000 people but their moral compass is far greater than big polluters like the U.S, Germany and even their coal-loving neighbour Australia. Vanuatu’s Foreign Affairs Minister, Ralph Regenvanu, has put the fossil fuel industry and the states that give it life on notice. “ My government is now exploring all avenues to utilise the judicial system in various jurisdictions – including under international law – to shift the costs of climate protection back onto the fossil fuel companies, the financial institutions and the governments that actively and knowingly created this existential threat to Vanuatu,” Ragenvanu announced at the CVF Summit. Vanuatu’s pursuits will only inspire other vulnerable nations to hold those who are responsible for climate change. For the Pacific and other vulnerable countries, the climate fight is about hope – for their people, their cultures, their land and everything that they identify with and what makes them unique. It’s not too late if the rich nations show the same commitment that the developing nations have shown to address an issue that they are responsible for.",
       "reasoning": {
         "claims": [
           {"id":"p1","quote":"It’s time for rich and high polluting countries to step up their efforts and take real action on climate change as world leaders head to the United Nations climate change conference – COP24 – in Katowice in a few days’ time."},
@@ -1730,7 +1810,7 @@
     },
     {
       "id": "ex016",
-      "text": "",
+      "text": "The dust has settled from the G8 meeting in Italy where politicians gathered to discuss the greatest challenge facing our civilisation. I was going to write ‘world leaders’ but ‘politicians’ is a more accurate term. Leadership implies vision and decisive action. All we got from the G8 was hot air. We have 145 days to go until the Copenhagen meeting when Governments of the world will meet to thrash out the final detail of a global treaty to cut emissions. The stakes are high. Climate change is a global emergency and it requires a global response. The Kyoto Protocol largely failed to cut emissions or create the transition to a low carbon economy. Copenhagen will replace Kyoto and might be the last chance to get a global treaty in time to make a difference. The G8 meeting, and the Major Economies Forum that followed, was a crucial milestone on the road to Copenhagen. And the news isn’t good. The G8 and the MEF waffled their way through various statements that avoided putting any hard numbers on the table and tried to dress up old news as progress. As usual, rich (developed) countries are trying to blame less developed countries for the lack of progress. Everyone keeps on saying it is up to India and China to take action and put targets on the table. China is already starting to take steps to cut emissions but the reality is that the failure of leadership lies with the developed world who are largely responsible for causing climate change and who have the resources to drive the transformation. Despite mountains of spin, Kevin Rudd and the Australian Government are still undermining progress towards a strong treaty at Copenhagen. By putting forward a pathetically low emissions reduction target (only 5-25% cuts by 2020), Australia is sending all of the wrong signals. But perhaps more insidious is the work of our negotiating team to push for offset loopholes that would mean that even our paltry emissions target can be offset either by changing land-use practices or paying other countries to protect forests. Meanwhile, our coal industry and industrial pollution continues to grow. Kevin Rudd needs to commit to halve greenhouse pollution within the next decade, as well as putting substantial money on the table to help drive the transition to a low carbon economy in developing countries.",
       "reasoning": {
         "claims": [
           {"id":"p1","quote":"All we got from the G8 was hot air."},
@@ -1818,7 +1898,7 @@
     },
     {
       "id": "ex017",
-      "text": "",
+      "text": "You will not find any reference to them in review articles, books or IPCC reports. I set out to investigate this relationship using solar activity data and the Oceanic El Niño Index, which shows in blue the periods when the equatorial Pacific is cooler than average and in red when it is warmer. Since solar cycles have slightly different lengths, I divided both data series into segments of a solar cycle and then adjusted the length to be the same for all cycles. This statistical technique is called epoch analysis. In this way, the mean and variance of the data are determined for periods that coincide in their phase of the cycle. This revealed a pattern that indicates an El Niño response to solar activity. I looked at a period when the cycle is gaining activity, which is accompanied by La Niña conditions. I used the Monte Carlo method to determine the probability that this result was random, and the answer was only 0. This means that there is a 99. 3% chance that the La Niña conditions at this time in the solar cycle are due to the Sun. X-axis is the variable length of a full solar cycle. Right curves show the mean and standard deviation of left curves. Red rectangle indicates the part of the data analyzed by Monte Carlo method. Since the answer is clearer for La Niña, I analyzed the relative frequencies of each phase of the El Niño phenomenon. What is observed is that the Neutral condition years follow the solar cycle in their frequency with a delay of one or two years. Surprisingly, the frequency of La Niña is the opposite of Neutral. The solar activity determines whether it is a La Niña year or a Neutral year. El Niño seems to have another cause, which could be the amount of heat accumulated in the ocean. classification shown in the bottom squares. Frequency was calculated for a sliding window and Gaussian smoothed. It is striking that with so much evidence and studies, the vast majority of scientists do not know that the Sun controls the very important El Niño phenomenon. But El Niño is a product of the action of the trade winds over the equatorial Pacific. To control El Niño, the Sun must control the atmospheric circulation.",
       "reasoning": {
         "claims": [
           {"id":"p1","quote":"You will not find any reference to them in review articles, books or IPCC reports."},
@@ -1891,7 +1971,7 @@
     },
     {
       "id": "ex018",
-      "text": "",
+      "text": "We have space to review only a few of these unexplained effects. Let’s start with the surface. Most of the Sun’s energy reaches the surface of the planet. If this energy increases by 0. 1%, then every point on the surface receives 0. One would expect this to cause a small overall warming, estimated by scientists to be two hundredths of a degree Celsius, which is undetectable. But that is not what is being observed. Several studies show that over the solar cycle, the surface is warming times more than expected, C, and it is doing so in an extremely irregular way with large spatial variations. On the right are zonally averaged changes. Going from a solar minimum to a solar maximum, some areas show more than 1°C of warming, while others show more than half a degree of cooling. This is not the effect you would expect. If we analyze the average for each latitude, we observe a very strong warming around N latitude. But if we analyze the change at altitude, in the stratosphere, we observe something very curious. The response in this layer of the atmosphere is inverse to the response at the surface. Why is this important? The IPCC tells us that one of the fingerprints of warming due to our emissions is that we see warming at the surface and cooling in the stratosphere. But if the Sun also shows an inverse response between the two, then the observation is no longer evidence of guilt from emissions. Years ago, some scientists studied the rates of warming and cooling in the upper layer of the tropical oceans. They found that it follows a cycle similar to that of the Sun. Instead of thinking that this supported an indirect effect of the Sun on climate, most scientists ignored the study. Upper, heat storage anomaly above the °C isotherm from S to N expressed in W (stored)/m 2.",
       "reasoning": {
         "claims": [
           {"id":"p1","quote":"Most of the Sun’s energy reaches the surface of the planet."},
@@ -1979,7 +2059,7 @@
     },
     {
       "id": "ex019",
-      "text": "",
+      "text": "The effect of the Sun on climate has been debated for. The basic problem is that when we study the past, we observe strong climatic changes associated with prolonged periods of low solar activity, but when we observe the present, we are able to detect only small effects due to the solar cycle. There are several possible explanations for this discrepancy. But the main question is how the Sun affects climate. In its , the IPCC used climate models to calculate the Sun’s contribution to warming. These models only take into account changes in the total energy coming from the Sun, which is known to vary by only 0. Therefore, the IPCC’s answer is that the Sun has contributed nothing to the warming. The IPCC is ignoring a large body of evidence that the Sun affects climate in ways that cannot be explained by these energy changes alone.",
       "reasoning": {
         "claims": [
           {"id":"p1","quote":"The effect of the Sun on climate has been debated for."},
@@ -2037,7 +2117,7 @@
     },
     {
       "id": "ex020",
-      "text": "",
+      "text": "On their About page , one of the things the IPCC writes is: An open and transparent review by experts and governments around the world is an essential part of the IPCC process, to ensure an objective and complete assessment and to reflect a diverse range of views and expertise. They write: As a rule of thumb, the larger the pre-industrial temperature changes, the higher the natural contribution to the current warm period (CWP) will likely be, thus, reducing the CO2 climate sensitivity and the expected warming until. As part of Büntgen’s response to a question about whether his recent work would help the “climate deniers” or the “climate change proponents”, Büntgen argues that a high pre-industrial temperature variability would mean that the climate sensitivity is also high : There is one thing that often gets taken wrong if we are reconstructing past climate and we show more natural variability. Some people, they don’t understand it fully, they would say “ah okay, you are able to show us that climate system was always varying, so where is the problem? ” This is the wrong assumption, the assumption is that this only indicates that the climate system is very sensitive, so it’s about the sensitivity. That means even without greenhouse gases, we had these fluctuations; we had cold and warm periods. So that means the sensitivity of the system is very high, which makes the effect of greenhouse gases even bigger, right? So I think it is exactly the counter-argument. If we are able to show that pre-industrial temperature and precipitation changes were relatively big, it only means that the additional effect of greenhouse gases will be even further a problem.",
       "reasoning": {
         "claims": [
           {"id":"p1","quote":"An open and transparent review by experts and governments around the world is an essential part of the IPCC process, to ensure an objective and complete assessment and to reflect a diverse range of views and expertise."},
@@ -2097,7 +2177,7 @@
     },
     {
       "id": "ex021",
-      "text": "",
+      "text": "As we’ve seen, tree rings aren’t very good at preserving long-term temperature trends, and the signal-free procedure was created with the intention to at least partly solve this problem — to preserve medium-term (up to one century) variability in tree ring temperature reconstructions. How much can we actually know about past temperatures? In light of the big differences between global temperature reconstructions, one might wonder how much we can actually be certain of when it comes to past global temperatures. We argue that more proxy records are needed to accurately reconstruct first millennium CE temperature variability All of these issues, i. the limited resolution, reduced replication, and increased dating uncertainty, affect our ability to accurately assess past temperatures and cause a blurring of the climate record back in time. Yet the circumstance that the next IPCC report will no longer include a paleoclimate chapter should not mistakenly be interpreted as evidence that natural climate variability is understood. The opposite is actually the case. And there’s disagreement in the scientific literature about how much the pre-industrial global temperature has varied since. That in itself is unfortunate, since they’re supposed to make an objective assessment of the scientific literature. Did the IPCC want to present a hockey stick temperature graph? The Clintel Foundation and McIntyre believe so, and I wouldn’t be surprised, either. But it’s hard to prove. Footnotes: ) An objective review is at least one of IPCC’s stated missions.",
       "reasoning": {
         "claims": [
           {"id":"p1","quote":"tree rings aren’t very good at preserving long-term temperature trends,"},
@@ -2158,7 +2238,7 @@
     },
     {
       "id": "ex022",
-      "text": "",
+      "text": "The issue of challenges to the IPCC consensus statement on attribution is not analogous to Galileo-like revolutionaries. Rather these challenges are associated with a concern about the oversimplification by the IPCC of a complex issue in the interests of policy making. How to reason about uncertainties in the complex climate system and its computer simulations is neither simple nor obvious. Scientific debates involve controversies over the value and importance of particular classes of evidence as well as disagreement about the appropriate logical framework for linking and assessing the evidence. The IPCC faces a daunting challenge with regards to characterizing and reasoning about uncertainty, assessing the quality of evidence, linking the evidence into arguments, identifying areas of ignorance and assessing confidence levels. An overarching concern is how the issue of climate change is framed scientifically and how judgments about confidence in complex scientific arguments are made in view of the cascade of uncertainties. Given the complexity of the climate problem, ‘expert judgments’ about uncertainty and confidence levels are made by the IPCC on issues that are dominated by unquantifiable uncertainties. It is difficult to avoid concluding that the IPCC consensus is manufactured and that the existence of this consensus does not lend intellectual substance to their conclusions.",
       "reasoning": {
         "claims": [
           {"id":"p1","quote":"The issue of challenges to the IPCC consensus statement on attribution is not analogous to Galileo-like revolutionaries."},
@@ -2239,7 +2319,7 @@
     },
     {
       "id": "ex023",
-      "text": "",
+      "text": "Greenpeace: Has the process of shooting this video changed the way you feel about plastic pollution? S & J: Making the video was like a deep meditation on the subject of plastic pollution, and we learned some things ourselves as well. We were already shopping consciously, bringing our own bags, carrying our own water bottles, but we now carry our own utensils in our bags everywhere. We also became much more aware of how waste and plastics are disposed of and how little we actually recycle. With this newly learned knowledge we now try to bring awareness to people around us and encourage them to become involved too, in solving this massive problem. Greenpeace: How can people help with the issue of plastic waste in the oceans? NA: It’s the governments and big corporations that have made it hard for us to live without single-use plastics, such as food packaging, but we are all responsible. I think it’s more important to try to avoid using single-use plastics than assume that they’ll get recycled once thrown away. We’ve passed the point of being able to do much about most of the plastic already present in the ocean. The best thing that people can do is just to try to not make the problem worse. Stop using pointless plastic straws and disposable cutlery, buy foods without plastic packaging. If you own a take-away restaurant, supply wooden cutlery etc. for your customers.",
       "reasoning": {
         "claims": [
           {"id":"p1","quote":"Making the video was like a deep meditation on the subject of plastic pollution, and we learned some things ourselves as well."},
@@ -2288,7 +2368,7 @@
     },
     {
       "id": "ex024",
-      "text": "",
+      "text": "Steyn vs Mann Mark Steyn continues his free speech crusade in an article Yes we can say that. Towards the end of the article, Michael Mann and the climate debate gets a mention: Which brings us to Michael Mann, the fake Nobel laureate currently suing NATIONAL REVIEW for mocking his global-warming “hockey stick. ” Of the recent congressional hearings, Dr. Mann tweeted that it was “#Science” — i. the guy who agrees with him — vs. “#AntiScience” — i. Judith Curry, chair of the School of Earth and Atmospheric Sciences at the Georgia Institute of Technology. That’s to say, she is by profession a scientist, but because she has the impertinence to dissent from Dr. Mann’s view she is “#AntiScience. ” Mann is the climatological equivalent of those bozo imams on al-Arabiya raging about infidel whores: He can’t refute Dr. Curry, he can only label her. He explains his aversion to appearing with anyone other than fawning groupies thus: “Getting on a debate stage signals that, while you might disagree, you respect the position of your opponent. ” But the reality is that he’s too insecure and dull-witted to argue. That’s why he’s suing me over a pun (“tree-ring circus”), why he threatened legal action in Minnesota over a song parody, and why he’s in court in Vancouver objecting to a bit of wordplay. “You can’t say that! ” is the refrain of those who can’t hold their own. Michael Mann is seeking massive damages from me and this magazine. Nuts to that. But I would be willing to buy him a course in debating technique — because in free societies that’s how you win. I’d also like to buy the wee thin-skinned chap a sense of humor, but I don’t think there’s a course for that. That’s a good example of why he’s careful never to expose himself to genuine debate, and why his cross-examination on the witness stand will be such a hoot. I suspect that this is not going to turn out well for you. I’m not predicting how Mann’s lawsuit will turn out, but Steyn’s relentless hammering of Mann seems to be doing far more damage to Mann’s reputation that the alleged legal defamation.",
       "reasoning": {
         "claims": [
           {"id":"p1","quote":"Which brings us to Michael Mann, the fake Nobel laureate currently suing NATIONAL REVIEW for mocking his global-warming “hockey stick. ”"},
@@ -2352,7 +2432,7 @@
     },
     {
       "id": "ex025",
-      "text": "",
+      "text": "These bills arrive at a time when public trust in Australian democracy is in precipitous decline. Rather than tackling issues that actually concern the Australian public–like excessive corporate influence over our political system–the Government has tabled draconian laws that it hopes will silence its critics. The importance of NGOs, and their ability to advocate, to the proper functioning of democracy cannot be overstated. Advocacy ensures that a diverse range of views and voices is represented in policy debate. While Greenpeace Australia Pacific supporters can be assured that we always speak up for what is right, regardless of the consequences, we are concerned that some charities, particularly smaller ones, may be deterred by these bills from doing so. Hard right MPs, backed by faceless mining companies, are doing this because they’re afraid of you. They’re afraid of you because you got every major Australian bank to rule out funding new coal mines , you got BP and Chevron to drop their plans to drill for oil in the Great Australian Bight , and you kicked supertrawlers out of Australian waters . And they hate it.",
       "reasoning": {
         "claims": [
           {"id":"p1","quote":"These bills arrive at a time when public trust in Australian democracy is in precipitous decline."},
@@ -2416,7 +2496,7 @@
     },
     {
       "id": "ex026",
-      "text": "",
+      "text": "Ms Stephan calls Schellnhuber’s type of climate activism an attempt at creating an “above the law state of emergency”, and involves a new climate religion operated by “high priests”: The new religion promises the Last Judgement already today – that is we endeavour one last huge and dramatic effort to save humanity from a well-deserved downfall. As is the case with other religions, the best is repentance, humility and self-restriction – preferably through emission payments without end. ” Stephan writes that the new climate religion fills a void left behind by other religions, and tells us to feel guilty about prosperity. Eventually, we fear, we’ll have to pay the price for our prosperity – be it to God or Nature, – with Biblical plagues such as storms, huge tidal waves, floods, fire-spewing volcanoes, in short: death and demons”. Stephan warns us not to doubt the elite prophets who have the powers, tools and instruments to see deep into the future: The new priests who proclaim these scenarios have attracted billions of followers with their announcements of world downfall. And, like all other prophets, they do not tolerate any doubts about their predictions. Those who dare express doubt are nothing more than egotistical wretches, appeasers and trivializers, block-headed deniers or worse, or to the least paid agents of evil. ” As the climate zealotry and hysteria spread though society, it’s only logical that the obstacles that prevent necessary action, like democracy, be removed and replaced globally by an “authoritarian regime of experts”. The “projected global downfall is the state-of-emergency that justifies every measure and it distracts us from every other unfinished business.",
       "reasoning": {
         "claims": [
           {"id":"p1","quote":"Ms Stephan calls Schellnhuber’s type of climate activism an attempt at creating an “above the law state of emergency”"},
@@ -2519,42 +2599,414 @@
     },
     {
       "id": "ex027",
-      "text": "",
+      "text": "The question in question. There are lots of good arguments against the AGW consensus, but this one is just silly. Here are four entirely separate and distinct lines of reasoning showing that DLR does in fact heat the oceans. People claim that because the DLR is absorbed in the first mm of water, it can’t heat the mass of the ocean. But the same is true of the land. DLR is absorbed in the first mm of rock or soil. Yet the same people who claim that DLR can’t heat the ocean (because it’s absorbed in the first mm) still believe that DLR can heat the land (despite the fact that it’s absorbed in the first mm. And this is in spite of the fact that the ocean can circulate the heat downwards through turbulence, while there is no such circulation in the land … but still people claim the ocean can’t heat from DLR but the land can. Logical contradiction, no cookies. If the DLR isn’t heating the water, where is it going? It can’t be heating the air, because the atmosphere has far too little thermal mass. If DLR were heating the air we’d all be on fire.",
       "reasoning": {
-        "claims": [],
-        "claims_extra": [],
-        "inferences": [],
-        "conclusions": []
+        "claims": [
+          {"id":"p1","quote":"There are lots of good arguments against the AGW consensus, but this one is just silly."},
+          {"id":"p2","quote":"Here are four entirely separate and distinct lines of reasoning showing that DLR does in fact heat the oceans."},
+          {"id":"p3","quote":"People claim that because the DLR is absorbed in the first mm of water, it can’t heat the mass of the ocean."},
+          {"id":"p4","quote":"the DLR is absorbed in the first mm of water"},
+          {"id":"p5","quote":"But the same is true of the land. DLR is absorbed in the first mm of rock or soil."},
+          {"id":"p6","quote":"Yet the same people who claim that DLR can’t heat the ocean (because it’s absorbed in the first mm) still believe that DLR can heat the land (despite the fact that it’s absorbed in the first mm."},
+          {"id":"p7","quote":"And this is in spite of the fact that the ocean can circulate the heat downwards through turbulence,"},
+          {"id":"p8","quote":"while there is no such circulation in the land … but still people claim the ocean can’t heat from DLR but the land can."},
+          {"id":"p9","quote":"Logical contradiction, no cookies."},
+          {"id":"p10","quote":"If the DLR isn’t heating the water, where is it going?"},
+          {"id":"p11","quote":"It can’t be heating the air, because the atmosphere has far too little thermal mass."},
+          {"id":"p12","quote":"If DLR were heating the air we’d all be on fire."}
+        ],
+        "inferences": [
+          {
+            "from":["p5","p6"],
+            "to":"ic1",
+            "type":"supports",
+            "warrant":{
+              "text":"If land is also heated despite DLR being absorbed in the top millimetre, then shallow absorption alone doesn’t preclude a medium from being heated.",
+              "explicit":false
+            },
+            "structure":"linked",
+            "group":"g1"
+          },
+          {
+            "from":["p7","p8"],
+            "to":"ic2",
+            "type":"supports",
+            "warrant":{
+              "text":"If the ocean can circulate surface heat downward through turbulence while land cannot, then downward mixing in the ocean can warm its bulk from surface-absorbed energy.",
+              "explicit":false
+            },
+            "structure":"linked",
+            "group":"g2"
+          },
+          {
+            "from":["p4","p11"],
+            "to":"ic3",
+            "type":"supports",
+            "warrant":{
+              "text":"If DLR energy is absorbed at the surface and the air has too little thermal mass to absorb it, then the absorbed DLR must largely contribute to heating the ocean.",
+              "explicit":false
+            },
+            "structure":"linked",
+            "group":"g3"
+          },
+          {
+            "from":["p4","p12"],
+            "to":"ic3",
+            "type":"supports",
+            "warrant":{
+              "text":"If the air were significantly heated by DLR we would observe extreme warming (‘we’d all be on fire’), which we do not, so the absorbed DLR is not primarily heating the air and instead goes into the ocean.",
+              "explicit":false
+            },
+            "structure":"convergent",
+            "group":"g4"
+          },
+          {
+            "from":["ic1","ic2","ic3"],
+            "to":"c1",
+            "type":"supports",
+            "warrant":{
+              "text":"Given that shallow absorption doesn’t block heating, the ocean can mix surface heat downward, and the absorbed DLR is not heating the air, it follows that DLR does in fact heat the oceans.",
+              "explicit":false
+            },
+            "structure":"linked",
+            "group":"g5"
+          },
+          {
+            "from":["p4","p5","p6","p8"],
+            "to":"c2",
+            "type":"supports",
+            "warrant":{
+              "text":"If DLR is absorbed in the first millimetre in both ocean and land, yet the same people claim it can heat land but not ocean, then their position treats identical absorption physics differently and is logically inconsistent.",
+              "explicit":false
+            },
+            "structure":"linked",
+            "group":"g6"
+          },
+          {
+            "from":["c2"],
+            "to":"p3",
+            "type":"undercuts",
+            "warrant":{
+              "text":"If the reasoning that DLR cannot heat the ocean is internally contradictory, then that claim is not justified by the ‘first millimetre’ argument offered in its support.",
+              "explicit":false
+            },
+            "structure":"convergent",
+            "group":"g7"
+          }
+        ],
+        "conclusions": [
+          {
+            "id":"c1",
+            "quote":"",
+            "canonical":"DLR (downwelling longwave radiation) does in fact heat the oceans"
+          },
+          {
+            "id":"c2",
+            "quote":"",
+            "canonical":"The argument that DLR cannot heat the ocean because it is absorbed in the first millimetre is logically self-contradictory and fails"
+          }
+        ],
+        "claims_extra": [
+          {
+            "id":"ic1",
+            "quote":"",
+            "canonical":"Shallow (top-millimetre) absorption alone does not prevent a medium from being heated"
+          },
+          {
+            "id":"ic2",
+            "quote":"",
+            "canonical":"Downward turbulent mixing in the ocean can carry surface-absorbed energy into the interior so the bulk ocean warms"
+          },
+          {
+            "id":"ic3",
+            "quote":"",
+            "canonical":"DLR absorbed at the ocean surface that does not significantly heat the air must largely contribute to heating the ocean"
+          }
+        ]
       }
     },
     {
       "id": "ex028",
-      "text": "",
+      "text": "The linear model of expertise places science at the center of political debate. Scientific controversies surrounding evidence of climate change have thus become a proxy for political battles over whether and how to react to climate change. Therefore, winning a scientific debate results in a privileged position in political battle, hence providing motivation for defending the consensus. As a result, it has become difficult to disentangle political arguments about climate policies from scientific arguments about the evidence for human-induced climate change. The quality of both political debate and scientific practice can suffer as a consequence. The linear model of expertise ‘speaking consensus to power’ tends to stifle discussion of alternative policy approaches. The IPCC has framed its assessment around the UNFCCC policy of stabilizing greenhouse emissions, focusing its scientific assessment on the attribution of climate change and the sensitivity of climate change to greenhouse gases. The narrow focus on issues of attribution masks major political implications, marginalizes issues around adaptation and development, and fails to engage with alternative approaches and to generate ideas to inform its ‘solutions’. While the public may not understand the complexity of the science or be predisposed culturally to accept the consensus, they can certainly understand the vociferous debates over the science portrayed by the media. Further, they can judge the social facts surrounding the consensus building process, including those revealed by the so-called “Climategate” episode, and decide whether to trust the experts whose opinion comprises the consensus. In summary, the manufactured consensus of the IPCC has arguably had the unintended consequences of distorting the science, elevating the voices of scientists that dispute the consensus, and motivating actions by the consensus scientists and their supporters that have diminished the public’s trust in the IPCC.",
       "reasoning": {
-        "claims": [],
-        "claims_extra": [],
-        "inferences": [],
-        "conclusions": []
+        "claims": [
+          {"id":"p1","quote":"The linear model of expertise places science at the center of political debate."},
+          {"id":"p2","quote":"Scientific controversies surrounding evidence of climate change have thus become a proxy for political battles over whether and how to react to climate change."},
+          {"id":"p3","quote":"Therefore, winning a scientific debate results in a privileged position in political battle, hence providing motivation for defending the consensus."},
+          {"id":"p4","quote":"As a result, it has become difficult to disentangle political arguments about climate policies from scientific arguments about the evidence for human-induced climate change."},
+          {"id":"p5","quote":"The quality of both political debate and scientific practice can suffer as a consequence."},
+          {"id":"p6","quote":"The linear model of expertise ‘speaking consensus to power’ tends to stifle discussion of alternative policy approaches."},
+          {"id":"p7","quote":"The IPCC has framed its assessment around the UNFCCC policy of stabilizing greenhouse emissions, focusing its scientific assessment on the attribution of climate change and the sensitivity of climate change to greenhouse gases."},
+          {"id":"p8","quote":"The narrow focus on issues of attribution masks major political implications, marginalizes issues around adaptation and development, and fails to engage with alternative approaches and to generate ideas to inform its ‘solutions’."},
+          {"id":"p9","quote":"While the public may not understand the complexity of the science or be predisposed culturally to accept the consensus, they can certainly understand the vociferous debates over the science portrayed by the media."},
+          {"id":"p10","quote":"Further, they can judge the social facts surrounding the consensus building process, including those revealed by the so-called “Climategate” episode, and decide whether to trust the experts whose opinion comprises the consensus."},
+          {"id":"p11","quote":"In summary, the manufactured consensus of the IPCC has arguably had the unintended consequences of distorting the science,"},
+          {"id":"p12","quote":"elevating the voices of scientists that dispute the consensus,"},
+          {"id":"p13","quote":"and motivating actions by the consensus scientists and their supporters that have diminished the public’s trust in the IPCC."}
+        ],
+        "inferences": [
+          {
+            "from":["p1","p2","p3","p4","p5","p6"],
+            "to":"ic1",
+            "type":"supports",
+            "warrant":{
+              "text":"If science is placed at the centre of political debate so that scientific controversies become proxies for political battles, winning scientific debates brings political advantage and motivation to defend consensus, making it hard to disentangle science from politics and degrading the quality of both while stifling alternative policy approaches, then the linear ‘speaking consensus to power’ model entangles science and politics in ways that harm both debate and practice and suppress alternative policies.",
+              "explicit":false
+            },
+            "structure":"linked",
+            "group":"g1"
+          },
+          {
+            "from":["p7","p8"],
+            "to":"ic2",
+            "type":"supports",
+            "warrant":{
+              "text":"If the IPCC frames its assessments around stabilising greenhouse emissions and focuses on attribution and sensitivity, and this narrow attribution focus masks political implications, marginalises adaptation and development, and fails to engage with alternative approaches, then the IPCC’s framing under the linear model sidelines key political and policy dimensions such as adaptation, development and alternative solutions.",
+              "explicit":false
+            },
+            "structure":"linked",
+            "group":"g2"
+          },
+          {
+            "from":["ic1","ic2"],
+            "to":"c1",
+            "type":"supports",
+            "warrant":{
+              "text":"If the linear ‘speaking consensus to power’ model entangles science and politics in ways that degrade debate and stifle alternative policies, and the IPCC’s narrow attribution-focused framing masks major political issues and sidelines adaptation and alternative approaches, then this linear, consensus-centred model is damaging for both scientific practice and climate policy, limiting the exploration of alternative policy pathways.",
+              "explicit":false
+            },
+            "structure":"linked",
+            "group":"g3"
+          },
+          {
+            "from":["p9","p10"],
+            "to":"ic3",
+            "type":"supports",
+            "warrant":{
+              "text":"If the public can understand vociferous scientific debates and can judge social facts about the consensus-building process, including episodes like Climategate, and then decide whether to trust the experts, then public trust in the IPCC consensus is strongly influenced by visible controversies and the perceived integrity of the consensus process itself.",
+              "explicit":false
+            },
+            "structure":"linked",
+            "group":"g4"
+          },
+          {
+            "from":["p11","p12","p13","ic3"],
+            "to":"c2",
+            "type":"supports",
+            "warrant":{
+              "text":"If the manufactured IPCC consensus has distorted the science, elevated dissenting scientists’ voices, and prompted actions by consensus supporters that have diminished public trust, and if public trust depends on how these social facts and controversies are perceived, then the manufactured IPCC consensus has unintentionally distorted science, amplified dissenters and eroded public trust in the IPCC.",
+              "explicit":false
+            },
+            "structure":"linked",
+            "group":"g5"
+          }
+        ],
+        "conclusions": [
+          {
+            "id":"c1",
+            "quote":"",
+            "canonical":"The linear ‘speaking consensus to power’ model and the IPCC’s narrow, attribution-focused framing are damaging to both scientific practice and climate policy, entangling science with politics, degrading debate and stifling alternative policy approaches"
+          },
+          {
+            "id":"c2",
+            "quote":"",
+            "canonical":"The manufactured IPCC consensus has unintentionally distorted the science, elevated dissenting voices and diminished public trust in the IPCC"
+          }
+        ],
+        "claims_extra": [
+          {
+            "id":"ic1",
+            "quote":"",
+            "canonical":"The linear model of expertise that places consensus science at the centre of political debate entangles scientific and political arguments and degrades the quality of both while suppressing alternative policy options"
+          },
+          {
+            "id":"ic2",
+            "quote":"",
+            "canonical":"By framing assessments around emissions stabilisation and attribution, the IPCC’s consensus-oriented approach masks major political implications and marginalises adaptation, development and alternative policy approaches"
+          },
+          {
+            "id":"ic3",
+            "quote":"",
+            "canonical":"Public trust in the IPCC consensus is shaped less by technical details of the science than by visible debates and social facts about how the consensus is produced and defended"
+          }
+        ]
       }
     },
     {
       "id": "ex029",
-      "text": "",
+      "text": "If the objective of scientific research is to obtain truth and avoid error, how might a consensus seeking process introduce bias into the science and increase the chances for error? ‘Confirmation bias’ is a well-known psychological principle that connotes the seeking or interpreting of evidence in ways that are partial to existing beliefs, expectations, or an existing hypothesis. Confirmation bias usually refers to unwitting selectivity in the acquisition and interpretation of evidence. Princeton philosopher Thomas Kelly provides some insight into confirmation bias, arguing that a prior belief can skew the total evidence that is available subsequently in a direction that is favorable to itself. Kelly also finds that individuals tend to be significantly better at detecting fallacies when the fallacy occurs in an argument for a conclusion which they disbelieve, rather than for a conclusion in which they believe. Kelly identifies a further source of confirmation bias in the consensus building process, whereby as more and more peers weigh in on the issue, the higher order psychological evidence of what others believe can eventually swamp the first order evidence into virtual insignificance. With regards to the IPCC, cognitive biases in the context of an institutionalized consensus building process have arguably resulted in the consensus becoming increasingly confirmed in a self-reinforcing way, to the detriment of the scientific process.",
       "reasoning": {
-        "claims": [],
-        "claims_extra": [],
-        "inferences": [],
-        "conclusions": []
+        "claims": [
+          {"id":"p1","quote":"If the objective of scientific research is to obtain truth and avoid error, how might a consensus seeking process introduce bias into the science and increase the chances for error?"},
+          {"id":"p2","quote":"‘Confirmation bias’ is a well-known psychological principle that connotes the seeking or interpreting of evidence in ways that are partial to existing beliefs, expectations, or an existing hypothesis."},
+          {"id":"p3","quote":"Confirmation bias usually refers to unwitting selectivity in the acquisition and interpretation of evidence."},
+          {"id":"p4","quote":"Princeton philosopher Thomas Kelly provides some insight into confirmation bias, arguing that a prior belief can skew the total evidence that is available subsequently in a direction that is favorable to itself."},
+          {"id":"p5","quote":"Kelly also finds that individuals tend to be significantly better at detecting fallacies when the fallacy occurs in an argument for a conclusion which they disbelieve, rather than for a conclusion in which they believe."},
+          {"id":"p6","quote":"Kelly identifies a further source of confirmation bias in the consensus building process, whereby as more and more peers weigh in on the issue, the higher order psychological evidence of what others believe can eventually swamp the first order evidence into virtual insignificance."},
+          {"id":"p7","quote":"With regards to the IPCC, cognitive biases in the context of an institutionalized consensus building process have arguably resulted in the consensus becoming increasingly confirmed in a self-reinforcing way, to the detriment of the scientific process."}
+        ],
+        "inferences": [
+          {
+            "from":["p2","p3","p4"],
+            "to":"ic1",
+            "type":"supports",
+            "warrant":{
+              "text":"If confirmation bias is unwitting selectivity in acquiring and interpreting evidence, and prior belief can skew the total evidence in its own favour, then confirmation bias can systematically tilt how evidence is gathered and interpreted toward existing beliefs or hypotheses.",
+              "explicit":false
+            },
+            "structure":"linked",
+            "group":"g1"
+          },
+          {
+            "from":["p5","p6","ic1"],
+            "to":"ic2",
+            "type":"supports",
+            "warrant":{
+              "text":"If people better detect fallacies in arguments they already disbelieve, and consensus-building lets others’ beliefs swamp direct evidence, then in consensus processes confirmation bias can be amplified so that group beliefs and prior commitments dominate over first-order evidence.",
+              "explicit":false
+            },
+            "structure":"linked",
+            "group":"g2"
+          },
+          {
+            "from":["p1","ic2"],
+            "to":"c1",
+            "type":"supports",
+            "warrant":{
+              "text":"If the aim of science is to obtain truth and avoid error, but consensus processes can amplify confirmation bias so that group beliefs dominate evidence, then consensus-seeking procedures can introduce bias into science and increase the chances of error.",
+              "explicit":false
+            },
+            "structure":"linked",
+            "group":"g3"
+          },
+          {
+            "from":["p7","ic2"],
+            "to":"c2",
+            "type":"supports",
+            "warrant":{
+              "text":"If consensus-building can amplify confirmation bias and swamp first-order evidence, and in the IPCC case the institutionalised consensus process has made the consensus increasingly self-reinforcing to the detriment of science, then the IPCC’s consensus-building process has allowed cognitive biases to undermine the quality of the scientific process.",
+              "explicit":false
+            },
+            "structure":"linked",
+            "group":"g4"
+          }
+        ],
+        "conclusions": [
+          {
+            "id":"c1",
+            "quote":"",
+            "canonical":"Consensus-seeking processes in science can amplify confirmation bias, biasing inquiry and increasing the risk of scientific error"
+          },
+          {
+            "id":"c2",
+            "quote":"",
+            "canonical":"In the IPCC context, institutionalised consensus-building has likely become self-reinforcing in a way that allows cognitive biases to detract from the scientific process"
+          }
+        ],
+        "claims_extra": [
+          {
+            "id":"ic1",
+            "quote":"",
+            "canonical":"Confirmation bias can systematically skew the collection and interpretation of evidence toward existing beliefs or hypotheses"
+          },
+          {
+            "id":"ic2",
+            "quote":"",
+            "canonical":"Consensus-building processes can amplify confirmation bias so that peers’ shared beliefs swamp first-order evidential assessment"
+          }
+        ]
       }
     },
     {
       "id": "ex030",
-      "text": "",
+      "text": "The United Nations initiated a scientific consensus building process with the objective of providing a robust scientific basis for climate policy, under the auspices of the Intergovernmental Panel for Climate Change (IPCC. The key IPCC consensus finding from its latest assessment report is this statement: “Most of the observed increase in global average temperatures since is very likely due to the observed increase in anthropogenic greenhouse gas concentrations. ” The IPCC consensus findings on attribution have been echoed in position statements made by many scientific organizations. The IPCC consensus is portrayed as nearly total among scientists with expertise and prominence in the field of climate science. The idea of a scientific consensus surrounding climate change attribution has been questioned by a number of people, including scientists and politicians. Much effort has been undertaken by those that support the IPCC consensus to discredit skeptical voices, essentially dismissing them as cranks or at best rebels, or even politically motivated ‘deniers’. Students of science are taught to reject ad populam or ‘bandwagon’ appeals, a sentiment is articulated by the motto of the UK Royal Society: ‘nullius in verba’, which is roughly translated as ‘take nobody’s word for it’. How then, and why, have climate scientists come to a scientific consensus about a very complex scientific problem that the consensus-supporting scientists themselves acknowledge has substantial and fundamental uncertainties? Consensus and dissent The debate surrounding the consensus on climate change is complicated by the complexity of both the scientific and the associated sociopolitical issues. Under the consensual approach, the goal of science is a consensus of rational opinion over the widest possible field. The opposing view of science is that of dissension, whereby scientific progress occurs via subversion of consensus in favor of new experiments, ideas and theories. When is it reasonable for a person to conform to a consensus and when is it reasonable to dissent? With genuinely well-established scientific theories, ‘consensus’ is not discussed and the concept of consensus is arguably irrelevant. For example, there is no point to discussing a consensus that the Earth orbits the sun, or that the hydrogen molecule has less mass than the nitrogen molecule. While a consensus may arise surrounding a specific scientific hypothesis or theory, the existence of a consensus is not itself the evidence.",
       "reasoning": {
-        "claims": [],
-        "claims_extra": [],
-        "inferences": [],
-        "conclusions": []
+        "claims": [
+          {"id":"p1","quote":"The United Nations initiated a scientific consensus building process with the objective of providing a robust scientific basis for climate policy, under the auspices of the Intergovernmental Panel for Climate Change (IPCC."},
+          {"id":"p2","quote":"The key IPCC consensus finding from its latest assessment report is this statement: “Most of the observed increase in global average temperatures since is very likely due to the observed increase in anthropogenic greenhouse gas concentrations.”"},
+          {"id":"p3","quote":"The IPCC consensus findings on attribution have been echoed in position statements made by many scientific organizations."},
+          {"id":"p4","quote":"The IPCC consensus is portrayed as nearly total among scientists with expertise and prominence in the field of climate science."},
+          {"id":"p5","quote":"The idea of a scientific consensus surrounding climate change attribution has been questioned by a number of people, including scientists and politicians."},
+          {"id":"p6","quote":"Much effort has been undertaken by those that support the IPCC consensus to discredit skeptical voices, essentially dismissing them as cranks or at best rebels, or even politically motivated ‘deniers’."},
+          {"id":"p7","quote":"Students of science are taught to reject ad populam or ‘bandwagon’ appeals, a sentiment is articulated by the motto of the UK Royal Society: ‘nullius in verba’, which is roughly translated as ‘take nobody’s word for it’."},
+          {"id":"p8","quote":"Climate scientists have come to a scientific consensus about a very complex scientific problem that the consensus-supporting scientists themselves acknowledge has substantial and fundamental uncertainties."},
+          {"id":"p9","quote":"The debate surrounding the consensus on climate change is complicated by the complexity of both the scientific and the associated sociopolitical issues."},
+          {"id":"p10","quote":"Under the consensual approach, the goal of science is a consensus of rational opinion over the widest possible field."},
+          {"id":"p11","quote":"The opposing view of science is that of dissension, whereby scientific progress occurs via subversion of consensus in favor of new experiments, ideas and theories."},
+          {"id":"p12","quote":"With genuinely well-established scientific theories, ‘consensus’ is not discussed and the concept of consensus is arguably irrelevant."},
+          {"id":"p13","quote":"For example, there is no point to discussing a consensus that the Earth orbits the sun, or that the hydrogen molecule has less mass than the nitrogen molecule."},
+          {"id":"p14","quote":"While a consensus may arise surrounding a specific scientific hypothesis or theory, the existence of a consensus is not itself the evidence."}
+        ],
+        "inferences": [
+          {
+            "from":["p7","p12","p13","p14"],
+            "to":"ic1",
+            "type":"supports",
+            "warrant":{
+              "text":"If students are taught to reject bandwagon appeals, if consensus is irrelevant for well-established theories like heliocentrism or molecular masses, and if the existence of a consensus is explicitly not itself evidence, then in science the mere existence of a consensus should not be treated as evidential support for a hypothesis.",
+              "explicit":false
+            },
+            "structure":"linked",
+            "group":"g1"
+          },
+          {
+            "from":["p1","p2","p3","p4","p8","p9","p10","p11"],
+            "to":"ic2",
+            "type":"supports",
+            "warrant":{
+              "text":"If the UN, via the IPCC, has intentionally organized a consensus-building process on attribution, that consensus is widely echoed and portrayed as nearly total, yet concerns a very complex and uncertain problem embedded in sociopolitical issues and framed by contrasting views of science as consensus versus dissension, then the IPCC attribution consensus reflects not only scientific evidence but also institutional and sociopolitical processes around a complex, uncertain issue.",
+              "explicit":false
+            },
+            "structure":"linked",
+            "group":"g2"
+          },
+          {
+            "from":["ic1","ic2","p5","p6"],
+            "to":"c1",
+            "type":"supports",
+            "warrant":{
+              "text":"If consensus is not itself evidence and bandwagon appeals should be rejected, if the IPCC attribution consensus arises in a complex, uncertain, sociopolitical context, and if dissenting voices are actively questioned and discredited, then the claimed IPCC scientific consensus on climate change attribution should not be treated as conclusive evidence in itself and should be open to critical scrutiny.",
+              "explicit":false
+            },
+            "structure":"linked",
+            "group":"g3"
+          },
+          {
+            "from":["p11","p12","p14","c1"],
+            "to":"c2",
+            "type":"supports",
+            "warrant":{
+              "text":"If scientific progress often occurs through dissension that overturns consensus, if truly well-established knowledge does not need to invoke consensus, and if the IPCC attribution consensus is not itself decisive evidence, then it is scientifically reasonable and legitimate to question or dissent from that consensus.",
+              "explicit":false
+            },
+            "structure":"linked",
+            "group":"g4"
+          }
+        ],
+        "conclusions": [
+          {
+            "id":"c1",
+            "quote":"",
+            "canonical":"The IPCC climate-change attribution consensus should not be treated as conclusive evidence in itself; appeals to consensus are insufficient as scientific support"
+          },
+          {
+            "id":"c2",
+            "quote":"",
+            "canonical":"Given the uncertainties and the nature of scientific progress, it is reasonable and scientifically legitimate to question or dissent from the IPCC consensus on climate change attribution"
+          }
+        ],
+        "claims_extra": [
+          {
+            "id":"ic1",
+            "quote":"",
+            "canonical":"In scientific practice, the existence of a consensus is not itself evidence and bandwagon appeals should be rejected"
+          },
+          {
+            "id":"ic2",
+            "quote":"",
+            "canonical":"The IPCC attribution consensus on climate change arises in a complex, uncertain and sociopolitically entangled context and reflects more than straightforward empirical evidence alone"
+          }
+        ]
       }
     }
   ]
