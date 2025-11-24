@@ -41,15 +41,20 @@ function toBase64UTF8(str){
 }
 
 // Renderers
-function renderClassSelect(conclusionId){
-  const options = ["Strongly Supported","Weakly Supported","Not Supported","Contradicted"];
+function renderClassSelect(conclusion){
+  const cid = conclusion.id;
+  const opts = (conclusion.classes && conclusion.classes.length)
+    ? conclusion.classes
+    : ["Strongly Supported","Weakly Supported","Not Supported","Contradicted"]; // fallback if classes missing
+
   return `<label>Choose one:
-  <select name="cls-${conclusionId}" required>
-    <option value="">-- select --</option>
-    ${options.map(o=>`<option value="${o}">${o}</option>`).join("")}
-  </select>
+    <select name="cls-${cid}" required>
+      <option value="">-- select --</option>
+      ${opts.map(o => `<option value="${escapeHtml(o)}">${escapeHtml(o)}</option>`).join("")}
+    </select>
   </label>`;
 }
+
 function renderLikert(name){
   const labels = [1,2,3,4,5,6,7];
   return `<div class="card">
@@ -225,6 +230,10 @@ function renderExtraction(ex){
         <h3>Conclusion ${cid}</h3>
         <p><span class="hl-conclusion">${escapeHtml(cText)}</span></p>
         ${chainsHtml}
+        <div class="conclusion-rating">
+          <h4>Which class best fits this conclusion?</h4>
+          ${renderClassSelect(c)}
+        </div>
       </div>
     `;
   }).join("");
