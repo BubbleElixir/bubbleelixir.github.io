@@ -274,14 +274,29 @@ function renderExtraction(ex){
 
 // DataPipe save
 async function saveToOSF_DataPipe(participantId, example, payload){
+  console.log("[DataPipe] save start", {
+    participantId,
+    exampleId: example.id,
+    payloadSize: JSON.stringify(payload).length
+  });
+
   if (!window.jsPsychPipe || typeof jsPsychPipe.saveBase64Data !== "function"){
+    console.error("[DataPipe] jsPsychPipe.saveBase64Data is not available");
     throw new Error("DataPipe (jsPsych Pipe) not available on page.");
   }
+
   const filename = `${participantId}/${Date.now()}_${example.id}.json`;
   const content = JSON.stringify(payload);
   const b64 = toBase64UTF8(content);
-  // static method; returns a Promise
-  await jsPsychPipe.saveBase64Data(DATAPIPE_EXPERIMENT_ID, filename, b64);
+
+  try {
+    const res = await jsPsychPipe.saveBase64Data(DATAPIPE_EXPERIMENT_ID, filename, b64);
+    console.log("[DataPipe] save success", { filename, res });
+    return res;
+  } catch (err) {
+    console.error("[DataPipe] save FAILED", err);
+    throw err;
+  }
 }
 
 // ---- App ----
