@@ -3,14 +3,96 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width,initial-scale=1">
-  <title>Thanks</title>
+  <title>Thank you</title>
   <link rel="stylesheet" href="assets/styles.css">
 </head>
 <body>
 <header>
-  <h1>Thanks!</h1>
-  <p>Your responses have been recorded. You can close this page.</p>
-  <a class="btn" href="index.html">Back to start</a>
+  <h1>Thank you for participating</h1>
 </header>
+<main>
+  <div class="card">
+    <p>Your responses have been recorded.</p>
+    <p>Your participant ID: <strong id="pid"></strong></p>
+  </div>
+
+  <div class="card">
+    <h2>Voucher (optional)</h2>
+    <p>If you would like to receive a voucher for your participation, please enter your email address below.</p>
+    <form id="voucher-form">
+      <label>
+        Email:
+        <input type="email" id="email" required placeholder="you@example.com">
+      </label>
+      <button type="submit" class="btn">Submit</button>
+    </form>
+    <p id="status" class="mono"></p>
+  </div>
+</main>
+<footer>
+  <p><small class="mono">You can close this tab once you see confirmation that your email has been recorded.</small></p>
+</footer>
+
+<!-- jsPsych + DataPipe so we can use jsPsychPipe.saveBase64Data -->
+<!-- jsPsych core -->
+<script src="https://unpkg.com/jspsych@8.2.2"></script>
+<!-- DataPipe / OSF -->
+<script src="https://unpkg.com/@jspsych-contrib/plugin-pipe"></script>
+<script>
+  const DATAPIPE_EXPERIMENT_ID = "ZteOOhPgsNcI";
+
+  function toBase64UTF8(str){
+    const bytes = new TextEncoder().encode(str);
+    let bin = "";
+    for (let i=0;i<bytes.length;i++){ bin += String.fromCharCode(bytes[i]); }
+    return btoa(bin);
+  }
+
+  async function saveEmailToOSF(participantId, email){
+    if (!window.jsPsychPipe || typeof jsPsychPipe.saveBase64Data !== "function"){
+      throw new Error("DataPipe (jsPsych Pipe) not available on page.");
+    }
+    const payload = {
+      participant_id: participantId || null,
+      email: email,
+      ts_client: new Date().toISOString(),
+      user_agent: navigator.userAgent,
+      type: "voucher_email_v1"
+    };
+    const content = JSON.stringify(payload);
+    const b64 = toBase64UTF8(content);
+    const filename = `${participantId || "unknown"}/voucher_email.json`;
+    await jsPsychPipe.saveBase64Data(DATAPIPE_EXPERIMENT_ID, filename, b64);
+  }
+
+  document.addEventListener('DOMContentLoaded', () => {
+    const pid = localStorage.getItem('participant_id') || "";
+    const pidEl = document.getElementById('pid');
+    if (pidEl) pidEl.textContent = pid || "(not found)";
+
+    const form = document.getElementById('voucher-form');
+    const emailInput = document.getElementById('email');
+    const statusEl = document.getElementById('status');
+
+    form.addEventListener('submit', async (e) => {
+      e.preventDefault();
+      const email = emailInput.value.trim();
+      if (!email){
+        statusEl.textContent = "Please enter a valid email.";
+        return;
+      }
+      statusEl.textContent = "Saving...";
+      try {
+        await saveEmailToOSF(pid, email);
+        statusEl.textContent = "Thank you! Your email has been recorded.";
+        emailInput.disabled = true;
+        form.querySelector('button').disabled = true;
+      } catch (err) {
+        console.error(err);
+        statusEl.textContent = "Sorry, saving failed. Please check your connection and try again.";
+      }
+    });
+  });
+</script>
 </body>
 </html>

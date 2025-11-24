@@ -98,6 +98,39 @@ footer{color:#555;font-size:14px;padding-bottom:40px}
   margin-top: 0;
 }
 
+.class-choices {
+  display: flex;
+  flex-direction: column;
+  gap: 0.4rem;
+  margin-top: 0.4rem;
+}
+
+.class-choice {
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  padding: 0.35rem 0.6rem;
+  background: #f7f7f7;
+  cursor: pointer;
+  text-align: left;
+  font-size: 0.9rem;
+}
+
+.class-choice:hover {
+  background: #eeeeee;
+}
+
+.class-choice.selected {
+  border-color: #c2185b;
+  background: #ffe5ef;
+  font-weight: 600;
+}
+
+.small-hint {
+  margin-top: 0.3rem;
+  font-size: 0.75rem;
+  color: #666;
+}
+
 .no-select {
   -webkit-user-select: none;
   -moz-user-select: none;

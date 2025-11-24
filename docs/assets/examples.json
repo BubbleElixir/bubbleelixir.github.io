@@ -3364,7 +3364,13 @@
           {
             "id":"c2",
             "quote":"",
-            "canonical":"Given the uncertainties and the nature of scientific progress, it is reasonable and scientifically legitimate to question or dissent from the IPCC consensus on climate change attribution"
+            "canonical":"Given the uncertainties and the nature of scientific progress, it is reasonable and scientifically legitimate to question or dissent from the IPCC consensus on climate change attribution",
+            "classes": [
+              "Belief Consistency: Declares a statement is correct/incorrect because it aligns/conflicts with pre‑existing beliefs, ideology, worldview, and/or synonyms.",
+              "Organisational Process: Reasoning about institutional procedures, governance pathways, decision hierarchies, approval workflows, cultural acceptance, and/or synonyms.",
+              "Subvert Authority: Advocates for a specific belief, decision, conclusion, policy, action, and/or synonyms, solely on the basis that a stated leader, rule, tradition, institution, and/or synonyms, must be subverted/challenged.",
+              "Source-Credibility Weighing: Evaluates one or more sources by assessing their credibility, integrity, reliability, expertise, transparency, biases, incentives, and/or synonyms."
+            ]
           }
         ],
         "claims_extra": [

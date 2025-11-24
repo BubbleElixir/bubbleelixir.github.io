@@ -1,6 +1,6 @@
 // ---- Config ----
 const DATAPIPE_EXPERIMENT_ID = "ZteOOhPgsNcI"; // <-- set this
-const REQUIRED_COUNT = 50;
+const REQUIRED_COUNT = 30;
 
 // ---- Helpers ----
 function qs(sel){return document.querySelector(sel)}
@@ -45,14 +45,21 @@ function renderClassSelect(conclusion){
   const cid = conclusion.id;
   const opts = (conclusion.classes && conclusion.classes.length)
     ? conclusion.classes
-    : ["Strongly Supported","Weakly Supported","Not Supported","Contradicted"]; // fallback if classes missing
+    : ["Strongly Supported","Weakly Supported","Not Supported","Contradicted"]; // fallback
 
-  return `<label>Choose one:
-    <select name="cls-${cid}" required>
-      <option value="">-- select --</option>
-      ${opts.map(o => `<option value="${escapeHtml(o)}">${escapeHtml(o)}</option>`).join("")}
-    </select>
-  </label>`;
+  return `
+    <div class="class-choices" data-cid="${cid}">
+      ${opts.map((o, idx) => `
+        <button type="button"
+                class="class-choice"
+                data-cid="${cid}"
+                data-value="${escapeHtml(o)}">
+          ${escapeHtml(o)}
+        </button>
+      `).join("")}
+      <p class="mono small-hint">Click one option to select. Click another to change.</p>
+    </div>
+  `;
 }
 
 function renderLikert(name){
@@ -306,6 +313,19 @@ async function run(){
 
   setInterval(flushQueue, 5000);
 
+    // Click-to-select class for each conclusion
+  document.addEventListener('click', (e) => {
+    const btn = e.target.closest('.class-choice');
+    if (!btn) return;
+
+    const cid = btn.dataset.cid;
+    // clear previous selection for this conclusion
+    qsa(`.class-choice[data-cid="${cid}"]`).forEach(el => el.classList.remove('selected'));
+    // select this one
+    btn.classList.add('selected');
+  });
+
+
   qs('#next').addEventListener('click', async () => {
     const ex = examples[idx];
     const likert = qsa('input[name="likert"]').find(x => x.checked)?.value;
@@ -319,12 +339,15 @@ async function run(){
 
     const labels = [];
     for (const cid of concIds){
-      const sel = qs(`select[name="cls-${cid}"]`);
-      if (!sel || !sel.value){
+      const chosen = qs(`.class-choice[data-cid="${cid}"].selected`);
+      if (!chosen){
         alert('Please label every conclusion.');
         return;
       }
-      labels.push({ conclusion_id: cid, label: sel.value });
+      labels.push({
+        conclusion_id: cid,
+        label: chosen.dataset.value
+      });
     }
 
     const payload = {
