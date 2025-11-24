@@ -240,7 +240,7 @@ function renderExtraction(ex){
         <h3>Conclusion ${cid}</h3>
         <p><span class="hl-conclusion">${escapeHtml(cText)}</span></p>
         <div class="conclusion-rating">
-          <h4>Which class best fits this conclusion?</h4>
+          <h4>Which reasoning class best fits how to author arrived at this conclusion?</h4>
           ${renderClassSelect(c)}
         </div>
 
