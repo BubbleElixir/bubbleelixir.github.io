@@ -41,17 +41,14 @@
 <script>
   const DATAPIPE_EXPERIMENT_ID = "ZteOOhPgsNcI";
 
-  function toBase64UTF8(str){
-    const bytes = new TextEncoder().encode(str);
-    let bin = "";
-    for (let i=0;i<bytes.length;i++){ bin += String.fromCharCode(bytes[i]); }
-    return btoa(bin);
-  }
+async function saveEmailToOSF(participantId, email){
+    console.log("[DataPipe-email] start", { participantId, email });
 
-  async function saveEmailToOSF(participantId, email){
-    if (!window.jsPsychPipe || typeof jsPsychPipe.saveBase64Data !== "function"){
+    if (!window.jsPsychPipe || typeof jsPsychPipe.saveData !== "function"){
+      console.error("[DataPipe-email] jsPsychPipe.saveData not available");
       throw new Error("DataPipe (jsPsych Pipe) not available on page.");
     }
+
     const payload = {
       participant_id: participantId || null,
       email: email,
@@ -59,10 +56,21 @@
       user_agent: navigator.userAgent,
       type: "voucher_email_v1"
     };
-    const content = JSON.stringify(payload);
-    const b64 = toBase64UTF8(content);
-    const filename = `${participantId || "unknown"}/voucher_email.json`;
-    await jsPsychPipe.saveBase64Data(DATAPIPE_EXPERIMENT_ID, filename, b64);
+
+    const content  = JSON.stringify(payload);
+    const filename = `${participantId || "unknown"}_voucher_email.json`;
+
+    const res = await jsPsychPipe.saveData(
+      DATAPIPE_EXPERIMENT_ID,
+      filename,
+      content
+    );
+
+    console.log("[DataPipe-email] result", { filename, res });
+
+    if (res && res.error){
+      throw new Error(`${res.error}: ${res.message || "Unknown error"}`);
+    }
   }
 
   document.addEventListener('DOMContentLoaded', () => {
@@ -82,6 +90,8 @@
         return;
       }
       statusEl.textContent = "Saving...";
+      statusEl.classList.remove("error");
+
       try {
         await saveEmailToOSF(pid, email);
         statusEl.textContent = "Thank you! Your email has been recorded.";
@@ -90,6 +100,7 @@
       } catch (err) {
         console.error(err);
         statusEl.textContent = "Sorry, saving failed. Please check your connection and try again.";
+        statusEl.classList.add("error");
       }
     });
   });

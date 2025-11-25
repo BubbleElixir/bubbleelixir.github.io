@@ -270,7 +270,7 @@ async function saveToOSF_DataPipe(participantId, example, payload){
     throw new Error("DataPipe (jsPsych Pipe) not available on page.");
   }
 
-  const filename = `${participantId}/${Date.now()}_${example.id}.json`;
+  const filename = `${participantId}_${Date.now()}_${example.id}.json`;
   const content  = JSON.stringify(payload);
 
   const res = await jsPsychPipe.saveData(
