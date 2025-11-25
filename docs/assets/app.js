@@ -32,14 +32,6 @@ function escapeHtml(s){
   });
 }
 
-// UTF-8 -> base64
-function toBase64UTF8(str){
-  const bytes = new TextEncoder().encode(str);
-  let bin = "";
-  for (let i=0;i<bytes.length;i++){ bin += String.fromCharCode(bytes[i]); }
-  return btoa(bin);
-}
-
 // Renderers
 function renderClassSelect(conclusion){
   const cid = conclusion.id;
@@ -274,28 +266,24 @@ function renderExtraction(ex){
 
 // DataPipe save
 async function saveToOSF_DataPipe(participantId, example, payload){
-  console.log("[DataPipe] save start", {
-    participantId,
-    exampleId: example.id,
-    payloadSize: JSON.stringify(payload).length
-  });
-
-  if (!window.jsPsychPipe || typeof jsPsychPipe.saveBase64Data !== "function"){
-    console.error("[DataPipe] jsPsychPipe.saveBase64Data is not available");
+  if (!window.jsPsychPipe || typeof jsPsychPipe.saveData !== "function"){
     throw new Error("DataPipe (jsPsych Pipe) not available on page.");
   }
 
   const filename = `${participantId}/${Date.now()}_${example.id}.json`;
-  const content = JSON.stringify(payload);
-  const b64 = toBase64UTF8(content);
+  const content  = JSON.stringify(payload);
 
-  try {
-    const res = await jsPsychPipe.saveBase64Data(DATAPIPE_EXPERIMENT_ID, filename, b64);
-    console.log("[DataPipe] save success", { filename, res });
-    return res;
-  } catch (err) {
-    console.error("[DataPipe] save FAILED", err);
-    throw err;
+  const res = await jsPsychPipe.saveData(
+    DATAPIPE_EXPERIMENT_ID,
+    filename,
+    content
+  );
+
+  console.log("[DataPipe] save result", { filename, res });
+
+  if (res.error){
+    // Make it loud if OSF still refuses
+    throw new Error(`${res.error}: ${res.message || "Unknown error"}`);
   }
 }
 
