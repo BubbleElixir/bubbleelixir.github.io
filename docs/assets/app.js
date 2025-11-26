@@ -372,7 +372,7 @@ async function run(){
       contentEl.addEventListener('contextmenu', e => e.preventDefault());
       contentEl.dataset.anticopyBound = 'true';
     }
-
+  }
   async function flushQueue(){
     const queue = JSON.parse(localStorage.getItem('queue') || '[]');
     if (!queue.length) return;
