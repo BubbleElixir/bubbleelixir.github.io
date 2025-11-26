@@ -545,137 +545,157 @@
     },
     {
       "id": "ex005",
-      "text": "A more than two year legal battle by Greenpeace Australia Pacific has revealed details of how dangerous and risky drilling by any oil company would be in the Great Australian Bight and how difficult it would be to respond in the event of an accident. Greenpeace has obtained BP’s 2016 Well Operations Management Plan which outlines the measures employed to prevent and respond to an oil spill in the Bight after lodging a freedom of information request with the national offshore oil regulator, NOPSEMA, in August 2016. And it’s every bit as bad as predicted. They paint a picture of a company repeatedly referring to the “significant uncertainty” of the experimental project with particular concern expressed about the almost unprecedented pressures and temperatures – two factors that contribute to higher risk of an accident. It also states that equipment critical for dealing with any potential oil spills such as capping stacks and relief wells would be incredibly difficult to source and would also unable to be used almost a third of the year in the high wave conditions of the Bight. Aside from these worrying concerns the entire process also highlights the lack of transparency when it comes to oil and gas exploration and the potential impact on communities and marine ecosystems. The documents describe a spill that would potentially be so bad that scenarios are outlined where more than twice the amount of crude oil that entered the Gulf of Mexico after the Deepwater Horizon disaster would be spilled. This scenario would be one of the worst spills in human history. The management plan shows conclusively why any oil drilling in the Great Australian Bight would be far too risky for any deepwater driller to attempt with many of the mitigation measures completely ineffective in the region. In summary: The Australian government represents the people of Australia and the people of the Bight. It is up to them to stand up to these deceitful, contemptuous, and irresponsible companies and to legislate to protect the Bight forever.",
+      "text": "Like life, fruit and veg in plastic are not at all fantastic. As you may know, we’ve been campaigning against excessive plastic use in the produce aisles of Coles and Woolies. To get a handle on the extent of the problem, we asked our supporters to send in their most absurd encounters of ridiculous plastic packaging on fresh fruits and vegetables. We had an overwhelming amount of responses. Here are a few that we loved to hate the most! Days of Action: “Stickering” events allowed us to show Coles and Woolies which fruits and vegetables we want to see plastic-free in the future. No way our earth is going to live apple-y ever after once all this packaging seeps into our oceans! This packaging shucks. What happened to the husk, or as we like to call it, natural packaging? A root awakening – Coles and Woolies are convinced potatoes can’t survive without all this packaging, but we’d be thrilled to prove them wrong. Getting Coles and Woolies to remove excessive packaging from their stores has been an incredibly cucumbersome process – and we need your help. Lettuce take a moment to realise how utterly shameful all this packaging is! Help us tell Coles and Woolies that this needs to end. I’m no expert, but don’t the bananas on the left look far more a-peeling than those on the right? Coles and Woolies have announced that they will test out cutting back on plastic for produce items. But we’re not so convinced: both stores have temporarily gone back on the recent plastic bag ban that took effect earlier this month. If these stores can’t ban the bag, how will they be able to manage ousting ridiculous packaging in produce? As consumers, we can harness the power of collective action to tell Coles and Woolies what their buyers want. Do you want plastic free produce and a better future for our lands and oceans? Join the movement today and sign our petition against plastic packaging: the t hyme is now!",
       "reasoning": {
-        "claims": [
-          {
-            "id": "p1",
-            "quote": "A more than two year legal battle by Greenpeace Australia Pacific has revealed details of how dangerous and risky drilling by any oil company would be in the Great Australian Bight and how difficult it would be to respond in the event of an accident."
+      "claims": [
+        {"id":"p1","quote":"we’ve been campaigning against excessive plastic use in the produce aisles of Coles and Woolies."},
+        {"id":"p2","quote":"To get a handle on the extent of the problem, we asked our supporters to send in their most absurd encounters of ridiculous plastic packaging on fresh fruits and vegetables."},
+        {"id":"p3","quote":"We had an overwhelming amount of responses."},
+        {"id":"p4","quote":"“Stickering” events allowed us to show Coles and Woolies which fruits and vegetables we want to see plastic-free in the future."},
+        {"id":"p5","quote":"No way our earth is going to live apple-y ever after once all this packaging seeps into our oceans!"},
+        {"id":"p6","quote":"What happened to the husk, or as we like to call it, natural packaging?"},
+        {"id":"p7","quote":"Coles and Woolies are convinced potatoes can’t survive without all this packaging, but we’d be thrilled to prove them wrong."},
+        {"id":"p8","quote":"Getting Coles and Woolies to remove excessive packaging from their stores has been an incredibly cucumbersome process – and we need your help."},
+        {"id":"p9","quote":"Lettuce take a moment to realise how utterly shameful all this packaging is!"},
+        {"id":"p10","quote":"Help us tell Coles and Woolies that this needs to end."},
+        {"id":"p11","quote":"I’m no expert, but don’t the bananas on the left look far more a-peeling than those on the right?"},
+        {"id":"p12","quote":"Coles and Woolies have announced that they will test out cutting back on plastic for produce items."},
+        {"id":"p13","quote":"we’re not so convinced: both stores have temporarily gone back on the recent plastic bag ban that took effect earlier this month."},
+        {"id":"p14","quote":"If these stores can’t ban the bag, how will they be able to manage ousting ridiculous packaging in produce?"},
+        {"id":"p15","quote":"As consumers, we can harness the power of collective action to tell Coles and Woolies what their buyers want."},
+        {"id":"p16","quote":"Do you want plastic free produce and a better future for our lands and oceans?"},
+        {"id":"p17","quote":"Join the movement today and sign our petition against plastic packaging: the t hyme is now!"}
+      ],
+      "inferences": [
+        {
+          "from":["p2","p3"],
+          "to":"ic1",
+          "type":"supports",
+          "warrant":{
+            "text":"If supporters are asked for absurd examples of plastic packaging and an overwhelming number of responses is received, then excessive and ridiculous plastic packaging of produce is widespread in Coles and Woolies.",
+            "explicit":false
           },
-          {
-            "id": "p2",
-            "quote": "Greenpeace has obtained BP’s 2016 Well Operations Management Plan which outlines the measures employed to prevent and respond to an oil spill in the Bight after lodging a freedom of information request with the national offshore oil regulator, NOPSEMA, in August 2016."
+          "structure":"linked",
+          "group":"g1"
+        },
+        {
+          "from":["p5","p16"],
+          "to":"ic2",
+          "type":"supports",
+          "warrant":{
+            "text":"If packaging seeps into the oceans and a better future for lands and oceans is associated with plastic-free produce, then excessive plastic packaging harms the environment and reducing it would improve the future health of lands and oceans.",
+            "explicit":false
           },
-          {
-            "id": "p3",
-            "quote": "And it’s every bit as bad as predicted."
+          "structure":"linked",
+          "group":"g2"
+        },
+        {
+          "from":["p6","p7","p11"],
+          "to":"ic3",
+          "type":"supports",
+          "warrant":{
+            "text":"If many fruits and vegetables already have natural husks, campaigners are confident produce can survive without extra plastic, and unpackaged bananas look more appealing than packaged ones, then much of the current plastic packaging on produce is unnecessary and inferior to natural or minimal packaging.",
+            "explicit":false
           },
-          {
-            "id": "p4",
-            "quote": "They paint a picture of a company repeatedly referring to the “significant uncertainty” of the experimental project with particular concern expressed about the almost unprecedented pressures and temperatures – two factors that contribute to higher risk of an accident."
+          "structure":"linked",
+          "group":"g3"
+        },
+        {
+          "from":["p12","p13","p14"],
+          "to":"ic4",
+          "type":"supports",
+          "warrant":{
+            "text":"If the supermarkets say they will test cutting back plastic but have already rolled back a simple plastic bag ban and it is doubtful they can ‘ban the bag’, then their voluntary commitments on reducing plastic packaging for produce are not very credible on their own.",
+            "explicit":false
           },
-          {
-            "id": "p5",
-            "quote": "It also states that equipment critical for dealing with any potential oil spills such as capping stacks and relief wells would be incredibly difficult to source and would also unable to be used almost a third of the year in the high wave conditions of the Bight."
+          "structure":"linked",
+          "group":"g4"
+        },
+        {
+          "from":["p1","ic1","ic2","ic3","p9"],
+          "to":"c1",
+          "type":"supports",
+          "warrant":{
+            "text":"If there is widespread, unnecessary plastic packaging on produce, it harms the environment, campaigners are already opposing it, and it is described as utterly shameful, then excessive plastic packaging of fruits and vegetables at Coles and Woolies needs to end.",
+            "explicit":false
           },
-          {
-            "id": "p6",
-            "quote": "Aside from these worrying concerns the entire process also highlights the lack of transparency when it comes to oil and gas exploration and the potential impact on communities and marine ecosystems."
+          "structure":"linked",
+          "group":"g5"
+        },
+        {
+          "from":["p8","p10","p15","ic4"],
+          "to":"ic5",
+          "type":"supports",
+          "warrant":{
+            "text":"If getting the supermarkets to change has been difficult, they are being asked for help, consumer collective action can signal buyer preferences, and supermarket promises are not very credible alone, then consumer pressure is needed to push Coles and Woolies to actually remove excessive plastic packaging.",
+            "explicit":false
           },
-          {
-            "id": "p7",
-            "quote": "The documents describe a spill that would potentially be so bad that scenarios are outlined where more than twice the amount of crude oil that entered the Gulf of Mexico after the Deepwater Horizon disaster would be spilled."
+          "structure":"linked",
+          "group":"g6"
+        },
+        {
+          "from":["c1","ic5","p17"],
+          "to":"c2",
+          "type":"supports",
+          "warrant":{
+            "text":"If excessive plastic packaging needs to end, consumer pressure is needed to make supermarkets act, and there is a petition inviting people to join the movement, then consumers should join the movement and sign the petition against plastic packaging now.",
+            "explicit":false
           },
-          {
-            "id": "p8",
-            "quote": "This scenario would be one of the worst spills in human history."
-          },
-          {
-            "id": "p9",
-            "quote": "The management plan shows conclusively why any oil drilling in the Great Australian Bight would be far too risky for any deepwater driller to attempt with many of the mitigation measures completely ineffective in the region."
-          },
-          {
-            "id": "p10",
-            "quote": "The Australian government represents the people of Australia and the people of the Bight."
-          },
-          {
-            "id": "p11",
-            "quote": "It is up to them to stand up to these deceitful, contemptuous, and irresponsible companies and to legislate to protect the Bight forever."
-          }
-        ],
-        "inferences": [
-          {
-            "from": ["p1", "p3", "p4", "p5", "p7", "p8"],
-            "to": "ic1",
-            "type": "supports",
-            "warrant": {
-              "text": "If drilling is described as dangerous and risky, involves significant uncertainty, extreme pressures and temperatures, hard-to-source and often unusable spill-response equipment, and worst-case spills could exceed Deepwater Horizon and rank among the worst in history, then drilling in the Great Australian Bight carries an extremely high and poorly controllable risk of catastrophic oil spills.",
-              "explicit": false
-            },
-            "structure": "linked",
-            "group": "g1"
-          },
-          {
-            "from": ["ic1", "p9"],
-            "to": "c1",
-            "type": "supports",
-            "warrant": {
-              "text": "If drilling in the Great Australian Bight carries extremely high, poorly controllable risk and the management plan itself shows it would be far too risky with ineffective mitigation, then any deepwater oil drilling there should not be attempted.",
-              "explicit": false
-            },
-            "structure": "linked",
-            "group": "g2"
-          },
-          {
-            "from": ["p10"],
-            "to": "ic2",
-            "type": "supports",
-            "warrant": {
-              "text": "If the Australian government represents the people of Australia and the people of the Bight, it has a responsibility to protect them and their environment from dangerous corporate activities.",
-              "explicit": false
-            },
-            "structure": "convergent",
-            "group": "g3"
-          },
-          {
-            "from": ["ic1", "ic2", "p11"],
-            "to": "c2",
-            "type": "supports",
-            "warrant": {
-              "text": "If drilling in the Bight is far too risky, the government has a duty to protect its people, and it is said to be up to the government to stand up to irresponsible companies, then the government should legislate to protect the Bight permanently from such drilling.",
-              "explicit": false
-            },
-            "structure": "linked",
-            "group": "g4"
-          }
-        ],
-        "conclusions": [
-          {
-            "id": "c1",
-            "quote": "",
-            "canonical": "Any deepwater oil drilling in the Great Australian Bight would be far too risky and should not be attempted",
-            "classes": [
-                "Risk Likelihood/ Severity: Weighing the accuracy, likelihood, precision, severity, and/or synonyms, of a risk assessment/claim, contending it has been overestimated or underestimated.",
-                "Organisational Process: Reasoning about institutional procedures, governance pathways, decision hierarchies, approval workflows, cultural acceptance, and/or synonyms.",
-                "Operational Performance: Reasoning about the efficiency, speed, accuracy, throughput, latency, KPI score, and/or synonyms of a belief, decision, conclusion, policy, action, and/or synonyms.",
-                "Uncertainty Management: Reasoning focused on adaptive strategies, contingency plans, scenario analysis, to account for/mitigate unknown variables affecting a decision, conclusion, policy, action, and/or synonyms."
-              ]
-          },
-          {
-            "id": "c2",
-            "quote": "",
-            "canonical": "The Australian government should stand up to oil companies and legislate to protect the Great Australian Bight forever",
-            "classes": [
-                "Obligation to In-group: discusses duty, loyalty, or obligation to the speaker's group.",
-                "Organisational Process: Reasoning about institutional procedures, governance pathways, decision hierarchies, approval workflows, cultural acceptance, and/or synonyms.",
-                "Threat to In-group: discusses threat to the interests of speaker's group.",
-                "Uncertainty Management: Reasoning focused on adaptive strategies, contingency plans, scenario analysis, to account for/mitigate unknown variables affecting a decision, conclusion, policy, action, and/or synonyms."
-              ]
-          }
-        ],
-        "claims_extra": [
-          {
-            "id": "ic1",
-            "quote": "",
-            "canonical": "Drilling in the Great Australian Bight carries an extremely high and poorly controllable risk of catastrophic oil spills"
-          },
-          {
-            "id": "ic2",
-            "quote": "",
-            "canonical": "Because it represents the people of Australia and the Bight, the Australian government has a responsibility to protect them from such risky drilling"
-          }
-        ]
-      }
+          "structure":"linked",
+          "group":"g7"
+        }
+      ],
+      "conclusions": [
+        {
+          "id":"c1",
+          "quote":"",
+          "canonical":"Excessive plastic packaging of fruits and vegetables at Coles and Woolies is unnecessary, environmentally harmful and shameful, and it needs to end",
+          "classes": [
+            "Source-Credibility Weighing: Evaluates one or more sources by assessing their credibility, integrity, reliability, expertise, transparency, biases, incentives, and/or synonyms.",
+            "Threat to In-group: discusses threat to the interests of speaker's group.",
+            "Out-group Discounting: Asserts an out-group as being morally/intellectually inferior without data, story, or reasoning.",
+            "Disgust/Degradation: Advocates for a belief, decision, conclusion, policy, action, and/or synonyms, solely on the basis that something is disgusting, impure, contaminating, degrading, and/or synonyms. Must express disgust to justify a stance."
+          ]
+        },
+        {
+          "id":"c2",
+          "quote":"",
+          "canonical":"Consumers should harness collective action by joining the movement and signing the petition now to pressure Coles and Woolies to remove excessive plastic packaging from their produce aisles",
+          "classes": [
+            "Source-Credibility Weighing: Evaluates one or more sources by assessing their credibility, integrity, reliability, expertise, transparency, biases, incentives, and/or synonyms.",
+            "Threat to In-group: discusses threat to the interests of speaker's group.",
+            "Out-group Discounting: Asserts an out-group as being morally/intellectually inferior without data, story, or reasoning.",
+            "Disgust/Degradation: Advocates for a belief, decision, conclusion, policy, action, and/or synonyms, solely on the basis that something is disgusting, impure, contaminating, degrading, and/or synonyms. Must express disgust to justify a stance."
+          ]
+        }
+      ],
+      "claims_extra": [
+        {
+          "id":"ic1",
+          "quote":"",
+          "canonical":"Excessive and ridiculous plastic packaging of produce is widespread in Coles and Woolies"
+        },
+        {
+          "id":"ic2",
+          "quote":"",
+          "canonical":"Reducing plastic packaging on produce would help secure a better future for lands and oceans"
+        },
+        {
+          "id":"ic3",
+          "quote":"",
+          "canonical":"Much of the current plastic packaging on fruits and vegetables is unnecessary and inferior to natural or minimal packaging"
+        },
+        {
+          "id":"ic4",
+          "quote":"",
+          "canonical":"Voluntary supermarket commitments to cut plastic packaging are not very credible without external pressure"
+        },
+        {
+          "id":"ic5",
+          "quote":"",
+          "canonical":"Consumer collective action is needed to push Coles and Woolies to meaningfully reduce excessive plastic packaging"
+        }
+      ]     
     },
     {
       "id": "ex006",
@@ -2083,7 +2103,6 @@
               "classes": [
           "Value Commitments: Speaker appeals to culturally specific ideals.",
           "Organisational Process: Reasoning about institutional procedures, governance pathways, decision hierarchies, approval workflows, cultural acceptance, and/or synonyms.",
-          "Out-group Discounting: Asserts an out-group as being morally/intellectually inferior without data, story, or reasoning.",
           "Threat to In-group: discusses threat to the interests of speaker's group.",
           "Operational Performance: Reasoning about the efficiency, speed, accuracy, throughput, latency, KPI score, and/or synonyms of a belief, decision, conclusion, policy, action, and/or synonyms."
         ]}
