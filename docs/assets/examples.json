@@ -89,7 +89,8 @@
               "Well-Being: Advocates for beliefs, actions, policies, conclusions, and/or synonyms that will benefit emotional, physical, financial, social, psychological, well-being, and/or synonyms. ",
               "Source-Credibility Weighing: Explicitly evaluates one or more sources by assessing their credibility, integrity, reliability, expertise, transparency, biases, incentives, and/or synonyms. Exclude if evaluating conclusions, policy, evidence thresholds, data quality, or methodology.",
               "Identity Protection: Outright rejects or accepts claims which diminish the value of the speaker's identities, beliefs, and practices. Must include self-identification.",
-              "Negative Freedom: Advocates for actions/policy that promote freedom from external constraints, interference, coercion, etc. "
+              "Negative Freedom: Advocates for actions/policy that promote freedom from external constraints, interference, coercion, etc. ",
+              "None: Options didn't feel applicable."
             ]
           },
           {
@@ -100,7 +101,8 @@
               "Well-Being: Advocates for beliefs, actions, policies, conclusions, and/or synonyms that will benefit emotional, physical, financial, social, psychological, well-being, and/or synonyms. ",
               "Source-Credibility Weighing: Explicitly evaluates one or more sources by assessing their credibility, integrity, reliability, expertise, transparency, biases, incentives, and/or synonyms. Exclude if evaluating conclusions, policy, evidence thresholds, data quality, or methodology.",
               "Identity Protection: Outright rejects or accepts claims which diminish the value of the speaker's identities, beliefs, and practices. Must include self-identification.",
-              "Negative Freedom: Advocates for actions/policy that promote freedom from external constraints, interference, coercion, etc. "
+              "Negative Freedom: Advocates for actions/policy that promote freedom from external constraints, interference, coercion, etc. ",
+              "None: Options didn't feel applicable."
             ]
           }
         ],
@@ -221,7 +223,8 @@
               "Threat to In-group: Discusses threat to the interests of speaker's group. Must specify the impact on the in-group, and include identification with the in-group.",
               "Indirect Impacts: Advocates for a belief, decision, conclusion, policy, action, and/or synonyms, on the basis of a projected secondary, downstream, spill‑over, or long‑term effects beyond first order.",
               "Organisational Process: Reasoning about institutional procedures, governance pathways, decision hierarchies, approval workflows, cultural acceptance, and/or synonyms.",
-              "Direct Impacts: Advocates for a belief, decision, conclusion, policy, action, and/or synonyms, on the basis of an immediate first‑order effect, or lack thereof."
+              "Direct Impacts: Advocates for a belief, decision, conclusion, policy, action, and/or synonyms, on the basis of an immediate first‑order effect, or lack thereof.",
+              "None: Options didn't feel applicable."
             ]
           },
           {
@@ -232,7 +235,8 @@
               "Threat to In-group: discusses threat to the interests of speaker's group. Must specify the impact on the in-group, and include identification with the in-group.",
               "Indirect Impacts: Advocates for a belief, decision, conclusion, policy, action, and/or synonyms, on the basis of a projected secondary, downstream, spill‑over, or long‑term effects beyond first order.",
               "Organisational Process: Reasoning about institutional procedures, governance pathways, decision hierarchies, approval workflows, cultural acceptance, and/or synonyms.",
-              "Direct Impacts: Advocates for a belief, decision, conclusion, policy, action, and/or synonyms, on the basis of an immediate first‑order effect, or lack thereof."
+              "Direct Impacts: Advocates for a belief, decision, conclusion, policy, action, and/or synonyms, on the basis of an immediate first‑order effect, or lack thereof.",
+              "None: Options didn't feel applicable."
             ]
           }
         ],
@@ -354,7 +358,8 @@
               "Identity Protection: Outright rejects or accepts claims which diminish the value of the speaker's identities, beliefs, and practices. Must include self-identification.",
               "Scalability: Reasoning about future replication ease, long‑term upkeep, durability, sustainability, lifecycle cost, and/or synonyms. Must reference ongoing or large‑scale deployment.",
               "Harm: Highlights concrete or clearly potential injury, loss, or suffering. Must reference WHO/WHAT is harmed, and/or synonyms. Ignore any potential benefits.",
-              "Source-Credibility Weighing: Explicitly evaluates one or more sources by assessing their credibility, integrity, reliability, expertise, transparency, biases, incentives, and/or synonyms. Exclude if evaluating conclusions, policy, evidence thresholds, data quality, or methodology."
+              "Source-Credibility Weighing: Explicitly evaluates one or more sources by assessing their credibility, integrity, reliability, expertise, transparency, biases, incentives, and/or synonyms. Exclude if evaluating conclusions, policy, evidence thresholds, data quality, or methodology.",
+              "None: Options didn't feel applicable."
             ]
           },
           {
@@ -365,7 +370,8 @@
               "Identity Protection: Outright rejects or accepts claims which diminish the value of the speaker's identities, beliefs, and practices.",
               "Indirect Impacts: Advocates for a belief, decision, conclusion, policy, action, and/or synonyms, on the basis of a projected secondary, downstream, spill‑over, or long‑term effects beyond first order.",
               "Source-Credibility Weighing: Explicitly evaluates one or more sources by assessing their credibility, integrity, reliability, expertise, transparency, biases, incentives, and/or synonyms.",
-              "Organisational Process: Reasoning about institutional procedures, governance pathways, decision hierarchies, approval workflows, cultural acceptance, and/or synonyms."
+              "Organisational Process: Reasoning about institutional procedures, governance pathways, decision hierarchies, approval workflows, cultural acceptance, and/or synonyms.",
+              "None: Options didn't feel applicable."
             ]
           }
         ],
@@ -493,7 +499,8 @@
               "Source-Credibility Weighing: Explicitly evaluates one or more sources by assessing their credibility, integrity, reliability, expertise, transparency, biases, incentives, and/or synonyms. Exclude if evaluating conclusions, policy, evidence thresholds, data quality, or methodology.",
               "Out-group Discounting: Asserts an out-group as being morally/intellectually inferior without data, story, or reasoning.",
               "(Dis)trust Sources:  Ad hominem, biased, totalising statements about the trustworthy or untrustworthy traits/nature of a source/individual/organisation. Statements must contain absolutes.",
-              "Threat to In-group: discusses threat to the interests of speaker's group. Must specify the impact on the in-group, and include identification with the in-group."
+              "Threat to In-group: discusses threat to the interests of speaker's group. Must specify the impact on the in-group, and include identification with the in-group.",
+              "None: Options didn't feel applicable."
             ]
           },
           {
@@ -504,7 +511,8 @@
               "Source-Credibility Weighing: Explicitly evaluates one or more sources by assessing their credibility, integrity, reliability, expertise, transparency, biases, incentives, and/or synonyms. Exclude if evaluating conclusions, policy, evidence thresholds, data quality, or methodology.",
               "Out-group Discounting: Asserts an out-group as being morally/intellectually inferior without data, story, or reasoning.",
               "(Dis)trust Sources: Ad hominem, biased, totalising statements about the trustworthy or untrustworthy traits/nature of a source/individual/organisation. Statements must contain absolutes.",
-              "Threat to In-group: Discusses threat to the interests of speaker's group. Must specify the impact on the in-group, and include identification with the in-group."
+              "Threat to In-group: Discusses threat to the interests of speaker's group. Must specify the impact on the in-group, and include identification with the in-group.",
+              "None: Options didn't feel applicable."
             ]
           },
           {
@@ -515,7 +523,8 @@
               "Source-Credibility Weighing: Explicitly evaluates one or more sources by assessing their credibility, integrity, reliability, expertise, transparency, biases, incentives, and/or synonyms. Exclude if evaluating conclusions, policy, evidence thresholds, data quality, or methodology.",
               "Out-group Discounting: Asserts an out-group as being morally/intellectually inferior without data, story, or reasoning.",
               "(Dis)trust Sources:  Ad hominem, biased, totalising statements about the trustworthy or untrustworthy traits/nature of a source/individual/organisation. Statements must contain absolutes.",
-              "Threat to In-group: Discusses threat to the interests of speaker's group. Must specify the impact on the in-group, and include identification with the in-group."
+              "Threat to In-group: Discusses threat to the interests of speaker's group. Must specify the impact on the in-group, and include identification with the in-group.",
+              "None: Options didn't feel applicable."
             ]
           }
         ],
@@ -654,7 +663,8 @@
             "Source-Credibility Weighing: Evaluates one or more sources by assessing their credibility, integrity, reliability, expertise, transparency, biases, incentives, and/or synonyms.",
             "Threat to In-group: discusses threat to the interests of speaker's group.",
             "Out-group Discounting: Asserts an out-group as being morally/intellectually inferior without data, story, or reasoning.",
-            "Disgust/Degradation: Advocates for a belief, decision, conclusion, policy, action, and/or synonyms, solely on the basis that something is disgusting, impure, contaminating, degrading, and/or synonyms. Must express disgust to justify a stance."
+            "Disgust/Degradation: Advocates for a belief, decision, conclusion, policy, action, and/or synonyms, solely on the basis that something is disgusting, impure, contaminating, degrading, and/or synonyms. Must express disgust to justify a stance.",
+            "None: Options didn't feel applicable."
           ]
         },
         {
@@ -665,7 +675,8 @@
             "Source-Credibility Weighing: Evaluates one or more sources by assessing their credibility, integrity, reliability, expertise, transparency, biases, incentives, and/or synonyms.",
             "Threat to In-group: discusses threat to the interests of speaker's group.",
             "Out-group Discounting: Asserts an out-group as being morally/intellectually inferior without data, story, or reasoning.",
-            "Disgust/Degradation: Advocates for a belief, decision, conclusion, policy, action, and/or synonyms, solely on the basis that something is disgusting, impure, contaminating, degrading, and/or synonyms. Must express disgust to justify a stance."
+            "Disgust/Degradation: Advocates for a belief, decision, conclusion, policy, action, and/or synonyms, solely on the basis that something is disgusting, impure, contaminating, degrading, and/or synonyms. Must express disgust to justify a stance.",
+            "None: Options didn't feel applicable."
           ]
         }
       ],
@@ -817,7 +828,8 @@
               "Statistical Methodology: Assesses integrity, statistical assumptions, or validity of statistical analysis.",
               "Risk Likelihood/ Severity: Weighing the accuracy, likelihood, precision, severity, and/or synonyms, of a risk assessment/claim, contending it has been overestimated or underestimated.",
               "Source-Credibility Weighing: Explicitly evaluates one or more sources by assessing their credibility, integrity, reliability, expertise, transparency, biases, incentives, and/or synonyms.",
-              "Operational Performance: Reasoning about the efficiency, speed, accuracy, throughput, latency, KPI score, and/or synonyms of a belief, decision, conclusion, policy, action, and/or synonyms."
+              "Operational Performance: Reasoning about the efficiency, speed, accuracy, throughput, latency, KPI score, and/or synonyms of a belief, decision, conclusion, policy, action, and/or synonyms.",
+              "None: Options didn't feel applicable."
             ]
           },
           {
@@ -828,7 +840,8 @@
               "Statistical Methodology: Assesses integrity, statistical assumptions, or validity of statistical analysis.",
               "Risk Likelihood/ Severity: Weighing the accuracy, likelihood, precision, severity, and/or synonyms, of a risk assessment/claim, contending it has been overestimated or underestimated.",
               "Source-Credibility Weighing: Explicitly evaluates one or more sources by assessing their credibility, integrity, reliability, expertise, transparency, biases, incentives, and/or synonyms.",
-              "Operational Performance: Reasoning about the efficiency, speed, accuracy, throughput, latency, KPI score, and/or synonyms of a belief, decision, conclusion, policy, action, and/or synonyms."
+              "Operational Performance: Reasoning about the efficiency, speed, accuracy, throughput, latency, KPI score, and/or synonyms of a belief, decision, conclusion, policy, action, and/or synonyms.",
+              "None: Options didn't feel applicable."
             ]
           }
         ],
@@ -929,7 +942,8 @@
               "Statistical Methodology: Assesses integrity, statistical assumptions, or validity of statistical analysis.",
               "Probabilistic Reasoning: Presents or compares numeric probabilities, likelihood percentages, risk ratios, confidence intervals, Bayesian posteriors, and/or synonyms.",
               "Operational Performance: Reasoning about the efficiency, speed, accuracy, throughput, latency, KPI score, and/or synonyms of a belief, decision, conclusion, policy, action, and/or synonyms.",
-              "Source-Credibility Weighing: Explicitly evaluates one or more sources by assessing their credibility, integrity, reliability, expertise, transparency, biases, incentives, and/or synonyms."
+              "Source-Credibility Weighing: Explicitly evaluates one or more sources by assessing their credibility, integrity, reliability, expertise, transparency, biases, incentives, and/or synonyms.",
+              "None: Options didn't feel applicable."
             ]
           },
           {
@@ -940,7 +954,8 @@
               "Statistical Methodology: Assesses integrity, statistical assumptions, or validity of statistical analysis.",
               "Probabilistic Reasoning: Presents or compares numeric probabilities, likelihood percentages, risk ratios, confidence intervals, Bayesian posteriors, and/or synonyms.",
               "Operational Performance: Reasoning about the efficiency, speed, accuracy, throughput, latency, KPI score, and/or synonyms of a belief, decision, conclusion, policy, action, and/or synonyms.",
-              "Source-Credibility Weighing: Explicitly evaluates one or more sources by assessing their credibility, integrity, reliability, expertise, transparency, biases, incentives, and/or synonyms."
+              "Source-Credibility Weighing: Explicitly evaluates one or more sources by assessing their credibility, integrity, reliability, expertise, transparency, biases, incentives, and/or synonyms.",
+              "None: Options didn't feel applicable."
             ]
           }
         ],
@@ -1050,7 +1065,8 @@
               "Statistical Methodology: Assesses integrity, statistical assumptions, or validity of statistical analysis.",
               "Probabilistic Reasoning: Presents or compares numeric probabilities, likelihood percentages, risk ratios, confidence intervals, Bayesian posteriors, and/or synonyms.",
               "Risk Likelihood/ Severity: Weighing the accuracy, likelihood, precision, severity, and/or synonyms, of a risk assessment/claim, contending it has been overestimated or underestimated.",
-              "Source-Credibility Weighing: Explicitly evaluates one or more sources by assessing their credibility, integrity, reliability, expertise, transparency, biases, incentives, and/or synonyms."
+              "Source-Credibility Weighing: Explicitly evaluates one or more sources by assessing their credibility, integrity, reliability, expertise, transparency, biases, incentives, and/or synonyms.",
+              "None: Options didn't feel applicable."
             ]
           },
           {
@@ -1061,7 +1077,8 @@
               "Statistical Methodology: Assesses integrity, statistical assumptions, or validity of statistical analysis.",
               "Probabilistic Reasoning: Presents or compares numeric probabilities, likelihood percentages, risk ratios, confidence intervals, Bayesian posteriors, and/or synonyms.",
               "Risk Likelihood/ Severity: Weighing the accuracy, likelihood, precision, severity, and/or synonyms, of a risk assessment/claim, contending it has been overestimated or underestimated.",
-              "Source-Credibility Weighing: Explicitly evaluates one or more sources by assessing their credibility, integrity, reliability, expertise, transparency, biases, incentives, and/or synonyms."
+              "Source-Credibility Weighing: Explicitly evaluates one or more sources by assessing their credibility, integrity, reliability, expertise, transparency, biases, incentives, and/or synonyms.",
+              "None: Options didn't feel applicable."
             ]
           }
         ],
@@ -1211,7 +1228,8 @@
               "Source-Credibility Weighing: Explicitly evaluates one or more sources by assessing their credibility, integrity, reliability, expertise, transparency, biases, incentives, and/or synonyms.",
               "(Dis)trust Sources:  Ad hominem, biased, totalising statements about the trustworthy or untrustworthy traits/nature of a source/individual/organisation. Statements must contain absolutes.",
               "Organisational Process: Reasoning about institutional procedures, governance pathways, decision hierarchies, approval workflows, cultural acceptance, and/or synonyms.",
-              "Value Commitments: Speaker appeals to culturally specific ideals."
+              "Value Commitments: Speaker appeals to culturally specific ideals.",
+              "None: Options didn't feel applicable."
             ]
           },
           {
@@ -1222,7 +1240,8 @@
               "Source-Credibility Weighing: Explicitly evaluates one or more sources by assessing their credibility, integrity, reliability, expertise, transparency, biases, incentives, and/or synonyms.",
               "(Dis)trust Sources:  Ad hominem, biased, totalising statements about the trustworthy or untrustworthy traits/nature of a source/individual/organisation. Statements must contain absolutes.",
               "Organisational Process: Reasoning about institutional procedures, governance pathways, decision hierarchies, approval workflows, cultural acceptance, and/or synonyms.",
-              "Value Commitments: Speaker appeals to culturally specific ideals."
+              "Value Commitments: Speaker appeals to culturally specific ideals.",
+              "None: Options didn't feel applicable."
             ]
           },
           {
@@ -1233,7 +1252,8 @@
               "Source-Credibility Weighing: Explicitly evaluates one or more sources by assessing their credibility, integrity, reliability, expertise, transparency, biases, incentives, and/or synonyms.",
               "(Dis)trust Sources:  Ad hominem, biased, totalising statements about the trustworthy or untrustworthy traits/nature of a source/individual/organisation. Statements must contain absolutes.",
               "Direct Impacts: Advocates for a belief, decision, conclusion, policy, action, and/or synonyms, on the basis of an immediate first‑order effect, or lack thereof.",
-              "Value Commitments: Speaker appeals to culturally specific ideals."
+              "Value Commitments: Speaker appeals to culturally specific ideals.",
+              "None: Options didn't feel applicable."
             ]
           }
         ],
@@ -1369,7 +1389,8 @@
               "Threat to In-group: discusses threat to the interests of speaker's group.",
               "Organisational Process: Reasoning about institutional procedures, governance pathways, decision hierarchies, approval workflows, cultural acceptance, and/or synonyms.",
               "Identity Protection: Outright rejects or accepts claims which diminish the value of the speaker's identities, beliefs, and practices.",
-              "Subvert Authority: Advocates for a specific belief, decision, conclusion, policy, action, and/or synonyms, solely on the basis that a stated leader, rule, tradition, institution, and/or synonyms, must be subverted/challenged."
+              "Subvert Authority: Advocates for a specific belief, decision, conclusion, policy, action, and/or synonyms, solely on the basis that a stated leader, rule, tradition, institution, and/or synonyms, must be subverted/challenged.",
+              "None: Options didn't feel applicable."
             ]
           },
           {
@@ -1380,7 +1401,8 @@
               "Threat to In-group: discusses threat to the interests of speaker's group.",
               "Organisational Process: Reasoning about institutional procedures, governance pathways, decision hierarchies, approval workflows, cultural acceptance, and/or synonyms.",
               "Identity Protection: Outright rejects or accepts claims which diminish the value of the speaker's identities, beliefs, and practices.",
-              "Subvert Authority: Advocates for a specific belief, decision, conclusion, policy, action, and/or synonyms, solely on the basis that a stated leader, rule, tradition, institution, and/or synonyms, must be subverted/challenged."
+              "Subvert Authority: Advocates for a specific belief, decision, conclusion, policy, action, and/or synonyms, solely on the basis that a stated leader, rule, tradition, institution, and/or synonyms, must be subverted/challenged.",
+              "None: Options didn't feel applicable."
             ]
           },
           {
@@ -1391,7 +1413,8 @@
               "Threat to In-group: discusses threat to the interests of speaker's group.",
               "Organisational Process: Reasoning about institutional procedures, governance pathways, decision hierarchies, approval workflows, cultural acceptance, and/or synonyms.",
               "Identity Protection: Outright rejects or accepts claims which diminish the value of the speaker's identities, beliefs, and practices.",
-              "Subvert Authority: Advocates for a specific belief, decision, conclusion, policy, action, and/or synonyms, solely on the basis that a stated leader, rule, tradition, institution, and/or synonyms, must be subverted/challenged."
+              "Subvert Authority: Advocates for a specific belief, decision, conclusion, policy, action, and/or synonyms, solely on the basis that a stated leader, rule, tradition, institution, and/or synonyms, must be subverted/challenged.",
+              "None: Options didn't feel applicable."
             ]
           }
         ],
@@ -1499,7 +1522,8 @@
               "Threat to In-group: discusses threat to the interests of speaker's group.",
               "Value Commitments: Speaker appeals to culturally specific ideals.",
               "Indirect Impacts: Advocates for a belief, decision, conclusion, policy, action, and/or synonyms, on the basis of a projected secondary, downstream, spill‑over, or long‑term effects beyond first order.",
-              "Equality: Advocates reducing inequality or ensuring equal treatment, rights, outcomes, and/or synonyms for individuals/groups."
+              "Equality: Advocates reducing inequality or ensuring equal treatment, rights, outcomes, and/or synonyms for individuals/groups.",
+              "None: Options didn't feel applicable."
             ]
           },
           {
@@ -1510,7 +1534,8 @@
               "Threat to In-group: discusses threat to the interests of speaker's group.",
               "Value Commitments: Speaker appeals to culturally specific ideals.",
               "Indirect Impacts: Advocates for a belief, decision, conclusion, policy, action, and/or synonyms, on the basis of a projected secondary, downstream, spill‑over, or long‑term effects beyond first order.",
-              "Harm: Highlights concrete or clearly potential injury, loss, or suffering."
+              "Harm: Highlights concrete or clearly potential injury, loss, or suffering.",
+              "None: Options didn't feel applicable."
             ]
           }
         ],
@@ -1627,7 +1652,8 @@
               "Operational Performance: Reasoning about the efficiency, speed, accuracy, throughput, latency, KPI score, and/or synonyms of a belief, decision, conclusion, policy, action, and/or synonyms.",
               "Organisational Process: Reasoning about institutional procedures, governance pathways, decision hierarchies, approval workflows, cultural acceptance, and/or synonyms.",
               "Proportional Fairness: the speaker emphasizes that rewards/penalties should match merit, contribution, and/or synonyms.",
-              "Threat to In-group: discusses threat to the interests of speaker's group."
+              "Threat to In-group: discusses threat to the interests of speaker's group.",
+              "None: Options didn't feel applicable."
             ]
           },
           {
@@ -1638,7 +1664,8 @@
               "Operational Performance: Reasoning about the efficiency, speed, accuracy, throughput, latency, KPI score, and/or synonyms of a belief, decision, conclusion, policy, action, and/or synonyms.",
               "Organisational Process: Reasoning about institutional procedures, governance pathways, decision hierarchies, approval workflows, cultural acceptance, and/or synonyms.",
               "Proportional Fairness: the speaker emphasizes that rewards/penalties should match merit, contribution, and/or synonyms.",
-              "Threat to In-group: discusses threat to the interests of speaker's group."
+              "Threat to In-group: discusses threat to the interests of speaker's group.",
+              "None: Options didn't feel applicable."
             ]
           }
         ],
@@ -1733,7 +1760,8 @@
               "Risk Likelihood/ Severity: Weighing the accuracy, likelihood, precision, severity, and/or synonyms, of a risk assessment/claim, contending it has been overestimated or underestimated.",
               "Organisational Process: Reasoning about institutional procedures, governance pathways, decision hierarchies, approval workflows, cultural acceptance, and/or synonyms.",
               "Operational Performance: Reasoning about the efficiency, speed, accuracy, throughput, latency, KPI score, and/or synonyms of a belief, decision, conclusion, policy, action, and/or synonyms.",
-              "Uncertainty Management: Reasoning focused on adaptive strategies, contingency plans, scenario analysis, to account for/mitigate unknown variables affecting a decision, conclusion, policy, action, and/or synonyms."
+              "Uncertainty Management: Reasoning focused on adaptive strategies, contingency plans, scenario analysis, to account for/mitigate unknown variables affecting a decision, conclusion, policy, action, and/or synonyms.",
+              "None: Options didn't feel applicable."
             ]
           },
           {
@@ -1744,7 +1772,8 @@
               "Risk Likelihood/ Severity: Weighing the accuracy, likelihood, precision, severity, and/or synonyms, of a risk assessment/claim, contending it has been overestimated or underestimated.",
               "Organisational Process: Reasoning about institutional procedures, governance pathways, decision hierarchies, approval workflows, cultural acceptance, and/or synonyms.",
               "Proportional Fairness: the speaker emphasizes that rewards/penalties should match merit, contribution, and/or synonyms.",
-              "Threat to In-group: discusses threat to the interests of speaker's group."
+              "Threat to In-group: discusses threat to the interests of speaker's group.",
+              "None: Options didn't feel applicable."
             ]
           }
         ],
@@ -1855,7 +1884,8 @@
               "Organisational Process: Reasoning about institutional procedures, governance pathways, decision hierarchies, approval workflows, cultural acceptance, and/or synonyms.",
               "Threat to In-group: discusses threat to the interests of speaker's group.",
               "Value Commitments: Speaker appeals to culturally specific ideals.",
-              "Operational Performance: Reasoning about the efficiency, speed, accuracy, throughput, latency, KPI score, and/or synonyms of a belief, decision, conclusion, policy, action, and/or synonyms."
+              "Operational Performance: Reasoning about the efficiency, speed, accuracy, throughput, latency, KPI score, and/or synonyms of a belief, decision, conclusion, policy, action, and/or synonyms.",
+              "None: Options didn't feel applicable."
             ]
           },
           {
@@ -1866,7 +1896,8 @@
               "Organisational Process: Reasoning about institutional procedures, governance pathways, decision hierarchies, approval workflows, cultural acceptance, and/or synonyms.",
               "Threat to In-group: discusses threat to the interests of speaker's group.",
               "Value Commitments: Speaker appeals to culturally specific ideals.",
-              "Operational Performance: Reasoning about the efficiency, speed, accuracy, throughput, latency, KPI score, and/or synonyms of a belief, decision, conclusion, policy, action, and/or synonyms."
+              "Operational Performance: Reasoning about the efficiency, speed, accuracy, throughput, latency, KPI score, and/or synonyms of a belief, decision, conclusion, policy, action, and/or synonyms.",
+              "None: Options didn't feel applicable."
             ]
           }
         ],
@@ -1980,7 +2011,8 @@
               "Value Commitments: Speaker appeals to culturally specific ideals.",
               "Organisational Process: Reasoning about institutional procedures, governance pathways, decision hierarchies, approval workflows, cultural acceptance, and/or synonyms.",
               "Direct Impacts: Advocates for a belief, decision, conclusion, policy, action, and/or synonyms, on the basis of an immediate first‑order effect, or lack thereof.",
-              "Identity Protection: Outright rejects or accepts claims which diminish the value of the speaker's identities, beliefs, and practices."
+              "Identity Protection: Outright rejects or accepts claims which diminish the value of the speaker's identities, beliefs, and practices.",
+              "None: Options didn't feel applicable."
             ]
           },
           {
@@ -1991,7 +2023,8 @@
               "Value Commitments: Speaker appeals to culturally specific ideals.",
               "Organisational Process: Reasoning about institutional procedures, governance pathways, decision hierarchies, approval workflows, cultural acceptance, and/or synonyms.",
               "Direct Impacts: Advocates for a belief, decision, conclusion, policy, action, and/or synonyms, on the basis of an immediate first‑order effect, or lack thereof.",
-              "Identity Protection: Outright rejects or accepts claims which diminish the value of the speaker's identities, beliefs, and practices."
+              "Identity Protection: Outright rejects or accepts claims which diminish the value of the speaker's identities, beliefs, and practices.",
+              "None: Options didn't feel applicable."
             ]
           }
         ],
@@ -2097,14 +2130,16 @@
             "Value Commitments: Speaker appeals to culturally specific ideals.",
             "Organisational Process: Reasoning about institutional procedures, governance pathways, decision hierarchies, approval workflows, cultural acceptance, and/or synonyms.",
             "Threat to In-group: discusses threat to the interests of speaker's group.",
-            "Operational Performance: Reasoning about the efficiency, speed, accuracy, throughput, latency, KPI score, and/or synonyms of a belief, decision, conclusion, policy, action, and/or synonyms."
+            "Operational Performance: Reasoning about the efficiency, speed, accuracy, throughput, latency, KPI score, and/or synonyms of a belief, decision, conclusion, policy, action, and/or synonyms.",
+            "None: Options didn't feel applicable."
           ]},
           {"id":"c2","quote":"","canonical":"Kevin Rudd and the Australian Government should commit to halving greenhouse pollution within the next decade and provide substantial climate finance to help developing countries transition to a low carbon economy",
               "classes": [
           "Value Commitments: Speaker appeals to culturally specific ideals.",
           "Organisational Process: Reasoning about institutional procedures, governance pathways, decision hierarchies, approval workflows, cultural acceptance, and/or synonyms.",
           "Threat to In-group: discusses threat to the interests of speaker's group.",
-          "Operational Performance: Reasoning about the efficiency, speed, accuracy, throughput, latency, KPI score, and/or synonyms of a belief, decision, conclusion, policy, action, and/or synonyms."
+          "Operational Performance: Reasoning about the efficiency, speed, accuracy, throughput, latency, KPI score, and/or synonyms of a belief, decision, conclusion, policy, action, and/or synonyms.",
+          "None: Options didn't feel applicable."
         ]}
         ],
         "claims_extra": [
@@ -2184,7 +2219,8 @@
               "Statistical Methodology: Assesses integrity, statistical assumptions, or validity of statistical analysis.",
               "Probabilistic Reasoning: Presents or compares numeric probabilities, likelihood percentages, risk ratios, confidence intervals, Bayesian posteriors, and/or synonyms.",
               "Source-Credibility Weighing: Explicitly evaluates one or more sources by assessing their credibility, integrity, reliability, expertise, transparency, biases, incentives, and/or synonyms.",
-              "Operational Performance: Reasoning about the efficiency, speed, accuracy, throughput, latency, KPI score, and/or synonyms of a belief, decision, conclusion, policy, action, and/or synonyms."
+              "Operational Performance: Reasoning about the efficiency, speed, accuracy, throughput, latency, KPI score, and/or synonyms of a belief, decision, conclusion, policy, action, and/or synonyms.",
+              "None: Options didn't feel applicable."
             ]
         },
           {"id":"c2","quote":"","canonical":"Evidence that the Sun controls El Niño is largely unknown to most scientists and absent from major reviews and IPCC reports",
@@ -2192,7 +2228,8 @@
               "Statistical Methodology: Assesses integrity, statistical assumptions, or validity of statistical analysis.",
               "Probabilistic Reasoning: Presents or compares numeric probabilities, likelihood percentages, risk ratios, confidence intervals, Bayesian posteriors, and/or synonyms.",
               "Source-Credibility Weighing: Explicitly evaluates one or more sources by assessing their credibility, integrity, reliability, expertise, transparency, biases, incentives, and/or synonyms.",
-              "Operational Performance: Reasoning about the efficiency, speed, accuracy, throughput, latency, KPI score, and/or synonyms of a belief, decision, conclusion, policy, action, and/or synonyms."
+              "Operational Performance: Reasoning about the efficiency, speed, accuracy, throughput, latency, KPI score, and/or synonyms of a belief, decision, conclusion, policy, action, and/or synonyms.",
+              "None: Options didn't feel applicable."
             ]
         }
         ],
@@ -2284,7 +2321,8 @@
               "Source-Credibility Weighing: Explicitly evaluates one or more sources by assessing their credibility, integrity, reliability, expertise, transparency, biases, incentives, and/or synonyms.",
               "Operational Performance: Reasoning about the efficiency, speed, accuracy, throughput, latency, KPI score, and/or synonyms of a belief, decision, conclusion, policy, action, and/or synonyms.",
               "Organisational Process: Reasoning about institutional procedures, governance pathways, decision hierarchies, approval workflows, cultural acceptance, and/or synonyms.",
-              "In-group Validation: Asserts one’s own group as being morally/intellectually superior without data, story, or reasoning."
+              "In-group Validation: Asserts one’s own group as being morally/intellectually superior without data, story, or reasoning.",
+              "None: Options didn't feel applicable."
             ]
         },
           {"id":"c2","quote":"","canonical":"Evidence for indirect solar influences on climate is being neglected by most scientists",
@@ -2292,7 +2330,8 @@
               "Source-Credibility Weighing: Explicitly evaluates one or more sources by assessing their credibility, integrity, reliability, expertise, transparency, biases, incentives, and/or synonyms.",
               "Operational Performance: Reasoning about the efficiency, speed, accuracy, throughput, latency, KPI score, and/or synonyms of a belief, decision, conclusion, policy, action, and/or synonyms.",
               "Organisational Process: Reasoning about institutional procedures, governance pathways, decision hierarchies, approval workflows, cultural acceptance, and/or synonyms.",
-              "In-group Validation: Asserts one’s own group as being morally/intellectually superior without data, story, or reasoning."
+              "In-group Validation: Asserts one’s own group as being morally/intellectually superior without data, story, or reasoning.",
+              "None: Options didn't feel applicable."
             ]
         }
         ],
@@ -2358,7 +2397,8 @@
               "Source-Credibility Weighing: Explicitly evaluates one or more sources by assessing their credibility, integrity, reliability, expertise, transparency, biases, incentives, and/or synonyms.",
               "Organisational Process: Reasoning about institutional procedures, governance pathways, decision hierarchies, approval workflows, cultural acceptance, and/or synonyms.",
               "Indirect Impacts: Advocates for a belief, decision, conclusion, policy, action, and/or synonyms, on the basis of a projected secondary, downstream, spill‑over, or long‑term effects beyond first order.",
-              "Anecdotal Evidence: Uses one-off personal or third-person story as proof."
+              "Anecdotal Evidence: Uses one-off personal or third-person story as proof.",
+              "None: Options didn't feel applicable."
             ]
         },
           {"id":"c2","quote":"","canonical":"The Sun likely affects climate more than is captured by IPCC assessments based only on small changes in total solar energy",
@@ -2366,7 +2406,8 @@
               "Source-Credibility Weighing: Explicitly evaluates one or more sources by assessing their credibility, integrity, reliability, expertise, transparency, biases, incentives, and/or synonyms.",
               "Operational Performance: Reasoning about the efficiency, speed, accuracy, throughput, latency, KPI score, and/or synonyms of a belief, decision, conclusion, policy, action, and/or synonyms.",
               "Indirect Impacts: Advocates for a belief, decision, conclusion, policy, action, and/or synonyms, on the basis of a projected secondary, downstream, spill‑over, or long‑term effects beyond first order.",
-              "Anecdotal Evidence: Uses one-off personal or third-person story as proof."
+              "Anecdotal Evidence: Uses one-off personal or third-person story as proof.",
+              "None: Options didn't feel applicable."
             ]
         }
         ],
@@ -2431,7 +2472,8 @@
                 "Source-Credibility Weighing: Explicitly evaluates one or more sources by assessing their credibility, integrity, reliability, expertise, transparency, biases, incentives, and/or synonyms.",
                 "Risk Likelihood/ Severity: Weighing the accuracy, likelihood, precision, severity, and/or synonyms, of a risk assessment/claim, contending it has been overestimated or underestimated.",
                 "Cognitive Value: Praises a claim for its explanatory power, simplicity, breadth/wide scope, or predictive accuracy (and/or synonyms).",
-                "Organisational Process: Reasoning about institutional procedures, governance pathways, decision hierarchies, approval workflows, cultural acceptance, and/or synonyms."
+                "Organisational Process: Reasoning about institutional procedures, governance pathways, decision hierarchies, approval workflows, cultural acceptance, and/or synonyms.",
+                "None: Options didn't feel applicable."
               ]
         },
           {"id":"c2","quote":"","canonical":"Büntgen’s interpretation of high pre-industrial variability contradicts the IPCC rule-of-thumb about climate sensitivity and expected warming",
@@ -2439,7 +2481,8 @@
               "Source-Credibility Weighing: Explicitly evaluates one or more sources by assessing their credibility, integrity, reliability, expertise, transparency, biases, incentives, and/or synonyms.",
               "Risk Likelihood/ Severity: Weighing the accuracy, likelihood, precision, severity, and/or synonyms, of a risk assessment/claim, contending it has been overestimated or underestimated.",
               "Cognitive Value: Praises a claim for its explanatory power, simplicity, breadth/wide scope, or predictive accuracy (and/or synonyms).",
-              "Organisational Process: Reasoning about institutional procedures, governance pathways, decision hierarchies, approval workflows, cultural acceptance, and/or synonyms."
+              "Organisational Process: Reasoning about institutional procedures, governance pathways, decision hierarchies, approval workflows, cultural acceptance, and/or synonyms.",
+              "None: Options didn't feel applicable."
             ]
         }
         ],
@@ -2507,7 +2550,8 @@
                 "Scalability: Reasoning about future replication ease, long‑term upkeep, durability, sustainability, lifecycle cost, and/or synonyms. Must reference ongoing or large‑scale deployment.",
                 "Risk Likelihood/ Severity: Weighing the accuracy, likelihood, precision, severity, and/or synonyms, of a risk assessment/claim, contending it has been overestimated or underestimated.",
                 "Probabilistic Reasoning: Presents or compares numeric probabilities, likelihood percentages, risk ratios, confidence intervals, Bayesian posteriors, and/or synonyms.",
-                "Statistical Methodology: Assesses integrity, statistical assumptions, or validity of statistical analysis."
+                "Statistical Methodology: Assesses integrity, statistical assumptions, or validity of statistical analysis.",
+                "None: Options didn't feel applicable."
               ]
         },
           {"id":"c2","quote":"","canonical":"Natural climate variability is not understood",
@@ -2515,7 +2559,8 @@
                 "Scalability: Reasoning about future replication ease, long‑term upkeep, durability, sustainability, lifecycle cost, and/or synonyms. Must reference ongoing or large‑scale deployment.",
                 "Risk Likelihood/ Severity: Weighing the accuracy, likelihood, precision, severity, and/or synonyms, of a risk assessment/claim, contending it has been overestimated or underestimated.",
                 "Probabilistic Reasoning: Presents or compares numeric probabilities, likelihood percentages, risk ratios, confidence intervals, Bayesian posteriors, and/or synonyms.",
-                "Statistical Methodology: Assesses integrity, statistical assumptions, or validity of statistical analysis."
+                "Statistical Methodology: Assesses integrity, statistical assumptions, or validity of statistical analysis.",
+                "None: Options didn't feel applicable."
               ]}
         ],
         "claims_extra": [
@@ -2601,7 +2646,8 @@
               "Probabilistic Reasoning: Presents or compares numeric probabilities, likelihood percentages, risk ratios, confidence intervals, Bayesian posteriors, and/or synonyms.",
               "Belief Consistency: Declares a statement is correct/incorrect because it aligns/conflicts with pre‑existing beliefs, ideology, worldview, and/or synonyms.",
               "Risk Likelihood/ Severity: Weighing the accuracy, likelihood, precision, severity, and/or synonyms, of a risk assessment/claim, contending it has been overestimated or underestimated.",
-              "Source-Credibility Weighing: Explicitly evaluates one or more sources by assessing their credibility, integrity, reliability, expertise, transparency, biases, incentives, and/or synonyms."
+              "Source-Credibility Weighing: Explicitly evaluates one or more sources by assessing their credibility, integrity, reliability, expertise, transparency, biases, incentives, and/or synonyms.",
+              "None: Options didn't feel applicable."
             ]
         },
           {"id":"c2","quote":"","canonical":"The existence of the IPCC consensus does not lend intellectual substance to the IPCC’s conclusions",
@@ -2609,7 +2655,8 @@
               "Probabilistic Reasoning: Presents or compares numeric probabilities, likelihood percentages, risk ratios, confidence intervals, Bayesian posteriors, and/or synonyms.",
               "Belief Consistency: Declares a statement is correct/incorrect because it aligns/conflicts with pre‑existing beliefs, ideology, worldview, and/or synonyms.",
               "Risk Likelihood/ Severity: Weighing the accuracy, likelihood, precision, severity, and/or synonyms, of a risk assessment/claim, contending it has been overestimated or underestimated.",
-              "Source-Credibility Weighing: Explicitly evaluates one or more sources by assessing their credibility, integrity, reliability, expertise, transparency, biases, incentives, and/or synonyms."
+              "Source-Credibility Weighing: Explicitly evaluates one or more sources by assessing their credibility, integrity, reliability, expertise, transparency, biases, incentives, and/or synonyms.",
+              "None: Options didn't feel applicable."
             ]}
         ],
         "claims_extra": [
@@ -2662,12 +2709,14 @@
     "Direct Impacts – Advocates for a belief, decision, conclusion, policy, action, and/or synonyms, on the basis of an immediate first‑order effect, or lack thereof.",
     "Indirect Impacts – Advocates for a belief, decision, conclusion, policy, action, and/or synonyms, on the basis of a projected secondary, downstream, spill‑over, or long‑term effects beyond first order.",
     "Harm – Highlights concrete or clearly potential injury, loss, or suffering. Must reference WHO/WHAT is harmed, and/or synonyms. Ignore any potential benefits.",
-    "Anecdotal Evidence – Uses one-off personal or third-person story as proof."]},
+    "Anecdotal Evidence – Uses one-off personal or third-person story as proof.",
+              "None: Options didn't feel applicable."]},
           {"id":"c2","quote":"","canonical":"Responsibility for addressing plastic pollution is shared despite systemic barriers","classes": [
     "Organisational Process – Reasoning about institutional procedures, governance pathways, decision hierarchies, approval workflows, cultural acceptance, and/or synonyms.",
     "Uncertainty Management – Reasoning focused on adaptive strategies, contingency plans, scenario analysis, to account for/mitigate unknown variables affecting a decision, conclusion, policy, action, and/or synonyms.",
     "Direct Impacts – Advocates for a belief, decision, conclusion, policy, action, and/or synonyms, on the basis of an immediate first‑order effect, or lack thereof.",
-    "Indirect Impacts – Advocates for a belief, decision, conclusion, policy, action, and/or synonyms, on the basis of a projected secondary, downstream, spill‑over, or long‑term effects beyond first order."]}
+    "Indirect Impacts – Advocates for a belief, decision, conclusion, policy, action, and/or synonyms, on the basis of a projected secondary, downstream, spill‑over, or long‑term effects beyond first order.",
+              "None: Options didn't feel applicable."]}
         ],
         "claims_extra": [
           {"id":"ic1","quote":"","canonical":"Avoiding new single-use plastics is the primary effective lever individuals have now"}
@@ -2735,7 +2784,8 @@
                 "Threat to In-group: discusses threat to the interests of speaker's group.",
                 "In-group Validation: Asserts one’s own group as being morally/intellectually superior without data, story, or reasoning.",
                 "Source-Credibility Weighing: Explicitly evaluates one or more sources by assessing their credibility, integrity, reliability, expertise, transparency, biases, incentives, and/or synonyms.",
-                "Out-group Discounting: Asserts an out-group as being morally/intellectually inferior without data, story, or reasoning."
+                "Out-group Discounting: Asserts an out-group as being morally/intellectually inferior without data, story, or reasoning.",
+                "None: Options didn't feel applicable."
               ]
         },
           {"id":"c2","quote":"","canonical":"Steyn’s criticism is causing more damage to Mann’s reputation than the alleged legal defamation",
@@ -2743,7 +2793,8 @@
                 "Threat to In-group: discusses threat to the interests of speaker's group.",
                 "In-group Validation: Asserts one’s own group as being morally/intellectually superior without data, story, or reasoning.",
                 "Source-Credibility Weighing: Explicitly evaluates one or more sources by assessing their credibility, integrity, reliability, expertise, transparency, biases, incentives, and/or synonyms.",
-                "Out-group Discounting: Asserts an out-group as being morally/intellectually inferior without data, story, or reasoning."
+                "Out-group Discounting: Asserts an out-group as being morally/intellectually inferior without data, story, or reasoning.",
+                "None: Options didn't feel applicable."
               ]}
         ],
         "claims_extra": [
@@ -2812,7 +2863,8 @@
                 "Threat to In-group: discusses threat to the interests of speaker's group.",
                 "Subvert Authority: Advocates for a specific belief, decision, conclusion, policy, action, and/or synonyms, solely on the basis that a stated leader, rule, tradition, institution, and/or synonyms, must be subverted/challenged.",
                 "Identity Protection: Outright rejects or accepts claims which diminish the value of the speaker's identities, beliefs, and practices.",
-                "Direct Impacts: Advocates for a belief, decision, conclusion, policy, action, and/or synonyms, on the basis of an immediate first‑order effect, or lack thereof."
+                "Direct Impacts: Advocates for a belief, decision, conclusion, policy, action, and/or synonyms, on the basis of an immediate first‑order effect, or lack thereof.",
+                "None: Options didn't feel applicable."
               ]
         },
           {"id":"c2","quote":"","canonical":"Hard right MPs backed by mining companies are acting to suppress effective public advocacy",
@@ -2820,7 +2872,8 @@
                 "Threat to In-group: discusses threat to the interests of speaker's group.",
                 "Subvert Authority: Advocates for a specific belief, decision, conclusion, policy, action, and/or synonyms, solely on the basis that a stated leader, rule, tradition, institution, and/or synonyms, must be subverted/challenged.",
                 "Identity Protection: Outright rejects or accepts claims which diminish the value of the speaker's identities, beliefs, and practices.",
-                "Direct Impacts: Advocates for a belief, decision, conclusion, policy, action, and/or synonyms, on the basis of an immediate first‑order effect, or lack thereof."
+                "Direct Impacts: Advocates for a belief, decision, conclusion, policy, action, and/or synonyms, on the basis of an immediate first‑order effect, or lack thereof.",
+                "None: Options didn't feel applicable."
               ]
         }
         ],
@@ -2932,7 +2985,8 @@
                 "Subvert Authority: Advocates for a specific belief, decision, conclusion, policy, action, and/or synonyms, solely on the basis that a stated leader, rule, tradition, institution, and/or synonyms, must be subverted/challenged.",
                 "Preserve Sacred: Advocates for a belief, decision, conclusion, policy, action, and/or synonyms, on the basis of the purity, sanctity, holiness, and/or synonyms, of an object, place, practice, and/or synonyms.",
                 "Threat to In-group: discusses threat to the interests of speaker's group.",
-                "Ideological Criticism: Condemns or mocks a named ideology doctrine, creed, and/or synonyms. Must express negative judgment of the ideology itself, not of a particular policy detail."
+                "Ideological Criticism: Condemns or mocks a named ideology doctrine, creed, and/or synonyms. Must express negative judgment of the ideology itself, not of a particular policy detail.",
+                "None: Options didn't feel applicable."
               ]
         },
           {"id":"c2","quote":"","canonical":"The movement is authoritarian and threatens democracy",
@@ -2940,7 +2994,8 @@
                 "Subvert Authority: Advocates for a specific belief, decision, conclusion, policy, action, and/or synonyms, solely on the basis that a stated leader, rule, tradition, institution, and/or synonyms, must be subverted/challenged.",
                 "Preserve Sacred: Advocates for a belief, decision, conclusion, policy, action, and/or synonyms, on the basis of the purity, sanctity, holiness, and/or synonyms, of an object, place, practice, and/or synonyms.",
                 "Threat to In-group: discusses threat to the interests of speaker's group.",
-                "Ideological Criticism: Condemns or mocks a named ideology doctrine, creed, and/or synonyms. Must express negative judgment of the ideology itself, not of a particular policy detail."
+                "Ideological Criticism: Condemns or mocks a named ideology doctrine, creed, and/or synonyms. Must express negative judgment of the ideology itself, not of a particular policy detail.",
+                "None: Options didn't feel applicable."
               ]}
         ]
       }
@@ -3051,7 +3106,8 @@
               "Source-Credibility Weighing: Explicitly evaluates one or more sources by assessing their credibility, integrity, reliability, expertise, transparency, biases, incentives, and/or synonyms.",
               "Belief Consistency: Declares a statement is correct/incorrect because it aligns/conflicts with pre‑existing beliefs, ideology, worldview, and/or synonyms.",
               "Organisational Process: Reasoning about institutional procedures, governance pathways, decision hierarchies, approval workflows, cultural acceptance, and/or synonyms.",
-              "Methodological Evaluation: Critiques or defends research methods (design, sampling frame, measurement instrument, experimental protocol, etc., and/or synonyms)."
+              "Methodological Evaluation: Critiques or defends research methods (design, sampling frame, measurement instrument, experimental protocol, etc., and/or synonyms).",
+              "None: Options didn't feel applicable."
             ]
           },
           {
@@ -3063,7 +3119,8 @@
               "Anecdotal Evidence: Uses one-off personal or third-person story as proof.",
               "Belief Consistency: Declares a statement is correct/incorrect because it aligns/conflicts with pre‑existing beliefs, ideology, worldview, and/or synonyms.",
               "Organisational Process: Reasoning about institutional procedures, governance pathways, decision hierarchies, approval workflows, cultural acceptance, and/or synonyms.",
-              "Methodological Evaluation: Critiques or defends research methods (design, sampling frame, measurement instrument, experimental protocol, etc., and/or synonyms)."
+              "Methodological Evaluation: Critiques or defends research methods (design, sampling frame, measurement instrument, experimental protocol, etc., and/or synonyms).",
+              "None: Options didn't feel applicable."
             ]
           }
         ],
@@ -3171,7 +3228,8 @@
               "Indirect Impacts: Advocates for a belief, decision, conclusion, policy, action, and/or synonyms, on the basis of a projected secondary, downstream, spill‑over, or long‑term effects beyond first order.",
               "Belief Consistency: Declares a statement is correct/incorrect because it aligns/conflicts with pre‑existing beliefs, ideology, worldview, and/or synonyms.",
               "Direct Impacts: Advocates for a belief, decision, conclusion, policy, action, and/or synonyms, on the basis of an immediate first‑order effect, or lack thereof.",
-              "Threat to In-group: discusses threat to the interests of speaker's group."
+              "Threat to In-group: discusses threat to the interests of speaker's group.",
+              "None: Options didn't feel applicable."
             ]
           },
           {
@@ -3182,7 +3240,8 @@
             "Indirect Impacts: Advocates for a belief, decision, conclusion, policy, action, and/or synonyms, on the basis of a projected secondary, downstream, spill‑over, or long‑term effects beyond first order.",
             "Belief Consistency: Declares a statement is correct/incorrect because it aligns/conflicts with pre‑existing beliefs, ideology, worldview, and/or synonyms.",
             "Direct Impacts: Advocates for a belief, decision, conclusion, policy, action, and/or synonyms, on the basis of an immediate first‑order effect, or lack thereof.",
-            "Threat to In-group: discusses threat to the interests of speaker's group."
+            "Threat to In-group: discusses threat to the interests of speaker's group.",
+            "None: Options didn't feel applicable."
           ]
           }
         ],
@@ -3273,7 +3332,8 @@
               "Belief Consistency: Declares a statement is correct/incorrect because it aligns/conflicts with pre‑existing beliefs, ideology, worldview, and/or synonyms.",
               "Risk Likelihood/ Severity: Weighing the accuracy, likelihood, precision, severity, and/or synonyms, of a risk assessment/claim, contending it has been overestimated or underestimated.",
               "Out-group Discounting: Asserts an out-group as being morally/intellectually inferior without data, story, or reasoning.",
-              "Organisational Process: Reasoning about institutional procedures, governance pathways, decision hierarchies, approval workflows, cultural acceptance, and/or synonyms."
+              "Organisational Process: Reasoning about institutional procedures, governance pathways, decision hierarchies, approval workflows, cultural acceptance, and/or synonyms.",
+              "None: Options didn't feel applicable."
             ]
           },
           {
@@ -3284,7 +3344,8 @@
               "Belief Consistency: Declares a statement is correct/incorrect because it aligns/conflicts with pre‑existing beliefs, ideology, worldview, and/or synonyms.",
               "Risk Likelihood/ Severity: Weighing the accuracy, likelihood, precision, severity, and/or synonyms, of a risk assessment/claim, contending it has been overestimated or underestimated.",
               "Out-group Discounting: Asserts an out-group as being morally/intellectually inferior without data, story, or reasoning.",
-              "Organisational Process: Reasoning about institutional procedures, governance pathways, decision hierarchies, approval workflows, cultural acceptance, and/or synonyms."
+              "Organisational Process: Reasoning about institutional procedures, governance pathways, decision hierarchies, approval workflows, cultural acceptance, and/or synonyms.",
+              "None: Options didn't feel applicable."
             ]
           }
         ],
@@ -3377,7 +3438,8 @@
               "Belief Consistency: Declares a statement is correct/incorrect because it aligns/conflicts with pre‑existing beliefs, ideology, worldview, and/or synonyms.",
               "Organisational Process: Reasoning about institutional procedures, governance pathways, decision hierarchies, approval workflows, cultural acceptance, and/or synonyms.",
               "Subvert Authority: Advocates for a specific belief, decision, conclusion, policy, action, and/or synonyms, solely on the basis that a stated leader, rule, tradition, institution, and/or synonyms, must be subverted/challenged.",
-              "Source-Credibility Weighing: Evaluates one or more sources by assessing their credibility, integrity, reliability, expertise, transparency, biases, incentives, and/or synonyms."
+              "Source-Credibility Weighing: Evaluates one or more sources by assessing their credibility, integrity, reliability, expertise, transparency, biases, incentives, and/or synonyms.",
+              "None: Options didn't feel applicable."
             ]
           },
           {
@@ -3388,7 +3450,8 @@
               "Belief Consistency: Declares a statement is correct/incorrect because it aligns/conflicts with pre‑existing beliefs, ideology, worldview, and/or synonyms.",
               "Organisational Process: Reasoning about institutional procedures, governance pathways, decision hierarchies, approval workflows, cultural acceptance, and/or synonyms.",
               "Subvert Authority: Advocates for a specific belief, decision, conclusion, policy, action, and/or synonyms, solely on the basis that a stated leader, rule, tradition, institution, and/or synonyms, must be subverted/challenged.",
-              "Source-Credibility Weighing: Evaluates one or more sources by assessing their credibility, integrity, reliability, expertise, transparency, biases, incentives, and/or synonyms."
+              "Source-Credibility Weighing: Evaluates one or more sources by assessing their credibility, integrity, reliability, expertise, transparency, biases, incentives, and/or synonyms.",
+              "None: Options didn't feel applicable."
             ]
           }
         ],
