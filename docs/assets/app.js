@@ -41,7 +41,7 @@ function renderClassSelect(conclusion){
 
   return `
     <div class="class-choices" data-cid="${cid}">
-      ${opts.map((o, idx) => `
+      ${opts.map(o => `
         <button type="button"
                 class="class-choice"
                 data-cid="${cid}"
@@ -49,7 +49,7 @@ function renderClassSelect(conclusion){
           ${escapeHtml(o)}
         </button>
       `).join("")}
-      <p class="mono small-hint">Click one option to select. Click another to change.</p>
+      <p class="mono small-hint">Click all that apply. Click again to unselect.</p>
     </div>
   `;
 }
@@ -232,15 +232,10 @@ function renderExtraction(ex){
         </div>
       `
       : "";
-
     return `
       <div class="card no-select">
         <h3>Conclusion ${cid}</h3>
         <p><span class="hl-conclusion">${escapeHtml(cText)}</span></p>
-        <div class="conclusion-rating">
-          <h4>Which reasoning class best fits how the author arrived at this conclusion?</h4>
-          ${renderClassSelect(c)}
-        </div>
 
         <div style="margin-top:12px;">
           <h4>Arguments directly supporting this conclusion</h4>
@@ -248,6 +243,14 @@ function renderExtraction(ex){
         </div>
 
         ${icSectionWrapper}
+
+        <div class="conclusion-rating" style="margin-top:12px;">
+          <h4>
+            Which reasoning categories apply to this conclusion?
+            <span class="mono">(select all that apply)</span>
+          </h4>
+          ${renderClassSelect(c)}
+        </div>
       </div>
     `;
   }).join("");
@@ -392,13 +395,9 @@ async function run(){
   document.addEventListener('click', (e) => {
     const btn = e.target.closest('.class-choice');
     if (!btn) return;
-
-    const cid = btn.dataset.cid;
-    // clear previous selection for this conclusion
-    qsa(`.class-choice[data-cid="${cid}"]`).forEach(el => el.classList.remove('selected'));
-    // select this one
-    btn.classList.add('selected');
+    btn.classList.toggle('selected');  // allow multiple per conclusion
   });
+
   // Click-to-select option on attention check
   document.addEventListener('click', (e) => {
     const btn = e.target.closest('.attn-choice');
@@ -467,17 +466,16 @@ async function run(){
 
     const labels = [];
     for (const cid of concIds){
-      const chosen = qs(`.class-choice[data-cid="${cid}"].selected`);
-      if (!chosen){
+      const chosen = qsa(`.class-choice[data-cid="${cid}"].selected`);
+      if (!chosen.length){
         alert('Please label every conclusion.');
         return;
       }
       labels.push({
         conclusion_id: cid,
-        label: chosen.dataset.value
+        labels: chosen.map(btn => btn.dataset.value)  // multi-select
       });
     }
-
     // remember which example the upcoming attention check refers to
     lastExampleId = ex.id;
     localStorage.setItem('last_example_id', lastExampleId);
