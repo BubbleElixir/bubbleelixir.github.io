@@ -98,15 +98,6 @@ footer{color:#555;font-size:14px;padding-bottom:40px}
   margin-top: 0;
 }
 
-.chain-list {
-  margin: 0;
-  padding-left: 1.2rem;
-}
-
-.chain-list li {
-  margin: 0.35rem 0;
-}
-
 .class-choices {
   display: flex;
   flex-direction: column;
@@ -223,4 +214,5 @@ textarea, input, select, button {
   -ms-user-select: text;
   user-select: text;
 }
+
 
