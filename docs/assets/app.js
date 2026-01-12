@@ -76,10 +76,6 @@ function renderExtraction(ex){
   if (!reasoning) {
     return `
       <div class="card no-select">
-        <h3>Source Text</h3>
-        <pre>${escapeHtml(ex.text || "")}</pre>
-      </div>
-      <div class="card no-select">
         <p><em>No reasoning structure found for this example.</em></p>
       </div>`;
   }
@@ -130,22 +126,7 @@ function renderExtraction(ex){
     return "hl-conclusion";
   }
 
-  // Collect all intermediate conclusions that ultimately support targetId
-  function collectRelevantICs(targetId, acc){
-    if (!acc) acc = new Set();
-    const infs = infByTo[targetId] || [];
-    for (const inf of infs){
-      for (const pid of inf.from){
-        if (nodeType(pid) === "implicit" && !acc.has(pid)){
-          acc.add(pid);
-          collectRelevantICs(pid, acc);
-        }
-      }
-    }
-    return acc;
-  }
-
-  // Render one inference as: Premises (+ joins) ↓ Warrant ↓ Target
+  // Render one inference as: Premises (+ joins) ↓ Target
   function renderInferenceBlock(inf){
     // premises with explicit '+' joiners in their own span
     const premiseSpans = inf.from.map(pid =>
@@ -155,8 +136,6 @@ function renderExtraction(ex){
       if (idx === 0) return html;
       return `<span class="premise-join">+</span>${html}`;
     }).join("");
-
-    const warrant = inf.warrant && inf.warrant.text ? inf.warrant.text : "";
 
     const toId = inf.to;
     const toLabel = nodeLabel(toId);
@@ -169,13 +148,6 @@ function renderExtraction(ex){
         <div class="inf-premises">
           ${premisesHtml}
         </div>
-        ${warrant ? `
-          <div class="inf-arrow">↓</div>
-          <div class="inf-label">Warrant</div>
-          <div class="inf-warrant">
-            <span class="hl-warrant">${escapeHtml(warrant)}</span>
-          </div>
-        ` : ""}
         <div class="inf-arrow">↓</div>
         <div class="inf-label">${escapeHtml(toLabel)}</div>
         <div class="inf-target">
@@ -201,37 +173,6 @@ function renderExtraction(ex){
           </div>
         `).join("");
 
-    // Intermediate conclusions that (recursively) support this conclusion
-    const relevantICs = Array.from(collectRelevantICs(cid));
-
-    const icSections = relevantICs.map(icId => {
-      const icText = nodeText(icId);
-      const icInfs = infByTo[icId] || [];
-      const icBlocks = icInfs.length === 0
-        ? "<p><em>No explicit arguments recorded for this intermediate conclusion.</em></p>"
-        : icInfs.map(inf => `
-            <div class="card no-select chain-card" style="margin-top:8px;">
-              ${renderInferenceBlock(inf)}
-            </div>
-          `).join("");
-
-      return `
-        <div class="card no-select" style="margin-top:12px;">
-          <h4>Intermediate conclusion ${icId}</h4>
-          <p><span class="hl-implicit">${escapeHtml(icText)}</span></p>
-          ${icBlocks}
-        </div>
-      `;
-    }).join("");
-
-    const icSectionWrapper = relevantICs.length
-      ? `
-        <div style="margin-top:12px;">
-          <h4>Intermediate conclusions used in the arguments above</h4>
-          ${icSections}
-        </div>
-      `
-      : "";
     return `
       <div class="card no-select">
         <h3>Conclusion ${cid}</h3>
@@ -241,8 +182,6 @@ function renderExtraction(ex){
           <h4>Arguments directly supporting this conclusion</h4>
           ${directHtml}
         </div>
-
-        ${icSectionWrapper}
 
         <div class="conclusion-rating" style="margin-top:12px;">
           <h4>
@@ -256,10 +195,6 @@ function renderExtraction(ex){
   }).join("");
 
   return `
-    <div class="card no-select">
-      <h3>Source Text</h3>
-      <pre>${escapeHtml(ex.text || "")}</pre>
-    </div>
     <div class="no-select">
       <h2>Reasoning by conclusion</h2>
       ${conclusionBlocks}
@@ -361,7 +296,8 @@ async function run(){
     }
     const ex = examples[idx];
     qs('#exid').textContent = ex.id;
-    qs('#content').innerHTML = renderExtraction(ex) + renderLikert('likert');
+    // Likert disabled for streamlined task.
+    qs('#content').innerHTML = renderExtraction(ex);
     qs('#comment').value = '';
 
     // Anti-copy in reasoning area
@@ -455,12 +391,6 @@ async function run(){
 
     // --- NORMAL EXAMPLE MODE ---
     const ex = examples[idx];
-    const likert = qsa('input[name="likert"]').find(x => x.checked)?.value;
-    if (!likert){
-      alert('Please choose a Likert rating.');
-      return;
-    }
-
     const reasoning = ex.reasoning || ex.extraction;
     const concIds = (reasoning.conclusions || []).map(c => c.id);
 
@@ -483,7 +413,6 @@ async function run(){
     const payload = {
       participant_id: pid,
       example_id: ex.id,
-      likert_1to7: Number(likert),
       conclusion_labels: labels,
       comment: qs('#comment').value || "",
       ts_client: new Date().toISOString(),
