@@ -114,9 +114,9 @@ function renderExtraction(ex){
 
   function nodeLabel(id){
     const t = nodeType(id);
-    if (t === "premise") return `Premise ${id}`;
-    if (t === "implicit") return `Intermediate conclusion ${id}`;
-    return `Conclusion ${id}`;
+    if (t === "premise") return "Premise";
+    if (t === "implicit") return "Intermediate conclusion";
+    return "Conclusion";
   }
 
   function nodeClass(id){
@@ -160,34 +160,19 @@ function renderExtraction(ex){
   // Per-conclusion layout
   const conclusionBlocks = conclusions.map(c => {
     const cid = c.id;
-    const cText = nodeText(cid);
 
     // Direct arguments whose target is this conclusion
     const directInfs = infByTo[cid] || [];
 
     const directHtml = directInfs.length === 0
-      ? "<p><em>No explicit arguments directly targeting this conclusion.</em></p>"
-      : directInfs.map(inf => `
-          <div class="card no-select chain-card" style="margin-top:8px;">
-            ${renderInferenceBlock(inf)}
-          </div>
-        `).join("");
+      ? "<p><em>No supporting statements listed for this conclusion.</em></p>"
+      : directInfs.map(inf => renderInferenceBlock(inf)).join("");
 
     return `
       <div class="card no-select">
-        <h3>Conclusion ${cid}</h3>
-        <p><span class="hl-conclusion">${escapeHtml(cText)}</span></p>
-
-        <div style="margin-top:12px;">
-          <h4>Arguments directly supporting this conclusion</h4>
-          ${directHtml}
-        </div>
-
+        ${directHtml}
         <div class="conclusion-rating" style="margin-top:12px;">
-          <h4>
-            Which reasoning categories apply to this conclusion?
-            <span class="mono">(select all that apply)</span>
-          </h4>
+          <h4>Which reasoning categories apply?</h4>
           ${renderClassSelect(c)}
         </div>
       </div>
@@ -196,7 +181,6 @@ function renderExtraction(ex){
 
   return `
     <div class="no-select">
-      <h2>Reasoning by conclusion</h2>
       ${conclusionBlocks}
     </div>
   `;
@@ -229,7 +213,6 @@ async function saveToOSF_DataPipe(participantId, example, payload){
 async function run(){
   const pid = requireId(); 
   if (!pid) return;
-  qs('#pid').textContent = pid;
 
   let examples = await loadExamples();
   if (examples.length < REQUIRED_COUNT){
@@ -238,56 +221,16 @@ async function run(){
   examples = examples.slice(0, Math.min(REQUIRED_COUNT, examples.length));
   examples = shuffle(examples);
 
-  const ATTENTION_POINTS = [7, 22]; // after 7th and 22nd examples
-
   let idx = parseInt(localStorage.getItem('idx') || '0', 10);
   let done = JSON.parse(localStorage.getItem('done') || '[]');
-
-  // attention-check state
-  let attnDone = JSON.parse(localStorage.getItem('attn_done') || '[]'); // e.g. [7,22]
-  let mode = localStorage.getItem('mode') || 'example';                // 'example' | 'attn'
-  let currentAttnPoint = localStorage.getItem('current_attn_point');
-  currentAttnPoint = currentAttnPoint ? parseInt(currentAttnPoint, 10) : null;
-  let lastExampleId = localStorage.getItem('last_example_id') || null;
 
   function updateProgress(){
     const p = Math.round((idx / examples.length) * 100);
     qs('.progress > div').style.width = `${p}%`;
     qs('#progText').textContent = `${idx} / ${examples.length}`;
   }
-  function renderAttentionCheck(){
-    if (!lastExampleId){
-      return `
-        <div class="card no-select">
-          <h3>Attention check</h3>
-          <p><em>No previous example found for this check.</em></p>
-        </div>
-      `;
-    }
-
-    return `
-      <div class="card no-select">
-        <h3>Attention check</h3>
-        <p>Please answer this quick question about the <strong>previous</strong> text.</p>
-        <p><strong>Was the last text from an Activist or Contrarian source?</strong></p>
-        <div class="attn-choices">
-          <button type="button" class="attn-choice" data-value="Activist">Activist</button>
-          <button type="button" class="attn-choice" data-value="Contrarian">Contrarian</button>
-        </div>
-        <p class="mono small-hint">Click one option, then press “Save & Next”.</p>
-      </div>
-    `;
-  }
   async function show(){
     updateProgress();
-
-    // attention check screen
-    if (mode === 'attn'){
-      qs('#exid').textContent = 'attention-check';
-      qs('#content').innerHTML = renderAttentionCheck();
-      qs('#comment').value = '';
-      return;
-    }
 
     // normal example
     if (idx >= examples.length){
@@ -334,61 +277,7 @@ async function run(){
     btn.classList.toggle('selected');  // allow multiple per conclusion
   });
 
-  // Click-to-select option on attention check
-  document.addEventListener('click', (e) => {
-    const btn = e.target.closest('.attn-choice');
-    if (!btn) return;
-    qsa('.attn-choice').forEach(el => el.classList.remove('selected'));
-    btn.classList.add('selected');
-  });
-
-
   qs('#next').addEventListener('click', async () => {
-
-    // --- ATTENTION-CHECK MODE ---
-    if (mode === 'attn') {
-      const choiceBtn = qs('.attn-choice.selected');
-      if (!choiceBtn){
-        alert('Please select Activist or Contrarian.');
-        return;
-      }
-      const answer = choiceBtn.dataset.value;
-
-      const exStub = { id: `ATTN_${currentAttnPoint || idx}_${lastExampleId || 'unknown'}` };
-
-      const payload = {
-        participant_id: pid,
-        attention_for_example_id: lastExampleId,
-        attention_point: currentAttnPoint,
-        response: answer,
-        ts_client: new Date().toISOString(),
-        user_agent: navigator.userAgent,
-        type: "attention_check_v1"
-      };
-
-      // try to send now; queue on failure
-      saveToOSF_DataPipe(pid, exStub, payload).catch(e => {
-        console.error('Immediate save failed (attention check), queueing:', e);
-        const queue = JSON.parse(localStorage.getItem('queue') || '[]');
-        queue.push({ ex: exStub, payload });
-        localStorage.setItem('queue', JSON.stringify(queue));
-      });
-
-      if (currentAttnPoint && !attnDone.includes(currentAttnPoint)) {
-        attnDone.push(currentAttnPoint);
-        localStorage.setItem('attn_done', JSON.stringify(attnDone));
-      }
-
-      mode = 'example';
-      currentAttnPoint = null;
-      localStorage.setItem('mode', 'example');
-      localStorage.removeItem('current_attn_point');
-
-      await show();
-      window.scrollTo(0, 0);
-      return;
-    }
-
     // --- NORMAL EXAMPLE MODE ---
     const ex = examples[idx];
     const reasoning = ex.reasoning || ex.extraction;
@@ -406,10 +295,6 @@ async function run(){
         labels: chosen.map(btn => btn.dataset.value)  // multi-select
       });
     }
-    // remember which example the upcoming attention check refers to
-    lastExampleId = ex.id;
-    localStorage.setItem('last_example_id', lastExampleId);
-
     const payload = {
       participant_id: pid,
       example_id: ex.id,
@@ -425,22 +310,6 @@ async function run(){
     localStorage.setItem('done', JSON.stringify(done));
     idx += 1;
     localStorage.setItem('idx', String(idx));
-
-    // decide whether to show an attention check next
-    const upcoming = ATTENTION_POINTS.find(
-      p => p === idx && !attnDone.includes(p)
-    );
-    if (upcoming){
-      mode = 'attn';
-      currentAttnPoint = upcoming;
-      localStorage.setItem('mode', 'attn');
-      localStorage.setItem('current_attn_point', String(currentAttnPoint));
-    } else {
-      mode = 'example';
-      currentAttnPoint = null;
-      localStorage.setItem('mode', 'example');
-      localStorage.removeItem('current_attn_point');
-    }
 
     await show();
     window.scrollTo(0, 0);

@@ -158,32 +158,6 @@ footer{color:#555;font-size:14px;padding-bottom:40px}
   font-size: 0.9rem;
 }
 
-.attn-choices {
-  display: flex;
-  gap: 1rem;
-  margin-top: 0.75rem;
-}
-
-.attn-choice {
-  flex: 1;
-  padding: 0.8rem 1rem;
-  border-radius: 6px;
-  border: 1px solid #ccc;
-  background: #f7f7f7;
-  font-size: 1rem;
-  cursor: pointer;
-  text-align: center;
-}
-
-.attn-choice:hover {
-  background: #eeeeee;
-}
-
-.attn-choice.selected {
-  border-color: #2563eb;
-  background: #dbeafe;
-  font-weight: 600;
-}
 .intro-img {
   max-width: 100%;
   height: auto;
@@ -214,5 +188,4 @@ textarea, input, select, button {
   -ms-user-select: text;
   user-select: text;
 }
-
 
