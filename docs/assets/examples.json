@@ -86,10 +86,10 @@
             "quote":"",
             "canonical":"The next New South Wales government should introduce a solar rebate so renting households can access solar panels and battery storage",
             "classes": [
-              "Well-Being: Advocates for beliefs, actions, policies, conclusions, and/or synonyms that will benefit emotional, physical, financial, social, psychological, well-being, and/or synonyms. ",
-              "Source-Credibility Weighing: Explicitly evaluates one or more sources by assessing their credibility, integrity, reliability, expertise, transparency, biases, incentives, and/or synonyms. Exclude if evaluating conclusions, policy, evidence thresholds, data quality, or methodology.",
-              "Identity Protection: Outright rejects or accepts claims which diminish the value of the speaker's identities, beliefs, and practices. Must include self-identification.",
-              "Negative Freedom: Advocates for actions/policy that promote freedom from external constraints, interference, coercion, etc. ",
+              "Well-Being: This reasoning evaluates the claim being made by emphasising how it affects people’s overall quality of life, health, security, or happiness. ",
+              "Source-Credibility: This reasoning accepts or dismisses the claim being made by judging who is making it and whether they can be trusted on that specific topic. Exclude if evaluating conclusions, policy, evidence thresholds, data quality, or methodology.",
+              "Identity Protection: This reasoning supports or rejects a position based on whether it protects or threatens the speaker’s valued identity or way of life. Must include self-identification.",
+              "Negative Freedom: This reasoning evaluates the claim being made by focusing on whether it adds or removes restrictions, controls, or interference in people’s lives.",
               "None: Options didn't feel applicable."
             ]
           },
@@ -98,10 +98,10 @@
             "quote":"",
             "canonical":"The NSW Liberal rooftop solar loan policy is too little, too late and provides limited additional benefit after years of climate inaction",
             "classes": [
-              "Well-Being: Advocates for beliefs, actions, policies, conclusions, and/or synonyms that will benefit emotional, physical, financial, social, psychological, well-being, and/or synonyms. ",
-              "Source-Credibility Weighing: Explicitly evaluates one or more sources by assessing their credibility, integrity, reliability, expertise, transparency, biases, incentives, and/or synonyms. Exclude if evaluating conclusions, policy, evidence thresholds, data quality, or methodology.",
-              "Identity Protection: Outright rejects or accepts claims which diminish the value of the speaker's identities, beliefs, and practices. Must include self-identification.",
-              "Negative Freedom: Advocates for actions/policy that promote freedom from external constraints, interference, coercion, etc. ",
+              "Well-Being: This reasoning evaluates the claim being made by emphasising how it affects people’s overall quality of life, health, security, or happiness. ",
+              "Source-Credibility: This reasoning accepts or dismisses the claim being made by judging who is making it and whether they can be trusted on that specific topic. Exclude if evaluating conclusions, policy, evidence thresholds, data quality, or methodology.",
+              "Identity Protection: This reasoning supports or rejects a position based on whether it protects or threatens the speaker’s valued identity or way of life. Must include self-identification.",
+              "Negative Freedom: This reasoning evaluates the claim being made by focusing on whether it adds or removes restrictions, controls, or interference in people’s lives.",
               "None: Options didn't feel applicable."
             ]
           }
@@ -221,9 +221,9 @@
             "canonical":"Given the threat climate change poses to his future and older generations’ inaction, Oscar should not wait and is right to act now as a climate activist to take his future into his own hands",
             "classes": [
               "Threat to In-group: Discusses threat to the interests of speaker's group. Must specify the impact on the in-group, and include identification with the in-group.",
-              "Indirect Impacts: Advocates for a belief, decision, conclusion, policy, action, and/or synonyms, on the basis of a projected secondary, downstream, spill‑over, or long‑term effects beyond first order.",
+              "Indirect Impacts: This reasoning evaluates the claim by focusing on its longer-term or knock-on effects, beyond the immediate outcome.",
               "Organisational Process: Reasoning about institutional procedures, governance pathways, decision hierarchies, approval workflows, cultural acceptance, and/or synonyms.",
-              "Direct Impacts: Advocates for a belief, decision, conclusion, policy, action, and/or synonyms, on the basis of an immediate first‑order effect, or lack thereof.",
+              "Direct Impacts: This reasoning evaluates the claim by focusing on its immediate and direct effects.",
               "None: Options didn't feel applicable."
             ]
           },
@@ -233,9 +233,9 @@
             "canonical":"Other young people whose futures are threatened by climate change should likewise take action now to protect their futures rather than relying on older generations",
             "classes": [
               "Threat to In-group: discusses threat to the interests of speaker's group. Must specify the impact on the in-group, and include identification with the in-group.",
-              "Indirect Impacts: Advocates for a belief, decision, conclusion, policy, action, and/or synonyms, on the basis of a projected secondary, downstream, spill‑over, or long‑term effects beyond first order.",
+              "Indirect Impacts: This reasoning evaluates the claim by focusing on its longer-term or knock-on effects, beyond the immediate outcome.",
               "Organisational Process: Reasoning about institutional procedures, governance pathways, decision hierarchies, approval workflows, cultural acceptance, and/or synonyms.",
-              "Direct Impacts: Advocates for a belief, decision, conclusion, policy, action, and/or synonyms, on the basis of an immediate first‑order effect, or lack thereof.",
+              "Direct Impacts: This reasoning evaluates the claim by focusing on its immediate and direct effects.",
               "None: Options didn't feel applicable."
             ]
           }
@@ -355,10 +355,10 @@
             "quote":"",
             "canonical":"To give the Great Barrier Reef a chance to survive and recover, Australia must stop expanding and phase out the coal industry",
             "classes": [
-              "Identity Protection: Outright rejects or accepts claims which diminish the value of the speaker's identities, beliefs, and practices. Must include self-identification.",
-              "Scalability: Reasoning about future replication ease, long‑term upkeep, durability, sustainability, lifecycle cost, and/or synonyms. Must reference ongoing or large‑scale deployment.",
-              "Harm: Highlights concrete or clearly potential injury, loss, or suffering. Must reference WHO/WHAT is harmed, and/or synonyms. Ignore any potential benefits.",
-              "Source-Credibility Weighing: Explicitly evaluates one or more sources by assessing their credibility, integrity, reliability, expertise, transparency, biases, incentives, and/or synonyms. Exclude if evaluating conclusions, policy, evidence thresholds, data quality, or methodology.",
+              "Identity Protection: This reasoning supports or rejects a position based on whether it protects or threatens the speaker’s valued identity or way of life. Must include self-identification.",
+              "Scalability: This reasoning looks at how well the idea would hold up if it was expanded, repeated, or maintained over time.",
+              "Harm: This reasoning judges the claim being made by pointing to the harm it would cause, such as injury, loss, suffering, or environmental damage.",
+              "Source-Credibility: This reasoning accepts or dismisses the claim being made by judging who is making it and whether they can be trusted on that specific topic. Exclude if evaluating conclusions, policy, evidence thresholds, data quality, or methodology.",
               "None: Options didn't feel applicable."
             ]
           },
@@ -367,9 +367,9 @@
             "quote":"",
             "canonical":"Approving coal expansion projects like the Abbot Point terminal recklessly risks the Great Barrier Reef and is out of step with the global move away from coal",
             "classes": [
-              "Identity Protection: Outright rejects or accepts claims which diminish the value of the speaker's identities, beliefs, and practices.",
-              "Indirect Impacts: Advocates for a belief, decision, conclusion, policy, action, and/or synonyms, on the basis of a projected secondary, downstream, spill‑over, or long‑term effects beyond first order.",
-              "Source-Credibility Weighing: Explicitly evaluates one or more sources by assessing their credibility, integrity, reliability, expertise, transparency, biases, incentives, and/or synonyms.",
+              "Identity Protection: This reasoning supports or rejects a position based on whether it protects or threatens the speaker’s valued identity or way of life.",
+              "Indirect Impacts: This reasoning evaluates the claim by focusing on its longer-term or knock-on effects, beyond the immediate outcome.",
+              "Source-Credibility: This reasoning accepts or dismisses the claim being made by judging who is making it and whether they can be trusted on that specific topic.",
               "Organisational Process: Reasoning about institutional procedures, governance pathways, decision hierarchies, approval workflows, cultural acceptance, and/or synonyms.",
               "None: Options didn't feel applicable."
             ]
@@ -496,9 +496,9 @@
             "quote":"",
             "canonical":"Scott Morrison is a leader Australia cannot afford in the context of escalating climate and environmental crises",
             "classes": [
-              "Source-Credibility Weighing: Explicitly evaluates one or more sources by assessing their credibility, integrity, reliability, expertise, transparency, biases, incentives, and/or synonyms. Exclude if evaluating conclusions, policy, evidence thresholds, data quality, or methodology.",
-              "Out-group Discounting: Asserts an out-group as being morally/intellectually inferior without data, story, or reasoning.",
-              "(Dis)trust Sources:  Ad hominem, biased, totalising statements about the trustworthy or untrustworthy traits/nature of a source/individual/organisation. Statements must contain absolutes.",
+              "Source-Credibility: This reasoning accepts or dismisses the claim being made by judging who is making it and whether they can be trusted on that specific topic. Exclude if evaluating conclusions, policy, evidence thresholds, data quality, or methodology.",
+              "Out-group Discounting: This reasoning dismisses positions by portraying an opposing group as morally or intellectually inferior.",
+              "(Dis)trust: This reasoning judges a position by making broad claims about whether a person or organisation is (or is not) trustworthy overall.",
               "Threat to In-group: discusses threat to the interests of speaker's group. Must specify the impact on the in-group, and include identification with the in-group.",
               "None: Options didn't feel applicable."
             ]
@@ -508,9 +508,9 @@
             "quote":"",
             "canonical":"Scott Morrison is effectively a more polished version of Tony Abbott in his politics and approach to climate and the environment",
             "classes": [
-              "Source-Credibility Weighing: Explicitly evaluates one or more sources by assessing their credibility, integrity, reliability, expertise, transparency, biases, incentives, and/or synonyms. Exclude if evaluating conclusions, policy, evidence thresholds, data quality, or methodology.",
-              "Out-group Discounting: Asserts an out-group as being morally/intellectually inferior without data, story, or reasoning.",
-              "(Dis)trust Sources: Ad hominem, biased, totalising statements about the trustworthy or untrustworthy traits/nature of a source/individual/organisation. Statements must contain absolutes.",
+              "Source-Credibility: This reasoning accepts or dismisses the claim being made by judging who is making it and whether they can be trusted on that specific topic. Exclude if evaluating conclusions, policy, evidence thresholds, data quality, or methodology.",
+              "Out-group Discounting: This reasoning dismisses positions by portraying an opposing group as morally or intellectually inferior.",
+              "(Dis)trust: This reasoning judges a position by making broad claims about whether a person or organisation is (or is not) trustworthy overall.",
               "Threat to In-group: Discusses threat to the interests of speaker's group. Must specify the impact on the in-group, and include identification with the in-group.",
               "None: Options didn't feel applicable."
             ]
@@ -520,9 +520,9 @@
             "quote":"",
             "canonical":"Morrison is driven by political self-interest and is likely to continue selling out the environment to fossil fuel interests",
             "classes": [
-              "Source-Credibility Weighing: Explicitly evaluates one or more sources by assessing their credibility, integrity, reliability, expertise, transparency, biases, incentives, and/or synonyms. Exclude if evaluating conclusions, policy, evidence thresholds, data quality, or methodology.",
-              "Out-group Discounting: Asserts an out-group as being morally/intellectually inferior without data, story, or reasoning.",
-              "(Dis)trust Sources:  Ad hominem, biased, totalising statements about the trustworthy or untrustworthy traits/nature of a source/individual/organisation. Statements must contain absolutes.",
+              "Source-Credibility: This reasoning accepts or dismisses the claim being made by judging who is making it and whether they can be trusted on that specific topic. Exclude if evaluating conclusions, policy, evidence thresholds, data quality, or methodology.",
+              "Out-group Discounting: This reasoning dismisses positions by portraying an opposing group as morally or intellectually inferior.",
+              "(Dis)trust: This reasoning judges a position by making broad claims about whether a person or organisation is (or is not) trustworthy overall.",
               "Threat to In-group: Discusses threat to the interests of speaker's group. Must specify the impact on the in-group, and include identification with the in-group.",
               "None: Options didn't feel applicable."
             ]
@@ -662,8 +662,8 @@
           "classes": [
             "Source-Credibility Weighing: Evaluates one or more sources by assessing their credibility, integrity, reliability, expertise, transparency, biases, incentives, and/or synonyms.",
             "Threat to In-group: discusses threat to the interests of speaker's group.",
-            "Out-group Discounting: Asserts an out-group as being morally/intellectually inferior without data, story, or reasoning.",
-            "Disgust/Degradation: Advocates for a belief, decision, conclusion, policy, action, and/or synonyms, solely on the basis that something is disgusting, impure, contaminating, degrading, and/or synonyms. Must express disgust to justify a stance.",
+            "Out-group Discounting: This reasoning dismisses positions by portraying an opposing group as morally or intellectually inferior.",
+            "Disgust: This reasoning supports or rejects the claim being made by treating feelings of disgust or contamination as sufficient justification.",
             "None: Options didn't feel applicable."
           ]
         },
@@ -674,8 +674,8 @@
           "classes": [
             "Source-Credibility Weighing: Evaluates one or more sources by assessing their credibility, integrity, reliability, expertise, transparency, biases, incentives, and/or synonyms.",
             "Threat to In-group: discusses threat to the interests of speaker's group.",
-            "Out-group Discounting: Asserts an out-group as being morally/intellectually inferior without data, story, or reasoning.",
-            "Disgust/Degradation: Advocates for a belief, decision, conclusion, policy, action, and/or synonyms, solely on the basis that something is disgusting, impure, contaminating, degrading, and/or synonyms. Must express disgust to justify a stance.",
+            "Out-group Discounting: This reasoning dismisses positions by portraying an opposing group as morally or intellectually inferior.",
+            "Disgust: This reasoning supports or rejects the claim being made by treating feelings of disgust or contamination as sufficient justification.",
             "None: Options didn't feel applicable."
           ]
         }
@@ -825,10 +825,10 @@
             "quote": "",
             "canonical": "The use of the mean of temperature measurements in current analyses is not statistically valid",
             "classes": [
-              "Statistical Methodology: Assesses integrity, statistical assumptions, or validity of statistical analysis.",
-              "Risk Likelihood/ Severity: Weighing the accuracy, likelihood, precision, severity, and/or synonyms, of a risk assessment/claim, contending it has been overestimated or underestimated.",
-              "Source-Credibility Weighing: Explicitly evaluates one or more sources by assessing their credibility, integrity, reliability, expertise, transparency, biases, incentives, and/or synonyms.",
-              "Operational Performance: Reasoning about the efficiency, speed, accuracy, throughput, latency, KPI score, and/or synonyms of a belief, decision, conclusion, policy, action, and/or synonyms.",
+              "Statistical Method: This reasoning judges the position being argued by questioning whether the statistical analysis was done or interpreted properly.",
+              "Risk: This reasoning supports or rejects the position under discussion by arguing that the risks involved are being overestimated, underestimated, or misunderstood.",
+              "Source-Credibility: This reasoning accepts or dismisses the claim being made by judging who is making it and whether they can be trusted on that specific topic.",
+              "Operational Performance: This reasoning judges a claim based on how well it is expected to perform on practical measures like speed, efficiency, reliability, or accuracy.",
               "None: Options didn't feel applicable."
             ]
           },
@@ -837,10 +837,10 @@
             "quote": "",
             "canonical": "Location selection bias in temperature records may invalidate the statistical assumptions underlying extended averaging procedures",
             "classes": [
-              "Statistical Methodology: Assesses integrity, statistical assumptions, or validity of statistical analysis.",
-              "Risk Likelihood/ Severity: Weighing the accuracy, likelihood, precision, severity, and/or synonyms, of a risk assessment/claim, contending it has been overestimated or underestimated.",
-              "Source-Credibility Weighing: Explicitly evaluates one or more sources by assessing their credibility, integrity, reliability, expertise, transparency, biases, incentives, and/or synonyms.",
-              "Operational Performance: Reasoning about the efficiency, speed, accuracy, throughput, latency, KPI score, and/or synonyms of a belief, decision, conclusion, policy, action, and/or synonyms.",
+              "Statistical Method: This reasoning judges the position being argued by questioning whether the statistical analysis was done or interpreted properly.",
+              "Risk: This reasoning supports or rejects the position under discussion by arguing that the risks involved are being overestimated, underestimated, or misunderstood.",
+              "Source-Credibility: This reasoning accepts or dismisses the claim being made by judging who is making it and whether they can be trusted on that specific topic.",
+              "Operational Performance: This reasoning judges a claim based on how well it is expected to perform on practical measures like speed, efficiency, reliability, or accuracy.",
               "None: Options didn't feel applicable."
             ]
           }
@@ -939,10 +939,10 @@
             "quote":"",
             "canonical":"The conditions required by the central limit theorem are not satisfied for heterogeneous thermometer records used in global temperature analyses",
             "classes": [
-              "Statistical Methodology: Assesses integrity, statistical assumptions, or validity of statistical analysis.",
-              "Probabilistic Reasoning: Presents or compares numeric probabilities, likelihood percentages, risk ratios, confidence intervals, Bayesian posteriors, and/or synonyms.",
-              "Operational Performance: Reasoning about the efficiency, speed, accuracy, throughput, latency, KPI score, and/or synonyms of a belief, decision, conclusion, policy, action, and/or synonyms.",
-              "Source-Credibility Weighing: Explicitly evaluates one or more sources by assessing their credibility, integrity, reliability, expertise, transparency, biases, incentives, and/or synonyms.",
+              "Statistical Method: This reasoning judges the position being argued by questioning whether the statistical analysis was done or interpreted properly.",
+              "Probablistic Reasoning: This reasoning weighs the adopted position by comparing how likely different outcomes are, using probabilities, odds, or risk estimates.",
+              "Operational Performance: This reasoning judges a claim based on how well it is expected to perform on practical measures like speed, efficiency, reliability, or accuracy.",
+              "Source-Credibility: This reasoning accepts or dismisses the claim being made by judging who is making it and whether they can be trusted on that specific topic.",
               "None: Options didn't feel applicable."
             ]
           },
@@ -951,10 +951,10 @@
             "quote":"",
             "canonical":"The common practice of treating temperature data as if they satisfied standard-normal, mean-based assumptions is not statistically justified",
             "classes": [
-              "Statistical Methodology: Assesses integrity, statistical assumptions, or validity of statistical analysis.",
-              "Probabilistic Reasoning: Presents or compares numeric probabilities, likelihood percentages, risk ratios, confidence intervals, Bayesian posteriors, and/or synonyms.",
-              "Operational Performance: Reasoning about the efficiency, speed, accuracy, throughput, latency, KPI score, and/or synonyms of a belief, decision, conclusion, policy, action, and/or synonyms.",
-              "Source-Credibility Weighing: Explicitly evaluates one or more sources by assessing their credibility, integrity, reliability, expertise, transparency, biases, incentives, and/or synonyms.",
+              "Statistical Method: This reasoning judges the position being argued by questioning whether the statistical analysis was done or interpreted properly.",
+              "Probablistic Reasoning: This reasoning weighs the adopted position by comparing how likely different outcomes are, using probabilities, odds, or risk estimates.",
+              "Operational Performance: This reasoning judges a claim based on how well it is expected to perform on practical measures like speed, efficiency, reliability, or accuracy.",
+              "Source-Credibility: This reasoning accepts or dismisses the claim being made by judging who is making it and whether they can be trusted on that specific topic.",
               "None: Options didn't feel applicable."
             ]
           }
@@ -1062,10 +1062,10 @@
             "quote":"",
             "canonical":"The fingerprint of combined anthropogenic and natural external forcing is robustly detected in observations and is unlikely to be an artifact of model variability errors",
             "classes": [
-              "Statistical Methodology: Assesses integrity, statistical assumptions, or validity of statistical analysis.",
-              "Probabilistic Reasoning: Presents or compares numeric probabilities, likelihood percentages, risk ratios, confidence intervals, Bayesian posteriors, and/or synonyms.",
-              "Risk Likelihood/ Severity: Weighing the accuracy, likelihood, precision, severity, and/or synonyms, of a risk assessment/claim, contending it has been overestimated or underestimated.",
-              "Source-Credibility Weighing: Explicitly evaluates one or more sources by assessing their credibility, integrity, reliability, expertise, transparency, biases, incentives, and/or synonyms.",
+              "Statistical Method: This reasoning judges the position being argued by questioning whether the statistical analysis was done or interpreted properly.",
+              "Probablistic Reasoning: This reasoning weighs the adopted position by comparing how likely different outcomes are, using probabilities, odds, or risk estimates.",
+              "Risk: This reasoning supports or rejects the position under discussion by arguing that the risks involved are being overestimated, underestimated, or misunderstood.",
+              "Source-Credibility: This reasoning accepts or dismisses the claim being made by judging who is making it and whether they can be trusted on that specific topic.",
               "None: Options didn't feel applicable."
             ]
           },
@@ -1074,10 +1074,10 @@
             "quote":"",
             "canonical":"Climate models capture large-scale patterns of atmospheric temperature change but misrepresent the magnitude of vertical trends and require improved treatment of stratospheric processes and forcings",
             "classes": [
-              "Statistical Methodology: Assesses integrity, statistical assumptions, or validity of statistical analysis.",
-              "Probabilistic Reasoning: Presents or compares numeric probabilities, likelihood percentages, risk ratios, confidence intervals, Bayesian posteriors, and/or synonyms.",
-              "Risk Likelihood/ Severity: Weighing the accuracy, likelihood, precision, severity, and/or synonyms, of a risk assessment/claim, contending it has been overestimated or underestimated.",
-              "Source-Credibility Weighing: Explicitly evaluates one or more sources by assessing their credibility, integrity, reliability, expertise, transparency, biases, incentives, and/or synonyms.",
+              "Statistical Method: This reasoning judges the position being argued by questioning whether the statistical analysis was done or interpreted properly.",
+              "Probablistic Reasoning: This reasoning weighs the adopted position by comparing how likely different outcomes are, using probabilities, odds, or risk estimates.",
+              "Risk: This reasoning supports or rejects the position under discussion by arguing that the risks involved are being overestimated, underestimated, or misunderstood.",
+              "Source-Credibility: This reasoning accepts or dismisses the claim being made by judging who is making it and whether they can be trusted on that specific topic.",
               "None: Options didn't feel applicable."
             ]
           }
@@ -1225,10 +1225,10 @@
             "quote":"",
             "canonical":"Consumers should avoid bluefin and bigeye tuna products",
             "classes": [
-              "Source-Credibility Weighing: Explicitly evaluates one or more sources by assessing their credibility, integrity, reliability, expertise, transparency, biases, incentives, and/or synonyms.",
-              "(Dis)trust Sources:  Ad hominem, biased, totalising statements about the trustworthy or untrustworthy traits/nature of a source/individual/organisation. Statements must contain absolutes.",
+              "Source-Credibility: This reasoning accepts or dismisses the claim being made by judging who is making it and whether they can be trusted on that specific topic.",
+              "(Dis)trust: This reasoning judges a position by making broad claims about whether a person or organisation is (or is not) trustworthy overall.",
               "Organisational Process: Reasoning about institutional procedures, governance pathways, decision hierarchies, approval workflows, cultural acceptance, and/or synonyms.",
-              "Value Commitments: Speaker appeals to culturally specific ideals.",
+              "Value Commitment: This reasoning judges a position by appealing to deeply held cultural, religious, or personal values about what is right or wrong.",
               "None: Options didn't feel applicable."
             ]
           },
@@ -1237,10 +1237,10 @@
             "quote":"",
             "canonical":"Consumers should avoid tuna products that do not clearly disclose species and catch details and instead choose species from sustainable populations caught with low-bycatch methods",
             "classes": [
-              "Source-Credibility Weighing: Explicitly evaluates one or more sources by assessing their credibility, integrity, reliability, expertise, transparency, biases, incentives, and/or synonyms.",
-              "(Dis)trust Sources:  Ad hominem, biased, totalising statements about the trustworthy or untrustworthy traits/nature of a source/individual/organisation. Statements must contain absolutes.",
+              "Source-Credibility: This reasoning accepts or dismisses the claim being made by judging who is making it and whether they can be trusted on that specific topic.",
+              "(Dis)trust: This reasoning judges a position by making broad claims about whether a person or organisation is (or is not) trustworthy overall.",
               "Organisational Process: Reasoning about institutional procedures, governance pathways, decision hierarchies, approval workflows, cultural acceptance, and/or synonyms.",
-              "Value Commitments: Speaker appeals to culturally specific ideals.",
+              "Value Commitment: This reasoning judges a position by appealing to deeply held cultural, religious, or personal values about what is right or wrong.",
               "None: Options didn't feel applicable."
             ]
           },
@@ -1249,10 +1249,10 @@
             "quote":"",
             "canonical":"Consumers should limit yellowfin tuna consumption and preferentially choose responsibly sourced skipjack or albacore caught with low-bycatch methods",
             "classes": [
-              "Source-Credibility Weighing: Explicitly evaluates one or more sources by assessing their credibility, integrity, reliability, expertise, transparency, biases, incentives, and/or synonyms.",
-              "(Dis)trust Sources:  Ad hominem, biased, totalising statements about the trustworthy or untrustworthy traits/nature of a source/individual/organisation. Statements must contain absolutes.",
-              "Direct Impacts: Advocates for a belief, decision, conclusion, policy, action, and/or synonyms, on the basis of an immediate first‑order effect, or lack thereof.",
-              "Value Commitments: Speaker appeals to culturally specific ideals.",
+              "Source-Credibility: This reasoning accepts or dismisses the claim being made by judging who is making it and whether they can be trusted on that specific topic.",
+              "(Dis)trust: This reasoning judges a position by making broad claims about whether a person or organisation is (or is not) trustworthy overall.",
+              "Direct Impacts: This reasoning evaluates the claim by focusing on its immediate and direct effects.",
+              "Value Commitment: This reasoning judges a position by appealing to deeply held cultural, religious, or personal values about what is right or wrong.",
               "None: Options didn't feel applicable."
             ]
           }
@@ -1388,8 +1388,8 @@
             "classes": [
               "Threat to In-group: discusses threat to the interests of speaker's group.",
               "Organisational Process: Reasoning about institutional procedures, governance pathways, decision hierarchies, approval workflows, cultural acceptance, and/or synonyms.",
-              "Identity Protection: Outright rejects or accepts claims which diminish the value of the speaker's identities, beliefs, and practices.",
-              "Subvert Authority: Advocates for a specific belief, decision, conclusion, policy, action, and/or synonyms, solely on the basis that a stated leader, rule, tradition, institution, and/or synonyms, must be subverted/challenged.",
+              "Identity Protection: This reasoning supports or rejects a position based on whether it protects or threatens the speaker’s valued identity or way of life.",
+              "Subvert: This reasoning supports the claim being made because it challenges or undermines an authority, rule, or institution seen as illegitimate.",
               "None: Options didn't feel applicable."
             ]
           },
@@ -1400,8 +1400,8 @@
             "classes": [
               "Threat to In-group: discusses threat to the interests of speaker's group.",
               "Organisational Process: Reasoning about institutional procedures, governance pathways, decision hierarchies, approval workflows, cultural acceptance, and/or synonyms.",
-              "Identity Protection: Outright rejects or accepts claims which diminish the value of the speaker's identities, beliefs, and practices.",
-              "Subvert Authority: Advocates for a specific belief, decision, conclusion, policy, action, and/or synonyms, solely on the basis that a stated leader, rule, tradition, institution, and/or synonyms, must be subverted/challenged.",
+              "Identity Protection: This reasoning supports or rejects a position based on whether it protects or threatens the speaker’s valued identity or way of life.",
+              "Subvert: This reasoning supports the claim being made because it challenges or undermines an authority, rule, or institution seen as illegitimate.",
               "None: Options didn't feel applicable."
             ]
           },
@@ -1412,8 +1412,8 @@
             "classes": [
               "Threat to In-group: discusses threat to the interests of speaker's group.",
               "Organisational Process: Reasoning about institutional procedures, governance pathways, decision hierarchies, approval workflows, cultural acceptance, and/or synonyms.",
-              "Identity Protection: Outright rejects or accepts claims which diminish the value of the speaker's identities, beliefs, and practices.",
-              "Subvert Authority: Advocates for a specific belief, decision, conclusion, policy, action, and/or synonyms, solely on the basis that a stated leader, rule, tradition, institution, and/or synonyms, must be subverted/challenged.",
+              "Identity Protection: This reasoning supports or rejects a position based on whether it protects or threatens the speaker’s valued identity or way of life.",
+              "Subvert: This reasoning supports the claim being made because it challenges or undermines an authority, rule, or institution seen as illegitimate.",
               "None: Options didn't feel applicable."
             ]
           }
@@ -1520,9 +1520,9 @@
             "canonical":"The Government is failing in its responsibility to address climate change and intergenerational equity",
             "classes": [
               "Threat to In-group: discusses threat to the interests of speaker's group.",
-              "Value Commitments: Speaker appeals to culturally specific ideals.",
-              "Indirect Impacts: Advocates for a belief, decision, conclusion, policy, action, and/or synonyms, on the basis of a projected secondary, downstream, spill‑over, or long‑term effects beyond first order.",
-              "Equality: Advocates reducing inequality or ensuring equal treatment, rights, outcomes, and/or synonyms for individuals/groups.",
+              "Value Commitment: This reasoning judges a position by appealing to deeply held cultural, religious, or personal values about what is right or wrong.",
+              "Indirect Impacts: This reasoning evaluates the claim by focusing on its longer-term or knock-on effects, beyond the immediate outcome.",
+              "Equality: This reasoning evaluates the claim being made by appealing to fairness, equal treatment, or reducing unjust differences between people or groups.",
               "None: Options didn't feel applicable."
             ]
           },
@@ -1532,9 +1532,9 @@
             "canonical":"The Government’s budget and policy stance privileges fossil fuels and undermines climate mitigation and adaptation",
             "classes": [
               "Threat to In-group: discusses threat to the interests of speaker's group.",
-              "Value Commitments: Speaker appeals to culturally specific ideals.",
-              "Indirect Impacts: Advocates for a belief, decision, conclusion, policy, action, and/or synonyms, on the basis of a projected secondary, downstream, spill‑over, or long‑term effects beyond first order.",
-              "Harm: Highlights concrete or clearly potential injury, loss, or suffering.",
+              "Value Commitment: This reasoning judges a position by appealing to deeply held cultural, religious, or personal values about what is right or wrong.",
+              "Indirect Impacts: This reasoning evaluates the claim by focusing on its longer-term or knock-on effects, beyond the immediate outcome.",
+              "Harm: This reasoning judges the claim being made by pointing to the harm it would cause, such as injury, loss, suffering, or environmental damage.",
               "None: Options didn't feel applicable."
             ]
           }
@@ -1649,9 +1649,9 @@
             "quote":"",
             "canonical":"The NEG mechanism is so flawed as to be close to useless as an energy and climate policy instrument",
             "classes": [
-              "Operational Performance: Reasoning about the efficiency, speed, accuracy, throughput, latency, KPI score, and/or synonyms of a belief, decision, conclusion, policy, action, and/or synonyms.",
+              "Operational Performance: This reasoning judges a claim based on how well it is expected to perform on practical measures like speed, efficiency, reliability, or accuracy.",
               "Organisational Process: Reasoning about institutional procedures, governance pathways, decision hierarchies, approval workflows, cultural acceptance, and/or synonyms.",
-              "Proportional Fairness: the speaker emphasizes that rewards/penalties should match merit, contribution, and/or synonyms.",
+              "Proportionality: This reasoning judges the claim being made by arguing that rewards, costs, or punishments should fairly match effort, responsibility, or contribution.",
               "Threat to In-group: discusses threat to the interests of speaker's group.",
               "None: Options didn't feel applicable."
             ]
@@ -1661,9 +1661,9 @@
             "quote":"",
             "canonical":"Australians deserve a better, more effective energy policy than the NEG offered by Malcolm Turnbull and Josh Frydenberg",
             "classes": [
-              "Operational Performance: Reasoning about the efficiency, speed, accuracy, throughput, latency, KPI score, and/or synonyms of a belief, decision, conclusion, policy, action, and/or synonyms.",
+              "Operational Performance: This reasoning judges a claim based on how well it is expected to perform on practical measures like speed, efficiency, reliability, or accuracy.",
               "Organisational Process: Reasoning about institutional procedures, governance pathways, decision hierarchies, approval workflows, cultural acceptance, and/or synonyms.",
-              "Proportional Fairness: the speaker emphasizes that rewards/penalties should match merit, contribution, and/or synonyms.",
+              "Proportionality: This reasoning judges the claim being made by arguing that rewards, costs, or punishments should fairly match effort, responsibility, or contribution.",
               "Threat to In-group: discusses threat to the interests of speaker's group.",
               "None: Options didn't feel applicable."
             ]
@@ -1757,10 +1757,10 @@
             "quote":"",
             "canonical":"Any deepwater oil drilling in the Great Australian Bight would be far too risky and should not be attempted",
             "classes": [
-              "Risk Likelihood/ Severity: Weighing the accuracy, likelihood, precision, severity, and/or synonyms, of a risk assessment/claim, contending it has been overestimated or underestimated.",
+              "Risk: This reasoning supports or rejects the position under discussion by arguing that the risks involved are being overestimated, underestimated, or misunderstood.",
               "Organisational Process: Reasoning about institutional procedures, governance pathways, decision hierarchies, approval workflows, cultural acceptance, and/or synonyms.",
-              "Operational Performance: Reasoning about the efficiency, speed, accuracy, throughput, latency, KPI score, and/or synonyms of a belief, decision, conclusion, policy, action, and/or synonyms.",
-              "Uncertainty Management: Reasoning focused on adaptive strategies, contingency plans, scenario analysis, to account for/mitigate unknown variables affecting a decision, conclusion, policy, action, and/or synonyms.",
+              "Operational Performance: This reasoning judges a claim based on how well it is expected to perform on practical measures like speed, efficiency, reliability, or accuracy.",
+              "Uncertainty: This reasoning focuses on how well the claim put forth handles unknowns, surprises, or things that cannot be predicted in advance.",
               "None: Options didn't feel applicable."
             ]
           },
@@ -1769,9 +1769,9 @@
             "quote":"",
             "canonical":"The Australian government should stand up to oil companies and legislate to protect the Great Australian Bight forever",
             "classes": [
-              "Risk Likelihood/ Severity: Weighing the accuracy, likelihood, precision, severity, and/or synonyms, of a risk assessment/claim, contending it has been overestimated or underestimated.",
+              "Risk: This reasoning supports or rejects the position under discussion by arguing that the risks involved are being overestimated, underestimated, or misunderstood.",
               "Organisational Process: Reasoning about institutional procedures, governance pathways, decision hierarchies, approval workflows, cultural acceptance, and/or synonyms.",
-              "Proportional Fairness: the speaker emphasizes that rewards/penalties should match merit, contribution, and/or synonyms.",
+              "Proportionality: This reasoning judges the claim being made by arguing that rewards, costs, or punishments should fairly match effort, responsibility, or contribution.",
               "Threat to In-group: discusses threat to the interests of speaker's group.",
               "None: Options didn't feel applicable."
             ]
@@ -1883,8 +1883,8 @@
             "classes": [
               "Organisational Process: Reasoning about institutional procedures, governance pathways, decision hierarchies, approval workflows, cultural acceptance, and/or synonyms.",
               "Threat to In-group: discusses threat to the interests of speaker's group.",
-              "Value Commitments: Speaker appeals to culturally specific ideals.",
-              "Operational Performance: Reasoning about the efficiency, speed, accuracy, throughput, latency, KPI score, and/or synonyms of a belief, decision, conclusion, policy, action, and/or synonyms.",
+              "Value Commitment: This reasoning judges a position by appealing to deeply held cultural, religious, or personal values about what is right or wrong.",
+              "Operational Performance: This reasoning judges a claim based on how well it is expected to perform on practical measures like speed, efficiency, reliability, or accuracy.",
               "None: Options didn't feel applicable."
             ]
           },
@@ -1895,8 +1895,8 @@
             "classes": [
               "Organisational Process: Reasoning about institutional procedures, governance pathways, decision hierarchies, approval workflows, cultural acceptance, and/or synonyms.",
               "Threat to In-group: discusses threat to the interests of speaker's group.",
-              "Value Commitments: Speaker appeals to culturally specific ideals.",
-              "Operational Performance: Reasoning about the efficiency, speed, accuracy, throughput, latency, KPI score, and/or synonyms of a belief, decision, conclusion, policy, action, and/or synonyms.",
+              "Value Commitment: This reasoning judges a position by appealing to deeply held cultural, religious, or personal values about what is right or wrong.",
+              "Operational Performance: This reasoning judges a claim based on how well it is expected to perform on practical measures like speed, efficiency, reliability, or accuracy.",
               "None: Options didn't feel applicable."
             ]
           }
@@ -2008,10 +2008,10 @@
             "quote":"",
             "canonical":"Rich and high polluting countries must urgently step up and match the leadership and ambition of vulnerable nations on climate action",
             "classes": [
-              "Value Commitments: Speaker appeals to culturally specific ideals.",
+              "Value Commitment: This reasoning judges a position by appealing to deeply held cultural, religious, or personal values about what is right or wrong.",
               "Organisational Process: Reasoning about institutional procedures, governance pathways, decision hierarchies, approval workflows, cultural acceptance, and/or synonyms.",
-              "Direct Impacts: Advocates for a belief, decision, conclusion, policy, action, and/or synonyms, on the basis of an immediate first‑order effect, or lack thereof.",
-              "Identity Protection: Outright rejects or accepts claims which diminish the value of the speaker's identities, beliefs, and practices.",
+              "Direct Impacts: This reasoning evaluates the claim by focusing on its immediate and direct effects.",
+              "Identity Protection: This reasoning supports or rejects a position based on whether it protects or threatens the speaker’s valued identity or way of life.",
               "None: Options didn't feel applicable."
             ]
           },
@@ -2020,10 +2020,10 @@
             "quote":"",
             "canonical":"Vulnerable frontline countries are driving greater ambition and legal accountability, putting moral and political pressure on big polluters to accept responsibility and costs",
             "classes": [
-              "Value Commitments: Speaker appeals to culturally specific ideals.",
+              "Value Commitment: This reasoning judges a position by appealing to deeply held cultural, religious, or personal values about what is right or wrong.",
               "Organisational Process: Reasoning about institutional procedures, governance pathways, decision hierarchies, approval workflows, cultural acceptance, and/or synonyms.",
-              "Direct Impacts: Advocates for a belief, decision, conclusion, policy, action, and/or synonyms, on the basis of an immediate first‑order effect, or lack thereof.",
-              "Identity Protection: Outright rejects or accepts claims which diminish the value of the speaker's identities, beliefs, and practices.",
+              "Direct Impacts: This reasoning evaluates the claim by focusing on its immediate and direct effects.",
+              "Identity Protection: This reasoning supports or rejects a position based on whether it protects or threatens the speaker’s valued identity or way of life.",
               "None: Options didn't feel applicable."
             ]
           }
@@ -2127,18 +2127,18 @@
         "conclusions": [
           {"id":"c1","quote":"","canonical":"Rich developed countries, including Australia, are failing in climate leadership and undermining progress toward a strong Copenhagen treaty",
                 "classes": [
-            "Value Commitments: Speaker appeals to culturally specific ideals.",
+            "Value Commitment: This reasoning judges a position by appealing to deeply held cultural, religious, or personal values about what is right or wrong.",
             "Organisational Process: Reasoning about institutional procedures, governance pathways, decision hierarchies, approval workflows, cultural acceptance, and/or synonyms.",
             "Threat to In-group: discusses threat to the interests of speaker's group.",
-            "Operational Performance: Reasoning about the efficiency, speed, accuracy, throughput, latency, KPI score, and/or synonyms of a belief, decision, conclusion, policy, action, and/or synonyms.",
+            "Operational Performance: This reasoning judges a claim based on how well it is expected to perform on practical measures like speed, efficiency, reliability, or accuracy.",
             "None: Options didn't feel applicable."
           ]},
           {"id":"c2","quote":"","canonical":"Kevin Rudd and the Australian Government should commit to halving greenhouse pollution within the next decade and provide substantial climate finance to help developing countries transition to a low carbon economy",
               "classes": [
-          "Value Commitments: Speaker appeals to culturally specific ideals.",
+          "Value Commitment: This reasoning judges a position by appealing to deeply held cultural, religious, or personal values about what is right or wrong.",
           "Organisational Process: Reasoning about institutional procedures, governance pathways, decision hierarchies, approval workflows, cultural acceptance, and/or synonyms.",
           "Threat to In-group: discusses threat to the interests of speaker's group.",
-          "Operational Performance: Reasoning about the efficiency, speed, accuracy, throughput, latency, KPI score, and/or synonyms of a belief, decision, conclusion, policy, action, and/or synonyms.",
+          "Operational Performance: This reasoning judges a claim based on how well it is expected to perform on practical measures like speed, efficiency, reliability, or accuracy.",
           "None: Options didn't feel applicable."
         ]}
         ],
@@ -2216,19 +2216,19 @@
         "conclusions": [
           {"id":"c1","quote":"","canonical":"The Sun controls the El Niño phenomenon by controlling atmospheric circulation",
             "classes": [
-              "Statistical Methodology: Assesses integrity, statistical assumptions, or validity of statistical analysis.",
-              "Probabilistic Reasoning: Presents or compares numeric probabilities, likelihood percentages, risk ratios, confidence intervals, Bayesian posteriors, and/or synonyms.",
-              "Source-Credibility Weighing: Explicitly evaluates one or more sources by assessing their credibility, integrity, reliability, expertise, transparency, biases, incentives, and/or synonyms.",
-              "Operational Performance: Reasoning about the efficiency, speed, accuracy, throughput, latency, KPI score, and/or synonyms of a belief, decision, conclusion, policy, action, and/or synonyms.",
+              "Statistical Method: This reasoning judges the position being argued by questioning whether the statistical analysis was done or interpreted properly.",
+              "Probablistic Reasoning: This reasoning weighs the adopted position by comparing how likely different outcomes are, using probabilities, odds, or risk estimates.",
+              "Source-Credibility: This reasoning accepts or dismisses the claim being made by judging who is making it and whether they can be trusted on that specific topic.",
+              "Operational Performance: This reasoning judges a claim based on how well it is expected to perform on practical measures like speed, efficiency, reliability, or accuracy.",
               "None: Options didn't feel applicable."
             ]
         },
           {"id":"c2","quote":"","canonical":"Evidence that the Sun controls El Niño is largely unknown to most scientists and absent from major reviews and IPCC reports",
             "classes": [
-              "Statistical Methodology: Assesses integrity, statistical assumptions, or validity of statistical analysis.",
-              "Probabilistic Reasoning: Presents or compares numeric probabilities, likelihood percentages, risk ratios, confidence intervals, Bayesian posteriors, and/or synonyms.",
-              "Source-Credibility Weighing: Explicitly evaluates one or more sources by assessing their credibility, integrity, reliability, expertise, transparency, biases, incentives, and/or synonyms.",
-              "Operational Performance: Reasoning about the efficiency, speed, accuracy, throughput, latency, KPI score, and/or synonyms of a belief, decision, conclusion, policy, action, and/or synonyms.",
+              "Statistical Method: This reasoning judges the position being argued by questioning whether the statistical analysis was done or interpreted properly.",
+              "Probablistic Reasoning: This reasoning weighs the adopted position by comparing how likely different outcomes are, using probabilities, odds, or risk estimates.",
+              "Source-Credibility: This reasoning accepts or dismisses the claim being made by judging who is making it and whether they can be trusted on that specific topic.",
+              "Operational Performance: This reasoning judges a claim based on how well it is expected to perform on practical measures like speed, efficiency, reliability, or accuracy.",
               "None: Options didn't feel applicable."
             ]
         }
@@ -2318,19 +2318,19 @@
         "conclusions": [
           {"id":"c1","quote":"","canonical":"The observed surface–stratosphere pattern cannot be treated as unique evidence that emissions are responsible for warming",
             "classes": [
-              "Source-Credibility Weighing: Explicitly evaluates one or more sources by assessing their credibility, integrity, reliability, expertise, transparency, biases, incentives, and/or synonyms.",
-              "Operational Performance: Reasoning about the efficiency, speed, accuracy, throughput, latency, KPI score, and/or synonyms of a belief, decision, conclusion, policy, action, and/or synonyms.",
+              "Source-Credibility: This reasoning accepts or dismisses the claim being made by judging who is making it and whether they can be trusted on that specific topic.",
+              "Operational Performance: This reasoning judges a claim based on how well it is expected to perform on practical measures like speed, efficiency, reliability, or accuracy.",
               "Organisational Process: Reasoning about institutional procedures, governance pathways, decision hierarchies, approval workflows, cultural acceptance, and/or synonyms.",
-              "In-group Validation: Asserts one’s own group as being morally/intellectually superior without data, story, or reasoning.",
+              "In-group Validation: This reasoning supports positions that affirm the moral or intellectual superiority of the speaker’s own group.",
               "None: Options didn't feel applicable."
             ]
         },
           {"id":"c2","quote":"","canonical":"Evidence for indirect solar influences on climate is being neglected by most scientists",
             "classes": [
-              "Source-Credibility Weighing: Explicitly evaluates one or more sources by assessing their credibility, integrity, reliability, expertise, transparency, biases, incentives, and/or synonyms.",
-              "Operational Performance: Reasoning about the efficiency, speed, accuracy, throughput, latency, KPI score, and/or synonyms of a belief, decision, conclusion, policy, action, and/or synonyms.",
+              "Source-Credibility: This reasoning accepts or dismisses the claim being made by judging who is making it and whether they can be trusted on that specific topic.",
+              "Operational Performance: This reasoning judges a claim based on how well it is expected to perform on practical measures like speed, efficiency, reliability, or accuracy.",
               "Organisational Process: Reasoning about institutional procedures, governance pathways, decision hierarchies, approval workflows, cultural acceptance, and/or synonyms.",
-              "In-group Validation: Asserts one’s own group as being morally/intellectually superior without data, story, or reasoning.",
+              "In-group Validation: This reasoning supports positions that affirm the moral or intellectual superiority of the speaker’s own group.",
               "None: Options didn't feel applicable."
             ]
         }
@@ -2394,19 +2394,19 @@
         "conclusions": [
           {"id":"c1","quote":"","canonical":"The IPCC’s conclusion that the Sun has contributed nothing to recent warming is unreliable",
             "classes": [
-              "Source-Credibility Weighing: Explicitly evaluates one or more sources by assessing their credibility, integrity, reliability, expertise, transparency, biases, incentives, and/or synonyms.",
+              "Source-Credibility: This reasoning accepts or dismisses the claim being made by judging who is making it and whether they can be trusted on that specific topic.",
               "Organisational Process: Reasoning about institutional procedures, governance pathways, decision hierarchies, approval workflows, cultural acceptance, and/or synonyms.",
-              "Indirect Impacts: Advocates for a belief, decision, conclusion, policy, action, and/or synonyms, on the basis of a projected secondary, downstream, spill‑over, or long‑term effects beyond first order.",
-              "Anecdotal Evidence: Uses one-off personal or third-person story as proof.",
+              "Indirect Impacts: This reasoning evaluates the claim by focusing on its longer-term or knock-on effects, beyond the immediate outcome.",
+              "Anecdotal: This reasoning gives strong weight to personal stories or isolated examples and treats them as enough to support a general claim.",
               "None: Options didn't feel applicable."
             ]
         },
           {"id":"c2","quote":"","canonical":"The Sun likely affects climate more than is captured by IPCC assessments based only on small changes in total solar energy",
             "classes": [
-              "Source-Credibility Weighing: Explicitly evaluates one or more sources by assessing their credibility, integrity, reliability, expertise, transparency, biases, incentives, and/or synonyms.",
-              "Operational Performance: Reasoning about the efficiency, speed, accuracy, throughput, latency, KPI score, and/or synonyms of a belief, decision, conclusion, policy, action, and/or synonyms.",
-              "Indirect Impacts: Advocates for a belief, decision, conclusion, policy, action, and/or synonyms, on the basis of a projected secondary, downstream, spill‑over, or long‑term effects beyond first order.",
-              "Anecdotal Evidence: Uses one-off personal or third-person story as proof.",
+              "Source-Credibility: This reasoning accepts or dismisses the claim being made by judging who is making it and whether they can be trusted on that specific topic.",
+              "Operational Performance: This reasoning judges a claim based on how well it is expected to perform on practical measures like speed, efficiency, reliability, or accuracy.",
+              "Indirect Impacts: This reasoning evaluates the claim by focusing on its longer-term or knock-on effects, beyond the immediate outcome.",
+              "Anecdotal: This reasoning gives strong weight to personal stories or isolated examples and treats them as enough to support a general claim.",
               "None: Options didn't feel applicable."
             ]
         }
@@ -2469,18 +2469,18 @@
         "conclusions": [
           {"id":"c1","quote":"","canonical":"Evidence of large pre-industrial variability strengthens, rather than weakens, the case that greenhouse gases are a problem",
               "classes": [
-                "Source-Credibility Weighing: Explicitly evaluates one or more sources by assessing their credibility, integrity, reliability, expertise, transparency, biases, incentives, and/or synonyms.",
-                "Risk Likelihood/ Severity: Weighing the accuracy, likelihood, precision, severity, and/or synonyms, of a risk assessment/claim, contending it has been overestimated or underestimated.",
-                "Cognitive Value: Praises a claim for its explanatory power, simplicity, breadth/wide scope, or predictive accuracy (and/or synonyms).",
+                "Source-Credibility: This reasoning accepts or dismisses the claim being made by judging who is making it and whether they can be trusted on that specific topic.",
+                "Risk: This reasoning supports or rejects the position under discussion by arguing that the risks involved are being overestimated, underestimated, or misunderstood.",
+                "Cognitive Value: This reasoning supports or rejects a point of view based on how well it explains the facts, fits together logically, or keeps things simple compared to other explanations.",
                 "Organisational Process: Reasoning about institutional procedures, governance pathways, decision hierarchies, approval workflows, cultural acceptance, and/or synonyms.",
                 "None: Options didn't feel applicable."
               ]
         },
           {"id":"c2","quote":"","canonical":"Büntgen’s interpretation of high pre-industrial variability contradicts the IPCC rule-of-thumb about climate sensitivity and expected warming",
             "classes": [
-              "Source-Credibility Weighing: Explicitly evaluates one or more sources by assessing their credibility, integrity, reliability, expertise, transparency, biases, incentives, and/or synonyms.",
-              "Risk Likelihood/ Severity: Weighing the accuracy, likelihood, precision, severity, and/or synonyms, of a risk assessment/claim, contending it has been overestimated or underestimated.",
-              "Cognitive Value: Praises a claim for its explanatory power, simplicity, breadth/wide scope, or predictive accuracy (and/or synonyms).",
+              "Source-Credibility: This reasoning accepts or dismisses the claim being made by judging who is making it and whether they can be trusted on that specific topic.",
+              "Risk: This reasoning supports or rejects the position under discussion by arguing that the risks involved are being overestimated, underestimated, or misunderstood.",
+              "Cognitive Value: This reasoning supports or rejects a point of view based on how well it explains the facts, fits together logically, or keeps things simple compared to other explanations.",
               "Organisational Process: Reasoning about institutional procedures, governance pathways, decision hierarchies, approval workflows, cultural acceptance, and/or synonyms.",
               "None: Options didn't feel applicable."
             ]
@@ -2547,19 +2547,19 @@
         "conclusions": [
           {"id":"c1","quote":"","canonical":"More proxy records are needed to accurately reconstruct first-millennium CE temperatures",
               "classes": [
-                "Scalability: Reasoning about future replication ease, long‑term upkeep, durability, sustainability, lifecycle cost, and/or synonyms. Must reference ongoing or large‑scale deployment.",
-                "Risk Likelihood/ Severity: Weighing the accuracy, likelihood, precision, severity, and/or synonyms, of a risk assessment/claim, contending it has been overestimated or underestimated.",
-                "Probabilistic Reasoning: Presents or compares numeric probabilities, likelihood percentages, risk ratios, confidence intervals, Bayesian posteriors, and/or synonyms.",
-                "Statistical Methodology: Assesses integrity, statistical assumptions, or validity of statistical analysis.",
+                "Scalability: This reasoning looks at how well the idea would hold up if it was expanded, repeated, or maintained over time.",
+                "Risk: This reasoning supports or rejects the position under discussion by arguing that the risks involved are being overestimated, underestimated, or misunderstood.",
+                "Probablistic Reasoning: This reasoning weighs the adopted position by comparing how likely different outcomes are, using probabilities, odds, or risk estimates.",
+                "Statistical Method: This reasoning judges the position being argued by questioning whether the statistical analysis was done or interpreted properly.",
                 "None: Options didn't feel applicable."
               ]
         },
           {"id":"c2","quote":"","canonical":"Natural climate variability is not understood",
               "classes": [
-                "Scalability: Reasoning about future replication ease, long‑term upkeep, durability, sustainability, lifecycle cost, and/or synonyms. Must reference ongoing or large‑scale deployment.",
-                "Risk Likelihood/ Severity: Weighing the accuracy, likelihood, precision, severity, and/or synonyms, of a risk assessment/claim, contending it has been overestimated or underestimated.",
-                "Probabilistic Reasoning: Presents or compares numeric probabilities, likelihood percentages, risk ratios, confidence intervals, Bayesian posteriors, and/or synonyms.",
-                "Statistical Methodology: Assesses integrity, statistical assumptions, or validity of statistical analysis.",
+                "Scalability: This reasoning looks at how well the idea would hold up if it was expanded, repeated, or maintained over time.",
+                "Risk: This reasoning supports or rejects the position under discussion by arguing that the risks involved are being overestimated, underestimated, or misunderstood.",
+                "Probablistic Reasoning: This reasoning weighs the adopted position by comparing how likely different outcomes are, using probabilities, odds, or risk estimates.",
+                "Statistical Method: This reasoning judges the position being argued by questioning whether the statistical analysis was done or interpreted properly.",
                 "None: Options didn't feel applicable."
               ]}
         ],
@@ -2643,19 +2643,19 @@
         "conclusions": [
           {"id":"c1","quote":"","canonical":"The IPCC consensus is manufactured",
             "classes": [
-              "Probabilistic Reasoning: Presents or compares numeric probabilities, likelihood percentages, risk ratios, confidence intervals, Bayesian posteriors, and/or synonyms.",
-              "Belief Consistency: Declares a statement is correct/incorrect because it aligns/conflicts with pre‑existing beliefs, ideology, worldview, and/or synonyms.",
-              "Risk Likelihood/ Severity: Weighing the accuracy, likelihood, precision, severity, and/or synonyms, of a risk assessment/claim, contending it has been overestimated or underestimated.",
-              "Source-Credibility Weighing: Explicitly evaluates one or more sources by assessing their credibility, integrity, reliability, expertise, transparency, biases, incentives, and/or synonyms.",
+              "Probablistic Reasoning: This reasoning weighs the adopted position by comparing how likely different outcomes are, using probabilities, odds, or risk estimates.",
+              "Belief Consistency: This reasoning evaluates a position based on how well it fits with the speaker’s existing beliefs or worldview, regardless of new evidence.",
+              "Risk: This reasoning supports or rejects the position under discussion by arguing that the risks involved are being overestimated, underestimated, or misunderstood.",
+              "Source-Credibility: This reasoning accepts or dismisses the claim being made by judging who is making it and whether they can be trusted on that specific topic.",
               "None: Options didn't feel applicable."
             ]
         },
           {"id":"c2","quote":"","canonical":"The existence of the IPCC consensus does not lend intellectual substance to the IPCC’s conclusions",
             "classes": [
-              "Probabilistic Reasoning: Presents or compares numeric probabilities, likelihood percentages, risk ratios, confidence intervals, Bayesian posteriors, and/or synonyms.",
-              "Belief Consistency: Declares a statement is correct/incorrect because it aligns/conflicts with pre‑existing beliefs, ideology, worldview, and/or synonyms.",
-              "Risk Likelihood/ Severity: Weighing the accuracy, likelihood, precision, severity, and/or synonyms, of a risk assessment/claim, contending it has been overestimated or underestimated.",
-              "Source-Credibility Weighing: Explicitly evaluates one or more sources by assessing their credibility, integrity, reliability, expertise, transparency, biases, incentives, and/or synonyms.",
+              "Probablistic Reasoning: This reasoning weighs the adopted position by comparing how likely different outcomes are, using probabilities, odds, or risk estimates.",
+              "Belief Consistency: This reasoning evaluates a position based on how well it fits with the speaker’s existing beliefs or worldview, regardless of new evidence.",
+              "Risk: This reasoning supports or rejects the position under discussion by arguing that the risks involved are being overestimated, underestimated, or misunderstood.",
+              "Source-Credibility: This reasoning accepts or dismisses the claim being made by judging who is making it and whether they can be trusted on that specific topic.",
               "None: Options didn't feel applicable."
             ]}
         ],
@@ -2706,16 +2706,16 @@
         ],
         "conclusions": [
           {"id":"c1","quote":"","canonical":"People should avoid using single-use plastics to avoid making ocean plastic pollution worse",  "classes": [
-    "Direct Impacts – Advocates for a belief, decision, conclusion, policy, action, and/or synonyms, on the basis of an immediate first‑order effect, or lack thereof.",
-    "Indirect Impacts – Advocates for a belief, decision, conclusion, policy, action, and/or synonyms, on the basis of a projected secondary, downstream, spill‑over, or long‑term effects beyond first order.",
-    "Harm – Highlights concrete or clearly potential injury, loss, or suffering. Must reference WHO/WHAT is harmed, and/or synonyms. Ignore any potential benefits.",
-    "Anecdotal Evidence – Uses one-off personal or third-person story as proof.",
+    "Direct Impacts: This reasoning evaluates the claim by focusing on its immediate and direct effects.",
+    "Indirect Impacts: This reasoning evaluates the claim by focusing on its longer-term or knock-on effects, beyond the immediate outcome.",
+    "Harm: This reasoning judges the claim being made by pointing to the harm it would cause, such as injury, loss, suffering, or environmental damage.",
+    "Anecdotal: This reasoning gives strong weight to personal stories or isolated examples and treats them as enough to support a general claim.",
               "None: Options didn't feel applicable."]},
           {"id":"c2","quote":"","canonical":"Responsibility for addressing plastic pollution is shared despite systemic barriers","classes": [
-    "Organisational Process – Reasoning about institutional procedures, governance pathways, decision hierarchies, approval workflows, cultural acceptance, and/or synonyms.",
-    "Uncertainty Management – Reasoning focused on adaptive strategies, contingency plans, scenario analysis, to account for/mitigate unknown variables affecting a decision, conclusion, policy, action, and/or synonyms.",
-    "Direct Impacts – Advocates for a belief, decision, conclusion, policy, action, and/or synonyms, on the basis of an immediate first‑order effect, or lack thereof.",
-    "Indirect Impacts – Advocates for a belief, decision, conclusion, policy, action, and/or synonyms, on the basis of a projected secondary, downstream, spill‑over, or long‑term effects beyond first order.",
+    "Organisational Process: Reasoning about institutional procedures, governance pathways, decision hierarchies, approval workflows, cultural acceptance, and/or synonyms.",
+    "Uncertainty: This reasoning focuses on how well the claim put forth handles unknowns, surprises, or things that cannot be predicted in advance.",
+    "Direct Impacts: This reasoning evaluates the claim by focusing on its immediate and direct effects.",
+    "Indirect Impacts: This reasoning evaluates the claim by focusing on its longer-term or knock-on effects, beyond the immediate outcome.",
               "None: Options didn't feel applicable."]}
         ],
         "claims_extra": [
@@ -2782,18 +2782,18 @@
           {"id":"c1","quote":"","canonical":"Michael Mann avoids genuine debate and resorts to labeling or legal threats",
               "classes": [
                 "Threat to In-group: discusses threat to the interests of speaker's group.",
-                "In-group Validation: Asserts one’s own group as being morally/intellectually superior without data, story, or reasoning.",
-                "Source-Credibility Weighing: Explicitly evaluates one or more sources by assessing their credibility, integrity, reliability, expertise, transparency, biases, incentives, and/or synonyms.",
-                "Out-group Discounting: Asserts an out-group as being morally/intellectually inferior without data, story, or reasoning.",
+                "In-group Validation: This reasoning supports positions that affirm the moral or intellectual superiority of the speaker’s own group.",
+                "Source-Credibility: This reasoning accepts or dismisses the claim being made by judging who is making it and whether they can be trusted on that specific topic.",
+                "Out-group Discounting: This reasoning dismisses positions by portraying an opposing group as morally or intellectually inferior.",
                 "None: Options didn't feel applicable."
               ]
         },
           {"id":"c2","quote":"","canonical":"Steyn’s criticism is causing more damage to Mann’s reputation than the alleged legal defamation",
               "classes": [
                 "Threat to In-group: discusses threat to the interests of speaker's group.",
-                "In-group Validation: Asserts one’s own group as being morally/intellectually superior without data, story, or reasoning.",
-                "Source-Credibility Weighing: Explicitly evaluates one or more sources by assessing their credibility, integrity, reliability, expertise, transparency, biases, incentives, and/or synonyms.",
-                "Out-group Discounting: Asserts an out-group as being morally/intellectually inferior without data, story, or reasoning.",
+                "In-group Validation: This reasoning supports positions that affirm the moral or intellectual superiority of the speaker’s own group.",
+                "Source-Credibility: This reasoning accepts or dismisses the claim being made by judging who is making it and whether they can be trusted on that specific topic.",
+                "Out-group Discounting: This reasoning dismisses positions by portraying an opposing group as morally or intellectually inferior.",
                 "None: Options didn't feel applicable."
               ]}
         ],
@@ -2861,18 +2861,18 @@
           {"id":"c1","quote":"","canonical":"These bills undermine democratic debate by suppressing or deterring advocacy",
               "classes": [
                 "Threat to In-group: discusses threat to the interests of speaker's group.",
-                "Subvert Authority: Advocates for a specific belief, decision, conclusion, policy, action, and/or synonyms, solely on the basis that a stated leader, rule, tradition, institution, and/or synonyms, must be subverted/challenged.",
-                "Identity Protection: Outright rejects or accepts claims which diminish the value of the speaker's identities, beliefs, and practices.",
-                "Direct Impacts: Advocates for a belief, decision, conclusion, policy, action, and/or synonyms, on the basis of an immediate first‑order effect, or lack thereof.",
+                "Subvert: This reasoning supports the claim being made because it challenges or undermines an authority, rule, or institution seen as illegitimate.",
+                "Identity Protection: This reasoning supports or rejects a position based on whether it protects or threatens the speaker’s valued identity or way of life.",
+                "Direct Impacts: This reasoning evaluates the claim by focusing on its immediate and direct effects.",
                 "None: Options didn't feel applicable."
               ]
         },
           {"id":"c2","quote":"","canonical":"Hard right MPs backed by mining companies are acting to suppress effective public advocacy",
               "classes": [
                 "Threat to In-group: discusses threat to the interests of speaker's group.",
-                "Subvert Authority: Advocates for a specific belief, decision, conclusion, policy, action, and/or synonyms, solely on the basis that a stated leader, rule, tradition, institution, and/or synonyms, must be subverted/challenged.",
-                "Identity Protection: Outright rejects or accepts claims which diminish the value of the speaker's identities, beliefs, and practices.",
-                "Direct Impacts: Advocates for a belief, decision, conclusion, policy, action, and/or synonyms, on the basis of an immediate first‑order effect, or lack thereof.",
+                "Subvert: This reasoning supports the claim being made because it challenges or undermines an authority, rule, or institution seen as illegitimate.",
+                "Identity Protection: This reasoning supports or rejects a position based on whether it protects or threatens the speaker’s valued identity or way of life.",
+                "Direct Impacts: This reasoning evaluates the claim by focusing on its immediate and direct effects.",
                 "None: Options didn't feel applicable."
               ]
         }
@@ -2982,19 +2982,19 @@
         "conclusions": [
           {"id":"c1","quote":"","canonical":"The movement is illegitimate as a guide for policy",
               "classes": [
-                "Subvert Authority: Advocates for a specific belief, decision, conclusion, policy, action, and/or synonyms, solely on the basis that a stated leader, rule, tradition, institution, and/or synonyms, must be subverted/challenged.",
-                "Preserve Sacred: Advocates for a belief, decision, conclusion, policy, action, and/or synonyms, on the basis of the purity, sanctity, holiness, and/or synonyms, of an object, place, practice, and/or synonyms.",
+                "Subvert: This reasoning supports the claim being made because it challenges or undermines an authority, rule, or institution seen as illegitimate.",
+                "Purity: This reasoning judges the claim being made by appealing to the need to protect what is seen as sacred, pure, or untouchable.",
                 "Threat to In-group: discusses threat to the interests of speaker's group.",
-                "Ideological Criticism: Condemns or mocks a named ideology doctrine, creed, and/or synonyms. Must express negative judgment of the ideology itself, not of a particular policy detail.",
+                "Ideological Criticism: This reasoning rejects a position by attacking the ideology it is associated with instead of engaging with the position itself.",
                 "None: Options didn't feel applicable."
               ]
         },
           {"id":"c2","quote":"","canonical":"The movement is authoritarian and threatens democracy",
               "classes": [
-                "Subvert Authority: Advocates for a specific belief, decision, conclusion, policy, action, and/or synonyms, solely on the basis that a stated leader, rule, tradition, institution, and/or synonyms, must be subverted/challenged.",
-                "Preserve Sacred: Advocates for a belief, decision, conclusion, policy, action, and/or synonyms, on the basis of the purity, sanctity, holiness, and/or synonyms, of an object, place, practice, and/or synonyms.",
+                "Subvert: This reasoning supports the claim being made because it challenges or undermines an authority, rule, or institution seen as illegitimate.",
+                "Purity: This reasoning judges the claim being made by appealing to the need to protect what is seen as sacred, pure, or untouchable.",
                 "Threat to In-group: discusses threat to the interests of speaker's group.",
-                "Ideological Criticism: Condemns or mocks a named ideology doctrine, creed, and/or synonyms. Must express negative judgment of the ideology itself, not of a particular policy detail.",
+                "Ideological Criticism: This reasoning rejects a position by attacking the ideology it is associated with instead of engaging with the position itself.",
                 "None: Options didn't feel applicable."
               ]}
         ]
@@ -3103,10 +3103,10 @@
             "quote":"",
             "canonical":"DLR (downwelling longwave radiation) does in fact heat the oceans",
             "classes": [
-              "Source-Credibility Weighing: Explicitly evaluates one or more sources by assessing their credibility, integrity, reliability, expertise, transparency, biases, incentives, and/or synonyms.",
-              "Belief Consistency: Declares a statement is correct/incorrect because it aligns/conflicts with pre‑existing beliefs, ideology, worldview, and/or synonyms.",
+              "Source-Credibility: This reasoning accepts or dismisses the claim being made by judging who is making it and whether they can be trusted on that specific topic.",
+              "Belief Consistency: This reasoning evaluates a position based on how well it fits with the speaker’s existing beliefs or worldview, regardless of new evidence.",
               "Organisational Process: Reasoning about institutional procedures, governance pathways, decision hierarchies, approval workflows, cultural acceptance, and/or synonyms.",
-              "Methodological Evaluation: Critiques or defends research methods (design, sampling frame, measurement instrument, experimental protocol, etc., and/or synonyms).",
+              "Methodological Evaluation: This reasoning focuses on how the evidence was produced and if it was sound, such as how data was collected, measured, or studied.",
               "None: Options didn't feel applicable."
             ]
           },
@@ -3115,11 +3115,11 @@
             "quote":"",
             "canonical":"The argument that DLR cannot heat the ocean because it is absorbed in the first millimetre is logically self-contradictory and fails",
             "classes": [
-              "Source-Credibility Weighing: Explicitly evaluates one or more sources by assessing their credibility, integrity, reliability, expertise, transparency, biases, incentives, and/or synonyms.",
-              "Anecdotal Evidence: Uses one-off personal or third-person story as proof.",
-              "Belief Consistency: Declares a statement is correct/incorrect because it aligns/conflicts with pre‑existing beliefs, ideology, worldview, and/or synonyms.",
+              "Source-Credibility: This reasoning accepts or dismisses the claim being made by judging who is making it and whether they can be trusted on that specific topic.",
+              "Anecdotal: This reasoning gives strong weight to personal stories or isolated examples and treats them as enough to support a general claim.",
+              "Belief Consistency: This reasoning evaluates a position based on how well it fits with the speaker’s existing beliefs or worldview, regardless of new evidence.",
               "Organisational Process: Reasoning about institutional procedures, governance pathways, decision hierarchies, approval workflows, cultural acceptance, and/or synonyms.",
-              "Methodological Evaluation: Critiques or defends research methods (design, sampling frame, measurement instrument, experimental protocol, etc., and/or synonyms).",
+              "Methodological Evaluation: This reasoning focuses on how the evidence was produced and if it was sound, such as how data was collected, measured, or studied.",
               "None: Options didn't feel applicable."
             ]
           }
@@ -3225,9 +3225,9 @@
             "quote":"",
             "canonical":"The linear ‘speaking consensus to power’ model and the IPCC’s narrow, attribution-focused framing are damaging to both scientific practice and climate policy, entangling science with politics, degrading debate and stifling alternative policy approaches",
             "classes": [
-              "Indirect Impacts: Advocates for a belief, decision, conclusion, policy, action, and/or synonyms, on the basis of a projected secondary, downstream, spill‑over, or long‑term effects beyond first order.",
-              "Belief Consistency: Declares a statement is correct/incorrect because it aligns/conflicts with pre‑existing beliefs, ideology, worldview, and/or synonyms.",
-              "Direct Impacts: Advocates for a belief, decision, conclusion, policy, action, and/or synonyms, on the basis of an immediate first‑order effect, or lack thereof.",
+              "Indirect Impacts: This reasoning evaluates the claim by focusing on its longer-term or knock-on effects, beyond the immediate outcome.",
+              "Belief Consistency: This reasoning evaluates a position based on how well it fits with the speaker’s existing beliefs or worldview, regardless of new evidence.",
+              "Direct Impacts: This reasoning evaluates the claim by focusing on its immediate and direct effects.",
               "Threat to In-group: discusses threat to the interests of speaker's group.",
               "None: Options didn't feel applicable."
             ]
@@ -3237,9 +3237,9 @@
             "quote":"",
             "canonical":"The manufactured IPCC consensus has unintentionally distorted the science, elevated dissenting voices and diminished public trust in the IPCC",
             "classes": [
-            "Indirect Impacts: Advocates for a belief, decision, conclusion, policy, action, and/or synonyms, on the basis of a projected secondary, downstream, spill‑over, or long‑term effects beyond first order.",
-            "Belief Consistency: Declares a statement is correct/incorrect because it aligns/conflicts with pre‑existing beliefs, ideology, worldview, and/or synonyms.",
-            "Direct Impacts: Advocates for a belief, decision, conclusion, policy, action, and/or synonyms, on the basis of an immediate first‑order effect, or lack thereof.",
+            "Indirect Impacts: This reasoning evaluates the claim by focusing on its longer-term or knock-on effects, beyond the immediate outcome.",
+            "Belief Consistency: This reasoning evaluates a position based on how well it fits with the speaker’s existing beliefs or worldview, regardless of new evidence.",
+            "Direct Impacts: This reasoning evaluates the claim by focusing on its immediate and direct effects.",
             "Threat to In-group: discusses threat to the interests of speaker's group.",
             "None: Options didn't feel applicable."
           ]
@@ -3329,9 +3329,9 @@
             "quote":"",
             "canonical":"Consensus-seeking processes in science can amplify confirmation bias, biasing inquiry and increasing the risk of scientific error",
             "classes": [
-              "Belief Consistency: Declares a statement is correct/incorrect because it aligns/conflicts with pre‑existing beliefs, ideology, worldview, and/or synonyms.",
-              "Risk Likelihood/ Severity: Weighing the accuracy, likelihood, precision, severity, and/or synonyms, of a risk assessment/claim, contending it has been overestimated or underestimated.",
-              "Out-group Discounting: Asserts an out-group as being morally/intellectually inferior without data, story, or reasoning.",
+              "Belief Consistency: This reasoning evaluates a position based on how well it fits with the speaker’s existing beliefs or worldview, regardless of new evidence.",
+              "Risk: This reasoning supports or rejects the position under discussion by arguing that the risks involved are being overestimated, underestimated, or misunderstood.",
+              "Out-group Discounting: This reasoning dismisses positions by portraying an opposing group as morally or intellectually inferior.",
               "Organisational Process: Reasoning about institutional procedures, governance pathways, decision hierarchies, approval workflows, cultural acceptance, and/or synonyms.",
               "None: Options didn't feel applicable."
             ]
@@ -3341,9 +3341,9 @@
             "quote":"",
             "canonical":"In the IPCC context, institutionalised consensus-building has likely become self-reinforcing in a way that allows cognitive biases to detract from the scientific process",
             "classes": [
-              "Belief Consistency: Declares a statement is correct/incorrect because it aligns/conflicts with pre‑existing beliefs, ideology, worldview, and/or synonyms.",
-              "Risk Likelihood/ Severity: Weighing the accuracy, likelihood, precision, severity, and/or synonyms, of a risk assessment/claim, contending it has been overestimated or underestimated.",
-              "Out-group Discounting: Asserts an out-group as being morally/intellectually inferior without data, story, or reasoning.",
+              "Belief Consistency: This reasoning evaluates a position based on how well it fits with the speaker’s existing beliefs or worldview, regardless of new evidence.",
+              "Risk: This reasoning supports or rejects the position under discussion by arguing that the risks involved are being overestimated, underestimated, or misunderstood.",
+              "Out-group Discounting: This reasoning dismisses positions by portraying an opposing group as morally or intellectually inferior.",
               "Organisational Process: Reasoning about institutional procedures, governance pathways, decision hierarchies, approval workflows, cultural acceptance, and/or synonyms.",
               "None: Options didn't feel applicable."
             ]
@@ -3435,9 +3435,9 @@
             "quote":"",
             "canonical":"The IPCC climate-change attribution consensus should not be treated as conclusive evidence in itself; appeals to consensus are insufficient as scientific support",
             "classes": [
-              "Belief Consistency: Declares a statement is correct/incorrect because it aligns/conflicts with pre‑existing beliefs, ideology, worldview, and/or synonyms.",
+              "Belief Consistency: This reasoning evaluates a position based on how well it fits with the speaker’s existing beliefs or worldview, regardless of new evidence.",
               "Organisational Process: Reasoning about institutional procedures, governance pathways, decision hierarchies, approval workflows, cultural acceptance, and/or synonyms.",
-              "Subvert Authority: Advocates for a specific belief, decision, conclusion, policy, action, and/or synonyms, solely on the basis that a stated leader, rule, tradition, institution, and/or synonyms, must be subverted/challenged.",
+              "Subvert: This reasoning supports the claim being made because it challenges or undermines an authority, rule, or institution seen as illegitimate.",
               "Source-Credibility Weighing: Evaluates one or more sources by assessing their credibility, integrity, reliability, expertise, transparency, biases, incentives, and/or synonyms.",
               "None: Options didn't feel applicable."
             ]
@@ -3447,9 +3447,9 @@
             "quote":"",
             "canonical":"Given the uncertainties and the nature of scientific progress, it is reasonable and scientifically legitimate to question or dissent from the IPCC consensus on climate change attribution",
             "classes": [
-              "Belief Consistency: Declares a statement is correct/incorrect because it aligns/conflicts with pre‑existing beliefs, ideology, worldview, and/or synonyms.",
+              "Belief Consistency: This reasoning evaluates a position based on how well it fits with the speaker’s existing beliefs or worldview, regardless of new evidence.",
               "Organisational Process: Reasoning about institutional procedures, governance pathways, decision hierarchies, approval workflows, cultural acceptance, and/or synonyms.",
-              "Subvert Authority: Advocates for a specific belief, decision, conclusion, policy, action, and/or synonyms, solely on the basis that a stated leader, rule, tradition, institution, and/or synonyms, must be subverted/challenged.",
+              "Subvert: This reasoning supports the claim being made because it challenges or undermines an authority, rule, or institution seen as illegitimate.",
               "Source-Credibility Weighing: Evaluates one or more sources by assessing their credibility, integrity, reliability, expertise, transparency, biases, incentives, and/or synonyms.",
               "None: Options didn't feel applicable."
             ]
