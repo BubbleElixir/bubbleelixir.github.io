@@ -1228,7 +1228,7 @@
             "classes": [
               "Statistical analysis: Judges whether the statistical analysis was done or interpreted properly.",
               "Risk: Argues that the risks involved are being overestimated, underestimated, or misunderstood.",
-              "Credibility: Focuses on who is making the argument and whether they can be trusted on that specific topic.",
+              "Evidence threshold: Argues that there is already enough evidence, or not enough evidence yet.",
               "Methods: Focuses on how evidence was produced and if it is sound, such as how data was collected, measured, or studied.",
               "None: Options didn't feel applicable."
             ]
@@ -1240,7 +1240,7 @@
             "classes": [
               "Statistical analysis: Judges whether the statistical analysis was done or interpreted properly.",
               "Risk: Argues that the risks involved are being overestimated, underestimated, or misunderstood.",
-              "Credibility: Focuses on who is making the argument and whether they can be trusted on that specific topic.",
+              "Evidence threshold: Argues that there is already enough evidence, or not enough evidence yet.",
               "Methods: Focuses on how evidence was produced and if it is sound, such as how data was collected, measured, or studied.",
               "None: Options didn't feel applicable."
             ]
@@ -1411,7 +1411,7 @@
               "Statistical analysis: Judges whether the statistical analysis was done or interpreted properly.",
               "Evidence threshold: Argues that there is already enough evidence, or not enough evidence yet.",
               "Methods: Focuses on how evidence was produced and if it is sound, such as how data was collected, measured, or studied.",
-              "Credibility: Focuses on who is making the argument and whether they can be trusted on that specific topic.",
+              "Uncertainty: Focuses on unknowns, surprises, or things that cannot be predicted in advance.",
               "None: Options didn't feel applicable."
             ]
           },
@@ -1423,7 +1423,7 @@
               "Statistical analysis: Judges whether the statistical analysis was done or interpreted properly.",
               "Evidence threshold: Argues that there is already enough evidence, or not enough evidence yet.",
               "Methods: Focuses on how evidence was produced and if it is sound, such as how data was collected, measured, or studied.",
-              "Credibility: Focuses on who is making the argument and whether they can be trusted on that specific topic.",
+              "Uncertainty: Focuses on unknowns, surprises, or things that cannot be predicted in advance.",
               "None: Options didn't feel applicable."
             ]
           }
@@ -3437,7 +3437,7 @@
             "classes": [
               "Statistical analysis: Judges whether the statistical analysis was done or interpreted properly.",
               "Likelihood: Compares how likely different outcomes are, using probabilities, odds, or risk estimates.",
-              "Credibility: Focuses on who is making the argument and whether they can be trusted on that specific topic.",
+              "Cognitive value: Focuses on how facts are explained, fit together logically, or kept simple compared to other explanations.",
               "Methods: Focuses on how evidence was produced and if it is sound, such as how data was collected, measured, or studied.",
               "None: Options didn't feel applicable."
             ]
@@ -3449,7 +3449,7 @@
             "classes": [
               "Statistical analysis: Judges whether the statistical analysis was done or interpreted properly.",
               "Likelihood: Compares how likely different outcomes are, using probabilities, odds, or risk estimates.",
-              "Credibility: Focuses on who is making the argument and whether they can be trusted on that specific topic.",
+              "Evidence threshold: Argues that there is already enough evidence, or not enough evidence yet.",
               "Methods: Focuses on how evidence was produced and if it is sound, such as how data was collected, measured, or studied.",
               "None: Options didn't feel applicable."
             ]
@@ -3606,7 +3606,7 @@
             "quote": "",
             "canonical": "The observed surface–stratosphere pattern cannot be treated as unique evidence that emissions are responsible for warming",
             "classes": [
-              "Credibility: Focuses on who is making the argument and whether they can be trusted on that specific topic.",
+              "Methods: Focuses on how evidence was produced and if it is sound, such as how data was collected, measured, or studied.",
               "Performance: Focuses on practical performance measures like speed, efficiency, reliability, or accuracy.",
               "Organisational process: Evaluates how well something fits with how organisations or institutions actually function in practice.",
               "Evidence threshold: Argues that there is already enough evidence, or not enough evidence yet.",
@@ -3618,7 +3618,7 @@
             "quote": "",
             "canonical": "Evidence for indirect solar influences on climate is being neglected by most scientists",
             "classes": [
-              "Credibility: Focuses on who is making the argument and whether they can be trusted on that specific topic.",
+              "Methods: Focuses on how evidence was produced and if it is sound, such as how data was collected, measured, or studied.",
               "Performance: Focuses on practical performance measures like speed, efficiency, reliability, or accuracy.",
               "Organisational process: Evaluates how well something fits with how organisations or institutions actually function in practice.",
               "Evidence threshold: Argues that there is already enough evidence, or not enough evidence yet.",
@@ -3875,7 +3875,7 @@
             "quote": "",
             "canonical": "Evidence of large pre-industrial variability strengthens, rather than weakens, the case that greenhouse gases are a problem",
             "classes": [
-              "Credibility: Focuses on who is making the argument and whether they can be trusted on that specific topic.",
+              "Likelihood: Compares how likely different outcomes are, using probabilities, odds, or risk estimates.",
               "Risk: Argues that the risks involved are being overestimated, underestimated, or misunderstood.",
               "Cognitive value: Focuses on how facts are explained, fit together logically, or kept simple compared to other explanations.",
               "Evidence threshold: Argues that there is already enough evidence, or not enough evidence yet.",
@@ -3887,7 +3887,7 @@
             "quote": "",
             "canonical": "Büntgen’s interpretation of high pre-industrial variability contradicts the IPCC rule-of-thumb about climate sensitivity and expected warming",
             "classes": [
-              "Credibility: Focuses on who is making the argument and whether they can be trusted on that specific topic.",
+              "Likelihood: Compares how likely different outcomes are, using probabilities, odds, or risk estimates.",
               "Risk: Argues that the risks involved are being overestimated, underestimated, or misunderstood.",
               "Cognitive value: Focuses on how facts are explained, fit together logically, or kept simple compared to other explanations.",
               "Evidence threshold: Argues that there is already enough evidence, or not enough evidence yet.",
@@ -4202,7 +4202,7 @@
               "Philosophy of Knowledge: Focuses on following a recognised way of reasoning or a scientific approach (such as logic, falsification, or the scientific method).",
               "Belief consistency: Aligns with existing beliefs or worldview, regardless of new evidence.",
               "Evidence threshold: Argues that there is already enough evidence, or not enough evidence yet.",
-              "Credibility: Focuses on who is making the argument and whether they can be trusted on that specific topic.",
+              "Organisational process: Evaluates how well something fits with how organisations or institutions actually function in practice.",
               "None: Options didn't feel applicable."
             ]
           },
@@ -4214,7 +4214,7 @@
               "Philosophy of Knowledge: Focuses on following a recognised way of reasoning or a scientific approach (such as logic, falsification, or the scientific method).",
               "Belief consistency: Aligns with existing beliefs or worldview, regardless of new evidence.",
               "Evidence threshold: Argues that there is already enough evidence, or not enough evidence yet.",
-              "Credibility: Focuses on who is making the argument and whether they can be trusted on that specific topic.",
+              "Organisational process: Evaluates how well something fits with how organisations or institutions actually function in practice.",
               "None: Options didn't feel applicable."
             ]
           }
@@ -5005,7 +5005,7 @@
             "quote": "",
             "canonical": "DLR (downwelling longwave radiation) does in fact heat the oceans",
             "classes": [
-              "Credibility: Focuses on who is making the argument and whether they can be trusted on that specific topic.",
+              "Cognitive value: Focuses on how facts are explained, fit together logically, or kept simple compared to other explanations.",
               "Belief consistency: Aligns with existing beliefs or worldview, regardless of new evidence.",
               "Organisational process: Evaluates how well something fits with how organisations or institutions actually function in practice.",
               "Methods: Focuses on how evidence was produced and if it is sound, such as how data was collected, measured, or studied.",
@@ -5017,7 +5017,7 @@
             "quote": "",
             "canonical": "The argument that DLR cannot heat the ocean because it is absorbed in the first millimetre is logically self-contradictory and fails",
             "classes": [
-              "Credibility: Focuses on who is making the argument and whether they can be trusted on that specific topic.",
+              "Cognitive value: Focuses on how facts are explained, fit together logically, or kept simple compared to other explanations.",
               "Anecdotal: Focuses on personal stories or isolated examples and treats them as enough to support a general claim.",
               "Belief consistency: Aligns with existing beliefs or worldview, regardless of new evidence.",
               "Organisational process: Evaluates how well something fits with how organisations or institutions actually function in practice.",
@@ -5501,7 +5501,7 @@
               "Belief consistency: Aligns with existing beliefs or worldview, regardless of new evidence.",
               "Organisational process: Evaluates how well something fits with how organisations or institutions actually function in practice.",
               "Subvert: Challenges or undermines an authority, rule, or institution seen as illegitimate.",
-              "Credibility: Focuses on who is making the argument and whether they can be trusted on that specific topic.",
+              "Evidence threshold: Argues that there is already enough evidence, or not enough evidence yet.",
               "None: Options didn't feel applicable."
             ]
           },
@@ -5513,7 +5513,7 @@
               "Belief consistency: Aligns with existing beliefs or worldview, regardless of new evidence.",
               "Organisational process: Evaluates how well something fits with how organisations or institutions actually function in practice.",
               "Subvert: Challenges or undermines an authority, rule, or institution seen as illegitimate.",
-              "Credibility: Focuses on who is making the argument and whether they can be trusted on that specific topic.",
+              "Evidence threshold: Argues that there is already enough evidence, or not enough evidence yet.",
               "Philosophy of Knowledge: Focuses on following a recognised way of reasoning or a scientific approach (such as logic, falsification, or the scientific method).",
               "None: Options didn't feel applicable."
             ]
