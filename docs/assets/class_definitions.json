@@ -1,0 +1,156 @@
+{
+  "classes": [
+    {
+      "label": "Cognitive value",
+      "definition": "Focuses on how facts are explained, fit together logically, or kept simple compared to other explanations."
+    },
+    {
+      "label": "Evidence threshold",
+      "definition": "Argues that there is already enough evidence, or not enough evidence yet."
+    },
+    {
+      "label": "Philosophy of Knowledge",
+      "definition": "Focuses on following a recognised way of reasoning or a scientific approach (such as logic, falsification, or the scientific method)."
+    },
+    {
+      "label": "Methods",
+      "definition": "Focuses on how evidence was produced and if it is sound, such as how data was collected, measured, or studied."
+    },
+    {
+      "label": "Credibility",
+      "definition": "Focuses on who is making the argument and whether they can be trusted on that specific topic."
+    },
+    {
+      "label": "Likelihood",
+      "definition": "Compares how likely different outcomes are, using probabilities, odds, or risk estimates."
+    },
+    {
+      "label": "Statistical analysis",
+      "definition": "Judges whether the statistical analysis was done or interpreted properly."
+    },
+    {
+      "label": "Feasibility",
+      "definition": "Focuses on whether something can be achieved given real-world limits (like money, time, skills, or technology)."
+    },
+    {
+      "label": "Organisational process",
+      "definition": "Evaluates how well something fits with how organisations or institutions actually function in practice."
+    },
+    {
+      "label": "Scalability",
+      "definition": "Evaluates how well something would hold up if it was expanded, repeated, or maintained over time."
+    },
+    {
+      "label": "Performance",
+      "definition": "Focuses on practical performance measures like speed, efficiency, reliability, or accuracy."
+    },
+    {
+      "label": "Risk",
+      "definition": "Argues that the risks involved are being overestimated, underestimated, or misunderstood."
+    },
+    {
+      "label": "Uncertainty",
+      "definition": "Focuses on unknowns, surprises, or things that cannot be predicted in advance."
+    },
+    {
+      "label": "Direct impacts",
+      "definition": "Focuses on immediate and direct effects."
+    },
+    {
+      "label": "Indirect impacts",
+      "definition": "Focuses on longer-term or knock-on effects, beyond the immediate outcome."
+    },
+    {
+      "label": "Harm",
+      "definition": "Focuses on harm caused, such as injury, loss, suffering, or environmental damage."
+    },
+    {
+      "label": "Well-being",
+      "definition": "Emphasis on effect over people’s overall quality of life, health, security, or happiness."
+    },
+    {
+      "label": "Positive freedom",
+      "definition": "Focuses on expanding people’s ability to act, grow, and pursue meaningful goals."
+    },
+    {
+      "label": "Negative freedom",
+      "definition": "Focuses on removing restrictions, controls, or interference in people’s lives."
+    },
+    {
+      "label": "Proportionality",
+      "definition": "Argues that rewards, costs, or punishments should fairly match effort, responsibility, or contribution."
+    },
+    {
+      "label": "Equality",
+      "definition": "Appeals to fairness, equal treatment, or reducing unjust differences between people or groups."
+    },
+    {
+      "label": "Reciprocity",
+      "definition": "Appeals to ideas of mutual obligation, such as doing one’s share or returning help."
+    },
+    {
+      "label": "Loyalty",
+      "definition": "Appeals to loyalty or special duties owed to a particular group."
+    },
+    {
+      "label": "Betrayal",
+      "definition": "Accuses someone or something of abandoning, betraying, or turning against a group."
+    },
+    {
+      "label": "Respect",
+      "definition": "Focuses on following established authorities, rules, traditions, or institutions."
+    },
+    {
+      "label": "Subvert",
+      "definition": "Challenges or undermines an authority, rule, or institution seen as illegitimate."
+    },
+    {
+      "label": "Purity",
+      "definition": "Focuses on protecting what is seen as sacred, pure, or untouchable."
+    },
+    {
+      "label": "Disgust",
+      "definition": "Focuses on feelings of disgust or contamination as sufficient justification."
+    },
+    {
+      "label": "Belief consistency",
+      "definition": "Aligns with existing beliefs or worldview, regardless of new evidence."
+    },
+    {
+      "label": "Identity protection",
+      "definition": "Argues to protect valued identity (nationality, profession, or way of life)."
+    },
+    {
+      "label": "Value commitment",
+      "definition": "Appeals to deeply held cultural, religious, or personal values about what is right or wrong."
+    },
+    {
+      "label": "Anecdotal",
+      "definition": "Focuses on personal stories or isolated examples and treats them as enough to support a general claim."
+    },
+    {
+      "label": "(Dis)trust",
+      "definition": "Makes broad claims about whether a person or organisation is (or is not) trustworthy overall."
+    },
+    {
+      "label": "Ideological support",
+      "definition": "Aligns with a favoured ideology, rather than because of its specific details."
+    },
+    {
+      "label": "Ideological criticism",
+      "definition": "Attacks an ideology, instead of engaging with the position itself."
+    },
+    {
+      "label": "In-group validation",
+      "definition": "Affirms the speaker’s own group as better than others."
+    },
+    {
+      "label": "Out-group discounting",
+      "definition": "Dismisses others as worse than the speaker’s group."
+    },
+    {
+      "label": "None",
+      "definition": "Options didn't feel applicable."
+    }
+  ]
+}
