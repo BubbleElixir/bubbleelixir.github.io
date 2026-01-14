@@ -158,7 +158,7 @@
             "canonical": "The next New South Wales government should introduce a solar rebate so renting households can access solar panels and battery storage",
             "classes": [
               "Well-being: Emphasis on effect over people’s overall quality of life, health, security, or happiness.",
-              "Credibility: Focuses on who is making the argument and whether they can be trusted on that specific topic.",
+              "Equality: Appeals to fairness, equal treatment, or reducing unjust differences between people or groups.",
               "Identity protection: Argues to protect valued identity (nationality, profession, or way of life).",
               "Negative freedom: Focuses on removing restrictions, controls, or interference in people’s lives.",
               "Positive freedom: Focuses on expanding people’s ability to act, grow, and pursue meaningful goals.",
@@ -171,8 +171,8 @@
             "canonical": "The NSW Liberal rooftop solar loan policy is too little, too late and provides limited additional benefit after years of climate inaction",
             "classes": [
               "Well-being: Emphasis on effect over people’s overall quality of life, health, security, or happiness.",
-              "Credibility: Focuses on who is making the argument and whether they can be trusted on that specific topic.",
-              "Identity protection: Argues to protect valued identity (nationality, profession, or way of life).",
+              "Performance: Focuses on practical performance measures like speed, efficiency, reliability, or accuracy.",
+              "Indirect impacts: Focuses on longer-term or knock-on effects, beyond the immediate outcome.",
               "Negative freedom: Focuses on removing restrictions, controls, or interference in people’s lives.",
               "None: Options didn't feel applicable."
             ]
@@ -362,7 +362,7 @@
             "classes": [
               "Identity protection: Argues to protect valued identity (nationality, profession, or way of life).",
               "Indirect impacts: Focuses on longer-term or knock-on effects, beyond the immediate outcome.",
-              "Organisational process: Evaluates how well something fits with how organisations or institutions actually function in practice.",
+              "Positive freedom: Focuses on expanding people’s ability to act, grow, and pursue meaningful goals.",
               "Direct impacts: Focuses on immediate and direct effects.",
               "None: Options didn't feel applicable."
             ]
@@ -374,7 +374,7 @@
             "classes": [
               "Identity protection: Argues to protect valued identity (nationality, profession, or way of life).",
               "Indirect impacts: Focuses on longer-term or knock-on effects, beyond the immediate outcome.",
-              "Organisational process: Evaluates how well something fits with how organisations or institutions actually function in practice.",
+              "Positive freedom: Focuses on expanding people’s ability to act, grow, and pursue meaningful goals.",
               "Direct impacts: Focuses on immediate and direct effects.",
               "None: Options didn't feel applicable."
             ]
@@ -592,7 +592,7 @@
               "Identity protection: Argues to protect valued identity (nationality, profession, or way of life).",
               "Scalability: Evaluates how well something would hold up if it was expanded, repeated, or maintained over time.",
               "Harm: Focuses on harm caused, such as injury, loss, suffering, or environmental damage.",
-              "Credibility: Focuses on who is making the argument and whether they can be trusted on that specific topic.",
+              "Risk: Argues that the risks involved are being overestimated, underestimated, or misunderstood.",
               "None: Options didn't feel applicable."
             ]
           },
@@ -603,7 +603,7 @@
             "classes": [
               "Identity protection: Argues to protect valued identity (nationality, profession, or way of life).",
               "Indirect impacts: Focuses on longer-term or knock-on effects, beyond the immediate outcome.",
-              "Credibility: Focuses on who is making the argument and whether they can be trusted on that specific topic.",
+              "Risk: Argues that the risks involved are being overestimated, underestimated, or misunderstood.",
               "Organisational process: Evaluates how well something fits with how organisations or institutions actually function in practice.",
               "None: Options didn't feel applicable."
             ]
@@ -791,9 +791,9 @@
             "canonical": "Scott Morrison is a leader Australia cannot afford in the context of escalating climate and environmental crises",
             "classes": [
               "Credibility: Focuses on who is making the argument and whether they can be trusted on that specific topic.",
-              "Out-group discounting: Dismisses others as worse than the speaker’s group.",
+              "Well-being: Emphasis on effect over people’s overall quality of life, health, security, or happiness.",
               "(Dis)trust: Makes broad claims about whether a person or organisation is (or is not) trustworthy overall.",
-              "Identity protection: Argues to protect valued identity (nationality, profession, or way of life).",
+              "Value commitment: Appeals to deeply held cultural, religious, or personal values about what is right or wrong.",
               "Feasibility: Focuses on whether something can be achieved given real-world limits (like money, time, skills, or technology).",
               "None: Options didn't feel applicable."
             ]
@@ -804,9 +804,9 @@
             "canonical": "Scott Morrison is effectively a more polished version of Tony Abbott in his politics and approach to climate and the environment",
             "classes": [
               "Credibility: Focuses on who is making the argument and whether they can be trusted on that specific topic.",
-              "Out-group discounting: Dismisses others as worse than the speaker’s group.",
+              "Value commitment: Appeals to deeply held cultural, religious, or personal values about what is right or wrong.",
               "(Dis)trust: Makes broad claims about whether a person or organisation is (or is not) trustworthy overall.",
-              "Identity protection: Argues to protect valued identity (nationality, profession, or way of life).",
+              "Well-being: Emphasis on effect over people’s overall quality of life, health, security, or happiness.",
               "None: Options didn't feel applicable."
             ]
           },
@@ -816,9 +816,9 @@
             "canonical": "Morrison is driven by political self-interest and is likely to continue selling out the environment to fossil fuel interests",
             "classes": [
               "Credibility: Focuses on who is making the argument and whether they can be trusted on that specific topic.",
-              "Out-group discounting: Dismisses others as worse than the speaker’s group.",
+              "Harm: Focuses on harm caused, such as injury, loss, suffering, or environmental damage.",
               "(Dis)trust: Makes broad claims about whether a person or organisation is (or is not) trustworthy overall.",
-              "Identity protection: Argues to protect valued identity (nationality, profession, or way of life).",
+              "Value commitment: Appeals to deeply held cultural, religious, or personal values about what is right or wrong.",
               "None: Options didn't feel applicable."
             ]
           }
@@ -1035,9 +1035,9 @@
             "quote": "",
             "canonical": "Excessive plastic packaging of fruits and vegetables at Coles and Woolies is unnecessary, environmentally harmful and shameful, and it needs to end",
             "classes": [
-              "Credibility: Focuses on who is making the argument and whether they can be trusted on that specific topic.",
-              "Identity protection: Argues to protect valued identity (nationality, profession, or way of life).",
-              "Out-group discounting: Dismisses others as worse than the speaker’s group.",
+              "Well-being: Emphasis on effect over people’s overall quality of life, health, security, or happiness.",
+              "Harm: Focuses on harm caused, such as injury, loss, suffering, or environmental damage.",
+              "Direct impacts: Focuses on immediate and direct effects.",
               "Disgust: Focuses on feelings of disgust or contamination as sufficient justification.",
               "None: Options didn't feel applicable."
             ]
@@ -1047,9 +1047,9 @@
             "quote": "",
             "canonical": "Consumers should harness collective action by joining the movement and signing the petition now to pressure Coles and Woolies to remove excessive plastic packaging from their produce aisles",
             "classes": [
-              "Credibility: Focuses on who is making the argument and whether they can be trusted on that specific topic.",
-              "Identity protection: Argues to protect valued identity (nationality, profession, or way of life).",
-              "Out-group discounting: Dismisses others as worse than the speaker’s group.",
+              "Well-being: Emphasis on effect over people’s overall quality of life, health, security, or happiness.",
+              "Direct impacts: Focuses on immediate and direct effects.",
+              "Harm: Focuses on harm caused, such as injury, loss, suffering, or environmental damage.",
               "Disgust: Focuses on feelings of disgust or contamination as sufficient justification.",
               "Ideological support: Aligns with a favoured ideology, rather than because of its specific details.",
               "None: Options didn't feel applicable."
@@ -1229,7 +1229,7 @@
               "Statistical analysis: Judges whether the statistical analysis was done or interpreted properly.",
               "Risk: Argues that the risks involved are being overestimated, underestimated, or misunderstood.",
               "Credibility: Focuses on who is making the argument and whether they can be trusted on that specific topic.",
-              "Performance: Focuses on practical performance measures like speed, efficiency, reliability, or accuracy.",
+              "Methods: Focuses on how evidence was produced and if it is sound, such as how data was collected, measured, or studied.",
               "None: Options didn't feel applicable."
             ]
           },
@@ -1241,7 +1241,7 @@
               "Statistical analysis: Judges whether the statistical analysis was done or interpreted properly.",
               "Risk: Argues that the risks involved are being overestimated, underestimated, or misunderstood.",
               "Credibility: Focuses on who is making the argument and whether they can be trusted on that specific topic.",
-              "Performance: Focuses on practical performance measures like speed, efficiency, reliability, or accuracy.",
+              "Methods: Focuses on how evidence was produced and if it is sound, such as how data was collected, measured, or studied.",
               "None: Options didn't feel applicable."
             ]
           }
@@ -1409,8 +1409,8 @@
             "canonical": "The conditions required by the central limit theorem are not satisfied for heterogeneous thermometer records used in global temperature analyses",
             "classes": [
               "Statistical analysis: Judges whether the statistical analysis was done or interpreted properly.",
-              "Likelihood: Compares how likely different outcomes are, using probabilities, odds, or risk estimates.",
-              "Performance: Focuses on practical performance measures like speed, efficiency, reliability, or accuracy.",
+              "Evidence threshold: Argues that there is already enough evidence, or not enough evidence yet.",
+              "Methods: Focuses on how evidence was produced and if it is sound, such as how data was collected, measured, or studied.",
               "Credibility: Focuses on who is making the argument and whether they can be trusted on that specific topic.",
               "None: Options didn't feel applicable."
             ]
@@ -1421,8 +1421,8 @@
             "canonical": "The common practice of treating temperature data as if they satisfied standard-normal, mean-based assumptions is not statistically justified",
             "classes": [
               "Statistical analysis: Judges whether the statistical analysis was done or interpreted properly.",
-              "Likelihood: Compares how likely different outcomes are, using probabilities, odds, or risk estimates.",
-              "Performance: Focuses on practical performance measures like speed, efficiency, reliability, or accuracy.",
+              "Evidence threshold: Argues that there is already enough evidence, or not enough evidence yet.",
+              "Methods: Focuses on how evidence was produced and if it is sound, such as how data was collected, measured, or studied.",
               "Credibility: Focuses on who is making the argument and whether they can be trusted on that specific topic.",
               "None: Options didn't feel applicable."
             ]
@@ -1578,7 +1578,7 @@
               "Statistical analysis: Judges whether the statistical analysis was done or interpreted properly.",
               "Likelihood: Compares how likely different outcomes are, using probabilities, odds, or risk estimates.",
               "Risk: Argues that the risks involved are being overestimated, underestimated, or misunderstood.",
-              "Credibility: Focuses on who is making the argument and whether they can be trusted on that specific topic.",
+              "Methods: Focuses on how evidence was produced and if it is sound, such as how data was collected, measured, or studied.",
               "None: Options didn't feel applicable."
             ]
           },
@@ -1590,7 +1590,7 @@
               "Statistical analysis: Judges whether the statistical analysis was done or interpreted properly.",
               "Likelihood: Compares how likely different outcomes are, using probabilities, odds, or risk estimates.",
               "Risk: Argues that the risks involved are being overestimated, underestimated, or misunderstood.",
-              "Credibility: Focuses on who is making the argument and whether they can be trusted on that specific topic.",
+              "Methods: Focuses on how evidence was produced and if it is sound, such as how data was collected, measured, or studied.",
               "None: Options didn't feel applicable."
             ]
           }
@@ -1837,9 +1837,9 @@
             "quote": "",
             "canonical": "Consumers should avoid bluefin and bigeye tuna products",
             "classes": [
-              "Credibility: Focuses on who is making the argument and whether they can be trusted on that specific topic.",
-              "(Dis)trust: Makes broad claims about whether a person or organisation is (or is not) trustworthy overall.",
-              "Organisational process: Evaluates how well something fits with how organisations or institutions actually function in practice.",
+              "Direct impacts: Focuses on immediate and direct effects.",
+              "Harm: Focuses on harm caused, such as injury, loss, suffering, or environmental damage.",
+              "Indirect impacts: Focuses on longer-term or knock-on effects, beyond the immediate outcome.",
               "Value commitment: Appeals to deeply held cultural, religious, or personal values about what is right or wrong.",
               "None: Options didn't feel applicable."
             ]
@@ -1849,9 +1849,9 @@
             "quote": "",
             "canonical": "Consumers should avoid tuna products that do not clearly disclose species and catch details and instead choose species from sustainable populations caught with low-bycatch methods",
             "classes": [
-              "Credibility: Focuses on who is making the argument and whether they can be trusted on that specific topic.",
-              "(Dis)trust: Makes broad claims about whether a person or organisation is (or is not) trustworthy overall.",
-              "Organisational process: Evaluates how well something fits with how organisations or institutions actually function in practice.",
+              "Direct impacts: Focuses on immediate and direct effects.",
+              "Harm: Focuses on harm caused, such as injury, loss, suffering, or environmental damage.",
+              "Indirect impacts: Focuses on longer-term or knock-on effects, beyond the immediate outcome.",
               "Value commitment: Appeals to deeply held cultural, religious, or personal values about what is right or wrong.",
               "None: Options didn't feel applicable."
             ]
@@ -1861,8 +1861,8 @@
             "quote": "",
             "canonical": "Consumers should limit yellowfin tuna consumption and preferentially choose responsibly sourced skipjack or albacore caught with low-bycatch methods",
             "classes": [
-              "Credibility: Focuses on who is making the argument and whether they can be trusted on that specific topic.",
-              "(Dis)trust: Makes broad claims about whether a person or organisation is (or is not) trustworthy overall.",
+              "Indirect impacts: Focuses on longer-term or knock-on effects, beyond the immediate outcome.",
+              "Harm: Focuses on harm caused, such as injury, loss, suffering, or environmental damage.",
               "Direct impacts: Focuses on immediate and direct effects.",
               "Value commitment: Appeals to deeply held cultural, religious, or personal values about what is right or wrong.",
               "None: Options didn't feel applicable."
@@ -2086,7 +2086,7 @@
             "quote": "",
             "canonical": "The proposed ‘democracy attack’ laws are unjustified measures that would suppress advocacy and should be stopped",
             "classes": [
-              "Identity protection: Argues to protect valued identity (nationality, profession, or way of life).",
+              "Negative freedom: Focuses on removing restrictions, controls, or interference in people’s lives.",
               "Organisational process: Evaluates how well something fits with how organisations or institutions actually function in practice.",
               "Identity protection: Argues to protect valued identity (nationality, profession, or way of life).",
               "Subvert: Challenges or undermines an authority, rule, or institution seen as illegitimate.",
@@ -2098,7 +2098,7 @@
             "quote": "",
             "canonical": "Labor should stand with charities and not-for-profits by rejecting all of these laws, starting with the Electoral Amendment bill",
             "classes": [
-              "Identity protection: Argues to protect valued identity (nationality, profession, or way of life).",
+              "Negative freedom: Focuses on removing restrictions, controls, or interference in people’s lives.",
               "Organisational process: Evaluates how well something fits with how organisations or institutions actually function in practice.",
               "Identity protection: Argues to protect valued identity (nationality, profession, or way of life).",
               "Subvert: Challenges or undermines an authority, rule, or institution seen as illegitimate.",
@@ -2111,7 +2111,7 @@
             "quote": "",
             "canonical": "Collective action to oppose and stop these bills is necessary and justified",
             "classes": [
-              "Identity protection: Argues to protect valued identity (nationality, profession, or way of life).",
+              "Negative freedom: Focuses on removing restrictions, controls, or interference in people’s lives.",
               "Organisational process: Evaluates how well something fits with how organisations or institutions actually function in practice.",
               "Identity protection: Argues to protect valued identity (nationality, profession, or way of life).",
               "Subvert: Challenges or undermines an authority, rule, or institution seen as illegitimate.",
@@ -2504,8 +2504,8 @@
             "classes": [
               "Performance: Focuses on practical performance measures like speed, efficiency, reliability, or accuracy.",
               "Organisational process: Evaluates how well something fits with how organisations or institutions actually function in practice.",
-              "Proportionality: Argues that rewards, costs, or punishments should fairly match effort, responsibility, or contribution.",
-              "Identity protection: Argues to protect valued identity (nationality, profession, or way of life).",
+              "Methods: Focuses on how evidence was produced and if it is sound, such as how data was collected, measured, or studied.",
+              "Evidence threshold: Argues that there is already enough evidence, or not enough evidence yet.",
               "None: Options didn't feel applicable."
             ]
           },
@@ -2516,8 +2516,8 @@
             "classes": [
               "Performance: Focuses on practical performance measures like speed, efficiency, reliability, or accuracy.",
               "Organisational process: Evaluates how well something fits with how organisations or institutions actually function in practice.",
-              "Proportionality: Argues that rewards, costs, or punishments should fairly match effort, responsibility, or contribution.",
-              "Identity protection: Argues to protect valued identity (nationality, profession, or way of life).",
+              "Methods: Focuses on how evidence was produced and if it is sound, such as how data was collected, measured, or studied.",
+              "Well-being: Emphasis on effect over people’s overall quality of life, health, security, or happiness.",
               "None: Options didn't feel applicable."
             ]
           }
@@ -2673,7 +2673,7 @@
             "classes": [
               "Risk: Argues that the risks involved are being overestimated, underestimated, or misunderstood.",
               "Organisational process: Evaluates how well something fits with how organisations or institutions actually function in practice.",
-              "Proportionality: Argues that rewards, costs, or punishments should fairly match effort, responsibility, or contribution.",
+              "Harm: Focuses on harm caused, such as injury, loss, suffering, or environmental damage.",
               "Identity protection: Argues to protect valued identity (nationality, profession, or way of life).",
               "None: Options didn't feel applicable."
             ]
@@ -2888,7 +2888,7 @@
               "Organisational process: Evaluates how well something fits with how organisations or institutions actually function in practice.",
               "Identity protection: Argues to protect valued identity (nationality, profession, or way of life).",
               "Value commitment: Appeals to deeply held cultural, religious, or personal values about what is right or wrong.",
-              "Performance: Focuses on practical performance measures like speed, efficiency, reliability, or accuracy.",
+              "Likelihood: Compares how likely different outcomes are, using probabilities, odds, or risk estimates.",
               "None: Options didn't feel applicable."
             ]
           }
@@ -3089,8 +3089,8 @@
             "classes": [
               "Value commitment: Appeals to deeply held cultural, religious, or personal values about what is right or wrong.",
               "Organisational process: Evaluates how well something fits with how organisations or institutions actually function in practice.",
-              "Direct impacts: Focuses on immediate and direct effects.",
-              "Identity protection: Argues to protect valued identity (nationality, profession, or way of life).",
+              "Equality: Appeals to fairness, equal treatment, or reducing unjust differences between people or groups.",
+              "Proportionality: Argues that rewards, costs, or punishments should fairly match effort, responsibility, or contribution.",
               "None: Options didn't feel applicable."
             ]
           },
@@ -3101,8 +3101,8 @@
             "classes": [
               "Value commitment: Appeals to deeply held cultural, religious, or personal values about what is right or wrong.",
               "Organisational process: Evaluates how well something fits with how organisations or institutions actually function in practice.",
-              "Direct impacts: Focuses on immediate and direct effects.",
-              "Identity protection: Argues to protect valued identity (nationality, profession, or way of life).",
+              "Reciprocity: Appeals to ideas of mutual obligation, such as doing one’s share or returning help.",
+              "Equality: Appeals to fairness, equal treatment, or reducing unjust differences between people or groups.",
               "None: Options didn't feel applicable."
             ]
           }
@@ -3438,7 +3438,7 @@
               "Statistical analysis: Judges whether the statistical analysis was done or interpreted properly.",
               "Likelihood: Compares how likely different outcomes are, using probabilities, odds, or risk estimates.",
               "Credibility: Focuses on who is making the argument and whether they can be trusted on that specific topic.",
-              "Performance: Focuses on practical performance measures like speed, efficiency, reliability, or accuracy.",
+              "Methods: Focuses on how evidence was produced and if it is sound, such as how data was collected, measured, or studied.",
               "None: Options didn't feel applicable."
             ]
           },
@@ -3450,7 +3450,7 @@
               "Statistical analysis: Judges whether the statistical analysis was done or interpreted properly.",
               "Likelihood: Compares how likely different outcomes are, using probabilities, odds, or risk estimates.",
               "Credibility: Focuses on who is making the argument and whether they can be trusted on that specific topic.",
-              "Performance: Focuses on practical performance measures like speed, efficiency, reliability, or accuracy.",
+              "Methods: Focuses on how evidence was produced and if it is sound, such as how data was collected, measured, or studied.",
               "None: Options didn't feel applicable."
             ]
           }
@@ -3609,7 +3609,7 @@
               "Credibility: Focuses on who is making the argument and whether they can be trusted on that specific topic.",
               "Performance: Focuses on practical performance measures like speed, efficiency, reliability, or accuracy.",
               "Organisational process: Evaluates how well something fits with how organisations or institutions actually function in practice.",
-              "In-group validation: Affirms the speaker’s own group as better than others.",
+              "Evidence threshold: Argues that there is already enough evidence, or not enough evidence yet.",
               "None: Options didn't feel applicable."
             ]
           },
@@ -3621,7 +3621,7 @@
               "Credibility: Focuses on who is making the argument and whether they can be trusted on that specific topic.",
               "Performance: Focuses on practical performance measures like speed, efficiency, reliability, or accuracy.",
               "Organisational process: Evaluates how well something fits with how organisations or institutions actually function in practice.",
-              "In-group validation: Affirms the speaker’s own group as better than others.",
+              "Evidence threshold: Argues that there is already enough evidence, or not enough evidence yet.",
               "None: Options didn't feel applicable."
             ]
           }
@@ -3737,7 +3737,7 @@
               "Credibility: Focuses on who is making the argument and whether they can be trusted on that specific topic.",
               "Organisational process: Evaluates how well something fits with how organisations or institutions actually function in practice.",
               "Indirect impacts: Focuses on longer-term or knock-on effects, beyond the immediate outcome.",
-              "Anecdotal: Focuses on personal stories or isolated examples and treats them as enough to support a general claim.",
+              "Evidence threshold: Argues that there is already enough evidence, or not enough evidence yet.",
               "None: Options didn't feel applicable."
             ]
           },
@@ -3749,7 +3749,7 @@
               "Credibility: Focuses on who is making the argument and whether they can be trusted on that specific topic.",
               "Performance: Focuses on practical performance measures like speed, efficiency, reliability, or accuracy.",
               "Indirect impacts: Focuses on longer-term or knock-on effects, beyond the immediate outcome.",
-              "Anecdotal: Focuses on personal stories or isolated examples and treats them as enough to support a general claim.",
+              "Evidence threshold: Argues that there is already enough evidence, or not enough evidence yet.",
               "None: Options didn't feel applicable."
             ]
           }
@@ -3878,7 +3878,7 @@
               "Credibility: Focuses on who is making the argument and whether they can be trusted on that specific topic.",
               "Risk: Argues that the risks involved are being overestimated, underestimated, or misunderstood.",
               "Cognitive value: Focuses on how facts are explained, fit together logically, or kept simple compared to other explanations.",
-              "Organisational process: Evaluates how well something fits with how organisations or institutions actually function in practice.",
+              "Evidence threshold: Argues that there is already enough evidence, or not enough evidence yet.",
               "None: Options didn't feel applicable."
             ]
           },
@@ -3890,7 +3890,7 @@
               "Credibility: Focuses on who is making the argument and whether they can be trusted on that specific topic.",
               "Risk: Argues that the risks involved are being overestimated, underestimated, or misunderstood.",
               "Cognitive value: Focuses on how facts are explained, fit together logically, or kept simple compared to other explanations.",
-              "Organisational process: Evaluates how well something fits with how organisations or institutions actually function in practice.",
+              "Evidence threshold: Argues that there is already enough evidence, or not enough evidence yet.",
               "None: Options didn't feel applicable."
             ]
           }
@@ -4199,9 +4199,9 @@
             "quote": "",
             "canonical": "The IPCC consensus is manufactured",
             "classes": [
-              "Likelihood: Compares how likely different outcomes are, using probabilities, odds, or risk estimates.",
+              "Philosophy of Knowledge: Focuses on following a recognised way of reasoning or a scientific approach (such as logic, falsification, or the scientific method).",
               "Belief consistency: Aligns with existing beliefs or worldview, regardless of new evidence.",
-              "Risk: Argues that the risks involved are being overestimated, underestimated, or misunderstood.",
+              "Evidence threshold: Argues that there is already enough evidence, or not enough evidence yet.",
               "Credibility: Focuses on who is making the argument and whether they can be trusted on that specific topic.",
               "None: Options didn't feel applicable."
             ]
@@ -4211,9 +4211,9 @@
             "quote": "",
             "canonical": "The existence of the IPCC consensus does not lend intellectual substance to the IPCC’s conclusions",
             "classes": [
-              "Likelihood: Compares how likely different outcomes are, using probabilities, odds, or risk estimates.",
+              "Philosophy of Knowledge: Focuses on following a recognised way of reasoning or a scientific approach (such as logic, falsification, or the scientific method).",
               "Belief consistency: Aligns with existing beliefs or worldview, regardless of new evidence.",
-              "Risk: Argues that the risks involved are being overestimated, underestimated, or misunderstood.",
+              "Evidence threshold: Argues that there is already enough evidence, or not enough evidence yet.",
               "Credibility: Focuses on who is making the argument and whether they can be trusted on that specific topic.",
               "None: Options didn't feel applicable."
             ]
@@ -4318,7 +4318,7 @@
               "Direct impacts: Focuses on immediate and direct effects.",
               "Indirect impacts: Focuses on longer-term or knock-on effects, beyond the immediate outcome.",
               "Harm: Focuses on harm caused, such as injury, loss, suffering, or environmental damage.",
-              "Anecdotal: Focuses on personal stories or isolated examples and treats them as enough to support a general claim.",
+              "Well-being: Emphasis on effect over people’s overall quality of life, health, security, or happiness.",
               "None: Options didn't feel applicable."
             ]
           },
@@ -4454,7 +4454,7 @@
             "quote": "",
             "canonical": "Michael Mann avoids genuine debate and resorts to labeling or legal threats",
             "classes": [
-              "Identity protection: Argues to protect valued identity (nationality, profession, or way of life).",
+              "(Dis)trust: Makes broad claims about whether a person or organisation is (or is not) trustworthy overall.",
               "In-group validation: Affirms the speaker’s own group as better than others.",
               "Credibility: Focuses on who is making the argument and whether they can be trusted on that specific topic.",
               "Out-group discounting: Dismisses others as worse than the speaker’s group.",
@@ -4466,7 +4466,7 @@
             "quote": "",
             "canonical": "Steyn’s criticism is causing more damage to Mann’s reputation than the alleged legal defamation",
             "classes": [
-              "Identity protection: Argues to protect valued identity (nationality, profession, or way of life).",
+              "(Dis)trust: Makes broad claims about whether a person or organisation is (or is not) trustworthy overall.",
               "In-group validation: Affirms the speaker’s own group as better than others.",
               "Credibility: Focuses on who is making the argument and whether they can be trusted on that specific topic.",
               "Out-group discounting: Dismisses others as worse than the speaker’s group.",
@@ -4593,7 +4593,7 @@
             "quote": "",
             "canonical": "These bills undermine democratic debate by suppressing or deterring advocacy",
             "classes": [
-              "Identity protection: Argues to protect valued identity (nationality, profession, or way of life).",
+              "Negative freedom: Focuses on removing restrictions, controls, or interference in people’s lives.",
               "Subvert: Challenges or undermines an authority, rule, or institution seen as illegitimate.",
               "Identity protection: Argues to protect valued identity (nationality, profession, or way of life).",
               "Direct impacts: Focuses on immediate and direct effects.",
@@ -4606,7 +4606,7 @@
             "quote": "",
             "canonical": "Hard right MPs backed by mining companies are acting to suppress effective public advocacy",
             "classes": [
-              "Identity protection: Argues to protect valued identity (nationality, profession, or way of life).",
+              "Negative freedom: Focuses on removing restrictions, controls, or interference in people’s lives.",
               "Subvert: Challenges or undermines an authority, rule, or institution seen as illegitimate.",
               "Identity protection: Argues to protect valued identity (nationality, profession, or way of life).",
               "Direct impacts: Focuses on immediate and direct effects.",
@@ -5190,7 +5190,7 @@
               "Indirect impacts: Focuses on longer-term or knock-on effects, beyond the immediate outcome.",
               "Belief consistency: Aligns with existing beliefs or worldview, regardless of new evidence.",
               "Direct impacts: Focuses on immediate and direct effects.",
-              "Identity protection: Argues to protect valued identity (nationality, profession, or way of life).",
+              "Organisational process: Evaluates how well something fits with how organisations or institutions actually function in practice.",
               "None: Options didn't feel applicable."
             ]
           },
@@ -5202,7 +5202,7 @@
               "Indirect impacts: Focuses on longer-term or knock-on effects, beyond the immediate outcome.",
               "Belief consistency: Aligns with existing beliefs or worldview, regardless of new evidence.",
               "Direct impacts: Focuses on immediate and direct effects.",
-              "Identity protection: Argues to protect valued identity (nationality, profession, or way of life).",
+              "Organisational process: Evaluates how well something fits with how organisations or institutions actually function in practice.",
               "None: Options didn't feel applicable."
             ]
           }
@@ -5328,7 +5328,7 @@
             "classes": [
               "Belief consistency: Aligns with existing beliefs or worldview, regardless of new evidence.",
               "Risk: Argues that the risks involved are being overestimated, underestimated, or misunderstood.",
-              "Out-group discounting: Dismisses others as worse than the speaker’s group.",
+              "Philosophy of Knowledge: Focuses on following a recognised way of reasoning or a scientific approach (such as logic, falsification, or the scientific method).",
               "Organisational process: Evaluates how well something fits with how organisations or institutions actually function in practice.",
               "None: Options didn't feel applicable."
             ]
@@ -5340,7 +5340,7 @@
             "classes": [
               "Belief consistency: Aligns with existing beliefs or worldview, regardless of new evidence.",
               "Risk: Argues that the risks involved are being overestimated, underestimated, or misunderstood.",
-              "Out-group discounting: Dismisses others as worse than the speaker’s group.",
+              "Philosophy of Knowledge: Focuses on following a recognised way of reasoning or a scientific approach (such as logic, falsification, or the scientific method).",
               "Organisational process: Evaluates how well something fits with how organisations or institutions actually function in practice.",
               "None: Options didn't feel applicable."
             ]
