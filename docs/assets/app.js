@@ -38,6 +38,13 @@ function renderClassSelect(conclusion){
   const opts = (conclusion.classes && conclusion.classes.length)
     ? conclusion.classes
     : ["Strongly Supported","Weakly Supported","Not Supported","Contradicted"]; // fallback
+  function formatClassOption(option){
+    const parts = String(option).split(":");
+    const label = parts.shift().trim();
+    const desc = parts.join(":").trim();
+    if (!desc) return `<strong>${escapeHtml(label)}</strong>`;
+    return `<strong>${escapeHtml(label)}</strong>: ${escapeHtml(desc)}`;
+  }
 
   return `
     <div class="class-choices" data-cid="${cid}">
@@ -46,7 +53,7 @@ function renderClassSelect(conclusion){
                 class="class-choice"
                 data-cid="${cid}"
                 data-value="${escapeHtml(o)}">
-          ${escapeHtml(o)}
+          ${formatClassOption(o)}
         </button>
       `).join("")}
       <p class="mono small-hint">Click all that apply. Click again to unselect.</p>
