@@ -1,0 +1,38 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Experiment Debug</title>
+  <link rel="stylesheet" href="assets/styles.css">
+</head>
+<body>
+<header>
+  <h1>Experiment Debug</h1>
+  <p class="mono debug-meta">
+    Example <strong id="debugIndex">-</strong> / <span id="debugTotal">-</span>
+    · ID: <strong id="debugExId">-</strong>
+  </p>
+</header>
+<main>
+  <div class="card debug-controls">
+    <div class="debug-nav">
+      <button class="btn" id="debugPrev" type="button">← Prev</button>
+      <label for="debugExampleNum" class="mono">Example #</label>
+      <input id="debugExampleNum" type="number" min="1" step="1" inputmode="numeric">
+      <button class="btn" id="debugGo" type="button">Go</button>
+      <button class="btn" id="debugNext" type="button">Next →</button>
+    </div>
+    <p class="mono small-hint">Debug mode only: no submit/save required.</p>
+  </div>
+
+  <div class="card">
+    <h2>Rendered Output</h2>
+    <div id="content"></div>
+  </div>
+</main>
+
+<script src="assets/app.js"></script>
+<script src="assets/debug.js"></script>
+</body>
+</html>

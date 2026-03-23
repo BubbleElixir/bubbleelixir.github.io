@@ -334,4 +334,18 @@ async function run(){
   await show();
 }
 
-document.addEventListener('DOMContentLoaded', run);
+// Expose pure helpers for non-experiment views (e.g., debug page).
+window.reasoningApp = {
+  loadExamples,
+  renderExtraction
+};
+
+document.addEventListener('DOMContentLoaded', () => {
+  const isExperimentPage = Boolean(
+    qs('#next') &&
+    qs('#content') &&
+    qs('#comment') &&
+    qs('#exid')
+  );
+  if (isExperimentPage) run();
+});
